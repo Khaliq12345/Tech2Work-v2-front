@@ -12,10 +12,22 @@
   </section>
 
   <Teleport to="body">
-    <Transition name="drawer">
-      <div v-if="isDrawerOpen" class="fixed inset-0 z-[60] flex">
-        <div class="flex-1 bg-black/40" @click="closeDrawer" />
-        <div :class="panelClasses">
+    <div v-if="isDrawerOpen" class="fixed inset-0 z-[60] flex">
+      <Motion
+        class="flex-1 bg-black/40"
+        :initial="{ opacity: 0 }"
+        :enter="{ opacity: 0.4 }"
+        :leave="{ opacity: 0 }"
+        :transition="{ duration: 0.25 }"
+        @click="closeDrawer"
+      />
+      <Motion
+        :class="panelClasses"
+        :initial="drawerInitial"
+        :enter="drawerEnter"
+        :leave="drawerLeave"
+        :transition="drawerTransition"
+      >
           <aside class="drawer-hero hidden lg:flex">
             <div class="drawer-hero-overlay" />
             <div class="drawer-hero-content">
@@ -149,14 +161,13 @@
               </div>
             </UForm>
           </div>
-        </div>
-      </div>
-    </Transition>
+        </Motion>
+    </div>
   </Teleport>
 </template>
 
 <script setup lang="ts">
-import { Teleport, Transition } from 'vue'
+import { Teleport } from 'vue'
 import { reactive, ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { object, string, minLength, email as emailValidator, regex, safeParse, pipe, trim } from 'valibot'
 
@@ -231,6 +242,11 @@ const panelClasses = computed(() => {
     'overflow-hidden',
   ]
 })
+
+const drawerInitial = { x: '100%', opacity: 0 }
+const drawerEnter = { x: '0%', opacity: 1 }
+const drawerLeave = { x: '100%', opacity: 0 }
+const drawerTransition = { type: 'spring', stiffness: 260, damping: 28 }
 
 const inputUi = {
   wrapper: 'w-full',
@@ -338,25 +354,10 @@ const handleSubmit = async () => {
     isSubmitting.value = false
   }
 }
+const motionVisibility = computed(() => isDrawerOpen.value)
 </script>
 
 <style scoped>
-.drawer-enter-active,
-.drawer-leave-active {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.drawer-enter-from,
-.drawer-leave-to {
-  transform: translateX(100%);
-  opacity: 0;
-}
-
-.drawer-enter-to,
-.drawer-leave-from {
-  transform: translateX(0);
-  opacity: 1;
-}
 
 .drawer-panel {
   max-width: 100%;
