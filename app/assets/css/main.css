@@ -3,12 +3,60 @@
 @import "@nuxt/ui";
 
 :root {
+    /* Primary Colors */
     --ui-primary: #000000;
-    --ui-secondary: #656565;
-    --ui-bg: #ffffff;
-    --ui-accent: #1d4ed8;
-}
+    --ui-primary-hover: #1a1a1a;
+    --ui-primary-active: #333333;
 
+    /* Secondary Colors */
+    --ui-secondary: #656565;
+    --ui-secondary-hover: #757575;
+    --ui-secondary-light: #9ca3af;
+
+    /* Background Colors */
+    --ui-bg: #ffffff;
+    --ui-bg-secondary: #f9fafb;
+    --ui-bg-tertiary: #f3f4f6;
+    --ui-bg-dark: #111827;
+
+    /* Text Colors */
+    --ui-text-primary: #111827;
+    --ui-text-secondary: #6b7280;
+    --ui-text-tertiary: #9ca3af;
+    --ui-text-inverse: #ffffff;
+
+    /* Border Colors */
+    --ui-border: #e5e7eb;
+    --ui-border-light: #f3f4f6;
+    --ui-border-dark: #d1d5db;
+
+    /* Gray Scale */
+    --ui-gray-50: #f9fafb;
+    --ui-gray-100: #f3f4f6;
+    --ui-gray-200: #e5e7eb;
+    --ui-gray-300: #d1d5db;
+    --ui-gray-400: #9ca3af;
+    --ui-gray-500: #6b7280;
+    --ui-gray-600: #4b5563;
+    --ui-gray-700: #374151;
+    --ui-gray-800: #1f2937;
+    --ui-gray-900: #111827;
+
+    /* Accent for highlights/links */
+    --ui-accent: #374151;
+    --ui-accent-hover: #1f2937;
+
+    /* Shadow Colors */
+    --ui-shadow-sm: rgba(0, 0, 0, 0.05);
+    --ui-shadow-md: rgba(0, 0, 0, 0.1);
+    --ui-shadow-lg: rgba(0, 0, 0, 0.15);
+
+    /* State Colors (subtle) */
+    --ui-success: #374151;
+    --ui-error: #1f2937;
+    --ui-warning: #4b5563;
+    --ui-info: #6b7280;
+}
 body {
     font-family: "Montserrat", sans-serif;
 }

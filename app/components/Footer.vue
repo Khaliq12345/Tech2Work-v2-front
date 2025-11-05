@@ -1,5 +1,10 @@
 <template>
-    <UFooter class="bg-primary text-white">
+    <UFooter
+        v-motion-pop-visible
+        :delay="200"
+        :duration="1200"
+        class="bg-primary text-white"
+    >
         <template #top>
             <div class="flex flex-col items-center text-center space-y-6">
                 <!-- Logo section -->
@@ -17,13 +22,13 @@
                 </p>
 
                 <!-- Divider -->
-                <USeparator class="w-full max-w-2xl" color="white" />
+                <USeparator class="w-full max-w-2xl" color="secondary" />
 
                 <!-- Navigation Links -->
                 <UNavigationMenu :items="menuItems" variant="link" />
 
                 <!-- Divider -->
-                <USeparator class="w-full max-w-2xl" color="white" />
+                <USeparator class="w-full max-w-2xl" color="secondary" />
 
                 <!-- Social Icons -->
                 <div class="flex justify-center gap-3">
@@ -31,8 +36,8 @@
                         v-for="social in socialLinks"
                         :key="social.label"
                         :icon="social.icon"
-                        color="white"
                         variant="ghost"
+                        color="white"
                         :to="social.href"
                         target="_blank"
                         :aria-label="social.label"
