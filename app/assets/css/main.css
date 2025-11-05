@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 @import "tailwindcss";
 @import "@nuxt/ui";
 
@@ -5,4 +6,9 @@
     --ui-primary: #000000;
     --ui-secondary: #656565;
     --ui-bg: #ffffff;
+    --ui-accent: #1d4ed8;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
 }
