@@ -54,21 +54,6 @@
     </UContainer>
 </template>
 
-<style scoped>
-.fade-up-enter-active,
-.fade-up-leave-active {
-    transition: all 0.5s ease;
-}
-.fade-up-enter-from {
-    opacity: 0;
-    transform: translateY(15px);
-}
-.fade-up-enter-to {
-    opacity: 1;
-    transform: translateY(0);
-}
-</style>
-
 <script setup lang="ts">
 import { ref, computed } from "vue";
 
@@ -209,3 +194,18 @@ const displayedProjects = computed(() => {
     return projectsByCategory[selected.value] || [];
 });
 </script>
+
+<style scoped>
+.fade-up-enter-active,
+.fade-up-leave-active {
+    transition: all 0.5s ease;
+}
+.fade-up-enter-from {
+    opacity: 0;
+    transform: translateY(15px);
+}
+.fade-up-enter-to {
+    opacity: 1;
+    transform: translateY(0);
+}
+</style>
