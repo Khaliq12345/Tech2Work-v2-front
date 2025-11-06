@@ -1,5 +1,5 @@
 <template>
-  <UCard>
+  <UCard class="no-border">
     <div
       v-motion
       :initial="{ y: 0 }"
@@ -28,3 +28,11 @@ defineProps({
   },
 });
 </script>
+
+<style scoped>
+.no-border {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+</style>
