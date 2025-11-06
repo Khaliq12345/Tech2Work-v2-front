@@ -2,9 +2,7 @@
     <UApp>
         <Header />
         <UMain>
-            <UContainer>
-                <slot />
-            </UContainer>
+            <slot />
         </UMain>
         <Footer />
     </UApp>

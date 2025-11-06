@@ -1,6 +1,6 @@
 <template>
     <UFooter
-        v-motion-pop-visible
+        v-motion-slide-bottom
         :delay="200"
         :duration="1200"
         class="bg-primary text-white"

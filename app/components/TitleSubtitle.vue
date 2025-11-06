@@ -1,18 +1,20 @@
 <template>
-    <div class="flex flex-col items-center justify-center text-center px-4 w-full">
-        <UText
-            :ui="{ base: 'uppercase font-semibold tracking-wide' }"
-            class="mb-2 sm:mb-3 text-sm sm:text-base lg:text-lg text-gray-400 text-center"
+    <div
+        class="flex flex-col items-center justify-center text-center px-4 w-full"
+    >
+        <div
+            :ui="{ base: 'uppercase font-semibold' }"
+            class="mb-2 sm:mb-3 text-sm lg:text-1xl text-gray-500 text-center font-mono"
         >
             {{ title }}
-        </UText>
+        </div>
 
-        <UText
+        <div
             :ui="{ base: 'font-extrabold' }"
-            class="tracking-tight text-black text-2xl sm:text-5xl lg:text-7xl leading-tight sm:leading-none text-center whitespace-nowrap"
+            class="text-black text-1xl md:text-2xl lg:text-4xl sm:leading-none text-center whitespace-nowrap font-sans"
         >
             {{ subtitle }}
-        </UText>
+        </div>
     </div>
 </template>
 

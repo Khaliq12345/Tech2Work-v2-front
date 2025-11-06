@@ -6,10 +6,9 @@
         :icon="icon"
         :aria-label="title"
         target="_blank"
-        class="text-white font-medium rounded-full p-3 text-center"
+        class="text-white rounded-full text-center lg:p-5 lg:text-lg"
     >
         {{ title }}
-        <slot />
     </UButton>
 </template>
 
@@ -29,7 +28,7 @@ defineProps({
     },
     size: {
         type: String,
-        default: "lg",
+        default: "sm",
     },
     icon: {
         type: String,
