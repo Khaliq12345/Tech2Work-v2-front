@@ -16,7 +16,9 @@
             />
 
             <template #footer>
-                <h3 class="text-primary text-xl font-semibold text-center px-4">
+                <h3
+                    class="text-primary text-sm sm:text-xl font-semibold text-center px-4"
+                >
                     {{ item.title }}
                 </h3>
             </template>
