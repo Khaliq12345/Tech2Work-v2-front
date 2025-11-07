@@ -3,4 +3,5 @@
     <AboutDescription />
     <AboutClients />
     <AboutTeam />
+    <AboutReview />
 </template>
