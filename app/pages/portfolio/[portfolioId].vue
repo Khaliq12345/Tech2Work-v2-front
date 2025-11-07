@@ -5,102 +5,15 @@
         <PortfolioHero :projectTitle="project.title" />
 
         <!-- SECTION GRID -->
-        <div class="container px-6 my-16">
-            <UPageGrid class="grid-cols-1 lg:grid-cols-3 gap-8">
-                <!-- Colonne gauche -->
-                <UPageCard
-                    class="lg:col-span-2"
-                    spotlight
-                    spotlight-color="primary"
-                >
-                    <template #header>
-                        <h2 class="text-3xl text-primary font-bold mb-2">
-                            {{ project.title }}
-                        </h2>
-                    </template>
-
-                    <template #description>
-                        <div class="w-11 h-1 bg-primary"></div>
-                    </template>
-
-                    <template #default>
-                        <p
-                            class="text-gray-700 leading-relaxed whitespace-pre-line"
-                        >
-                            {{ project.description }}
-                        </p>
-                    </template>
-                </UPageCard>
-
-                <!-- Colonne droite -->
-                <UPageCard spotlight spotlight-color="primary">
-                    <template #header>
-                        <h3 class="text-2xl font-bold text-primary mb-2">
-                            Info
-                        </h3>
-                    </template>
-
-                    <template #description>
-                        <div class="w-11 h-1 bg-primary mb-6"></div>
-                    </template>
-
-                    <template #footer>
-                        <UPageList divide>
-                            <UPageCard
-                                v-for="(item, index) in infoList"
-                                :key="index"
-                                variant="ghost"
-                            >
-                                <template #body>
-                                    <div>
-                                        <p class="font-semibold text-gray-600">
-                                            {{ item.label }}
-                                        </p>
-
-                                        <div
-                                            v-if="item.type === 'tags'"
-                                            class="flex flex-wrap gap-2 mt-1"
-                                        >
-                                            <UBadge
-                                                v-for="tag in item.value"
-                                                :key="tag"
-                                                color="primary"
-                                                variant="soft"
-                                            >
-                                                {{ tag }}
-                                            </UBadge>
-                                        </div>
-
-                                        <div
-                                            v-else-if="item.type === 'links'"
-                                            class="flex flex-wrap gap-2 mt-1"
-                                        >
-                                            <UButton
-                                                v-for="(
-                                                    link, idx
-                                                ) in item.value"
-                                                :key="idx"
-                                                :icon="link.icon"
-                                                color="neutral"
-                                                variant="ghost"
-                                                :to="link.url"
-                                                target="_blank"
-                                                :aria-label="link.label"
-                                                size="sm"
-                                            />
-                                        </div>
-
-                                        <p v-else class="text-gray-800 mt-1">
-                                            {{ item.value }}
-                                        </p>
-                                    </div>
-                                </template>
-                            </UPageCard>
-                        </UPageList>
-                    </template>
-                </UPageCard>
-            </UPageGrid>
-        </div>
+        <PortfolioGrid
+            :title="project.title"
+            :description="project.description"
+            :category="project.category"
+            :date="project.date"
+            :tags="project.tags"
+            :client="project.client"
+            :follow="project.follow"
+        />
     </div>
 </template>
 
