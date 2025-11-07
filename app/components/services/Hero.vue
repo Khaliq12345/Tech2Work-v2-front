@@ -6,7 +6,6 @@
             title: 'text-left text-black text-2xl sm:text-2xl lg:text-3xl xl:text-4xl font-normal',
             description:
                 'text-left text-gray-600 dark:text-gray-600 text-base lg:text-lg',
-            links: 'justify-start',
         }"
         orientation="horizontal"
     >
