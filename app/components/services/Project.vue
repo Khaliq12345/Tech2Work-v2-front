@@ -2,7 +2,8 @@
     <!-- Titre de la section -->
     <div class="text-center py-16">
         <h2 class="text-3xl font-semibold text-black sm:text-4xl">
-            Découvrez nos <span class="text-gray-500">articles</span> sur le développement web
+            Découvrez nos <span class="text-gray-500">articles</span> sur le
+            développement web
         </h2>
     </div>
 
@@ -37,7 +38,7 @@
             </template>
 
             <template v-if="project.description" #description>
-                <p class="text-black text-sm ">
+                <p class="text-black text-sm">
                     {{ project.description }}
                 </p>
             </template>
