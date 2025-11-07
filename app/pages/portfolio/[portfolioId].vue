@@ -14,6 +14,10 @@
             :client="project.client"
             :follow="project.follow"
         />
+        <!-- SECTION image -->
+        <div class="min-h-[400px]">
+            <PortfolioCarousel :images="galleryImages" />
+        </div>
     </div>
 </template>
 
@@ -55,5 +59,14 @@ const infoList = [
     { label: "Tags", value: project.tags, type: "tags" },
     { label: "Client", value: project.client },
     { label: "Follow", value: project.follow, type: "links" },
+];
+
+// Images
+const galleryImages = [
+    "https://picsum.photos/468/468?random=1",
+    "https://picsum.photos/468/468?random=2",
+    "https://picsum.photos/468/468?random=3",
+    "https://picsum.photos/468/468?random=4",
+    "https://picsum.photos/468/468?random=5",
 ];
 </script>
