@@ -46,7 +46,7 @@ const splitSkills = computed(() => {
     const mid = Math.ceil(props.skills.length / 2);
     return {
         firstHalf: props.skills.slice(0, mid),
-        secondHalf: props.skills.slice(mid)
+        secondHalf: props.skills.slice(mid),
     };
 });
 </script>
