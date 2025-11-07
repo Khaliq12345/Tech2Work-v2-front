@@ -1,23 +1,8 @@
 <template>
     <div class="w-full flex flex-col gap-12">
         <!-- HERO -->
-        <div class="container w-full bg-primary rounded-md py-10">
-            <UPageHero>
-                <template #title>
-                    <h1
-                        class="text-4xl font-bold text-white py-4 px-6 rounded-lg inline-block"
-                    >
-                        Portfolio
-                    </h1>
-                </template>
 
-                <template #description>
-                    <p class="text-secondary mt-2 max-w-2xl mx-auto">
-                        Home | {{ project.title }}
-                    </p>
-                </template>
-            </UPageHero>
-        </div>
+        <PortfolioHero :projectTitle="project.title" />
 
         <!-- SECTION GRID -->
         <div class="container px-6 my-16">
