@@ -6,22 +6,13 @@
                     Nos <span class="text-gray-600">expertises</span>
                 </h2>
                 <div class="space-y-4 text-gray-900">
-                    <p>
-                        Nous vous accompagnons tout au long de votre processus
-                        de développement de votre application web pour créer des
-                        interfaces qui vous correspondent le plus.
-                    </p>
-                    <p>
-                        En utilisant des méthodologies agiles avancées et en
-                        travaillant en étroite collaboration, nous développons
-                        des solutions adaptées à vos enjeux et à votre business.
-                    </p>
+                    <p>{{ description }}</p>
                 </div>
                 <CustomButton title="Prendre rendez-vous" />
             </div>
             <div class="space-y-4">
                 <div
-                    v-for="(item, index) in expertiseItems1"
+                    v-for="(item, index) in splitSkills.firstHalf"
                     :key="index"
                     class="border-t border-gray-200 pt-4"
                 >
@@ -32,7 +23,7 @@
             </div>
             <div class="space-y-4">
                 <div
-                    v-for="(item, index) in expertiseItems2"
+                    v-for="(item, index) in splitSkills.secondHalf"
                     :key="index"
                     class="border-t border-gray-200 pt-4"
                 >
@@ -46,17 +37,16 @@
 </template>
 
 <script setup lang="ts">
-const expertiseItems1 = [
-    "Plateforme web",
-    "Back office",
-    "Solution SaaS",
-    "Extranet",
-];
+const props = defineProps<{
+    description: string;
+    skills: string[];
+}>();
 
-const expertiseItems2 = [
-    "Application métier",
-    "Open source",
-    "Logiciels IoT",
-    "Espace adhérent",
-];
+const splitSkills = computed(() => {
+    const mid = Math.ceil(props.skills.length / 2);
+    return {
+        firstHalf: props.skills.slice(0, mid),
+        secondHalf: props.skills.slice(mid)
+    };
+});
 </script>
