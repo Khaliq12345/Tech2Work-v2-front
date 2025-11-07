@@ -1,15 +1,28 @@
 <template>
-    <div class="py-8">
-        <h3 class="text-xl font-bold mb-4">Technologies</h3>
-        <div class="grid grid-cols-4 gap-2">
-            <div v-for="i in 8" :key="i" class="p-2 border rounded text-center">
-                <div class="w-8 h-8 bg-gray-200 rounded mx-auto mb-1"></div>
-                <span class="text-xs">Tech {{ i }}</span>
-            </div>
-        </div>
-    </div>
+    <UPageLogos
+        title="Experts en ReactJS, NodeJS, Symfony et d'autres"
+        marquee
+        :items="logos"
+        :ui="{
+            root: 'py-18 sm:py-24',
+            title: 'text-black text-lg sm:text-3xl font-bold',
+            logo: 'size-16 text-black',
+        }"
+    />
 </template>
 
 <script setup lang="ts">
-// Aucune props pour l'instant
+// Liste des icônes avec simple-icons
+const logos = [
+    "i-simple-icons-symfony",
+    "i-simple-icons-laravel",
+    "i-simple-icons-python",
+    "i-simple-icons-java",
+    "i-simple-icons-pwa",
+    "i-simple-icons-dotnet",
+    "i-simple-icons-nodedotjs",
+    "i-simple-icons-react",
+    "i-simple-icons-vuedotjs",
+    "i-simple-icons-angular",
+];
 </script>
