@@ -8,7 +8,7 @@
         <UCard
             v-for="(image, index) in images"
             :key="index"
-            class="overflow-hidden p-0 hover:scale-[1.02] transition-transform duration-300"
+            class="overflow-hidden p-0 hover:scale-[1.02] transition-transform duration-300 border-none shadow-none"
         >
             <img
                 :src="image"

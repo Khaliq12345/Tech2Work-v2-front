@@ -1,8 +1,7 @@
 <template>
-    <div class="w-full flex flex-col gap-12">
+    <PortfolioHero :projectTitle="project.title" />
+    <div class="w-full flex flex-col gap-12 p-10">
         <!-- HERO -->
-
-        <PortfolioHero :projectTitle="project.title" />
 
         <!-- SECTION GRID -->
         <PortfolioGrid
