@@ -1,10 +1,8 @@
 <template>
+    <ServicesHero />
     <div class="min-h-screen">
-        <!-- Hero Section -->
-        <ServicesHero />
-
         <!-- Services Grid -->
-        <UContainer>
+        <UContainer class="mb-10">
             <ServicesServiceCard
                 v-for="(service, index) in services"
                 :key="index"
