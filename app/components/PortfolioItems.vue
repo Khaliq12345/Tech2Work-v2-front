@@ -15,14 +15,13 @@
                 class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
             />
 
-            <!-- Overlay on hover -->
-            <div
-                class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300"
-            >
-                <h3 class="text-white text-xl font-semibold text-center px-4">
+            <template #footer>
+                <h3
+                    class="text-primary text-sm sm:text-xl font-semibold text-center px-4"
+                >
                     {{ item.title }}
                 </h3>
-            </div>
+            </template>
         </UCard>
     </div>
 </template>

@@ -5,7 +5,7 @@
             variant="link"
             :ui="{ trigger: 'grow' }"
             class="gap-4 w-full"
-            orientation="horizontal"
+            :orientation="orientation"
         >
             <template #all>
                 <PortfolioItems :items="displayedProjects('all')" />
@@ -32,6 +32,21 @@
 <script setup lang="ts">
 import type { TabsItem } from "@nuxt/ui";
 
+//  Orientation responsive
+const orientation = ref<"horizontal" | "vertical">("horizontal");
+
+const handleResize = () => {
+    orientation.value = window.innerWidth < 768 ? "vertical" : "horizontal";
+};
+
+onMounted(() => {
+    handleResize();
+    window.addEventListener("resize", handleResize);
+});
+
+onBeforeUnmount(() => {
+    window.removeEventListener("resize", handleResize);
+});
 const items = [
     {
         label: "All",
