@@ -19,7 +19,7 @@
 <script setup lang="ts">
 import { useI18n } from "#imports";
 
-const { $getLocale } = useI18n();
+const { $t, $getLocale } = useI18n();
 const locale = ref($getLocale());
 
 const { data: services_raw } = await useAsyncData("services", () =>

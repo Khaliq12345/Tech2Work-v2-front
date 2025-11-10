@@ -30,12 +30,11 @@
         </p>
 
         <p class="text-gray-900 text-sm sm:text-base font-semibold">
-          Want to discuss your project with our experts? Click the button below,
-          and Learn More.
+          {{ $t("service_discussion") }}
         </p>
 
         <CustomButton
-          title="Learn More"
+          :title="$t('learn_more')"
           class="px-6 py-3 text-base sm:px-4 sm:py-2 sm:text-sm"
           :to="to"
         />
@@ -45,6 +44,8 @@
 </template>
 
 <script setup lang="ts">
+const { $t } = useI18n();
+
 defineProps<{
   image: string;
   title: string;

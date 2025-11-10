@@ -13,12 +13,12 @@
       <div class="grid grid-cols-10 gap-6">
         <img
           :src="images?.[0]"
-          :alt="'Project image 1'"
+          :alt="$t('project_image_1')"
           class="col-span-10 md:col-span-7 w-full h-full object-cover rounded-lg"
         />
         <img
           :src="images?.[1]"
-          :alt="'Project image 2'"
+          :alt="$t('project_image_2')"
           class="hidden md:block md:col-span-3 w-full h-full object-cover rounded-lg"
         />
       </div>
@@ -27,6 +27,8 @@
 </template>
 
 <script setup lang="ts">
+const { $t } = useI18n();
+
 defineProps<{
   description: string;
   images: string[];
