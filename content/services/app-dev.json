@@ -1,0 +1,158 @@
+{
+  "fr": {
+    "title": "Développement d'Applications Mobiles",
+    "tag": "Applications iOS et Android sur mesure",
+    "link": "/fr/services/app-dev",
+    "cover": "/services/service_3.png",
+    "about": {
+      "description": "Nous concevons et développons des applications mobiles natives et multiplateformes performantes, offrant une expérience utilisateur exceptionnelle sur iOS et Android.",
+      "images": ["services/about/app_about_1.png", "services/about/app_about_2.png"]
+    },
+    "expertise": {
+      "description": "Notre expertise couvre le développement natif, les frameworks cross-platform et l'intégration avec les services cloud pour des applications complètes.",
+      "skills": [
+        "React Native & Flutter",
+        "Swift & Kotlin",
+        "iOS & Android SDK",
+        "React & Next.js",
+        "Node.js & Express",
+        "Firebase & AWS",
+        "Push Notifications",
+        "App Store Optimization"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Applications Mobiles Natives",
+        "description": "Développement iOS et Android natifs",
+        "content": "Création d'applications natives avec Swift pour iOS et Kotlin pour Android, optimisant les performances et l'accès aux fonctionnalités spécifiques de chaque plateforme."
+      },
+      {
+        "title": "Applications Cross-Platform",
+        "description": "Une seule base de code pour plusieurs plateformes",
+        "content": "Développement avec React Native ou Flutter pour réduire les coûts et le temps de développement tout en maintenant une expérience utilisateur native."
+      },
+      {
+        "title": "Applications Web Progressives (PWA)",
+        "description": "Expérience mobile sur le web",
+        "content": "Création de PWA qui fonctionnent hors ligne, s'installent comme des applications natives et offrent une expérience utilisateur moderne sur tous les appareils."
+      },
+      {
+        "title": "Intégration Backend & API",
+        "description": "Connexion à des services et bases de données",
+        "content": "Développement d'APIs RESTful et intégration avec des services tiers pour des applications mobiles complètes avec gestion des données en temps réel."
+      },
+      {
+        "title": "Applications Enterprise",
+        "description": "Solutions mobiles pour entreprises",
+        "content": "Développement d'applications métier sécurisées avec authentification, chiffrement des données et intégration avec les systèmes d'entreprise existants."
+      },
+      {
+        "title": "Maintenance & Évolution",
+        "description": "Support continu et mises à jour",
+        "content": "Services de maintenance, correction de bugs, optimisation des performances et évolution des fonctionnalités pour garder votre application à jour."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Application de Fitness React Native",
+        "description": "App de suivi sportif avec coaching IA intégré",
+        "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+        "badge": "Fitness",
+        "to": "/portfolio/7"
+      },
+      {
+        "title": "App Bancaire Mobile Flutter",
+        "description": "Application bancaire sécurisée pour iOS et Android",
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+        "badge": "Fintech",
+        "to": "/portfolio/8"
+      },
+      {
+        "title": "Plateforme E-commerce Mobile",
+        "description": "Application shopping avec réalité augmentée",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+        "badge": "E-commerce",
+        "to": "/portfolio/9"
+      }
+    ]
+  },
+  "en": {
+    "title": "Mobile App Development",
+    "tag": "Custom iOS and Android Applications",
+    "link": "/en/services/app-dev",
+    "cover": "/services/service_3.png",
+    "about": {
+      "description": "We design and develop high-performance native and cross-platform mobile applications, delivering exceptional user experience on iOS and Android.",
+      "images": ["services/about/app_about_1.png", "services/about/app_about_2.png"]
+    },
+    "expertise": {
+      "description": "Our expertise covers native development, cross-platform frameworks, and cloud service integration for complete applications.",
+      "skills": [
+        "React Native & Flutter",
+        "Swift & Kotlin",
+        "iOS & Android SDK",
+        "React & Next.js",
+        "Node.js & Express",
+        "Firebase & AWS",
+        "Push Notifications",
+        "App Store Optimization"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Native Mobile Applications",
+        "description": "Native iOS and Android development",
+        "content": "Creating native applications with Swift for iOS and Kotlin for Android, optimizing performance and access to platform-specific features."
+      },
+      {
+        "title": "Cross-Platform Applications",
+        "description": "Single codebase for multiple platforms",
+        "content": "Development with React Native or Flutter to reduce costs and development time while maintaining a native user experience."
+      },
+      {
+        "title": "Progressive Web Apps (PWA)",
+        "description": "Mobile experience on the web",
+        "content": "Creating PWAs that work offline, install like native apps, and provide a modern user experience on all devices."
+      },
+      {
+        "title": "Backend Integration & API",
+        "description": "Connection to services and databases",
+        "content": "Developing RESTful APIs and integrating with third-party services for complete mobile applications with real-time data management."
+      },
+      {
+        "title": "Enterprise Applications",
+        "description": "Mobile solutions for businesses",
+        "content": "Developing secure business applications with authentication, data encryption, and integration with existing enterprise systems."
+      },
+      {
+        "title": "Maintenance & Evolution",
+        "description": "Continuous support and updates",
+        "content": "Maintenance services, bug fixes, performance optimization, and feature evolution to keep your application up to date."
+      }
+    ],
+    "projects": [
+      {
+        "title": "React Native Fitness App",
+        "description": "Sports tracking app with integrated AI coaching",
+        "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+        "badge": "Fitness",
+        "to": "/portfolio/7"
+      },
+      {
+        "title": "Flutter Banking Mobile App",
+        "description": "Secure banking application for iOS and Android",
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+        "badge": "Fintech",
+        "to": "/portfolio/8"
+      },
+      {
+        "title": "Mobile E-commerce Platform",
+        "description": "Shopping application with augmented reality",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+        "badge": "E-commerce",
+        "to": "/portfolio/9"
+      }
+    ]
+  }
+}

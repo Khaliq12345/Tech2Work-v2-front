@@ -1,0 +1,158 @@
+{
+  "fr": {
+    "title": "Science des Données et Analytics",
+    "tag": "Solutions d'analyse de données avancées",
+    "link": "/fr/services/data-science",
+    "cover": "/services/service_4.png",
+    "about": {
+      "description": "Nous transformons vos données brutes en informations stratégiques grâce à l'analyse statistique, le machine learning et la visualisation de données.",
+      "images": ["services/about/data_about_1.png", "services/about/data_about_2.png"]
+    },
+    "expertise": {
+      "description": "Notre expertise en data science couvre l'analyse prédictive, le traitement de données massives et la création de tableaux de bord interactifs.",
+      "skills": [
+        "Python & R",
+        "Pandas & NumPy",
+        "Scikit-learn & TensorFlow",
+        "SQL & NoSQL",
+        "Data Visualization",
+        "Statistical Analysis",
+        "Machine Learning",
+        "Deep Learning"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Analyse Prédictive",
+        "description": "Prévision des tendances et comportements futurs",
+        "content": "Développement de modèles prédictifs pour anticiper les ventes, les risques, et les opportunités de marché en se basant sur les données historiques."
+      },
+      {
+        "title": "Visualisation de Données",
+        "description": "Tableaux de bord interactifs et rapports dynamiques",
+        "content": "Création de dashboards personnalisés avec Power BI, Tableau ou des solutions sur mesure pour explorer visuellement vos données."
+      },
+      {
+        "title": "Segmentation Client",
+        "description": "Analyse comportementale et clustering",
+        "content": "Utilisation d'algorithmes de machine learning pour segmenter vos clients et personnaliser vos stratégies marketing et commerciales."
+      },
+      {
+        "title": "Détection d'anomalies",
+        "description": "Identification automatique des patterns inhabituels",
+        "content": "Mise en place de systèmes de détection d'anomalies pour la fraude, les pannes équipements ou les comportements anormaux."
+      },
+      {
+        "title": "Optimisation par les Données",
+        "description": "Amélioration des processus métier",
+        "content": "Analyse des données opérationnelles pour identifier les goulots d'étranglement et optimiser les processus, réduisant les coûts et améliorant l'efficacité."
+      },
+      {
+        "title": "Séries Temporelles",
+        "description": "Analyse et prévision des données chronologiques",
+        "content": "Modélisation des séries temporelles pour prévoir la demande, les stocks, ou les indicateurs économiques avec une grande précision."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Tableau de Bord Analytics E-commerce",
+        "description": "Dashboard temps réel pour l'analyse des ventes",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+        "badge": "Analytics",
+        "to": "/portfolio/10"
+      },
+      {
+        "title": "Modèle Prédictif Churn Client",
+        "description": "IA pour prédire et réduire l'attrition client",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+        "badge": "Predictive",
+        "to": "/portfolio/11"
+      },
+      {
+        "title": "Système de Détection de Fraude",
+        "description": "Machine learning pour la sécurité financière",
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+        "badge": "Fintech",
+        "to": "/portfolio/12"
+      }
+    ]
+  },
+  "en": {
+    "title": "Data Science and Analytics",
+    "tag": "Advanced Data Analysis Solutions",
+    "link": "/en/services/data-science",
+    "cover": "/services/service_4.png",
+    "about": {
+      "description": "We transform your raw data into strategic insights through statistical analysis, machine learning, and data visualization.",
+      "images": ["services/about/data_about_1.png", "services/about/data_about_2.png"]
+    },
+    "expertise": {
+      "description": "Our data science expertise covers predictive analytics, big data processing, and creation of interactive dashboards.",
+      "skills": [
+        "Python & R",
+        "Pandas & NumPy",
+        "Scikit-learn & TensorFlow",
+        "SQL & NoSQL",
+        "Data Visualization",
+        "Statistical Analysis",
+        "Machine Learning",
+        "Deep Learning"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Predictive Analytics",
+        "description": "Forecasting future trends and behaviors",
+        "content": "Developing predictive models to anticipate sales, risks, and market opportunities based on historical data."
+      },
+      {
+        "title": "Data Visualization",
+        "description": "Interactive dashboards and dynamic reports",
+        "content": "Creating custom dashboards with Power BI, Tableau, or custom solutions to visually explore your data."
+      },
+      {
+        "title": "Customer Segmentation",
+        "description": "Behavioral analysis and clustering",
+        "content": "Using machine learning algorithms to segment your customers and personalize marketing and sales strategies."
+      },
+      {
+        "title": "Anomaly Detection",
+        "description": "Automatic identification of unusual patterns",
+        "content": "Implementing anomaly detection systems for fraud, equipment failures, or abnormal behaviors."
+      },
+      {
+        "title": "Data-Driven Optimization",
+        "description": "Improving business processes",
+        "content": "Analyzing operational data to identify bottlenecks and optimize processes, reducing costs and improving efficiency."
+      },
+      {
+        "title": "Time Series Analysis",
+        "description": "Analysis and forecasting of time-based data",
+        "content": "Time series modeling to forecast demand, inventory, or economic indicators with high accuracy."
+      }
+    ],
+    "projects": [
+      {
+        "title": "E-commerce Analytics Dashboard",
+        "description": "Real-time dashboard for sales analysis",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+        "badge": "Analytics",
+        "to": "/portfolio/10"
+      },
+      {
+        "title": "Customer Churn Predictive Model",
+        "description": "AI to predict and reduce customer attrition",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+        "badge": "Predictive",
+        "to": "/portfolio/11"
+      },
+      {
+        "title": "Fraud Detection System",
+        "description": "Machine learning for financial security",
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+        "badge": "Fintech",
+        "to": "/portfolio/12"
+      }
+    ]
+  }
+}
