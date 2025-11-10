@@ -84,14 +84,12 @@
 <script setup lang="ts">
 const { $t } = useI18n();
 
-interface Solution {
-  title: string;
-  description: string;
-  content: string;
-}
-
 const props = defineProps<{
-  solutions: Solution[];
+  solutions: Array<{
+    title: string;
+    description: string;
+    content: string;
+  }>;
 }>();
 
 const openIndex = ref<number | null>(null);

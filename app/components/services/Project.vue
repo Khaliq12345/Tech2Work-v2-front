@@ -47,13 +47,13 @@
 <script setup lang="ts">
 const { $t } = useI18n();
 
-interface Project {
-  title: string;
-  description?: string;
-  image: string;
-  badge: string;
-  to?: string;
-}
-
-const props = defineProps<{ projects: Project[] }>();
+const props = defineProps<{
+  projects: Array<{
+    title: string;
+    description?: string;
+    image: string;
+    badge: string;
+    to?: string;
+  }>;
+}>();
 </script>
