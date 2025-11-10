@@ -1,58 +1,58 @@
 <template>
-    <!-- Titre de la section -->
-    <div class="text-center py-16">
-        <h2 class="text-3xl font-semibold text-black sm:text-4xl">
-            Découvrez nos <span class="text-gray-500">articles</span> sur le
-            développement web
-        </h2>
-    </div>
+  <!-- Titre de la section -->
+  <h2 class="text-center py-16 text-3xl font-semibold text-black sm:text-4xl">
+    {{ $t("portfolio_title") }}
+  </h2>
 
-    <UBlogPosts :ui="{ root: 'pb-16' }">
-        <UBlogPost
-            v-for="(project, index) in projects"
-            :key="index"
-            :to="project.to"
-            :title="project.title"
-            :description="project.description"
-            :image="project.image"
-            :badge="project.badge"
-            orientation="vertical"
-            :ui="{
-                root: 'relative group overflow-hidden rounded-xl bg-white shadow-lg',
-                header: 'relative aspect-[16/9] overflow-hidden',
-                image: 'w-full h-full object-cover transition-transform duration-300 group-hover:scale-105',
-                meta: 'absolute top-4 left-4 z-10',
-                badge: 'hidden',
-                body: 'p-6 flex flex-col gap-3',
-                title: '!text-black text-lg font-semibold leading-snug',
-                description: 'text-gray-600 text-sm',
-            }"
+  <UBlogPosts :ui="{ root: 'pb-16' }">
+    <UBlogPost
+      v-for="(project, index) in projects"
+      :key="index"
+      :to="project.to"
+      :title="project.title"
+      :description="project.description"
+      :image="project.image"
+      :badge="project.badge"
+      orientation="vertical"
+      :ui="{
+        root: 'relative group overflow-hidden rounded-xl bg-white shadow-lg',
+        header: 'relative aspect-[16/9] overflow-hidden',
+        image:
+          'w-full h-full object-cover transition-transform duration-300 group-hover:scale-105',
+        meta: 'absolute top-4 left-4 z-10',
+        badge: 'hidden',
+        body: 'p-6 flex flex-col gap-3',
+        title: '!text-black text-lg font-semibold leading-snug',
+        description: 'text-gray-600 text-sm',
+      }"
+    >
+      <template #badge>
+        <span
+          class="inline-flex items-center gap-2 rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-black shadow-sm"
         >
-            <template #badge>
-                <span
-                    class="inline-flex items-center gap-2 rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-black shadow-sm"
-                >
-                    <span class="size-2.5 rounded-full bg-yellow-400"></span>
-                    {{ project.badge }}
-                </span>
-            </template>
+          <span class="size-2.5 rounded-full bg-yellow-400"></span>
+          {{ project.badge }}
+        </span>
+      </template>
 
-            <template v-if="project.description" #description>
-                <p class="text-black text-sm">
-                    {{ project.description }}
-                </p>
-            </template>
-        </UBlogPost>
-    </UBlogPosts>
+      <template v-if="project.description" #description>
+        <p class="text-black text-sm">
+          {{ project.description }}
+        </p>
+      </template>
+    </UBlogPost>
+  </UBlogPosts>
 </template>
 
 <script setup lang="ts">
+const { $t } = useI18n();
+
 interface Project {
-    title: string;
-    description?: string;
-    image: string;
-    badge: string;
-    to?: string;
+  title: string;
+  description?: string;
+  image: string;
+  badge: string;
+  to?: string;
 }
 
 const props = defineProps<{ projects: Project[] }>();

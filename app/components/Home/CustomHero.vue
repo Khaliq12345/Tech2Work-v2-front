@@ -9,31 +9,37 @@
     >
         <ImageComponent src="logo.png" alt="Company logo" />
         <template #title>
-            Is It
+            {{ $t("text1") }}
             <!-- aria-live permet aux lecteurs d'écran de suivre les changements de texte -->
             <span class="text-blue-400" aria-live="polite" aria-atomic="true">{{
                 currentWordDisplay
             }}</span>
             <span class="blinking-cursor" aria-hidden="true">|</span>
             <br />
-            You're Looking For?
+            {{ $t("text2") }}
         </template>
 
         <template #description>
-            Whether you need to create a brand identity, website, mobile app,
-            marketing campaign, the key to making the project a success starts
-            with having a well-thought-out creative brief.
+            {{ $t("text3") }}
         </template>
 
         <template #links>
-            <CustomButton title="Contact Us!" />
+            <CustomButton :title="$t('text4')" />
         </template>
     </UPageHero>
 </template>
 
-<script setup>
+<script setup lang="ts">
+const { $t } = useI18n();
 // Configuration de l'effet de frappe
-const words = ["App Development", "Web Design", "Brand Identity", "Marketing"];
+const words = [
+    $t("type1"),
+    $t("type2"),
+    $t("type3"),
+    $t("type4"),
+    $t("type5"),
+    $t("type6"),
+];
 const typingSpeed = 150; // Vitesse de frappe en millisecondes
 const deletingSpeed = 100; // Vitesse d'effacement en millisecondes
 const pauseDuration = 2000; // Pause après avoir terminé un mot

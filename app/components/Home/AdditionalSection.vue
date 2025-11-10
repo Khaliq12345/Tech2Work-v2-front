@@ -1,6 +1,6 @@
 <template>
     <UPageCTA
-        title="We help brands to tell their story to their customers."
+        :title="$t('addtitional_title')"
         orientation="horizontal"
         reverse
         :ui="{
@@ -11,9 +11,11 @@
     >
         <ImageComponent src="logo.png" class="max-w-sm" />
         <template #links>
-            <CustomButton title="Get Your Service!" />
+            <CustomButton :title="$t('service_button')" />
         </template>
     </UPageCTA>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { $t } = useI18n();
+</script>

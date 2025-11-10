@@ -1,6 +1,6 @@
 <template>
     <UCard
-        class="overflow-hidden text-center transition hover:shadow-lg hover:-translate-y-1 duration-300"
+        class="overflow-hidden text-center transition shadow-lg hover:-translate-y-1 duration-300"
     >
         <!-- Contenu -->
         <template #header>

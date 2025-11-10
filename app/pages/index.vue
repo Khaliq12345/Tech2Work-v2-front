@@ -2,7 +2,6 @@
     <div>
         <HomeCustomHero />
         <HomeServiceSection />
-        <HomeProjectSection />
         <HomeAdditionalSection />
     </div>
 </template>

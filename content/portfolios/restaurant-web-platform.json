@@ -1,0 +1,54 @@
+{
+  "en": {
+    "title": "Fine Dining Restaurant Web Platform",
+    "description": "A premium web platform designed for a fine-dining restaurant brand, featuring a sophisticated UI/UX, online reservation system, dynamic menu presentation, chef profiles, and immersive imagery to reflect the upscale dining experience.",
+    "category": "Web Platform",
+    "date": "11/09/2025",
+    "tags": ["Web Development", "Responsive Design", "Restaurant Platform"],
+    "client": "Luxury Dining Group",
+    "mobileImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+    "link": "/en/portfolios/restaurant-web-platform",
+    "galleries": [
+      "https://images.unsplash.com/photo-1528605248644-14dd04022da1",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Plateforme Web pour Restaurant Gastronomique",
+    "description": "Une plateforme web haut de gamme conçue pour une marque de restaurant gastronomique, offrant une interface utilisateur/expérience utilisateur sophistiquée, un système de réservation en ligne, une présentation dynamique du menu, des profils de chefs et des images immersives reflétant l'expérience culinaire haut de gamme.",
+    "category": "Plateforme Web",
+    "date": "11/09/2025",
+    "tags": ["Développement Web", "Design Responsive", "Plateforme Restaurant"],
+    "client": "Luxury Dining Group",
+    "mobileImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+    "link": "/fr/portfolios/restaurant-web-platform",
+    "galleries": [
+      "https://images.unsplash.com/photo-1528605248644-14dd04022da1",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      }
+    ]
+  }
+}

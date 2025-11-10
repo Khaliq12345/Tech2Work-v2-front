@@ -1,0 +1,54 @@
+{
+  "text1": "Is It",
+  "text2": "You're Looking For?",
+  "type1": "App Development",
+  "type2": "AI Agent",
+  "type3": "Web Development",
+  "type4": "Data Science",
+  "type5": "Big Data Analytics",
+  "type6": "Custom AI/ML Development",
+  "text3": "Whether you need a mobile app, an AI agent, a website, or a custom data solution, the key to making your project successful starts with a clear and well-defined plan.Whether you need to create a brand identity, website, mobile app, marketing campaign, the key to making the project a success starts with having a well-thought-out creative brief.",
+  "text4": "Contact Us!",
+  "service_title": "Our Services",
+  "service_subtitle": "WHAT WE DO",
+  "service_button": "Get Your Service",
+  "services": [
+    {
+      "title": "Web Development",
+      "subTitle": "Build fast, scalable, and user-friendly websites that strengthen your digital presence and drive growth.",
+      "icon": "heroicons:computer-desktop",
+      "to": "/en/services/web-dev"
+    },
+    {
+      "title": "AI Agent",
+      "subTitle": "Automate conversations, workflows, and decision-making with intelligent AI agents tailored to your business needs.",
+      "icon": "heroicons:sparkles",
+      "to": "/en/services/ai-agent"
+    },
+    {
+      "title": "App Development",
+      "subTitle": "Create high-performance mobile applications with seamless UI/UX and optimized functionality across all platforms.",
+      "icon": "heroicons:device-phone-mobile",
+      "to": "/en/services/app-dev"
+    },
+    {
+      "title": "Data Science",
+      "subTitle": "Turn complex data into actionable insights through advanced analytics, visualization, and predictive modeling.",
+      "icon": "heroicons:chart-bar",
+      "to": "/en/services/data-science"
+    },
+    {
+      "title": "Big Data Analytics",
+      "subTitle": "Leverage massive datasets to uncover trends, improve efficiency, and make data-driven business decisions.",
+      "icon": "heroicons:server",
+      "to": "/en/services/big-data"
+    },
+    {
+      "title": "Custom AI/ML Development",
+      "subTitle": "Design and implement tailored AI and machine learning solutions that solve unique business challenges.",
+      "icon": "heroicons:cog-6-tooth",
+      "to": "/en/services/ml-dev"
+    }
+  ],
+  "addtitional_title": "We help brands to tell their story to their customers"
+}

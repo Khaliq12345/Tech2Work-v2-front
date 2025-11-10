@@ -1,0 +1,154 @@
+{
+  "fr": {
+    "title": "Développement Web sur Mesure",
+    "tag": "Agence de développement web",
+    "about": {
+      "description": "Nous créons des solutions web modernes et performantes adaptées à vos besoins spécifiques. Notre équipe d'experts maîtrise les dernières technologies pour vous offrir des applications web robustes et évolutives.",
+      "images": ["/about/about_1.png", "/about/about_2.png"]
+    },
+    "expertise": {
+      "description": "Notre expertise couvre l'ensemble du développement web moderne, des frameworks frontend aux architectures backend scalables.",
+      "skills": [
+        "React & Next.js",
+        "Vue.js & Nuxt.js",
+        "Node.js & Express",
+        "Symfony & Laravel",
+        "Architecture Microservices",
+        "DevOps & CI/CD",
+        "Bases de données",
+        "APIs REST & GraphQL"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Applications Web Modernes",
+        "description": "Développement d'applications single-page avec React ou Vue.js",
+        "content": "Création d'applications web interactives et performantes utilisant les derniers frameworks JavaScript. Interface utilisateur moderne et responsive design."
+      },
+      {
+        "title": "APIs & Microservices",
+        "description": "Architecture backend scalable et maintenir",
+        "content": "Conception et développement d'APIs RESTful et GraphQL. Architecture microservices pour une meilleure scalabilité et maintenance."
+      },
+      {
+        "title": "E-commerce sur Mesure",
+        "description": "Solutions de vente en ligne complètes",
+        "content": "Développement de plateformes e-commerce personnalisées avec gestion des paiements, inventory management et analytics avancés."
+      },
+      {
+        "title": "Refactoring & Migration",
+        "description": "Modernisation d'applications existantes",
+        "content": "Migration d'applications legacy vers des technologies modernes. Refactoring de code pour améliorer les performances et la maintenabilité."
+      },
+      {
+        "title": "Optimisation des Performances",
+        "description": "Amélioration de la vitesse et de l'efficacité des applications",
+        "content": "Audit complet des performances, optimisation du code, mise en cache avancée et techniques de lazy loading pour des temps de chargement ultra-rapides."
+      },
+      {
+        "title": "Intégration & Déploiement Continu",
+        "description": "Automatisation des processus de développement et déploiement",
+        "content": "Mise en place de pipelines CI/CD, tests automatisés, déploiement sur le cloud (AWS, Azure, GCP) et monitoring en temps réel des applications."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Plateforme E-commerce Next.js",
+        "description": "Développement d'une plateforme e-commerce moderne avec Next.js et Stripe",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+        "badge": "E-commerce",
+        "to": "/portfolio/1"
+      },
+      {
+        "title": "Application SaaS Vue.js",
+        "description": "Interface d'administration pour une application SaaS B2B",
+        "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80",
+        "badge": "SaaS",
+        "to": "/portfolio/2"
+      },
+      {
+        "title": "API Microservices Node.js",
+        "description": "Architecture microservices avec Node.js et Docker",
+        "image": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&q=80",
+        "badge": "Backend",
+        "to": "/portfolio/3"
+      }
+    ]
+  },
+  "en": {
+    "title": "Custom Web Development",
+    "tag": "Web Development Agency",
+    "about": {
+      "description": "We create modern and high-performance web solutions tailored to your specific needs. Our team of experts masters the latest technologies to deliver robust and scalable web applications.",
+      "images": ["/about/about_1.png", "/about/about_2.png"]
+    },
+    "expertise": {
+      "description": "Our expertise covers the entire modern web development stack, from frontend frameworks to scalable backend architectures.",
+      "skills": [
+        "React & Next.js",
+        "Vue.js & Nuxt.js",
+        "Node.js & Express",
+        "Symfony & Laravel",
+        "Microservices Architecture",
+        "DevOps & CI/CD",
+        "Databases",
+        "REST & GraphQL APIs"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Modern Web Applications",
+        "description": "Single-page application development with React or Vue.js",
+        "content": "Creating interactive and high-performance web applications using the latest JavaScript frameworks. Modern UI and responsive design."
+      },
+      {
+        "title": "APIs & Microservices",
+        "description": "Scalable backend architecture and maintenance",
+        "content": "Design and develop RESTful and GraphQL APIs. Microservices architecture for better scalability and maintainability."
+      },
+      {
+        "title": "Custom E-commerce",
+        "description": "Complete online sales solutions",
+        "content": "Development of custom e-commerce platforms with payment management, inventory management, and advanced analytics."
+      },
+      {
+        "title": "Refactoring & Migration",
+        "description": "Modernizing existing applications",
+        "content": "Migrating legacy applications to modern technologies. Code refactoring to improve performance and maintainability."
+      },
+      {
+        "title": "Performance Optimization",
+        "description": "Improving speed and efficiency of applications",
+        "content": "Comprehensive performance audits, code optimization, advanced caching, and lazy loading techniques for ultra-fast load times."
+      },
+      {
+        "title": "Integration & Continuous Deployment",
+        "description": "Automating development and deployment processes",
+        "content": "Setting up CI/CD pipelines, automated testing, cloud deployment (AWS, Azure, GCP), and real-time application monitoring."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Next.js E-commerce Platform",
+        "description": "Developing a modern e-commerce platform with Next.js and Stripe",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+        "badge": "E-commerce",
+        "to": "/portfolio/1"
+      },
+      {
+        "title": "Vue.js SaaS Application",
+        "description": "Admin interface for a B2B SaaS application",
+        "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80",
+        "badge": "SaaS",
+        "to": "/portfolio/2"
+      },
+      {
+        "title": "Node.js Microservices API",
+        "description": "Microservices architecture with Node.js and Docker",
+        "image": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&q=80",
+        "badge": "Backend",
+        "to": "/portfolio/3"
+      }
+    ]
+  }
+}

@@ -8,14 +8,12 @@
             headline: 'text-blue-400 text-center',
         }"
     >
-        <UPageGrid
-            class="gap-6 flex flex-wrap justify-center"
-            :ui="{ base: 'grid-cols-1 sm:grid-cols-2' }"
-        >
+        <div class="flex justify-center gap-10 flex-col md:flex-row">
             <UCard
                 v-for="(image, index) in images"
                 :key="index"
                 class="overflow-hidden p-0 border-none shadow-none w-9/12 sm:w-full mx-auto"
+                variant="solid"
             >
                 <img
                     :src="image"
@@ -23,7 +21,7 @@
                     class="w-full h-full object-cover rounded-lg"
                 />
             </UCard>
-        </UPageGrid>
+        </div>
     </UPageSection>
 </template>
 

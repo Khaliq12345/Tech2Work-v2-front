@@ -1,0 +1,54 @@
+{
+  "en": {
+    "title": "E‑Commerce Platform for Local Artisans",
+    "description": "A web platform designed to connect local artisans with customers, featuring an online store, product listings, artisan profiles, secure payment system, and a visually appealing layout to showcase handcrafted products.",
+    "category": "Web Platform",
+    "date": "11/09/2025",
+    "tags": ["Web Development", "E‑Commerce", "Artisan Platform"],
+    "client": "Local Artisans Network",
+    "mobileImage": "https://sketchelements.com/e-commerce-app-ui-kit-3/preview.png",
+    "link": "/en/portfolios/ecommerce-platform",
+    "galleries": [
+      "https://instamobile.io/assets/e‑commerce‑ui‑kit/screens/01.png",
+      "https://sketchelements.com/e-commerce-app-ui-kit-2/preview.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Plateforme E‑Commerce pour Artisans Locaux",
+    "description": "Une plateforme web conçue pour connecter les artisans locaux avec les clients, offrant une boutique en ligne, des fiches produits, des profils d’artisans, un système de paiement sécurisé et une mise en page attrayante pour mettre en valeur les produits artisanaux.",
+    "category": "Plateforme Web",
+    "date": "11/09/2025",
+    "tags": ["Développement Web", "E‑Commerce", "Plateforme Artisan"],
+    "client": "Réseau des Artisans Locaux",
+    "mobileImage": "https://sketchelements.com/e-commerce-app-ui-kit-3/preview.png",
+    "link": "/fr/portfolios/ecommerce-platform",
+    "galleries": [
+      "https://instamobile.io/assets/e‑commerce‑ui‑kit/screens/01.png",
+      "https://sketchelements.com/e-commerce-app-ui-kit-2/preview.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      }
+    ]
+  }
+}
