@@ -10,6 +10,7 @@ export default defineContentConfig({
         en: z.object({
           title: z.string(),
           tag: z.string(),
+          cover: z.string(),
           about: z.object({
             description: z.string(),
             images: z.array(z.string()),
@@ -34,6 +35,7 @@ export default defineContentConfig({
         fr: z.object({
           title: z.string(),
           tag: z.string(),
+          cover: z.string(),
           about: z.object({
             description: z.string(),
             images: z.array(z.string()),

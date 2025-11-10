@@ -37,6 +37,7 @@
         <CustomButton
           title="Learn More"
           class="px-6 py-3 text-base sm:px-4 sm:py-2 sm:text-sm"
+          :to="to"
         />
       </div>
     </div>
@@ -49,5 +50,6 @@ defineProps<{
   title: string;
   description: string;
   reverse?: boolean;
+  to: string;
 }>();
 </script>

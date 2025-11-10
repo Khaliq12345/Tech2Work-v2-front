@@ -2,6 +2,8 @@
   "fr": {
     "title": "Développement Web sur Mesure",
     "tag": "Agence de développement web",
+    "link": "/fr/services/web-dev",
+    "cover": "/services/service_1.png",
     "about": {
       "description": "Nous créons des solutions web modernes et performantes adaptées à vos besoins spécifiques. Notre équipe d'experts maîtrise les dernières technologies pour vous offrir des applications web robustes et évolutives.",
       "images": ["/about/about_1.png", "/about/about_2.png"]
@@ -78,6 +80,8 @@
   "en": {
     "title": "Custom Web Development",
     "tag": "Web Development Agency",
+    "link": "/en/services/web-dev",
+    "cover": "/services/service_1.png",
     "about": {
       "description": "We create modern and high-performance web solutions tailored to your specific needs. Our team of experts masters the latest technologies to deliver robust and scalable web applications.",
       "images": ["/about/about_1.png", "/about/about_2.png"]
