@@ -6,7 +6,7 @@
 
   <UBlogPosts :ui="{ root: 'pb-16' }">
     <UBlogPost
-      v-for="(project, index) in projects"
+      v-for="(project, index) in props.projects"
       :key="index"
       :to="project.to"
       :title="project.title"
@@ -56,6 +56,4 @@ interface Project {
 }
 
 const props = defineProps<{ projects: Project[] }>();
-
-const projects = computed(() => props.projects);
 </script>
