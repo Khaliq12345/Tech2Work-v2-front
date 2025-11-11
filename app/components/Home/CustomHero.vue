@@ -83,14 +83,14 @@ function typeEffect() {
     timeoutId = setTimeout(typeEffect, waitTime);
 }
 
-// Démarrer l'animation au montage du composant
+// Nécessaire : démarre l'animation de frappe au montage
 onMounted(() => {
     if (words.length > 0) {
         timeoutId = setTimeout(typeEffect, 200);
     }
 });
 
-// Nettoyer le timeout au démontage pour éviter les fuites mémoire
+// Nécessaire : nettoie le timeout pour éviter les fuites mémoire
 onBeforeUnmount(() => {
     if (timeoutId !== null) {
         clearTimeout(timeoutId);

@@ -260,6 +260,7 @@ const formFieldUi = {
 }
 
 
+// Nécessaire : ouvre le drawer et bloque le scroll
 const openDrawer = () => {
   isDrawerOpen.value = true
   if (import.meta.client) {
@@ -267,6 +268,7 @@ const openDrawer = () => {
   }
 }
 
+// Nécessaire : ferme le drawer et restaure le scroll
 const closeDrawer = () => {
   isDrawerOpen.value = false
   if (import.meta.client) {
@@ -274,11 +276,12 @@ const closeDrawer = () => {
   }
 }
 
-// Fonction openDrawer exposée via defineExpose si nécessaire
+// Nécessaire : expose openDrawer pour utilisation externe
 defineExpose({
   openDrawer,
 })
 
+// Nécessaire : valide le formulaire avec valibot
 const validateForm = () => {
   const result = safeParse(contactSchema, form)
   for (const key in errors) {
@@ -297,6 +300,7 @@ const validateForm = () => {
   return result.success
 }
 
+// Nécessaire : remet à zéro le formulaire
 const resetForm = () => {
   form.firstName = ''
   form.lastName = ''
@@ -310,6 +314,7 @@ const resetForm = () => {
   }
 }
 
+// Nécessaire : gère la soumission du formulaire
 const handleSubmit = async () => {
   if (!validateForm()) {
     toast.add({ title: 'Validation requise', description: 'Merci de vérifier les champs du formulaire.', color: 'warning' })

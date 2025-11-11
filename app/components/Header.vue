@@ -138,7 +138,6 @@
 
 <script setup lang="ts">
 import type { NavigationMenuItem, FormSubmitEvent } from "@nuxt/ui";
-import { useI18n, useLocale } from "#imports";
 import * as v from "valibot";
 import type {
     ContactFormState,
