@@ -5,3 +5,5 @@
     <AboutTeam />
     <AboutReview />
 </template>
+
+<script setup lang="ts"></script>
