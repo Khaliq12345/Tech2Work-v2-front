@@ -6,7 +6,7 @@
     "cover": "/services/service_2.png",
     "about": {
       "description": "Nous développons des agents IA intelligents capables d'automatiser vos processus métier, d'assister vos clients et d'analyser des données complexes pour prendre des décisions éclairées.",
-      "images": ["/services/about/about_1.png", "/services/about/about_2.png"]
+      "images": ["services/about/ai_about_1.png", "services/about/ai_about_2.png"]
     },
     "expertise": {
       "description": "Notre expertise en IA couvre les modèles de langage, l'apprentissage automatique et les systèmes de dialogue pour créer des agents intelligents et adaptatifs.",
@@ -84,7 +84,7 @@
     "cover": "/services/service_2.png",
     "about": {
       "description": "We develop intelligent AI agents capable of automating your business processes, assisting your customers, and analyzing complex data to make informed decisions.",
-      "images": ["/services/about/about_1.png", "/services/about/about_2.png"]
+      "images": ["services/about/ai_about_1.png", "services/about/ai_about_2.png"]
     },
     "expertise": {
       "description": "Our AI expertise covers language models, machine learning, and dialogue systems to create intelligent and adaptive agents.",

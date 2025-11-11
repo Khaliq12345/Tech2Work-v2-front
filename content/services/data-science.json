@@ -6,7 +6,7 @@
     "cover": "/services/service_4.png",
     "about": {
       "description": "Nous transformons vos données brutes en informations stratégiques grâce à l'analyse statistique, le machine learning et la visualisation de données.",
-      "images": ["/services/about/about_1.png", "/services/about/about_2.png"]
+      "images": ["services/about/data_about_1.png", "services/about/data_about_2.png"]
     },
     "expertise": {
       "description": "Notre expertise en data science couvre l'analyse prédictive, le traitement de données massives et la création de tableaux de bord interactifs.",
@@ -84,7 +84,7 @@
     "cover": "/services/service_4.png",
     "about": {
       "description": "We transform your raw data into strategic insights through statistical analysis, machine learning, and data visualization.",
-      "images": ["/services/about/about_1.png", "/services/about/about_2.png"]
+      "images": ["services/about/data_about_1.png", "services/about/data_about_2.png"]
     },
     "expertise": {
       "description": "Our data science expertise covers predictive analytics, big data processing, and creation of interactive dashboards.",
