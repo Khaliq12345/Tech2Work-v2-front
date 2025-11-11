@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="serviceData">
     <!-- 1. Hero Section -->
     <ServicesDetailHero :title="serviceData.title" :tag="serviceData.tag" />
 
@@ -30,35 +30,7 @@
 
 <script setup lang="ts">
 import { useI18n } from "#imports";
-
-interface Solution {
-  title: string;
-  description: string;
-  content: string;
-}
-
-interface Project {
-  title: string;
-  description?: string;
-  image: string;
-  badge: string;
-  to?: string;
-}
-
-interface ServiceData {
-  title: string;
-  tag: string;
-  about: {
-    description: string;
-    images: string[];
-  };
-  expertise: {
-    description: string;
-    skills: string[];
-  };
-  solutions: Solution[];
-  projects: Project[];
-}
+import type { Solution, Project, ServiceData } from "../../../types/service";
 
 // Récupération du paramètre de route
 const route = useRoute();
@@ -73,12 +45,15 @@ const { data: services } = await useAsyncData(serviceId, () =>
     .first(),
 );
 
-// Données mockées pour le développement - à remplacer par une vraie API
-const serviceData = computed(() => {
-  if (locale.value == "en") {
-    return services.value.en;
-  } else if (locale.value == "fr") {
-    return services.value.fr;
+const serviceData = computed((): ServiceData | null => {
+  const meta = services.value?.meta.body as any;
+  if (!meta) return null;
+  
+  if (locale.value === "en") {
+    return meta.en as ServiceData;
+  } else if (locale.value === "fr") {
+    return meta.fr as ServiceData;
   }
+  return null;
 });
 </script>
