@@ -1,7 +1,7 @@
 <template>
     <UPageHero
-        headline="WHAT WE DO"
-        title="We are here to participate in your business growth."
+        :headline="$t('hero_headline')"
+        :title="$t('hero_title')"
         :ui="{
             title: 'text-left text-black text-2xl lg:text-3xl xl:text-4xl font-normal',
             description:
@@ -13,4 +13,6 @@
     </UPageHero>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { $t } = useI18n();
+</script>

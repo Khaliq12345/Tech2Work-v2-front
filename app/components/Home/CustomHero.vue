@@ -7,7 +7,7 @@
         }"
         orientation="horizontal"
     >
-        <ImageComponent src="logo.png" alt="Company logo" />
+        <ImageComponent src="/logo.png" alt="Company logo" />
         <template #title>
             {{ $t("text1") }}
             <!-- aria-live permet aux lecteurs d'écran de suivre les changements de texte -->

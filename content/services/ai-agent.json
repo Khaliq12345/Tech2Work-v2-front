@@ -1,0 +1,158 @@
+{
+  "fr": {
+    "title": "Agents IA Intelligents",
+    "tag": "Solutions d'intelligence artificielle",
+    "link": "/fr/services/ai-agent",
+    "cover": "/services/service_2.png",
+    "about": {
+      "description": "Nous développons des agents IA intelligents capables d'automatiser vos processus métier, d'assister vos clients et d'analyser des données complexes pour prendre des décisions éclairées.",
+      "images": ["services/about/ai_about_1.png", "services/about/ai_about_2.png"]
+    },
+    "expertise": {
+      "description": "Notre expertise en IA couvre les modèles de langage, l'apprentissage automatique et les systèmes de dialogue pour créer des agents intelligents et adaptatifs.",
+      "skills": [
+        "GPT-4 & Claude API",
+        "LangChain & LlamaIndex",
+        "Traitement NLP",
+        "Machine Learning",
+        "Vector Databases",
+        "Fine-tuning Models",
+        "RAG Systems",
+        "Multi-modal AI"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Assistants Virtuels Conversationnels",
+        "description": "Chatbots intelligents pour le service client",
+        "content": "Développement d'assistants virtuels avancés capables de comprendre le contexte, de gérer des conversations complexes et de fournir des réponses pertinentes 24/7."
+      },
+      {
+        "title": "Agents d'Analyse de Données",
+        "description": "IA pour l'analyse et l'interprétation des données",
+        "content": "Création d'agents IA qui analysent automatiquement vos données, identifient des tendances et génèrent des rapports personnalisés avec des recommandations actionnables."
+      },
+      {
+        "title": "Automatisation Intelligente",
+        "description": "Solutions RPA augmentées par l'IA",
+        "content": "Intégration de l'IA dans vos processus d'automatisation pour des tâches plus complexes nécessitant compréhension et prise de décision en temps réel."
+      },
+      {
+        "title": "Agents de Support Technique",
+        "description": "Assistance technique automatisée 24/7",
+        "content": "Déploiement d'agents IA spécialisés dans le diagnostic de problèmes techniques, la résolution d'incidents et l'escalade intelligente vers les experts humains."
+      },
+      {
+        "title": "IA pour Ventes et Marketing",
+        "description": "Optimisation des processus commerciaux",
+        "content": "Agents IA qui qualifient les prospects, personnalisent les campagnes marketing et prédisent les tendances du marché pour maximiser vos conversions."
+      },
+      {
+        "title": "Systèmes de Recommandation",
+        "description": "Personnalisation avancée de l'expérience utilisateur",
+        "content": "Mise en place de moteurs de recommandation intelligents qui analysent le comportement utilisateur pour suggérer des produits et services pertinents."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Chatbot Bancaire Intégré",
+        "description": "Agent IA pour le service client d'une banque en ligne",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80",
+        "badge": "Fintech",
+        "to": "/portfolio/4"
+      },
+      {
+        "title": "Assistant E-commerce Personnalisé",
+        "description": "Agent conversationnel pour l'aide aux achats",
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+        "badge": "E-commerce",
+        "to": "/portfolio/5"
+      },
+      {
+        "title": "Agent d'Analyse Financière",
+        "description": "IA pour l'analyse prédictive des marchés financiers",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+        "badge": "Finance",
+        "to": "/portfolio/6"
+      }
+    ]
+  },
+  "en": {
+    "title": "Intelligent AI Agents",
+    "tag": "Artificial Intelligence Solutions",
+    "link": "/en/services/ai-agent",
+    "cover": "/services/service_2.png",
+    "about": {
+      "description": "We develop intelligent AI agents capable of automating your business processes, assisting your customers, and analyzing complex data to make informed decisions.",
+      "images": ["services/about/ai_about_1.png", "services/about/ai_about_2.png"]
+    },
+    "expertise": {
+      "description": "Our AI expertise covers language models, machine learning, and dialogue systems to create intelligent and adaptive agents.",
+      "skills": [
+        "GPT-4 & Claude API",
+        "LangChain & LlamaIndex",
+        "Natural Language Processing",
+        "Machine Learning",
+        "Vector Databases",
+        "Model Fine-tuning",
+        "RAG Systems",
+        "Multi-modal AI"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Conversational Virtual Assistants",
+        "description": "Intelligent chatbots for customer service",
+        "content": "Development of advanced virtual assistants capable of understanding context, handling complex conversations, and providing relevant responses 24/7."
+      },
+      {
+        "title": "Data Analysis Agents",
+        "description": "AI for data analysis and interpretation",
+        "content": "Creating AI agents that automatically analyze your data, identify trends, and generate personalized reports with actionable recommendations."
+      },
+      {
+        "title": "Intelligent Automation",
+        "description": "RPA solutions enhanced with AI",
+        "content": "Integrating AI into your automation processes for more complex tasks requiring understanding and real-time decision-making."
+      },
+      {
+        "title": "Technical Support Agents",
+        "description": "24/7 automated technical assistance",
+        "content": "Deploying AI agents specialized in technical problem diagnosis, incident resolution, and intelligent escalation to human experts."
+      },
+      {
+        "title": "AI for Sales and Marketing",
+        "description": "Optimizing business processes",
+        "content": "AI agents that qualify leads, personalize marketing campaigns, and predict market trends to maximize your conversions."
+      },
+      {
+        "title": "Recommendation Systems",
+        "description": "Advanced user experience personalization",
+        "content": "Implementing intelligent recommendation engines that analyze user behavior to suggest relevant products and services."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Integrated Banking Chatbot",
+        "description": "AI agent for online banking customer service",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80",
+        "badge": "Fintech",
+        "to": "/portfolio/4"
+      },
+      {
+        "title": "Personalized E-commerce Assistant",
+        "description": "Conversational agent for shopping assistance",
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+        "badge": "E-commerce",
+        "to": "/portfolio/5"
+      },
+      {
+        "title": "Financial Analysis Agent",
+        "description": "AI for predictive analysis of financial markets",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+        "badge": "Finance",
+        "to": "/portfolio/6"
+      }
+    ]
+  }
+}

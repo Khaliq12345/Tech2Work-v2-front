@@ -9,7 +9,7 @@
             links: 'justify-center lg:justify-start',
         }"
     >
-        <ImageComponent src="logo.png" class="max-w-sm" />
+        <ImageComponent src="/logo.png" class="max-w-sm" />
         <template #links>
             <CustomButton :title="$t('service_button')" />
         </template>

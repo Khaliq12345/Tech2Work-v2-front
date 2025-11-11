@@ -17,37 +17,37 @@
       "title": "Développement Web",
       "subTitle": "Créez des sites web rapides, évolutifs et conviviaux qui renforcent votre présence numérique et stimulent votre croissance.",
       "icon": "heroicons:computer-desktop",
-      "to": "fr/services/web-dev"
+      "to": "/fr/services/web-dev"
     },
     {
       "title": "Agent IA",
       "subTitle": "Automatisez les conversations, les flux de travail et la prise de décision grâce à des agents IA intelligents adaptés à vos besoins.",
       "icon": "heroicons:sparkles",
-      "to": "fr/services/ai-agent"
+      "to": "/fr/services/ai-agent"
     },
     {
       "title": "Développement d’Applications",
       "subTitle": "Concevez des applications mobiles performantes avec une interface fluide et une expérience utilisateur optimisée sur toutes les plateformes.",
       "icon": "heroicons:device-phone-mobile",
-      "to": "fr/services/app-dev"
+      "to": "/fr/services/app-dev"
     },
     {
       "title": "Science des Données",
       "subTitle": "Transformez des données complexes en informations exploitables grâce à l’analyse avancée, la visualisation et la modélisation prédictive.",
       "icon": "heroicons:chart-bar",
-      "to": "fr/services/data-science"
+      "to": "/fr/services/data-science"
     },
     {
       "title": "Analyse des Mégadonnées",
       "subTitle": "Exploitez de vastes ensembles de données pour identifier les tendances, améliorer l’efficacité et prendre des décisions basées sur les données.",
       "icon": "heroicons:server",
-      "to": "fr/services/big-data"
+      "to": "/fr/services/big-data"
     },
     {
       "title": "Développement IA/ML sur Mesure",
       "subTitle": "Concevez et déployez des solutions d’intelligence artificielle et d’apprentissage automatique adaptées à vos défis uniques.",
       "icon": "heroicons:cog-6-tooth",
-      "to": "fr/services/ml-dev"
+      "to": "/fr/services/ml-dev"
     }
   ],
   "addtitional_title": "Nous aidons les marques à raconter leur histoire à leurs clients"

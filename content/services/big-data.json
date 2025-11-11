@@ -1,0 +1,158 @@
+{
+  "fr": {
+    "title": "Big Data et Mégadonnées",
+    "tag": "Solutions de traitement de données massives",
+    "link": "/fr/services/big-data",
+    "cover": "/services/service_5.png",
+    "about": {
+      "description": "Nous mettons en place des architectures Big Data pour collecter, stocker, traiter et analyser des volumes massifs de données afin d'extraire des informations stratégiques.",
+      "images": ["services/about/bigdata_about_1.png", "services/about/bigdata_about_2.png"]
+    },
+    "expertise": {
+      "description": "Notre expertise couvre les technologies distribuées, le streaming en temps réel et l'optimisation des pipelines de données pour des performances maximales.",
+      "skills": [
+        "Hadoop & Spark",
+        "Kafka & Flink",
+        "AWS & Azure Big Data",
+        "Data Lakes",
+        "ETL & ELT Pipelines",
+        "NoSQL Databases",
+        "Cloud Architecture",
+        "Real-time Analytics"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Architecture Data Lake",
+        "description": "Stockage centralisé des données hétérogènes",
+        "content": "Conception et implémentation de data lakes sur le cloud pour stocker et gérer des données structurées et non structurées à grande échelle."
+      },
+      {
+        "title": "Streaming en Temps Réel",
+        "description": "Traitement instantané des flux de données",
+        "content": "Mise en place de pipelines streaming avec Kafka et Flink pour analyser les données en temps réel et prendre des décisions immédiates."
+      },
+      {
+        "title": "ETL/ELT à Grande Échelle",
+        "description": "Pipelines de données optimisés pour le volume",
+        "content": "Développement de pipelines ETL/ELT performants capables de traiter des téraoctets de données avec des transformations complexes."
+      },
+      {
+        "title": "Analyse Distribuée",
+        "description": "Calcul parallèle sur des clusters",
+        "content": "Utilisation de Spark et Hadoop pour distribuer les calculs sur des clusters, réduisant drastiquement les temps d'analyse des big data."
+      },
+      {
+        "title": "IoT Data Processing",
+        "description": "Traitement des données capteurs et IoT",
+        "content": "Architecture pour collecter, traiter et analyser les données de millions d'appareils IoT en temps réel pour des applications industrielles."
+      },
+      {
+        "title": "Data Governance",
+        "description": "Gestion de la qualité et conformité des données",
+        "content": "Mise en place de politiques de gouvernance, catalogage de données et assurance qualité pour garantir la fiabilité des analyses."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Plateforme IoT Industrielle",
+        "description": "Système Big Data pour 1M+ capteurs industriels",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80",
+        "badge": "IoT",
+        "to": "/portfolio/13"
+      },
+      {
+        "title": "Data Lake E-commerce",
+        "description": "Architecture Big Data pour analyse comportementale",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+        "badge": "E-commerce",
+        "to": "/portfolio/14"
+      },
+      {
+        "title": "Pipeline Analytics Temps Réel",
+        "description": "Streaming analytics pour plateforme financière",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+        "badge": "Finance",
+        "to": "/portfolio/15"
+      }
+    ]
+  },
+  "en": {
+    "title": "Big Data and Megadata",
+    "tag": "Massive Data Processing Solutions",
+    "link": "/en/services/big-data",
+    "cover": "/services/service_5.png",
+    "about": {
+      "description": "We implement Big Data architectures to collect, store, process, and analyze massive volumes of data to extract strategic insights.",
+      "images": ["services/about/bigdata_about_1.png", "services/about/bigdata_about_2.png"]
+    },
+    "expertise": {
+      "description": "Our expertise covers distributed technologies, real-time streaming, and data pipeline optimization for maximum performance.",
+      "skills": [
+        "Hadoop & Spark",
+        "Kafka & Flink",
+        "AWS & Azure Big Data",
+        "Data Lakes",
+        "ETL & ELT Pipelines",
+        "NoSQL Databases",
+        "Cloud Architecture",
+        "Real-time Analytics"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Data Lake Architecture",
+        "description": "Centralized storage for heterogeneous data",
+        "content": "Design and implementation of cloud data lakes to store and manage structured and unstructured data at scale."
+      },
+      {
+        "title": "Real-time Streaming",
+        "description": "Instant processing of data flows",
+        "content": "Setting up streaming pipelines with Kafka and Flink to analyze data in real-time and make immediate decisions."
+      },
+      {
+        "title": "Large-scale ETL/ELT",
+        "description": "Volume-optimized data pipelines",
+        "content": "Developing high-performance ETL/ELT pipelines capable of processing terabytes of data with complex transformations."
+      },
+      {
+        "title": "Distributed Analytics",
+        "description": "Parallel computing on clusters",
+        "content": "Using Spark and Hadoop to distribute computations across clusters, dramatically reducing big data analysis times."
+      },
+      {
+        "title": "IoT Data Processing",
+        "description": "Processing sensor and IoT data",
+        "content": "Architecture to collect, process, and analyze data from millions of IoT devices in real-time for industrial applications."
+      },
+      {
+        "title": "Data Governance",
+        "description": "Data quality management and compliance",
+        "content": "Implementing governance policies, data cataloging, and quality assurance to ensure analysis reliability."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Industrial IoT Platform",
+        "description": "Big Data system for 1M+ industrial sensors",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80",
+        "badge": "IoT",
+        "to": "/portfolio/13"
+      },
+      {
+        "title": "E-commerce Data Lake",
+        "description": "Big Data architecture for behavioral analysis",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+        "badge": "E-commerce",
+        "to": "/portfolio/14"
+      },
+      {
+        "title": "Real-time Analytics Pipeline",
+        "description": "Streaming analytics for financial platform",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+        "badge": "Finance",
+        "to": "/portfolio/15"
+      }
+    ]
+  }
+}

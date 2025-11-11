@@ -1,0 +1,158 @@
+{
+  "fr": {
+    "title": "Développement IA/ML sur Mesure",
+    "tag": "Solutions d'intelligence artificielle personnalisées",
+    "link": "/fr/services/ml-dev",
+    "cover": "/services/service_6.png",
+    "about": {
+      "description": "Nous développons des solutions de machine learning et d'intelligence artificielle sur mesure, adaptées à vos défis métier spécifiques pour automatiser et optimiser vos processus.",
+      "images": ["services/about/ml_about_1.png", "services/about/ml_about_2.png"]
+    },
+    "expertise": {
+      "description": "Notre expertise couvre l'ensemble du cycle de vie ML : de la collecte des données au déploiement en production, en passant par l'entraînement et l'optimisation des modèles.",
+      "skills": [
+        "TensorFlow & PyTorch",
+        "Scikit-learn & XGBoost",
+        "Computer Vision",
+        "Natural Language Processing",
+        "MLOps & Kubeflow",
+        "Model Deployment",
+        "Hyperparameter Tuning",
+        "Model Monitoring"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Modèles de Classification",
+        "description": "Catégorisation automatique de données",
+        "content": "Développement de modèles de classification pour trier automatiquement documents, emails, images ou données client selon des catégories prédéfinies."
+      },
+      {
+        "title": "Systèmes de Recommendation",
+        "description": "Personnalisation basée sur le comportement",
+        "content": "Création de moteurs de recommendation qui analysent les préférences utilisateur pour suggérer produits, contenus ou services pertinents."
+      },
+      {
+        "title": "Computer Vision",
+        "description": "Analyse et interprétation d'images et vidéos",
+        "content": "Développement de solutions de vision par ordinateur pour la reconnaissance d'objets, détection de visages, analyse d'images médicales ou surveillance industrielle."
+      },
+      {
+        "title": "Traitement du Langage Naturel",
+        "description": "Compréhension et génération de texte",
+        "content": "Solutions NLP pour l'analyse de sentiment, extraction d'informations, traduction automatique ou création de chatbots intelligents."
+      },
+      {
+        "title": "MLOps et Déploiement",
+        "description": "Industrialisation des modèles ML",
+        "content": "Mise en place de pipelines MLOps pour automatiser l'entraînement, le déploiement et la surveillance des modèles en production."
+      },
+      {
+        "title": "Optimisation de Modèles",
+        "description": "Amélioration des performances et efficacité",
+        "content": "Fine-tuning et optimisation des modèles existants pour améliorer leur précision, réduire leur taille ou accélérer leur temps d'inférence."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Système de Détection d'Objets",
+        "description": "Computer vision pour contrôle qualité industriel",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80",
+        "badge": "Computer Vision",
+        "to": "/portfolio/16"
+      },
+      {
+        "title": "Moteur de Recommendation E-commerce",
+        "description": "Machine learning pour personnalisation shopping",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+        "badge": "E-commerce",
+        "to": "/portfolio/17"
+      },
+      {
+        "title": "Pipeline MLOps Automatisé",
+        "description": "Infrastructure ML pour entreprise fintech",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+        "badge": "MLOps",
+        "to": "/portfolio/18"
+      }
+    ]
+  },
+  "en": {
+    "title": "Custom AI/ML Development",
+    "tag": "Personalized Artificial Intelligence Solutions",
+    "link": "/en/services/ml-dev",
+    "cover": "/services/service_6.png",
+    "about": {
+      "description": "We develop custom machine learning and artificial intelligence solutions tailored to your specific business challenges to automate and optimize your processes.",
+      "images": ["services/about/ml_about_1.png", "services/about/ml_about_2.png"]
+    },
+    "expertise": {
+      "description": "Our expertise covers the entire ML lifecycle: from data collection to production deployment, including model training and optimization.",
+      "skills": [
+        "TensorFlow & PyTorch",
+        "Scikit-learn & XGBoost",
+        "Computer Vision",
+        "Natural Language Processing",
+        "MLOps & Kubeflow",
+        "Model Deployment",
+        "Hyperparameter Tuning",
+        "Model Monitoring"
+      ]
+    },
+    "solutions": [
+      {
+        "title": "Classification Models",
+        "description": "Automatic data categorization",
+        "content": "Developing classification models to automatically sort documents, emails, images, or customer data into predefined categories."
+      },
+      {
+        "title": "Recommendation Systems",
+        "description": "Behavior-based personalization",
+        "content": "Creating recommendation engines that analyze user preferences to suggest relevant products, content, or services."
+      },
+      {
+        "title": "Computer Vision",
+        "description": "Image and video analysis and interpretation",
+        "content": "Developing computer vision solutions for object recognition, face detection, medical image analysis, or industrial monitoring."
+      },
+      {
+        "title": "Natural Language Processing",
+        "description": "Text understanding and generation",
+        "content": "NLP solutions for sentiment analysis, information extraction, automatic translation, or intelligent chatbot creation."
+      },
+      {
+        "title": "MLOps and Deployment",
+        "description": "ML model industrialization",
+        "content": "Setting up MLOps pipelines to automate model training, deployment, and monitoring in production environments."
+      },
+      {
+        "title": "Model Optimization",
+        "description": "Performance and efficiency improvement",
+        "content": "Fine-tuning and optimizing existing models to improve accuracy, reduce size, or accelerate inference time."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Object Detection System",
+        "description": "Computer vision for industrial quality control",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80",
+        "badge": "Computer Vision",
+        "to": "/portfolio/16"
+      },
+      {
+        "title": "E-commerce Recommendation Engine",
+        "description": "Machine learning for shopping personalization",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+        "badge": "E-commerce",
+        "to": "/portfolio/17"
+      },
+      {
+        "title": "Automated MLOps Pipeline",
+        "description": "ML infrastructure for fintech company",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+        "badge": "MLOps",
+        "to": "/portfolio/18"
+      }
+    ]
+  }
+}
