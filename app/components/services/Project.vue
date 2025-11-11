@@ -6,7 +6,7 @@
 
   <UBlogPosts :ui="{ root: 'pb-16' }">
     <UBlogPost
-      v-for="(project, index) in projects"
+      v-for="(project, index) in props.projects"
       :key="index"
       :to="project.to"
       :title="project.title"
@@ -47,15 +47,13 @@
 <script setup lang="ts">
 const { $t } = useI18n();
 
-interface Project {
-  title: string;
-  description?: string;
-  image: string;
-  badge: string;
-  to?: string;
-}
-
-const props = defineProps<{ projects: Project[] }>();
-
-const projects = computed(() => props.projects);
+const props = defineProps<{
+  projects: Array<{
+    title: string;
+    description?: string;
+    image: string;
+    badge: string;
+    to?: string;
+  }>;
+}>();
 </script>
