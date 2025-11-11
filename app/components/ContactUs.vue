@@ -167,19 +167,8 @@
 </template>
 
 <script setup lang="ts">
-import { Teleport } from 'vue'
-import { reactive, ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { object, string, minLength, email as emailValidator, regex, safeParse, pipe, trim } from 'valibot'
-
-interface ContactForm {
-  firstName: string
-  lastName: string
-  companyName: string
-  jobTitle: string
-  email: string
-  phone: string
-  projectInfo: string
-}
+import type { ContactForm } from '../../types/contact'
 
 const contactSchema = object({
   firstName: pipe(string(), trim(), minLength(1, 'Ce champ est requis.')),
@@ -270,42 +259,25 @@ const formFieldUi = {
   error: 'text-rose-400 text-sm mt-2',
 }
 
-watch(isDrawerOpen, (value) => {
-  if (import.meta.client) {
-    document.body.style.overflow = value ? 'hidden' : ''
-  }
-})
-
-onMounted(() => {
-  if (import.meta.client) {
-    window.addEventListener('keydown', handleKeydown)
-  }
-})
-
-onBeforeUnmount(() => {
-  if (import.meta.client) {
-    window.removeEventListener('keydown', handleKeydown)
-    document.body.style.overflow = ''
-  }
-})
 
 const openDrawer = () => {
   isDrawerOpen.value = true
+  if (import.meta.client) {
+    document.body.style.overflow = 'hidden'
+  }
 }
 
 const closeDrawer = () => {
   isDrawerOpen.value = false
+  if (import.meta.client) {
+    document.body.style.overflow = ''
+  }
 }
 
+// Fonction openDrawer exposée via defineExpose si nécessaire
 defineExpose({
   openDrawer,
 })
-
-const handleKeydown = (event: KeyboardEvent) => {
-  if (event.key === 'Escape') {
-    closeDrawer()
-  }
-}
 
 const validateForm = () => {
   const result = safeParse(contactSchema, form)
@@ -354,7 +326,6 @@ const handleSubmit = async () => {
     isSubmitting.value = false
   }
 }
-const motionVisibility = computed(() => isDrawerOpen.value)
 </script>
 
 <style scoped>
