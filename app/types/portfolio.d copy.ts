@@ -13,3 +13,9 @@ export interface Portfolio {
   client: string;
   follow: SocialLink[]; // Tableau de liens sociaux
 }
+
+export default interface PortfolioItem {
+  title: string;
+  image: string;
+  link: string;
+}

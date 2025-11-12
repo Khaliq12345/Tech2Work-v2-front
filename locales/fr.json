@@ -1,1 +1,24 @@
-{}
+{
+  "technology_title": "Experts en Vue.JS, NodeJS, FastAPI et autres",
+  "portfolio_title": "Découvrez nos projets",
+  "reviews": [
+    {
+      "description": "C'est la solution parfaite pour notre entreprise. L'une des agences de marketing numérique les plus professionnelles au Moyen-Orient. Nous avons déjà vu des résultats étonnants.",
+      "name": "Kareem Elkhateeb",
+      "position": "PDG",
+      "company": "Galana Group"
+    },
+    {
+      "description": "Leur équipe a fourni un service exceptionnel et des résultats au-delà de nos attentes. Fortement recommandé pour toute personne sérieuse concernant la croissance.",
+      "name": "Sarah Johnson",
+      "position": "Directrice Marketing",
+      "company": "BrightVision Media"
+    },
+    {
+      "description": "Une équipe professionnelle, dédiée et passionnée. Ils nous ont aidés à construire une identité de marque forte et une présence numérique.",
+      "name": "David Chen",
+      "position": "Fondateur",
+      "company": "TechNova Labs"
+    }
+  ]
+}

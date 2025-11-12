@@ -7,25 +7,5 @@
   "clients_title": "Nos Clients Vedettes",
   "team_title": "Équipe Tech2work",
   "team_headline": "PROFESSIONNELS",
-  "team_description": "Un groupe de professionnels originaux qui créent d'excellentes choses.",
-  "reviews": [
-    {
-      "description": "C'est la solution parfaite pour notre entreprise. L'une des agences de marketing numérique les plus professionnelles au Moyen-Orient. Nous avons déjà vu des résultats étonnants.",
-      "name": "Kareem Elkhateeb",
-      "position": "PDG",
-      "company": "Galana Group"
-    },
-    {
-      "description": "Leur équipe a fourni un service exceptionnel et des résultats au-delà de nos attentes. Fortement recommandé pour toute personne sérieuse concernant la croissance.",
-      "name": "Sarah Johnson",
-      "position": "Directrice Marketing",
-      "company": "BrightVision Media"
-    },
-    {
-      "description": "Une équipe professionnelle, dédiée et passionnée. Ils nous ont aidés à construire une identité de marque forte et une présence numérique.",
-      "name": "David Chen",
-      "position": "Fondateur",
-      "company": "TechNova Labs"
-    }
-  ]
+  "team_description": "Un groupe de professionnels originaux qui créent d'excellentes choses."
 }

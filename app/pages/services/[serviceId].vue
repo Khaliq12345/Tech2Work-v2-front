@@ -19,18 +19,17 @@
     <ServicesSolutions :solutions="serviceData.solutions" />
 
     <!-- 5. Technology Section -->
-    <ServicesTechnology />
+    <Technology />
 
     <!-- 6. Projects Section -->
     <div class="m-5">
-      <ServicesProject :projects="serviceData.projects" />
+      <Project :projects="serviceData.projects" />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { useI18n } from "#imports";
-import type { Solution, Project, ServiceData } from "../../../types/service";
 
 // Récupération du paramètre de route
 const route = useRoute();
