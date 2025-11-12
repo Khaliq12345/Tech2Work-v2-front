@@ -9,6 +9,8 @@
     
 
     <TechnologyProcess />
+
+    <TechnologyCTA />
 </template>
 
 <script setup lang="ts"></script>
