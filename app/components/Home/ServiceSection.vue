@@ -44,13 +44,15 @@
             </div>
 
             <div class="flex justify-center mt-8 sm:mt-12 lg:mt-16">
-                <CustomButton :title="$t('service_button')" />
+                <CustomButton :title="$t('service_button')" @click="$emit('contact')" />
             </div>
         </div>
     </section>
 </template>
 
 <script setup lang="ts">
+defineEmits(['contact']);
+
 const { $t } = useI18n();
 
 const services = $t("services");

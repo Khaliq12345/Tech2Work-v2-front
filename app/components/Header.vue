@@ -65,85 +65,12 @@
             </UButton>
         </template>
     </UHeader>
-    <USlideover
-        v-model:open="isContactOpen"
-        side="right"
-        :title="contactTexts.title"
-        close-icon="i-lucide-arrow-left"
-        :ui="{
-            content: 'w-full p-4 ',
-            title: 'text-black dark:text-black',
-        }"
-        :close="{
-            color: 'primary',
-            variant: 'ghost',
-        }"
-    >
-        <template #body>
-            <UForm
-                :schema="schema"
-                :state="contactState"
-                class="space-y-4 w-full"
-                @submit="onContactSubmit"
-            >
-                <UFormField
-                    :label="contactTexts.nameLabel"
-                    name="name"
-                    :ui="{ label: 'text-black dark:text-black w-full' }"
-                >
-                    <UInput
-                        v-model="contactState.name"
-                        :placeholder="contactTexts.namePlaceholder"
-                        class="w-full"
-                    />
-                </UFormField>
-
-                <UFormField
-                    :label="contactTexts.emailLabel"
-                    name="email"
-                    :ui="{ label: 'text-black dark:text-black' }"
-                >
-                    <UInput
-                        v-model="contactState.email"
-                        type="email"
-                        :placeholder="contactTexts.emailPlaceholder"
-                        class="w-full"
-                    />
-                </UFormField>
-
-                <UFormField
-                    :label="contactTexts.messageLabel"
-                    name="message"
-                    :ui="{ label: 'text-black dark:text-black' }"
-                >
-                    <UTextarea
-                        v-model="contactState.message"
-                        :placeholder="contactTexts.messagePlaceholder"
-                        class="w-full"
-                    />
-                </UFormField>
-
-                <UButton
-                    type="submit"
-                    color="primary"
-                    variant="solid"
-                    class="text-white"
-                >
-                    {{ contactTexts.submit }}
-                </UButton>
-            </UForm>
-        </template>
-    </USlideover>
+    <Contact v-model:open="isContactOpen" />
 </template>
 
 <script setup lang="ts">
-import type { NavigationMenuItem, FormSubmitEvent } from "@nuxt/ui";
-import * as v from "valibot";
-import type {
-    ContactFormState,
-    ContactTextsMap,
-    ContactLocaleKey,
-} from "../../types/contact";
+import type { NavigationMenuItem } from "@nuxt/ui";
+import type { ContactTextsMap, ContactLocaleKey } from "~/types/contact";
 const { $t, $getLocales, $switchLocale, $getLocale } = useI18n();
 const nuxtLocale = useLocale() as any;
 const locale = computed<string>(() => {
@@ -164,18 +91,6 @@ const navItems: NavigationMenuItem[] = computed(() => [
 ]);
 
 const isContactOpen = ref(false);
-
-const schema = v.object({
-    name: v.pipe(v.string(), v.minLength(2, "Please enter your name.")),
-    email: v.pipe(v.string(), v.email("Please enter a valid email.")),
-    message: v.pipe(v.string(), v.minLength(10, "Please enter a message.")),
-});
-
-const contactState = reactive<ContactFormState>({
-    name: "",
-    email: "",
-    message: "",
-});
 
 const langueFields = reactive<ContactTextsMap>({
     en: {
@@ -206,9 +121,4 @@ const contactTexts = computed(() => {
     const code: ContactLocaleKey = locale.value?.startsWith("fr") ? "fr" : "en";
     return langueFields[code];
 });
-
-async function onContactSubmit(event: FormSubmitEvent<ContactFormState>) {
-    console.log(event.data);
-    isContactOpen.value = false;
-}
 </script>

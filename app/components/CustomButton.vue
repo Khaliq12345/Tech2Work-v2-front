@@ -7,13 +7,14 @@
     :aria-label="title"
     class="text-white rounded-full text-center lg:p-5 lg:text-lg"
     :to="to"
+    @click="handleClick"
   >
     {{ title }}
   </UButton>
 </template>
 
 <script setup lang="ts">
-defineProps({
+const props = defineProps({
   title: {
     type: String,
     required: true,
@@ -38,5 +39,18 @@ defineProps({
     type: String,
     default: "#",
   },
+  onClick: {
+    type: Function,
+    required: false,
+  },
 });
+
+const emit = defineEmits(['click']);
+
+const handleClick = (event: Event) => {
+  if (props.onClick) {
+    props.onClick(event);
+  }
+  emit('click', event);
+};
 </script>
