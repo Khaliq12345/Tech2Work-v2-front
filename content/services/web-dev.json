@@ -6,7 +6,7 @@
     "cover": "/services/service_1.png",
     "about": {
       "description": "Nous créons des solutions web modernes et performantes adaptées à vos besoins spécifiques. Notre équipe d'experts maîtrise les dernières technologies pour vous offrir des applications web robustes et évolutives.",
-      "images": ["services/about/about_1.png", "services/about/about_2.png"]
+      "images": ["/services/about/web-dev1.png", "/services/about/web-dev2.png"] 
     },
     "expertise": {
       "description": "Notre expertise couvre l'ensemble du développement web moderne, des frameworks frontend aux architectures backend scalables.",
@@ -84,7 +84,7 @@
     "cover": "/services/service_1.png",
     "about": {
       "description": "We create modern and high-performance web solutions tailored to your specific needs. Our team of experts masters the latest technologies to deliver robust and scalable web applications.",
-      "images": ["services/about/about_1.png", "services/about/about_2.png"]
+      "images": ["services/about/web-dev1.png", "services/about/web-dev2.png"]
     },
     "expertise": {
       "description": "Our expertise covers the entire modern web development stack, from frontend frameworks to scalable backend architectures.",

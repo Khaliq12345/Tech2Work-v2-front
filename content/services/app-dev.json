@@ -6,7 +6,7 @@
     "cover": "/services/service_3.png",
     "about": {
       "description": "Nous concevons et développons des applications mobiles natives et multiplateformes performantes, offrant une expérience utilisateur exceptionnelle sur iOS et Android.",
-      "images": ["/services/about/about_1.png", "/services/about/about_2.png"]
+      "images": ["/services/about/app-dev1.png", "/services/about/app-dev2.png"]
     },
     "expertise": {
       "description": "Notre expertise couvre le développement natif, les frameworks cross-platform et l'intégration avec les services cloud pour des applications complètes.",
@@ -84,7 +84,7 @@
     "cover": "/services/service_3.png",
     "about": {
       "description": "We design and develop high-performance native and cross-platform mobile applications, delivering exceptional user experience on iOS and Android.",
-      "images": ["/services/about/about_1.png", "/services/about/about_2.png"]
+      "images": ["/services/about/app-dev1.png", "/services/about/app-dev2.png"]
     },
     "expertise": {
       "description": "Our expertise covers native development, cross-platform frameworks, and cloud service integration for complete applications.",
