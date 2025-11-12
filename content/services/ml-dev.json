@@ -6,7 +6,7 @@
     "cover": "/services/service_6.png",
     "about": {
       "description": "Nous développons des solutions de machine learning et d'intelligence artificielle sur mesure, adaptées à vos défis métier spécifiques pour automatiser et optimiser vos processus.",
-      "images": ["services/about/ml_about_1.png", "services/about/ml_about_2.png"]
+      "images": ["/services/about/about_1.png", "/services/about/about_2.png"]
     },
     "expertise": {
       "description": "Notre expertise couvre l'ensemble du cycle de vie ML : de la collecte des données au déploiement en production, en passant par l'entraînement et l'optimisation des modèles.",
@@ -84,7 +84,7 @@
     "cover": "/services/service_6.png",
     "about": {
       "description": "We develop custom machine learning and artificial intelligence solutions tailored to your specific business challenges to automate and optimize your processes.",
-      "images": ["services/about/ml_about_1.png", "services/about/ml_about_2.png"]
+      "images": ["/services/about/about_1.png", "/services/about/about_2.png"]
     },
     "expertise": {
       "description": "Our expertise covers the entire ML lifecycle: from data collection to production deployment, including model training and optimization.",

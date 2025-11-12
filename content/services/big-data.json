@@ -6,7 +6,7 @@
     "cover": "/services/service_5.png",
     "about": {
       "description": "Nous mettons en place des architectures Big Data pour collecter, stocker, traiter et analyser des volumes massifs de données afin d'extraire des informations stratégiques.",
-      "images": ["services/about/bigdata_about_1.png", "services/about/bigdata_about_2.png"]
+      "images": ["/services/about/about_1.png", "/services/about/about_2.png"]
     },
     "expertise": {
       "description": "Notre expertise couvre les technologies distribuées, le streaming en temps réel et l'optimisation des pipelines de données pour des performances maximales.",
@@ -84,7 +84,7 @@
     "cover": "/services/service_5.png",
     "about": {
       "description": "We implement Big Data architectures to collect, store, process, and analyze massive volumes of data to extract strategic insights.",
-      "images": ["services/about/bigdata_about_1.png", "services/about/bigdata_about_2.png"]
+      "images": ["/services/about/about_1.png", "/services/about/about_2.png"]
     },
     "expertise": {
       "description": "Our expertise covers distributed technologies, real-time streaming, and data pipeline optimization for maximum performance.",

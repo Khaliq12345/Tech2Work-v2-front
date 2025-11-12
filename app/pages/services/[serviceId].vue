@@ -29,6 +29,9 @@
 </template>
 
 <script setup lang="ts">
+import { useI18n } from "#imports";
+import type { Solution, Project, ServiceData } from "../../../types/service";
+
 // Récupération du paramètre de route
 const route = useRoute();
 const serviceId = route.params.serviceId as string;
