@@ -19,3 +19,13 @@ export interface ContactFormState {
   email: string;
   message: string;
 }
+
+export interface ContactForm {
+  firstName: string;
+  lastName: string;
+  companyName: string;
+  jobTitle: string;
+  email: string;
+  phone: string;
+  projectInfo: string;
+}

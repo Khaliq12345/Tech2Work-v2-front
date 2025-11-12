@@ -1,8 +1,8 @@
 <template>
     <UPageSection
-        title="Tech2work Team"
-        headline="PROFESSIONALS"
-        description="A brunch of professionals weirdos who make great stuff."
+        :title="String($t('team_title') || '')"
+        :headline="String($t('team_headline') || '')"
+        :description="String($t('team_description') || '')"
         :ui="{
             title: 'text-2xl sm:text-3xl md:text-4xl font-bold text-primary text-center',
             headline: 'text-blue-400 text-center',
@@ -26,6 +26,8 @@
 </template>
 
 <script setup lang="ts">
+const { $t } = useI18n();
+
 const images = [
     "https://picsum.photos/468/468?random=1",
     "https://picsum.photos/468/468?random=2",

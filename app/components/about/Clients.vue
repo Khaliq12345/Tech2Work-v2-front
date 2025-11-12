@@ -1,6 +1,6 @@
 <template>
     <UPageSection
-        title="Our Featured Clients"
+        :title="String($t('clients_title') || '')"
         :ui="{
             title: 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-center',
         }"
@@ -21,6 +21,8 @@
     </UPageSection>
 </template>
 <script setup lang="ts">
+const { $t } = useI18n();
+
 const items = [
     "https://picsum.photos/468/468?random=1",
     "/logo.png",

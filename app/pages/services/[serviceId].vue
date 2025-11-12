@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="serviceData">
     <!-- 1. Hero Section -->
     <ServicesDetailHero :title="serviceData.title" :tag="serviceData.tag" />
 
@@ -29,43 +29,13 @@
 </template>
 
 <script setup lang="ts">
-import { useI18n } from "#imports";
-
-interface Solution {
-  title: string;
-  description: string;
-  content: string;
-}
-
-interface Project {
-  title: string;
-  description?: string;
-  image: string;
-  badge: string;
-  to?: string;
-}
-
-interface ServiceData {
-  title: string;
-  tag: string;
-  about: {
-    description: string;
-    images: string[];
-  };
-  expertise: {
-    description: string;
-    skills: string[];
-  };
-  solutions: Solution[];
-  projects: Project[];
-}
-
 // Récupération du paramètre de route
 const route = useRoute();
 const serviceId = route.params.serviceId as string;
 const { $getLocale } = useI18n();
 
-const locale = ref($getLocale());
+// Utilise computed() pour réactivité aux changements de langue
+const locale = computed(() => $getLocale());
 
 const { data: services } = await useAsyncData(serviceId, () =>
   queryCollection("services")
@@ -73,12 +43,13 @@ const { data: services } = await useAsyncData(serviceId, () =>
     .first(),
 );
 
-// Données mockées pour le développement - à remplacer par une vraie API
+// Données du service selon la locale
 const serviceData = computed(() => {
   if (locale.value == "en") {
-    return services.value.en;
+    return services.value?.en;
   } else if (locale.value == "fr") {
-    return services.value.fr;
+    return services.value?.fr;
   }
+  return null;
 });
 </script>

@@ -23,11 +23,9 @@
 </template>
 
 <script setup lang="ts">
-import { useI18n } from "#imports";
-
 // initialise the route, locale and portfolio id
 const { $getLocale } = useI18n();
-const locale = ref($getLocale());
+const locale = computed(() => $getLocale());
 const route = useRoute();
 const portfolioId = route.params.id as string;
 

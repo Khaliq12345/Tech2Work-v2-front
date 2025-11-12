@@ -4,10 +4,8 @@
 </template>
 
 <script setup lang="ts">
-import { useI18n } from "#imports";
-
 const { $getLocale } = useI18n();
-const locale = ref($getLocale());
+const locale = computed(() => $getLocale());
 
 const { data: portfolios } = await useAsyncData("port", () =>
   queryCollection("portfolios").all(),
