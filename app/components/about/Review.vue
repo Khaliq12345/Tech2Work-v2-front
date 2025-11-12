@@ -46,32 +46,21 @@
 </template>
 
 <script setup lang="ts">
-const reviews = [
-    {
+const { $t } = useI18n();
+
+const reviews = computed(() => {
+    const rawReviews = $t('reviews');
+    if (!rawReviews || !Array.isArray(rawReviews)) {
+        return [];
+    }
+    return rawReviews.map(review => ({
         logo: "/logo.png",
-        description:
-            "It’s the perfect solution for our business. One of the most professional digital marketing agencies in the Middle East. We’ve seen amazing results already.",
-        name: "Kareem Elkhateeb",
-        position: "CEO",
-        company: "Galana Group",
-    },
-    {
-        logo: "/logo.png",
-        description:
-            "Their team provided outstanding service and results beyond our expectations. Highly recommended for anyone serious about growth.",
-        name: "Sarah Johnson",
-        position: "Marketing Director",
-        company: "BrightVision Media",
-    },
-    {
-        logo: "/logo.png",
-        description:
-            "A professional, dedicated, and passionate team. They helped us build a strong brand identity and digital presence.",
-        name: "David Chen",
-        position: "Founder",
-        company: "TechNova Labs",
-    },
-];
+        description: String(review.description || ''),
+        name: String(review.name || ''),
+        position: String(review.position || ''),
+        company: String(review.company || '')
+    }));
+});
 </script>
 
 <style scoped></style>

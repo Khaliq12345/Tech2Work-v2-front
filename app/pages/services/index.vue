@@ -17,10 +17,8 @@
 </template>
 
 <script setup lang="ts">
-import { useI18n } from "#imports";
-
 const { $t, $getLocale } = useI18n();
-const locale = ref($getLocale());
+const locale = computed(() => $getLocale());
 
 const { data: services_raw } = await useAsyncData("services", () =>
     queryCollection("services").all(),

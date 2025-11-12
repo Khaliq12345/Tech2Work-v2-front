@@ -26,3 +26,9 @@ export interface ServiceData {
   solutions: Solution[];
   projects: Project[];
 }
+
+export default interface ServiceItem {
+  title: string;
+  image: string;
+  link: string;
+}

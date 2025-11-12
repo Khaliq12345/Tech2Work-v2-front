@@ -37,7 +37,8 @@ const route = useRoute();
 const serviceId = route.params.serviceId as string;
 const { $getLocale } = useI18n();
 
-const locale = ref($getLocale());
+// Utilise computed() pour réactivité aux changements de langue
+const locale = computed(() => $getLocale());
 
 const { data: services } = await useAsyncData(serviceId, () =>
   queryCollection("services")
@@ -45,14 +46,12 @@ const { data: services } = await useAsyncData(serviceId, () =>
     .first(),
 );
 
-const serviceData = computed((): ServiceData | null => {
-  const meta = services.value?.meta.body as any;
-  if (!meta) return null;
-  
-  if (locale.value === "en") {
-    return meta.en as ServiceData;
-  } else if (locale.value === "fr") {
-    return meta.fr as ServiceData;
+// Données du service selon la locale
+const serviceData = computed(() => {
+  if (locale.value == "en") {
+    return services.value?.en;
+  } else if (locale.value == "fr") {
+    return services.value?.fr;
   }
   return null;
 });

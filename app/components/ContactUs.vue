@@ -167,19 +167,8 @@
 </template>
 
 <script setup lang="ts">
-import { Teleport } from 'vue'
-import { reactive, ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { object, string, minLength, email as emailValidator, regex, safeParse, pipe, trim } from 'valibot'
-
-interface ContactForm {
-  firstName: string
-  lastName: string
-  companyName: string
-  jobTitle: string
-  email: string
-  phone: string
-  projectInfo: string
-}
+import type { ContactForm } from '../../types/contact'
 
 const contactSchema = object({
   firstName: pipe(string(), trim(), minLength(1, 'Ce champ est requis.')),
@@ -270,43 +259,29 @@ const formFieldUi = {
   error: 'text-rose-400 text-sm mt-2',
 }
 
-watch(isDrawerOpen, (value) => {
-  if (import.meta.client) {
-    document.body.style.overflow = value ? 'hidden' : ''
-  }
-})
 
-onMounted(() => {
-  if (import.meta.client) {
-    window.addEventListener('keydown', handleKeydown)
-  }
-})
-
-onBeforeUnmount(() => {
-  if (import.meta.client) {
-    window.removeEventListener('keydown', handleKeydown)
-    document.body.style.overflow = ''
-  }
-})
-
+// Nécessaire : ouvre le drawer et bloque le scroll
 const openDrawer = () => {
   isDrawerOpen.value = true
+  if (import.meta.client) {
+    document.body.style.overflow = 'hidden'
+  }
 }
 
+// Nécessaire : ferme le drawer et restaure le scroll
 const closeDrawer = () => {
   isDrawerOpen.value = false
+  if (import.meta.client) {
+    document.body.style.overflow = ''
+  }
 }
 
+// Nécessaire : expose openDrawer pour utilisation externe
 defineExpose({
   openDrawer,
 })
 
-const handleKeydown = (event: KeyboardEvent) => {
-  if (event.key === 'Escape') {
-    closeDrawer()
-  }
-}
-
+// Nécessaire : valide le formulaire avec valibot
 const validateForm = () => {
   const result = safeParse(contactSchema, form)
   for (const key in errors) {
@@ -325,6 +300,7 @@ const validateForm = () => {
   return result.success
 }
 
+// Nécessaire : remet à zéro le formulaire
 const resetForm = () => {
   form.firstName = ''
   form.lastName = ''
@@ -338,6 +314,7 @@ const resetForm = () => {
   }
 }
 
+// Nécessaire : gère la soumission du formulaire
 const handleSubmit = async () => {
   if (!validateForm()) {
     toast.add({ title: 'Validation requise', description: 'Merci de vérifier les champs du formulaire.', color: 'warning' })
@@ -354,7 +331,6 @@ const handleSubmit = async () => {
     isSubmitting.value = false
   }
 }
-const motionVisibility = computed(() => isDrawerOpen.value)
 </script>
 
 <style scoped>
