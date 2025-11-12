@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <TechnologyHero 
-    />
-  </div>
+    <TechnologyHero />
+
+    <TechnologyDescription />
 </template>
 
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
