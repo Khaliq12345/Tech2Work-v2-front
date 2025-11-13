@@ -1,8 +1,8 @@
 <template>
     <UPageSection class="bg-white">
         <UPageCTA
-            title="Partner With Dev.co"
-            description="Are you ready to learn more about Python development? Or are you interested in a free quote? Contact DEV.co for more information or a free consultation today!"
+            :title="title"
+            :description="description"
             variant="naked"
             orientation="horizontal"
             :ui="{
@@ -16,7 +16,7 @@
         >
             <template #links>
                 <CustomButton
-                    title="Tell Us About Your Next Project"
+                    :title="buttonLabel"
                     size="xs"
                     class="text-xs px-3 py-1.5 sm:text-sm sm:px-4 sm:py-2 lg:text-base lg:px-5 lg:py-2.5"
                     @click="showContact = true"
@@ -24,8 +24,8 @@
             </template>
 
             <img
-                src="/logo.png"
-                alt="Logo"
+                :src="imageSrc"
+                :alt="imageAlt"
                 class="w-full max-w-xs sm:max-w-md mx-auto rounded-lg"
             />
         </UPageCTA>
@@ -36,5 +36,13 @@
 </template>
 
 <script setup lang="ts">
+defineProps<{
+    title: string;
+    description: string;
+    buttonLabel: string;
+    imageSrc: string;
+    imageAlt: string;
+}>();
+
 const showContact = ref(false);
 </script>

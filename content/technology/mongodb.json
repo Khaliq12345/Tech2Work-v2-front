@@ -2,10 +2,15 @@
   "en": {
     "title": "MongoDB Data Platform Services",
     "name": "MongoDB",
-    "coverImage": "/technology/mongodb/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "MongoDB Expertise",
+    "heroCoverAlt": "MongoDB cover",
     "descriptionV1": "Build flexible applications on top of MongoDB's document-oriented architecture.",
     "descriptionV2": "We design schemas, pipelines, and automation that keep MongoDB clusters performant and resilient.",
     "additionalDescription": "Our engineers pair MongoDB Atlas expertise with DevOps practices to secure, monitor, and scale data-rich products.",
+    "additionalTitle": "Where MongoDB Delivers the Most Impact",
+    "usesTitle": "What Makes MongoDB Stand Out?",
+    "usesDescription": "MongoDB powers flexible data experiences through these strengths:",
     "features": [
       {
         "title": "Document Flexibility",
@@ -59,15 +64,25 @@
         "description": "Set up monitoring, disaster recovery, and knowledge transfer for your teams.",
         "icon": "i-lucide-life-buoy"
       }
-    ]
+    ],
+    "processTitle": "MongoDB Delivery Process",
+    "processDescription": "A structured workflow that evolves your MongoDB platform from discovery to operations.",
+    "ctaTitle": "Partner with our MongoDB Team",
+    "ctaDescription": "Ready to scale with MongoDB? Let's build your next data-driven product together.",
+    "ctaImageAlt": "MongoDB illustration"
   },
   "fr": {
     "title": "Services plateforme de données MongoDB",
     "name": "MongoDB",
-    "coverImage": "/technology/mongodb/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise MongoDB",
+    "heroCoverAlt": "Visuel MongoDB",
     "descriptionV1": "Construisez des applications flexibles sur l'architecture orientée documents de MongoDB.",
     "descriptionV2": "Nous concevons schémas, pipelines et automatisations pour des clusters MongoDB performants et résilients.",
     "additionalDescription": "Nos ingénieurs combinent expertise MongoDB Atlas et pratiques DevOps pour sécuriser, superviser et faire évoluer vos produits data.",
+    "additionalTitle": "Là où MongoDB apporte le plus d'impact",
+    "usesTitle": "Pourquoi MongoDB fait la différence",
+    "usesDescription": "MongoDB alimente vos expériences data grâce aux avantages suivants :",
     "features": [
       {
         "title": "Flexibilité documentaire",
@@ -121,6 +136,11 @@
         "description": "Mettre en place monitoring, reprise d'activité et transfert de connaissances à vos équipes.",
         "icon": "i-lucide-life-buoy"
       }
-    ]
+    ],
+    "processTitle": "Processus MongoDB",
+    "processDescription": "Un workflow structuré pour faire évoluer votre plateforme MongoDB du cadrage à l'exploitation continue.",
+    "ctaTitle": "Collaborez avec notre équipe MongoDB",
+    "ctaDescription": "Prêt à monter en échelle avec MongoDB ? Construisons ensemble votre prochain produit data.",
+    "ctaImageAlt": "Illustration MongoDB"
   }
 }

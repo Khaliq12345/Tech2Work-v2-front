@@ -2,10 +2,15 @@
   "en": {
     "title": "Supabase Platform Engineering",
     "name": "Supabase",
-    "coverImage": "/technology/supabase/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Supabase Expertise",
+    "heroCoverAlt": "Supabase cover",
     "descriptionV1": "Launch production-ready applications faster with Supabase's open-source backend-as-a-service.",
     "descriptionV2": "We architect Supabase projects combining authentication, storage, and realtime features with custom business logic.",
     "additionalDescription": "Our experts extend Supabase with edge functions, monitoring, and automation to support growing product teams.",
+    "additionalTitle": "Where Supabase Delivers the Most Impact",
+    "usesTitle": "What Makes Supabase Stand Out?",
+    "usesDescription": "Supabase accelerates delivery thanks to these pillars:",
     "features": [
       {
         "title": "Instant Auth",
@@ -59,15 +64,25 @@
         "description": "Introduce analytics, integrations, and automation to support product growth.",
         "icon": "i-lucide-trending-up"
       }
-    ]
+    ],
+    "processTitle": "Supabase Delivery Process",
+    "processDescription": "A structured workflow taking your Supabase product from discovery to scale.",
+    "ctaTitle": "Partner with our Supabase Team",
+    "ctaDescription": "Ready to launch faster with Supabase? Let's build your next platform together.",
+    "ctaImageAlt": "Supabase illustration"
   },
   "fr": {
     "title": "Ingénierie plateforme Supabase",
     "name": "Supabase",
-    "coverImage": "/technology/supabase/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise Supabase",
+    "heroCoverAlt": "Visuel Supabase",
     "descriptionV1": "Lancez des applications prêtes pour la production plus rapidement grâce au backend open source Supabase.",
     "descriptionV2": "Nous architecturons des projets Supabase combinant authentification, stockage et fonctionnalités temps réel avec logique métier sur mesure.",
     "additionalDescription": "Nos experts étendent Supabase avec des edge functions, du monitoring et de l'automatisation pour soutenir vos équipes produit.",
+    "additionalTitle": "Là où Supabase génère le plus de valeur",
+    "usesTitle": "Pourquoi Supabase se distingue",
+    "usesDescription": "Supabase accélère vos livraisons grâce aux leviers suivants :",
     "features": [
       {
         "title": "Authentification instantanée",
@@ -121,6 +136,11 @@
         "description": "Introduire analytics, intégrations et automatisations pour accompagner la croissance.",
         "icon": "i-lucide-trending-up"
       }
-    ]
+    ],
+    "processTitle": "Processus Supabase",
+    "processDescription": "Un workflow structuré pour faire évoluer votre produit Supabase du cadrage à la montée en charge.",
+    "ctaTitle": "Collaborez avec notre équipe Supabase",
+    "ctaDescription": "Prêt à lancer plus vite avec Supabase ? Construisons ensemble votre prochaine plateforme.",
+    "ctaImageAlt": "Illustration Supabase"
   }
 }

@@ -2,10 +2,15 @@
   "en": {
     "title": "NativeScript Mobile Engineering",
     "name": "NativeScript",
-    "coverImage": "/technology/nativescript/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "NativeScript Expertise",
+    "heroCoverAlt": "NativeScript cover",
     "descriptionV1": "Deliver native iOS and Android apps from a single JavaScript, TypeScript, or Angular codebase with NativeScript.",
     "descriptionV2": "We architect performant NativeScript applications that integrate device APIs, backend services, and design systems seamlessly.",
     "additionalDescription": "Our mobile engineers combine NativeScript plugins, CI/CD, and testing automation to ship robust experiences across platforms.",
+    "additionalTitle": "Where NativeScript Delivers the Most Impact",
+    "usesTitle": "What Makes NativeScript Stand Out?",
+    "usesDescription": "NativeScript enables native mobile success with these strengths:",
     "features": [
       {
         "title": "Native Performance",
@@ -59,15 +64,25 @@
         "description": "Submit to stores, monitor telemetry, and schedule iterative releases.",
         "icon": "i-lucide-rocket"
       }
-    ]
+    ],
+    "processTitle": "NativeScript Delivery Process",
+    "processDescription": "A structured workflow that launches and grows your NativeScript applications.",
+    "ctaTitle": "Partner with our NativeScript Team",
+    "ctaDescription": "Ready to craft native mobile apps with NativeScript? Let's build your next release together.",
+    "ctaImageAlt": "NativeScript illustration"
   },
   "fr": {
     "title": "Ingénierie mobile NativeScript",
     "name": "NativeScript",
-    "coverImage": "/technology/nativescript/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise NativeScript",
+    "heroCoverAlt": "Visuel NativeScript",
     "descriptionV1": "Livrez des applications iOS et Android natives depuis une seule base de code JavaScript, TypeScript ou Angular avec NativeScript.",
     "descriptionV2": "Nous architecturons des applications NativeScript performantes intégrant APIs appareil, services backend et design systems.",
     "additionalDescription": "Nos ingénieurs mobiles combinent plugins NativeScript, CI/CD et automatisation des tests pour des expériences robustes.",
+    "additionalTitle": "Là où NativeScript a le plus d'impact",
+    "usesTitle": "Ce qui distingue NativeScript",
+    "usesDescription": "NativeScript permet des expériences mobiles natives grâce aux atouts suivants :",
     "features": [
       {
         "title": "Performance native",
@@ -121,6 +136,11 @@
         "description": "Publier sur les stores, surveiller la télémétrie et planifier les releases itératives.",
         "icon": "i-lucide-rocket"
       }
-    ]
+    ],
+    "processTitle": "Processus NativeScript",
+    "processDescription": "Un workflow structuré pour lancer et faire grandir vos applications NativeScript.",
+    "ctaTitle": "Collaborez avec notre équipe NativeScript",
+    "ctaDescription": "Prêt à créer des applications natives avec NativeScript ? Construisons ensemble votre prochaine version.",
+    "ctaImageAlt": "Illustration NativeScript"
   }
 }

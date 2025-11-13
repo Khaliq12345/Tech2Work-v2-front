@@ -2,10 +2,15 @@
   "en": {
     "title": "JavaScript Engineering Services",
     "name": "JavaScript",
-    "coverImage": "/technology/javascript/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "JavaScript Expertise",
+    "heroCoverAlt": "JavaScript cover",
     "descriptionV1": "Deliver fast, interactive applications powered by modern JavaScript runtimes and tooling.",
     "descriptionV2": "We build resilient frontends and scalable backends leveraging the JS ecosystem from browsers to edge platforms.",
     "additionalDescription": "Our engineers architect JavaScript solutions that balance developer experience, performance, and long-term maintainability.",
+    "additionalTitle": "Where JavaScript Delivers the Most Impact",
+    "usesTitle": "What Makes JavaScript Stand Out?",
+    "usesDescription": "JavaScript powers end-to-end experiences thanks to these capabilities:",
     "features": [
       {
         "title": "Full-Stack Flexibility",
@@ -59,15 +64,25 @@
         "description": "Monitor, experiment, and evolve the JavaScript stack as user needs expand.",
         "icon": "i-lucide-trending-up"
       }
-    ]
+    ],
+    "processTitle": "JavaScript Delivery Process",
+    "processDescription": "A structured workflow that keeps your JavaScript initiatives moving from discovery to expansion.",
+    "ctaTitle": "Partner with our JavaScript Team",
+    "ctaDescription": "Ready to accelerate your JavaScript roadmap? Let's build your next experience together.",
+    "ctaImageAlt": "JavaScript illustration"
   },
   "fr": {
     "title": "Services d'ingénierie JavaScript",
     "name": "JavaScript",
-    "coverImage": "/technology/javascript/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise JavaScript",
+    "heroCoverAlt": "Visuel JavaScript",
     "descriptionV1": "Livrez des applications rapides et interactives grâce aux runtimes et outils JavaScript modernes.",
     "descriptionV2": "Nous construisons des frontends résilients et des backends scalables en exploitant l'écosystème JS, du navigateur à l'edge.",
     "additionalDescription": "Nos ingénieurs conçoivent des solutions JavaScript qui équilibrent expérience développeur, performance et maintenabilité durable.",
+    "additionalTitle": "Là où JavaScript a le plus d'impact",
+    "usesTitle": "Ce qui distingue JavaScript",
+    "usesDescription": "JavaScript crée de la valeur de bout en bout grâce aux atouts suivants :",
     "features": [
       {
         "title": "Flexibilité full-stack",
@@ -121,6 +136,11 @@
         "description": "Surveiller, expérimenter et faire évoluer la stack JavaScript avec l'évolution des besoins utilisateurs.",
         "icon": "i-lucide-trending-up"
       }
-    ]
+    ],
+    "processTitle": "Processus JavaScript",
+    "processDescription": "Un workflow structuré pour faire avancer vos projets JavaScript du cadrage à la croissance continue.",
+    "ctaTitle": "Collaborez avec notre équipe JavaScript",
+    "ctaDescription": "Prêt à accélérer votre feuille de route JavaScript ? Construisons ensemble votre prochaine expérience.",
+    "ctaImageAlt": "Illustration JavaScript"
   }
 }

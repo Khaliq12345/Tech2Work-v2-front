@@ -2,10 +2,15 @@
   "en": {
     "title": "FastAPI Backend Engineering",
     "name": "FastAPI",
-    "coverImage": "/technology/fastapi/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "FastAPI Expertise",
+    "heroCoverAlt": "FastAPI cover",
     "descriptionV1": "Build blazing-fast Python APIs with automatic documentation and async performance.",
     "descriptionV2": "We design secure FastAPI services that scale from MVPs to enterprise-grade microservices.",
     "additionalDescription": "Our specialists orchestrate FastAPI deployments with observability, CI/CD, and expert DevOps support.",
+    "additionalTitle": "Where FastAPI Delivers the Most Impact",
+    "usesTitle": "What Makes FastAPI Stand Out?",
+    "usesDescription": "FastAPI excels thanks to the following capabilities:",
     "features": [
       {
         "title": "High Performance",
@@ -59,15 +64,25 @@
         "description": "Automate CI/CD, configure monitoring, and support rollout to production.",
         "icon": "i-lucide-rocket"
       }
-    ]
+    ],
+    "processTitle": "FastAPI Delivery Process",
+    "processDescription": "A structured, transparent workflow that keeps your FastAPI projects moving smoothly from discovery to long-term support.",
+    "ctaTitle": "Partner with our FastAPI Team",
+    "ctaDescription": "Ready to unlock the full potential of FastAPI? Let's build your next API project together.",
+    "ctaImageAlt": "FastAPI illustration"
   },
   "fr": {
     "title": "Ingénierie backend FastAPI",
     "name": "FastAPI",
-    "coverImage": "/technology/fastapi/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise FastAPI",
+    "heroCoverAlt": "Visuel FastAPI",
     "descriptionV1": "Construisez des APIs Python ultra-rapides avec documentation automatique et performance asynchrone.",
     "descriptionV2": "Nous concevons des services FastAPI sécurisés qui évoluent des MVP aux microservices d'entreprise.",
     "additionalDescription": "Nos experts orchestrent les déploiements FastAPI avec observabilité, CI/CD et accompagnement DevOps.",
+    "additionalTitle": "Là où FastAPI crée le plus de valeur",
+    "usesTitle": "Pourquoi FastAPI se distingue",
+    "usesDescription": "FastAPI apporte ces avantages clés :",
     "features": [
       {
         "title": "Haute performance",
@@ -121,6 +136,11 @@
         "description": "Automatiser CI/CD, configurer la supervision et accompagner la mise en production.",
         "icon": "i-lucide-rocket"
       }
-    ]
+    ],
+    "processTitle": "Processus FastAPI",
+    "processDescription": "Un workflow structuré et transparent pour faire avancer vos projets FastAPI, du cadrage au support continu.",
+    "ctaTitle": "Collaborez avec notre équipe FastAPI",
+    "ctaDescription": "Prêt à exploiter tout le potentiel de FastAPI ? Construisons ensemble votre prochain projet.",
+    "ctaImageAlt": "Illustration FastAPI"
   }
 }

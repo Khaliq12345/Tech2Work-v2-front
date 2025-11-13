@@ -10,19 +10,29 @@
         }"
     >
         <template #title>
-            Despite being around for decades, Python remains one of the most
-            versatile and popularly used programming languages in the world.
-            It's a general purpose language, meaning it can be used for almost
-            any kind of project, but it can be difficult to handle if you don't
-            have the right skilled python developers on your team.
+            {{ descriptionV1 }}
         </template>
 
         <template #description>
-            Python excels in AI and Machine Learning with its extensive
-            libraries like TensorFlow, PyTorch, and scikit-learn, making it a
-            top choice for developers.
+            {{ descriptionV2 }}
         </template>
     </UPageSection>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+defineProps<{
+    descriptionV1: string;
+    descriptionV2: string;
+}>();
+</script>
+
+<style scoped>
+.radial-top-halo {
+    background: linear-gradient(
+        to bottom,
+        rgba(30, 58, 138, 0.4) 0%,
+        rgba(30, 58, 138, 0.2) 30%,
+        transparent 70%
+    );
+}
+</style>

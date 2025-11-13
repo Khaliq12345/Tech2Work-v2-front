@@ -2,10 +2,15 @@
   "en": {
     "title": "Rust Systems Engineering",
     "name": "Rust",
-    "coverImage": "/technology/rust/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Rust Expertise",
+    "heroCoverAlt": "Rust cover",
     "descriptionV1": "Deliver safe, high-performance software with Rust's powerful type system and zero-cost abstractions.",
     "descriptionV2": "We craft Rust services, SDKs, and embedded tools that demand reliability, security, and speed.",
     "additionalDescription": "Our engineers pair Rust with modern tooling to ship maintainable codebases backed by rigorous testing and observability.",
+    "additionalTitle": "Where Rust Delivers the Most Impact",
+    "usesTitle": "What Makes Rust Stand Out?",
+    "usesDescription": "Rust empowers mission-critical systems with these strengths:",
     "features": [
       {
         "title": "Memory Safety",
@@ -59,15 +64,25 @@
         "description": "Package artifacts, integrate CI/CD, and provide runbooks for ongoing operations.",
         "icon": "i-lucide-rocket"
       }
-    ]
+    ],
+    "processTitle": "Rust Delivery Process",
+    "processDescription": "A structured workflow guiding your Rust initiatives from concept to long-term operations.",
+    "ctaTitle": "Partner with our Rust Team",
+    "ctaDescription": "Ready to deliver safe, high-performance Rust software? Let's build your next system together.",
+    "ctaImageAlt": "Rust illustration"
   },
   "fr": {
     "title": "Ingénierie systèmes en Rust",
     "name": "Rust",
-    "coverImage": "/technology/rust/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise Rust",
+    "heroCoverAlt": "Visuel Rust",
     "descriptionV1": "Livrez des logiciels sûrs et ultra-performants grâce au système de types de Rust et à ses abstractions sans coût.",
     "descriptionV2": "Nous concevons des services, SDK et outils embarqués Rust pour les besoins de fiabilité, sécurité et vitesse.",
     "additionalDescription": "Nos équipes associent Rust à un outillage moderne pour livrer des bases de code maintenables, testées et observables.",
+    "additionalTitle": "Là où Rust apporte le plus d'impact",
+    "usesTitle": "Pourquoi Rust se distingue",
+    "usesDescription": "Rust répond aux exigences critiques grâce à ces forces :",
     "features": [
       {
         "title": "Sécurité mémoire",
@@ -121,6 +136,11 @@
         "description": "Packager les artefacts, intégrer CI/CD et fournir runbooks pour l'exploitation continue.",
         "icon": "i-lucide-rocket"
       }
-    ]
+    ],
+    "processTitle": "Processus Rust",
+    "processDescription": "Un workflow structuré pour mener vos projets Rust du cadrage au support long terme.",
+    "ctaTitle": "Collaborez avec notre équipe Rust",
+    "ctaDescription": "Prêt à livrer des logiciels Rust sûrs et performants ? Construisons ensemble votre prochain système.",
+    "ctaImageAlt": "Illustration Rust"
   }
 }
