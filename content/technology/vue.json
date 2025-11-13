@@ -2,7 +2,7 @@
   "en": {
     "title": "Vue.js Product Development",
     "name": "Vue.js",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/vuejs.png",
     "heroHeadline": "Vue.js Expertise",
     "heroCoverAlt": "Vue.js cover",
     "descriptionV1": "Craft delightful user interfaces with Vue's intuitive reactivity system and component-driven architecture.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Développement produit avec Vue.js",
     "name": "Vue.js",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/vuejs.png",
     "heroHeadline": "Expertise Vue.js",
     "heroCoverAlt": "Visuel Vue.js",
     "descriptionV1": "Créez des interfaces utilisateur remarquables grâce au système de réactivité intuitif de Vue et à son architecture basée sur les composants.",

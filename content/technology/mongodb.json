@@ -2,7 +2,7 @@
   "en": {
     "title": "MongoDB Data Platform Services",
     "name": "MongoDB",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/mongodb.png",
     "heroHeadline": "MongoDB Expertise",
     "heroCoverAlt": "MongoDB cover",
     "descriptionV1": "Build flexible applications on top of MongoDB's document-oriented architecture.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Services plateforme de données MongoDB",
     "name": "MongoDB",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/mongodb.png",
     "heroHeadline": "Expertise MongoDB",
     "heroCoverAlt": "Visuel MongoDB",
     "descriptionV1": "Construisez des applications flexibles sur l'architecture orientée documents de MongoDB.",

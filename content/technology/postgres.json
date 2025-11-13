@@ -2,7 +2,7 @@
   "en": {
     "title": "PostgreSQL Data Engineering",
     "name": "PostgreSQL",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/postgresql.png",
     "heroHeadline": "PostgreSQL Expertise",
     "heroCoverAlt": "PostgreSQL cover",
     "descriptionV1": "Design resilient relational databases that power mission-critical applications with PostgreSQL.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Ingénierie de données PostgreSQL",
     "name": "PostgreSQL",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/postgresql.png",
     "heroHeadline": "Expertise PostgreSQL",
     "heroCoverAlt": "Visuel PostgreSQL",
     "descriptionV1": "Concevez des bases relationnelles résilientes pour des applications critiques grâce à PostgreSQL.",

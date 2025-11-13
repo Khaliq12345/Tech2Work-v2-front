@@ -1,8 +1,8 @@
 {
   "en": {
-    "title": "Make (Integromat) Automation Services",
+    "title": "Make Automation Services",
     "name": "Make",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/make.png",
     "heroHeadline": "Make Automation Expertise",
     "heroCoverAlt": "Make cover",
     "descriptionV1": "Automate complex workflows with Make's visual builder and powerful scenario engine.",
@@ -72,9 +72,9 @@
     "ctaImageAlt": "Make illustration"
   },
   "fr": {
-    "title": "Services d'automatisation Make (Integromat)",
+    "title": "Services d'automatisation Make",
     "name": "Make",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/make.png",
     "heroHeadline": "Expertise Make",
     "heroCoverAlt": "Visuel Make",
     "descriptionV1": "Automatisez des workflows complexes avec le constructeur visuel et le moteur de scénarios de Make.",

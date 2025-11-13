@@ -2,7 +2,7 @@
   "en": {
     "title": "NativeScript Mobile Engineering",
     "name": "NativeScript",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/nativescript.png",
     "heroHeadline": "NativeScript Expertise",
     "heroCoverAlt": "NativeScript cover",
     "descriptionV1": "Deliver native iOS and Android apps from a single JavaScript, TypeScript, or Angular codebase with NativeScript.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Ingénierie mobile NativeScript",
     "name": "NativeScript",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/nativescript.png",
     "heroHeadline": "Expertise NativeScript",
     "heroCoverAlt": "Visuel NativeScript",
     "descriptionV1": "Livrez des applications iOS et Android natives depuis une seule base de code JavaScript, TypeScript ou Angular avec NativeScript.",
