@@ -18,7 +18,7 @@
                 <CustomButton
                     title="Tell Us About Your Next Project"
                     size="xs"
-                    class="!text-xs !px-3 !py-1.5 sm:!text-sm sm:!px-4 sm:!py-2 lg:!text-base lg:!px-5 lg:!py-2.5"
+                    class="text-xs px-3 py-1.5 sm:text-sm sm:px-4 sm:py-2 lg:text-base lg:px-5 lg:py-2.5"
                     @click="showContact = true"
                 />
             </template>
