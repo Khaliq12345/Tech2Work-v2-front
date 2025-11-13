@@ -1,9 +1,9 @@
 <template>
   <div>
-    <HomeCustomHero />
-    <HomeServiceSection />
+    <HomeCustomHero @contact="openContact" />
+    <HomeServiceSection @contact="openContact" />
     <Review />
-    <HomeAdditionalSection />
+    <HomeAdditionalSection @contact="openContact" />
     <!-- 5. Technology Section -->
     <Technology />
 
@@ -11,9 +11,17 @@
     <div class="m-5">
       <Project :projects="projects" />
     </div>
+    
+    <Contact v-model:open="isContactOpen" />
   </div>
 </template>
 
 <script setup lang="ts">
+
 const projects = [];
+const isContactOpen = ref(false);
+
+const openContact = () => {
+  isContactOpen.value = true;
+};
 </script>

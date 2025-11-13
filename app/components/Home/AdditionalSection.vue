@@ -12,11 +12,13 @@
   >
     <ImageComponent src="/logo.png" class="max-w-sm" />
     <template #links>
-      <CustomButton :title="$t('service_button')" />
+      <CustomButton :title="$t('service_button')" @click="$emit('contact')" />
     </template>
   </UPageCTA>
 </template>
 
 <script setup lang="ts">
+defineEmits(['contact']);
+
 const { $t } = useI18n();
 </script>

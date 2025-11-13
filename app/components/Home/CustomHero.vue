@@ -24,12 +24,14 @@
         </template>
 
         <template #links>
-            <CustomButton :title="$t('text4')" />
+            <CustomButton :title="$t('text4')" @click="$emit('contact')" />
         </template>
     </UPageHero>
 </template>
 
 <script setup lang="ts">
+defineEmits(['contact']);
+
 const { $t } = useI18n();
 // Configuration de l'effet de frappe
 const words = [

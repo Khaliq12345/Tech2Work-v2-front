@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-import { useI18n } from "#imports";
+
 
 // Récupération du paramètre de route
 const route = useRoute();
