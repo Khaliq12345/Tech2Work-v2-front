@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "PostgreSQL Data Engineering",
+    "name": "PostgreSQL",
+    "coverImage": "/technology/postgres/cover.png",
+    "descriptionV1": "Design resilient relational databases that power mission-critical applications with PostgreSQL.",
+    "descriptionV2": "We implement performant schemas, high-availability clusters, and analytics pipelines on top of Postgres.",
+    "additionalDescription": "Our teams combine SQL best practices, extension expertise, and observability to keep your data platform healthy.",
+    "features": [
+      {
+        "title": "Advanced SQL",
+        "description": "Leverage window functions, CTEs, and JSON capabilities to answer complex business questions.",
+        "icon": "i-lucide-table"
+      },
+      {
+        "title": "Scalability",
+        "description": "Implement sharding, logical replication, and read replicas to support intensive workloads.",
+        "icon": "i-lucide-trending-up"
+      },
+      {
+        "title": "Extension Power",
+        "description": "Adopt PostGIS, TimescaleDB, pgvector, and custom extensions tailored to your domain.",
+        "icon": "i-lucide-puzzle"
+      },
+      {
+        "title": "Operational Excellence",
+        "description": "Monitor performance, tune queries, and automate backups with proven playbooks.",
+        "icon": "i-lucide-activity"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Data Assessment",
+        "description": "Review current workloads, growth projections, and compliance constraints.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Schema & Architecture",
+        "description": "Design normalized or hybrid schemas, indexing strategies, and deployment topology.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implementation",
+        "description": "Provision infrastructure, migrate data, and implement stored procedures and security roles.",
+        "icon": "i-lucide-database"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Optimization",
+        "description": "Profile slow queries, fine-tune configuration, and validate resiliency scenarios.",
+        "icon": "i-lucide-gauge"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Operations & Enablement",
+        "description": "Establish monitoring, disaster recovery, and knowledge transfer for your data team.",
+        "icon": "i-lucide-life-buoy"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Ingénierie de données PostgreSQL",
+    "name": "PostgreSQL",
+    "coverImage": "/technology/postgres/cover.png",
+    "descriptionV1": "Concevez des bases relationnelles résilientes pour des applications critiques grâce à PostgreSQL.",
+    "descriptionV2": "Nous mettons en place des schémas performants, des clusters haute disponibilité et des pipelines analytiques sur Postgres.",
+    "additionalDescription": "Nos équipes allient bonnes pratiques SQL, expertise des extensions et observabilité pour maintenir votre plateforme data.",
+    "features": [
+      {
+        "title": "SQL avancé",
+        "description": "Exploitez fonctions fenêtre, CTE et JSON pour répondre aux questions métiers complexes.",
+        "icon": "i-lucide-table"
+      },
+      {
+        "title": "Scalabilité",
+        "description": "Mettre en place sharding, réplication logique et replicas de lecture pour les charges intenses.",
+        "icon": "i-lucide-trending-up"
+      },
+      {
+        "title": "Extensions puissantes",
+        "description": "Adoptez PostGIS, TimescaleDB, pgvector et des extensions sur mesure adaptées à votre domaine.",
+        "icon": "i-lucide-puzzle"
+      },
+      {
+        "title": "Excellence opérationnelle",
+        "description": "Surveiller la performance, optimiser les requêtes et automatiser les sauvegardes avec des playbooks éprouvés.",
+        "icon": "i-lucide-activity"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Évaluation des données",
+        "description": "Analyser charges actuelles, projections de croissance et contraintes de conformité.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Schéma & architecture",
+        "description": "Concevoir schémas normalisés ou hybrides, stratégies d'indexation et topologie de déploiement.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implémentation",
+        "description": "Provisionner l'infrastructure, migrer les données et mettre en place procédures et rôles de sécurité.",
+        "icon": "i-lucide-database"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Optimisation",
+        "description": "Profiler les requêtes lentes, ajuster la configuration et valider les scénarios de résilience.",
+        "icon": "i-lucide-gauge"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Opérations & autonomie",
+        "description": "Mettre en place monitoring, reprise d'activité et transfert de connaissances à votre équipe data.",
+        "icon": "i-lucide-life-buoy"
+      }
+    ]
+  }
+}

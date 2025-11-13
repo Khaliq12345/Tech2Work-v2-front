@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "MongoDB Data Platform Services",
+    "name": "MongoDB",
+    "coverImage": "/technology/mongodb/cover.png",
+    "descriptionV1": "Build flexible applications on top of MongoDB's document-oriented architecture.",
+    "descriptionV2": "We design schemas, pipelines, and automation that keep MongoDB clusters performant and resilient.",
+    "additionalDescription": "Our engineers pair MongoDB Atlas expertise with DevOps practices to secure, monitor, and scale data-rich products.",
+    "features": [
+      {
+        "title": "Document Flexibility",
+        "description": "Model dynamic data structures that evolve with your product without painful migrations.",
+        "icon": "i-lucide-layers"
+      },
+      {
+        "title": "Scalability",
+        "description": "Implement sharding, replication, and multi-region deployments to handle growing workloads.",
+        "icon": "i-lucide-trending-up"
+      },
+      {
+        "title": "Analytics & Search",
+        "description": "Leverage aggregation pipelines, Atlas Search, and Realm for deeper insights and personalization.",
+        "icon": "i-lucide-search"
+      },
+      {
+        "title": "Operational Automation",
+        "description": "Automate backups, alerting, and guardrails to keep databases compliant and healthy.",
+        "icon": "i-lucide-activity"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Discovery",
+        "description": "Assess data access patterns, security requirements, and growth forecasts.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Schema & Architecture",
+        "description": "Design collections, indexes, and deployment topology tailored to workload profiles.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implementation",
+        "description": "Provision clusters, build pipelines, and integrate with application services.",
+        "icon": "i-lucide-database"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Optimization",
+        "description": "Profile queries, tune indexes, and validate resiliency strategies.",
+        "icon": "i-lucide-gauge"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Operations & Enablement",
+        "description": "Set up monitoring, disaster recovery, and knowledge transfer for your teams.",
+        "icon": "i-lucide-life-buoy"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Services plateforme de données MongoDB",
+    "name": "MongoDB",
+    "coverImage": "/technology/mongodb/cover.png",
+    "descriptionV1": "Construisez des applications flexibles sur l'architecture orientée documents de MongoDB.",
+    "descriptionV2": "Nous concevons schémas, pipelines et automatisations pour des clusters MongoDB performants et résilients.",
+    "additionalDescription": "Nos ingénieurs combinent expertise MongoDB Atlas et pratiques DevOps pour sécuriser, superviser et faire évoluer vos produits data.",
+    "features": [
+      {
+        "title": "Flexibilité documentaire",
+        "description": "Modélisez des structures de données dynamiques qui évoluent sans migrations complexes.",
+        "icon": "i-lucide-layers"
+      },
+      {
+        "title": "Scalabilité",
+        "description": "Mettre en place sharding, réplication et déploiements multi-régions pour absorber la croissance.",
+        "icon": "i-lucide-trending-up"
+      },
+      {
+        "title": "Analytics & recherche",
+        "description": "Exploitez pipelines d'agrégation, Atlas Search et Realm pour insights et personnalisation.",
+        "icon": "i-lucide-search"
+      },
+      {
+        "title": "Automatisation opérationnelle",
+        "description": "Automatiser sauvegardes, alertes et garde-fous pour maintenir conformité et santé de la base.",
+        "icon": "i-lucide-activity"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Découverte",
+        "description": "Évaluer patterns d'accès, exigences de sécurité et projections de croissance.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Schéma & architecture",
+        "description": "Concevoir collections, index et topologie de déploiement adaptées aux charges.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implémentation",
+        "description": "Provisionner les clusters, créer les pipelines et intégrer avec les services applicatifs.",
+        "icon": "i-lucide-database"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Optimisation",
+        "description": "Profiler les requêtes, ajuster les index et valider les stratégies de résilience.",
+        "icon": "i-lucide-gauge"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Opérations & autonomie",
+        "description": "Mettre en place monitoring, reprise d'activité et transfert de connaissances à vos équipes.",
+        "icon": "i-lucide-life-buoy"
+      }
+    ]
+  }
+}

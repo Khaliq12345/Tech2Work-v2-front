@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "NativeScript Mobile Engineering",
+    "name": "NativeScript",
+    "coverImage": "/technology/nativescript/cover.png",
+    "descriptionV1": "Deliver native iOS and Android apps from a single JavaScript, TypeScript, or Angular codebase with NativeScript.",
+    "descriptionV2": "We architect performant NativeScript applications that integrate device APIs, backend services, and design systems seamlessly.",
+    "additionalDescription": "Our mobile engineers combine NativeScript plugins, CI/CD, and testing automation to ship robust experiences across platforms.",
+    "features": [
+      {
+        "title": "Native Performance",
+        "description": "Leverage native UI components and APIs for smooth, platform-consistent experiences.",
+        "icon": "i-lucide-smartphone"
+      },
+      {
+        "title": "Shared Codebase",
+        "description": "Reuse business logic across iOS and Android while tailoring platform-specific interactions.",
+        "icon": "i-lucide-layers"
+      },
+      {
+        "title": "Plugin Ecosystem",
+        "description": "Extend capabilities with NativeScript plugins or custom native modules when needed.",
+        "icon": "i-lucide-plug"
+      },
+      {
+        "title": "Enterprise Integrations",
+        "description": "Connect secure authentication, analytics, and device management solutions.",
+        "icon": "i-lucide-shield-check"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Product Discovery",
+        "description": "Clarify target personas, platform needs, and technical constraints for the app.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Architecture & UI",
+        "description": "Define navigation, state management, and component libraries aligned with brand guidelines.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implementation",
+        "description": "Develop features, integrate device APIs, and ensure responsive layouts.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Quality Assurance",
+        "description": "Run automated and manual testing across devices, emulators, and edge cases.",
+        "icon": "i-lucide-clipboard-check"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Launch & Growth",
+        "description": "Submit to stores, monitor telemetry, and schedule iterative releases.",
+        "icon": "i-lucide-rocket"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Ingénierie mobile NativeScript",
+    "name": "NativeScript",
+    "coverImage": "/technology/nativescript/cover.png",
+    "descriptionV1": "Livrez des applications iOS et Android natives depuis une seule base de code JavaScript, TypeScript ou Angular avec NativeScript.",
+    "descriptionV2": "Nous architecturons des applications NativeScript performantes intégrant APIs appareil, services backend et design systems.",
+    "additionalDescription": "Nos ingénieurs mobiles combinent plugins NativeScript, CI/CD et automatisation des tests pour des expériences robustes.",
+    "features": [
+      {
+        "title": "Performance native",
+        "description": "Exploitez les composants UI et APIs natives pour des expériences fluides et cohérentes.",
+        "icon": "i-lucide-smartphone"
+      },
+      {
+        "title": "Code partagé",
+        "description": "Réutilisez la logique métier sur iOS et Android tout en adaptant les interactions spécifiques.",
+        "icon": "i-lucide-layers"
+      },
+      {
+        "title": "Écosystème de plugins",
+        "description": "Étendez les capacités avec des plugins NativeScript ou des modules natifs personnalisés.",
+        "icon": "i-lucide-plug"
+      },
+      {
+        "title": "Intégrations entreprise",
+        "description": "Connectez authentification sécurisée, analytics et solutions de gestion des appareils.",
+        "icon": "i-lucide-shield-check"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Découverte produit",
+        "description": "Clarifier personas cibles, besoins plateformes et contraintes techniques de l'application.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Architecture & UI",
+        "description": "Définir navigation, gestion d'état et bibliothèques de composants alignées sur la marque.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implémentation",
+        "description": "Développer les fonctionnalités, intégrer les APIs device et assurer des layouts responsives.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Assurance qualité",
+        "description": "Exécuter tests automatisés et manuels sur appareils, émulateurs et cas limites.",
+        "icon": "i-lucide-clipboard-check"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Lancement & croissance",
+        "description": "Publier sur les stores, surveiller la télémétrie et planifier les releases itératives.",
+        "icon": "i-lucide-rocket"
+      }
+    ]
+  }
+}

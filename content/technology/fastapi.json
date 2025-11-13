@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "FastAPI Backend Engineering",
+    "name": "FastAPI",
+    "coverImage": "/technology/fastapi/cover.png",
+    "descriptionV1": "Build blazing-fast Python APIs with automatic documentation and async performance.",
+    "descriptionV2": "We design secure FastAPI services that scale from MVPs to enterprise-grade microservices.",
+    "additionalDescription": "Our specialists orchestrate FastAPI deployments with observability, CI/CD, and expert DevOps support.",
+    "features": [
+      {
+        "title": "High Performance",
+        "description": "Achieve near Node.js speed with modern async support powered by Starlette and Uvicorn.",
+        "icon": "i-lucide-zap"
+      },
+      {
+        "title": "Type-Safe APIs",
+        "description": "Use Pydantic models to guarantee data integrity and self-documented endpoints.",
+        "icon": "i-lucide-shield-check"
+      },
+      {
+        "title": "Cloud Native",
+        "description": "Deploy containerized FastAPI services with autoscaling on Kubernetes, ECS, or serverless.",
+        "icon": "i-lucide-cloud"
+      },
+      {
+        "title": "Observability Built-In",
+        "description": "Integrate OpenAPI, metrics, and distributed tracing for insight into production systems.",
+        "icon": "i-lucide-activity"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "API Vision",
+        "description": "Define domain models, auth requirements, and SLAs for the FastAPI service.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Architecture & Security",
+        "description": "Plan routing, middleware, and security layers aligned with compliance needs.",
+        "icon": "i-lucide-lock"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implementation",
+        "description": "Develop endpoints, integrate data stores, and cover business logic with tests.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Testing & Hardening",
+        "description": "Run load tests, fuzz inputs, and validate observability before release.",
+        "icon": "i-lucide-gavel"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Deployment & Ops",
+        "description": "Automate CI/CD, configure monitoring, and support rollout to production.",
+        "icon": "i-lucide-rocket"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Ingénierie backend FastAPI",
+    "name": "FastAPI",
+    "coverImage": "/technology/fastapi/cover.png",
+    "descriptionV1": "Construisez des APIs Python ultra-rapides avec documentation automatique et performance asynchrone.",
+    "descriptionV2": "Nous concevons des services FastAPI sécurisés qui évoluent des MVP aux microservices d'entreprise.",
+    "additionalDescription": "Nos experts orchestrent les déploiements FastAPI avec observabilité, CI/CD et accompagnement DevOps.",
+    "features": [
+      {
+        "title": "Haute performance",
+        "description": "Approchez la vitesse de Node.js grâce à l'async moderne avec Starlette et Uvicorn.",
+        "icon": "i-lucide-zap"
+      },
+      {
+        "title": "APIs typées",
+        "description": "Utilisez les modèles Pydantic pour garantir l'intégrité des données et documenter automatiquement les endpoints.",
+        "icon": "i-lucide-shield-check"
+      },
+      {
+        "title": "Cloud native",
+        "description": "Déployez des services FastAPI conteneurisés avec autoscaling sur Kubernetes, ECS ou serverless.",
+        "icon": "i-lucide-cloud"
+      },
+      {
+        "title": "Observabilité intégrée",
+        "description": "Intégrez OpenAPI, métriques et traçage distribué pour analyser les systèmes en production.",
+        "icon": "i-lucide-activity"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Vision API",
+        "description": "Définir modèles métiers, exigences d'authentification et SLAs du service FastAPI.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Architecture & sécurité",
+        "description": "Planifier routage, middleware et couches de sécurité selon les besoins de conformité.",
+        "icon": "i-lucide-lock"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implémentation",
+        "description": "Développer les endpoints, intégrer les sources de données et tester la logique métier.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Tests & durcissement",
+        "description": "Lancer des tests de charge, fuzzer les entrées et valider l'observabilité avant lancement.",
+        "icon": "i-lucide-gavel"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Déploiement & ops",
+        "description": "Automatiser CI/CD, configurer la supervision et accompagner la mise en production.",
+        "icon": "i-lucide-rocket"
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "Python Development Services",
+    "name": "Python",
+    "coverImage": "/technology/python/cover.png",
+    "descriptionV1": "Build robust, scalable solutions with Python's mature ecosystem and rapid development cycle.",
+    "descriptionV2": "From data-heavy backends to AI-driven products, our Python specialists deliver maintainable systems that grow with your business.",
+    "additionalDescription": "We assemble cross-functional squads to design, engineer, and operate Python platforms with best-in-class tooling and DevOps automation.",
+    "features": [
+      {
+        "title": "Rich Ecosystem",
+        "description": "Access thousands of production-ready libraries spanning web development, automation, AI, and data science.",
+        "icon": "i-lucide-package"
+      },
+      {
+        "title": "Rapid Iteration",
+        "description": "Prototype quickly and deliver value fast thanks to Python's expressive syntax and batteries-included philosophy.",
+        "icon": "i-lucide-rocket"
+      },
+      {
+        "title": "Data Excellence",
+        "description": "Leverage Pandas, NumPy, and modern ML frameworks to transform raw data into actionable insight.",
+        "icon": "i-lucide-database"
+      },
+      {
+        "title": "Cloud Ready",
+        "description": "Ship containerized Python services optimized for AWS, Azure, GCP, and hybrid infrastructures.",
+        "icon": "i-lucide-cloud"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Discovery & Architecture",
+        "description": "Clarify business objectives, audit existing systems, and outline the target Python solution.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Solution Blueprint",
+        "description": "Design APIs, data models, and deployment strategy aligned with scalability and security requirements.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implementation",
+        "description": "Iteratively build modules, integrate services, and maintain high test coverage across the stack.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Quality & Launch",
+        "description": "Run automated QA, performance tuning, and reliability drills before releasing to production.",
+        "icon": "i-lucide-clipboard-check"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Continuous Evolution",
+        "description": "Monitor operations, deliver enhancements, and guide long-term Python platform strategy.",
+        "icon": "i-lucide-refresh-cw"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Services de développement Python",
+    "name": "Python",
+    "coverImage": "/technology/python/cover.png",
+    "descriptionV1": "Créez des solutions robustes et évolutives grâce à l'écosystème mature de Python et à son cycle de développement rapide.",
+    "descriptionV2": "Des backends riches en données aux produits alimentés par l'IA, nos spécialistes Python livrent des systèmes maintenables qui évoluent avec votre entreprise.",
+    "additionalDescription": "Nous constituons des équipes pluridisciplinaires pour concevoir, créer et exploiter des plateformes Python avec un outillage DevOps de pointe.",
+    "features": [
+      {
+        "title": "Écosystème riche",
+        "description": "Accédez à des milliers de bibliothèques prêtes pour la production couvrant le web, l'automatisation, l'IA et la data science.",
+        "icon": "i-lucide-package"
+      },
+      {
+        "title": "Itération rapide",
+        "description": "Prototypage accéléré et valeur livrée rapidement grâce à la syntaxe expressive de Python et son approche clé en main.",
+        "icon": "i-lucide-rocket"
+      },
+      {
+        "title": "Excellence data",
+        "description": "Exploitez Pandas, NumPy et les frameworks ML modernes pour transformer les données brutes en insights actionnables.",
+        "icon": "i-lucide-database"
+      },
+      {
+        "title": "Prêt pour le cloud",
+        "description": "Déployez des services Python conteneurisés optimisés pour AWS, Azure, GCP et les infrastructures hybrides.",
+        "icon": "i-lucide-cloud"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Découverte & Architecture",
+        "description": "Clarifier les objectifs métiers, auditer les systèmes existants et définir la solution Python cible.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Conception détaillée",
+        "description": "Dessiner les API, modèles de données et stratégie de déploiement alignés sur la scalabilité et la sécurité.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implémentation",
+        "description": "Construire les modules de manière itérative, intégrer les services et maintenir une forte couverture de tests.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Qualité & Lancement",
+        "description": "Lancer les tests automatisés, optimiser les performances et garantir la fiabilité avant la mise en production.",
+        "icon": "i-lucide-clipboard-check"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Évolution continue",
+        "description": "Surveiller l'exploitation, livrer des améliorations et piloter la stratégie long terme de la plateforme Python.",
+        "icon": "i-lucide-refresh-cw"
+      }
+    ]
+  }
+}
