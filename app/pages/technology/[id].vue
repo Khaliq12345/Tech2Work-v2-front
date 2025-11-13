@@ -6,6 +6,9 @@
     <TechnologyAdditionalDescription />
  
     <TechnologyUses />
+    
+
+    <TechnologyProcess />
 </template>
 
 <script setup lang="ts"></script>
