@@ -32,41 +32,46 @@
 <script setup lang="ts">
 import type { TimelineItem } from "@nuxt/ui";
 
-const timelineItems: TimelineItem[] = [
+const processTimeline = [
     {
-        date: "Phase 1",
+        phase: "Phase 1",
         title: "Discovery & Planning",
         description:
             "We align with your goals, audit existing assets, and define the project roadmap with clear milestones.",
         icon: "i-lucide-compass",
     },
     {
-        date: "Phase 2",
+        phase: "Phase 2",
         title: "Solution Design",
         description:
             "Our architects shape the system design, choose the best Python tooling, and validate the technical approach.",
         icon: "i-lucide-pencil-ruler",
     },
     {
-        date: "Phase 3",
+        phase: "Phase 3",
         title: "Development & Integration",
         description:
             "Feature implementation begins with iterative sprints, constant reviews, and seamless integration with your stack.",
         icon: "i-lucide-code",
     },
     {
-        date: "Phase 4",
+        phase: "Phase 4",
         title: "QA & Launch",
         description:
             "Comprehensive testing, performance tuning, and deployment support ensure a reliable production release.",
         icon: "i-lucide-rocket",
     },
     {
-        date: "Phase 5",
+        phase: "Phase 5",
         title: "Support & Evolution",
         description:
             "We monitor, iterate, and enhance your Python solution with ongoing maintenance and strategic improvements.",
         icon: "i-lucide-refresh-cw",
     },
 ];
+
+const timelineItems: TimelineItem[] = processTimeline.map(({ phase, ...rest }) => ({
+    ...rest,
+    date: phase,
+}));
 </script>

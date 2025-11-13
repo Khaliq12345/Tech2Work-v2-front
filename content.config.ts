@@ -60,6 +60,59 @@ export default defineContentConfig({
       }),
     }),
 
+    technology: defineCollection({
+      type: "data",
+      source: "technology/**.json",
+      schema: z.object({
+        en: z.object({
+          title: z.string(),
+          name: z.string(),
+          coverImage: z.string(),
+          descriptionV1: z.string(),
+          descriptionV2: z.string(),
+          additionalDescription: z.string(),
+          features: z.array(
+            z.object({
+              title: z.string(),
+              description: z.string(),
+              icon: z.string(),
+            }),
+          ),
+          process: z.array(
+            z.object({
+              phase: z.string(),
+              title: z.string(),
+              description: z.string(),
+              icon: z.string(),
+            }),
+          ),
+        }),
+        fr: z.object({
+          title: z.string(),
+          name: z.string(),
+          coverImage: z.string(),
+          descriptionV1: z.string(),
+          descriptionV2: z.string(),
+          additionalDescription: z.string(),
+          features: z.array(
+            z.object({
+              title: z.string(),
+              description: z.string(),
+              icon: z.string(),
+            }),
+          ),
+          process: z.array(
+            z.object({
+              phase: z.string(),
+              title: z.string(),
+              description: z.string(),
+              icon: z.string(),
+            }),
+          ),
+        }),
+      }),
+    }),
+
     portfolios: defineCollection({
       type: "data",
       source: "portfolios/**.json",
