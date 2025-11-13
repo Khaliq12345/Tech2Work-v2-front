@@ -4,9 +4,8 @@
     <TechnologyDescription />
 
     <TechnologyAdditionalDescription />
- 
+
     <TechnologyUses />
-    
 
     <TechnologyProcess />
 
