@@ -2,10 +2,15 @@
   "en": {
     "title": "Svelte Application Engineering",
     "name": "Svelte",
-    "coverImage": "/technology/svelte/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Svelte Expertise",
+    "heroCoverAlt": "Svelte cover",
     "descriptionV1": "Deliver lightning-fast experiences with Svelte's compile-time magic and minimal runtime overhead.",
     "descriptionV2": "We craft Svelte and SvelteKit projects that merge performance, accessibility, and delightful UX.",
     "additionalDescription": "Our teams unite design systems, motion, and server-side rendering to build immersive Svelte applications at scale.",
+    "additionalTitle": "Where Svelte Delivers the Most Impact",
+    "usesTitle": "What Makes Svelte Stand Out?",
+    "usesDescription": "Svelte empowers teams with these standout qualities:",
     "features": [
       {
         "title": "Zero Runtime Bloat",
@@ -59,15 +64,25 @@
         "description": "Document architecture, transfer knowledge, and plan roadmap experiments.",
         "icon": "i-lucide-book-open"
       }
-    ]
+    ],
+    "processTitle": "Svelte Delivery Process",
+    "processDescription": "A structured workflow that brings your Svelte applications from strategy to ongoing evolution.",
+    "ctaTitle": "Partner with our Svelte Team",
+    "ctaDescription": "Ready to create high-performance Svelte apps? Let's build your next experience together.",
+    "ctaImageAlt": "Svelte illustration"
   },
   "fr": {
     "title": "Ingénierie d'applications Svelte",
     "name": "Svelte",
-    "coverImage": "/technology/svelte/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise Svelte",
+    "heroCoverAlt": "Visuel Svelte",
     "descriptionV1": "Offrez des expériences ultra-rapides grâce à la compilation Svelte et à son runtime minimal.",
     "descriptionV2": "Nous concevons des projets Svelte et SvelteKit qui allient performance, accessibilité et UX soignée.",
     "additionalDescription": "Nos équipes combinent design system, animations et rendu côté serveur pour bâtir des applications Svelte immersives.",
+    "additionalTitle": "Là où Svelte a le plus d'impact",
+    "usesTitle": "Ce qui différencie Svelte",
+    "usesDescription": "Svelte se distingue grâce aux avantages suivants :",
     "features": [
       {
         "title": "Runtime minimal",
@@ -121,6 +136,11 @@
         "description": "Documenter l'architecture, transférer les connaissances et planifier les évolutions.",
         "icon": "i-lucide-book-open"
       }
-    ]
+    ],
+    "processTitle": "Processus Svelte",
+    "processDescription": "Un workflow structuré pour faire évoluer vos projets Svelte du cadrage aux itérations continues.",
+    "ctaTitle": "Collaborez avec notre équipe Svelte",
+    "ctaDescription": "Prêt à créer des applications Svelte ultra-performantes ? Construisons ensemble votre prochain produit.",
+    "ctaImageAlt": "Illustration Svelte"
   }
 }

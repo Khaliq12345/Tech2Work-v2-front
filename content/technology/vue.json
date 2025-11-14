@@ -2,10 +2,15 @@
   "en": {
     "title": "Vue.js Product Development",
     "name": "Vue.js",
-    "coverImage": "/technology/vue/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Vue.js Expertise",
+    "heroCoverAlt": "Vue.js cover",
     "descriptionV1": "Craft delightful user interfaces with Vue's intuitive reactivity system and component-driven architecture.",
     "descriptionV2": "We deliver blazing-fast Vue applications, from single-page dashboards to multi-tenant platforms with SSR and hydration.",
     "additionalDescription": "Our teams combine Nuxt, Pinia, and modern tooling to streamline developer workflows and ensure consistent, maintainable codebases.",
+    "additionalTitle": "Where Vue.js Delivers the Most Impact",
+    "usesTitle": "What Makes Vue.js Stand Out?",
+    "usesDescription": "Vue.js empowers teams with these advantages:",
     "features": [
       {
         "title": "Progressive Adoption",
@@ -59,15 +64,25 @@
         "description": "Provide documentation, training, and roadmap iterations to keep Vue experiences evolving.",
         "icon": "i-lucide-refresh-cw"
       }
-    ]
+    ],
+    "processTitle": "Vue.js Delivery Process",
+    "processDescription": "A structured workflow that guides your Vue.js products from discovery to continuous improvement.",
+    "ctaTitle": "Partner with our Vue.js Team",
+    "ctaDescription": "Ready to scale your Vue.js experience? Let's build your next interface together.",
+    "ctaImageAlt": "Vue.js illustration"
   },
   "fr": {
     "title": "Développement produit avec Vue.js",
     "name": "Vue.js",
-    "coverImage": "/technology/vue/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise Vue.js",
+    "heroCoverAlt": "Visuel Vue.js",
     "descriptionV1": "Créez des interfaces utilisateur remarquables grâce au système de réactivité intuitif de Vue et à son architecture basée sur les composants.",
     "descriptionV2": "Nous livrons des applications Vue ultra-rapides, des tableaux de bord monopages aux plateformes multi-locataires avec SSR et hydratation.",
     "additionalDescription": "Nos équipes combinent Nuxt, Pinia et un outillage moderne pour fluidifier les workflows et garantir des bases de code maintenables.",
+    "additionalTitle": "Là où Vue.js apporte le plus d'impact",
+    "usesTitle": "Ce qui distingue Vue.js",
+    "usesDescription": "Vue.js offre ces avantages clés :",
     "features": [
       {
         "title": "Adoption progressive",
@@ -121,6 +136,11 @@
         "description": "Fournir documentation, formation et itérations roadmap pour faire évoluer les expériences Vue.",
         "icon": "i-lucide-refresh-cw"
       }
-    ]
+    ],
+    "processTitle": "Processus Vue.js",
+    "processDescription": "Un workflow structuré pour faire évoluer vos projets Vue.js du cadrage aux itérations continues.",
+    "ctaTitle": "Collaborez avec notre équipe Vue.js",
+    "ctaDescription": "Prêt à faire grandir vos expériences Vue.js ? Construisons ensemble votre prochaine interface.",
+    "ctaImageAlt": "Illustration Vue.js"
   }
 }

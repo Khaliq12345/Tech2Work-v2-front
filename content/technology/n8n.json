@@ -2,10 +2,15 @@
   "en": {
     "title": "n8n Automation Services",
     "name": "n8n",
-    "coverImage": "/technology/n8n/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "n8n Automation Expertise",
+    "heroCoverAlt": "n8n cover",
     "descriptionV1": "Automate business processes with n8n's open-source workflow engine and visual editor.",
     "descriptionV2": "We design scalable n8n architectures that connect SaaS tools, databases, and custom services securely.",
     "additionalDescription": "Our automation specialists build resilient workflows with observability, testing, and governance tailored to your teams.",
+    "additionalTitle": "Where n8n Delivers the Most Impact",
+    "usesTitle": "What Makes n8n Stand Out?",
+    "usesDescription": "n8n transforms operations thanks to these pillars:",
     "features": [
       {
         "title": "Visual Workflows",
@@ -59,15 +64,25 @@
         "description": "Train teams, document automations, and iterate on improvements with analytics insights.",
         "icon": "i-lucide-graduation-cap"
       }
-    ]
+    ],
+    "processTitle": "n8n Automation Process",
+    "processDescription": "A structured workflow that takes your n8n initiatives from discovery to scaling.",
+    "ctaTitle": "Partner with our n8n Team",
+    "ctaDescription": "Ready to automate with n8n? Let's design your orchestration strategy together.",
+    "ctaImageAlt": "n8n illustration"
   },
   "fr": {
     "title": "Services d'automatisation n8n",
     "name": "n8n",
-    "coverImage": "/technology/n8n/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise n8n",
+    "heroCoverAlt": "Visuel n8n",
     "descriptionV1": "Automatisez vos processus métier grâce au moteur de workflows open source et à l'éditeur visuel de n8n.",
     "descriptionV2": "Nous concevons des architectures n8n scalables connectant SaaS, bases de données et services personnalisés en toute sécurité.",
     "additionalDescription": "Nos spécialistes construisent des workflows résilients avec observabilité, tests et gouvernance adaptés à vos équipes.",
+    "additionalTitle": "Là où n8n a le plus d'impact",
+    "usesTitle": "Ce qui différencie n8n",
+    "usesDescription": "n8n transforme vos opérations grâce aux leviers suivants :",
     "features": [
       {
         "title": "Workflows visuels",
@@ -121,6 +136,11 @@
         "description": "Former les équipes, documenter les automatisations et itérer grâce aux insights analytiques.",
         "icon": "i-lucide-graduation-cap"
       }
-    ]
+    ],
+    "processTitle": "Processus n8n",
+    "processDescription": "Un workflow structuré pour faire évoluer vos automatisations n8n du cadrage à la montée en puissance.",
+    "ctaTitle": "Collaborez avec notre équipe n8n",
+    "ctaDescription": "Prêt à automatiser avec n8n ? Concevons ensemble votre stratégie d'orchestration.",
+    "ctaImageAlt": "Illustration n8n"
   }
 }

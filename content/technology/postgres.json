@@ -2,10 +2,15 @@
   "en": {
     "title": "PostgreSQL Data Engineering",
     "name": "PostgreSQL",
-    "coverImage": "/technology/postgres/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "PostgreSQL Expertise",
+    "heroCoverAlt": "PostgreSQL cover",
     "descriptionV1": "Design resilient relational databases that power mission-critical applications with PostgreSQL.",
     "descriptionV2": "We implement performant schemas, high-availability clusters, and analytics pipelines on top of Postgres.",
     "additionalDescription": "Our teams combine SQL best practices, extension expertise, and observability to keep your data platform healthy.",
+    "additionalTitle": "Where PostgreSQL Delivers the Most Impact",
+    "usesTitle": "What Makes PostgreSQL Stand Out?",
+    "usesDescription": "PostgreSQL drives durable data platforms with these capabilities:",
     "features": [
       {
         "title": "Advanced SQL",
@@ -59,15 +64,25 @@
         "description": "Establish monitoring, disaster recovery, and knowledge transfer for your data team.",
         "icon": "i-lucide-life-buoy"
       }
-    ]
+    ],
+    "processTitle": "PostgreSQL Delivery Process",
+    "processDescription": "A disciplined workflow that evolves your PostgreSQL environment from assessment to operations.",
+    "ctaTitle": "Partner with our PostgreSQL Team",
+    "ctaDescription": "Ready to modernize your PostgreSQL platform? Let's architect your next data initiative together.",
+    "ctaImageAlt": "PostgreSQL illustration"
   },
   "fr": {
     "title": "Ingénierie de données PostgreSQL",
     "name": "PostgreSQL",
-    "coverImage": "/technology/postgres/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise PostgreSQL",
+    "heroCoverAlt": "Visuel PostgreSQL",
     "descriptionV1": "Concevez des bases relationnelles résilientes pour des applications critiques grâce à PostgreSQL.",
     "descriptionV2": "Nous mettons en place des schémas performants, des clusters haute disponibilité et des pipelines analytiques sur Postgres.",
     "additionalDescription": "Nos équipes allient bonnes pratiques SQL, expertise des extensions et observabilité pour maintenir votre plateforme data.",
+    "additionalTitle": "Là où PostgreSQL apporte le plus d'impact",
+    "usesTitle": "Pourquoi PostgreSQL se démarque",
+    "usesDescription": "PostgreSQL renforce vos plateformes data grâce aux atouts suivants :",
     "features": [
       {
         "title": "SQL avancé",
@@ -121,6 +136,11 @@
         "description": "Mettre en place monitoring, reprise d'activité et transfert de connaissances à votre équipe data.",
         "icon": "i-lucide-life-buoy"
       }
-    ]
+    ],
+    "processTitle": "Processus PostgreSQL",
+    "processDescription": "Un workflow structuré pour faire évoluer votre environnement PostgreSQL du diagnostic à l'exploitation continue.",
+    "ctaTitle": "Collaborez avec notre équipe PostgreSQL",
+    "ctaDescription": "Prêt à moderniser votre plateforme PostgreSQL ? Construisons ensemble votre prochaine initiative data.",
+    "ctaImageAlt": "Illustration PostgreSQL"
   }
 }

@@ -2,10 +2,15 @@
   "en": {
     "title": "Make (Integromat) Automation Services",
     "name": "Make",
-    "coverImage": "/technology/make/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Make Automation Expertise",
+    "heroCoverAlt": "Make cover",
     "descriptionV1": "Automate complex workflows with Make's visual builder and powerful scenario engine.",
     "descriptionV2": "We orchestrate Make scenarios that synchronize data across SaaS platforms, APIs, and on-prem systems.",
     "additionalDescription": "Our team implements governance, monitoring, and documentation to keep your Make automations reliable and auditable.",
+    "additionalTitle": "Where Make Delivers the Most Impact",
+    "usesTitle": "What Makes Make Stand Out?",
+    "usesDescription": "Make accelerates automation with these capabilities:",
     "features": [
       {
         "title": "Visual Scenario Builder",
@@ -59,15 +64,25 @@
         "description": "Document patterns, coach stakeholders, and refine automations over time.",
         "icon": "i-lucide-graduation-cap"
       }
-    ]
+    ],
+    "processTitle": "Make Automation Process",
+    "processDescription": "A structured workflow that evolves your Make scenarios from discovery to continuous improvement.",
+    "ctaTitle": "Partner with our Make Team",
+    "ctaDescription": "Ready to orchestrate advanced Make scenarios? Let's build your automation roadmap together.",
+    "ctaImageAlt": "Make illustration"
   },
   "fr": {
     "title": "Services d'automatisation Make (Integromat)",
     "name": "Make",
-    "coverImage": "/technology/make/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise Make",
+    "heroCoverAlt": "Visuel Make",
     "descriptionV1": "Automatisez des workflows complexes avec le constructeur visuel et le moteur de scénarios de Make.",
-    "descriptionV2": "Nous orchestrons des scénarios Make qui synchronisent les données entre SaaS, APIs et systèmes internes.",
+    "descriptionV2": "Nous orchestrons des scénarios Make qui synchronisent les données entre SaaS, bases de données et services personnalisés en toute sécurité.",
     "additionalDescription": "Notre équipe met en place gouvernance, monitoring et documentation pour des automatisations Make fiables et auditables.",
+    "additionalTitle": "Là où Make apporte le plus de valeur",
+    "usesTitle": "Ce qui distingue Make",
+    "usesDescription": "Make accélère vos automatisations grâce aux leviers suivants :",
     "features": [
       {
         "title": "Constructeur visuel",
@@ -121,6 +136,11 @@
         "description": "Documenter les patterns, former les équipes et améliorer les automatisations dans le temps.",
         "icon": "i-lucide-graduation-cap"
       }
-    ]
+    ],
+    "processTitle": "Processus Make",
+    "processDescription": "Un workflow structuré pour faire évoluer vos scénarios Make du cadrage à l'amélioration continue.",
+    "ctaTitle": "Collaborez avec notre équipe Make",
+    "ctaDescription": "Prêt à orchestrer des scénarios Make avancés ? Construisons ensemble votre feuille de route d'automatisation.",
+    "ctaImageAlt": "Illustration Make"
   }
 }

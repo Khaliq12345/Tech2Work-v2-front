@@ -2,10 +2,15 @@
   "en": {
     "title": "Python Development Services",
     "name": "Python",
-    "coverImage": "/technology/python/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Python Expertise",
+    "heroCoverAlt": "Python cover",
     "descriptionV1": "Build robust, scalable solutions with Python's mature ecosystem and rapid development cycle.",
     "descriptionV2": "From data-heavy backends to AI-driven products, our Python specialists deliver maintainable systems that grow with your business.",
     "additionalDescription": "We assemble cross-functional squads to design, engineer, and operate Python platforms with best-in-class tooling and DevOps automation.",
+    "additionalTitle": "Where Python Delivers the Most Impact",
+    "usesTitle": "What Makes Python Stand Out?",
+    "usesDescription": "Python delivers value across the stack thanks to the following strengths:",
     "features": [
       {
         "title": "Rich Ecosystem",
@@ -59,15 +64,25 @@
         "description": "Monitor operations, deliver enhancements, and guide long-term Python platform strategy.",
         "icon": "i-lucide-refresh-cw"
       }
-    ]
+    ],
+    "processTitle": "Python Delivery Process",
+    "processDescription": "A structured, transparent workflow that keeps your Python projects moving smoothly from discovery to long-term support.",
+    "ctaTitle": "Partner with our Python Team",
+    "ctaDescription": "Ready to unlock the full potential of Python development? Let's build your next Python project together.",
+    "ctaImageAlt": "Python illustration"
   },
   "fr": {
     "title": "Services de développement Python",
     "name": "Python",
-    "coverImage": "/technology/python/cover.png",
+    "coverImage": "/logo.png",
+    "heroHeadline": "Expertise Python",
+    "heroCoverAlt": "Visuel Python",
     "descriptionV1": "Créez des solutions robustes et évolutives grâce à l'écosystème mature de Python et à son cycle de développement rapide.",
     "descriptionV2": "Des backends riches en données aux produits alimentés par l'IA, nos spécialistes Python livrent des systèmes maintenables qui évoluent avec votre entreprise.",
     "additionalDescription": "Nous constituons des équipes pluridisciplinaires pour concevoir, créer et exploiter des plateformes Python avec un outillage DevOps de pointe.",
+    "additionalTitle": "Là où Python a le plus d'impact",
+    "usesTitle": "Pourquoi Python fait la différence",
+    "usesDescription": "Python crée de la valeur sur toute la chaîne grâce aux atouts suivants :",
     "features": [
       {
         "title": "Écosystème riche",
@@ -121,6 +136,11 @@
         "description": "Surveiller l'exploitation, livrer des améliorations et piloter la stratégie long terme de la plateforme Python.",
         "icon": "i-lucide-refresh-cw"
       }
-    ]
+    ],
+    "processTitle": "Processus de livraison Python",
+    "processDescription": "Un workflow structuré et transparent pour faire avancer vos projets Python du cadrage au support long terme.",
+    "ctaTitle": "Collaborez avec notre équipe Python",
+    "ctaDescription": "Prêt à exploiter tout le potentiel du développement Python ? Construisons ensemble votre prochain projet Python.",
+    "ctaImageAlt": "Illustration Python"
   }
 }

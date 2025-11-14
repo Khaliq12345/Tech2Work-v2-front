@@ -1,6 +1,6 @@
 <template>
     <UPageSection
-        title="Which Projects Use Python Development?"
+        :title="title"
         :ui="{
             root: 'bg-white py-16 px-4',
             container:
@@ -11,15 +11,14 @@
         }"
     >
         <template #description>
-            Remember, Python is one of the most versatile programming languages
-            available, so it can be used for almost any kind of development
-            project. You can use it to build desktop software and web
-            development. A python developer can also use it to develop for IoT,
-            the blockchain, data science processes, and advanced systems like
-            machine learning and artificial intelligence (AI). It's even used to
-            create and apply special effects in films.
+            {{ description }}
         </template>
     </UPageSection>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+defineProps<{
+    title: string;
+    description: string;
+}>();
+</script>
