@@ -2,7 +2,7 @@
   "en": {
     "title": "JavaScript Engineering Services",
     "name": "JavaScript",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/javascript.png",
     "heroHeadline": "JavaScript Expertise",
     "heroCoverAlt": "JavaScript cover",
     "descriptionV1": "Deliver fast, interactive applications powered by modern JavaScript runtimes and tooling.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Services d'ingénierie JavaScript",
     "name": "JavaScript",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/javascript.png",
     "heroHeadline": "Expertise JavaScript",
     "heroCoverAlt": "Visuel JavaScript",
     "descriptionV1": "Livrez des applications rapides et interactives grâce aux runtimes et outils JavaScript modernes.",

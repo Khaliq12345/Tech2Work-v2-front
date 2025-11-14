@@ -2,7 +2,7 @@
   "en": {
     "title": "FastAPI Backend Engineering",
     "name": "FastAPI",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/fastapi.png",
     "heroHeadline": "FastAPI Expertise",
     "heroCoverAlt": "FastAPI cover",
     "descriptionV1": "Build blazing-fast Python APIs with automatic documentation and async performance.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Ingénierie backend FastAPI",
     "name": "FastAPI",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/fastapi.png",
     "heroHeadline": "Expertise FastAPI",
     "heroCoverAlt": "Visuel FastAPI",
     "descriptionV1": "Construisez des APIs Python ultra-rapides avec documentation automatique et performance asynchrone.",

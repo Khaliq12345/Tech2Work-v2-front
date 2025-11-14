@@ -2,7 +2,7 @@
   "en": {
     "title": "Rust Systems Engineering",
     "name": "Rust",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/rust.png",
     "heroHeadline": "Rust Expertise",
     "heroCoverAlt": "Rust cover",
     "descriptionV1": "Deliver safe, high-performance software with Rust's powerful type system and zero-cost abstractions.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Ingénierie systèmes en Rust",
     "name": "Rust",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/rust.png",
     "heroHeadline": "Expertise Rust",
     "heroCoverAlt": "Visuel Rust",
     "descriptionV1": "Livrez des logiciels sûrs et ultra-performants grâce au système de types de Rust et à ses abstractions sans coût.",

@@ -2,7 +2,7 @@
   "en": {
     "title": "n8n Automation Services",
     "name": "n8n",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/n8n.png",
     "heroHeadline": "n8n Automation Expertise",
     "heroCoverAlt": "n8n cover",
     "descriptionV1": "Automate business processes with n8n's open-source workflow engine and visual editor.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Services d'automatisation n8n",
     "name": "n8n",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/n8n.png",
     "heroHeadline": "Expertise n8n",
     "heroCoverAlt": "Visuel n8n",
     "descriptionV1": "Automatisez vos processus métier grâce au moteur de workflows open source et à l'éditeur visuel de n8n.",

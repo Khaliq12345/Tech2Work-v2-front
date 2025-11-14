@@ -2,7 +2,7 @@
   "en": {
     "title": "Svelte Application Engineering",
     "name": "Svelte",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/svelte.png",
     "heroHeadline": "Svelte Expertise",
     "heroCoverAlt": "Svelte cover",
     "descriptionV1": "Deliver lightning-fast experiences with Svelte's compile-time magic and minimal runtime overhead.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Ingénierie d'applications Svelte",
     "name": "Svelte",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/svelte.png",
     "heroHeadline": "Expertise Svelte",
     "heroCoverAlt": "Visuel Svelte",
     "descriptionV1": "Offrez des expériences ultra-rapides grâce à la compilation Svelte et à son runtime minimal.",

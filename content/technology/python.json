@@ -2,7 +2,7 @@
   "en": {
     "title": "Python Development Services",
     "name": "Python",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/python.png",
     "heroHeadline": "Python Expertise",
     "heroCoverAlt": "Python cover",
     "descriptionV1": "Build robust, scalable solutions with Python's mature ecosystem and rapid development cycle.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Services de développement Python",
     "name": "Python",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/python.png",
     "heroHeadline": "Expertise Python",
     "heroCoverAlt": "Visuel Python",
     "descriptionV1": "Créez des solutions robustes et évolutives grâce à l'écosystème mature de Python et à son cycle de développement rapide.",

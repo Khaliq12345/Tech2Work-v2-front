@@ -20,7 +20,11 @@
             </div>
         </template>
 
-        <ImageComponent :src="coverImage" :alt="coverAlt" />
+        <ImageComponent
+            :src="coverImage"
+            :alt="coverAlt"
+            class="w-40 mx-auto sm:w-56 md:w-72 lg:w-full"
+        />
     </UPageHero>
 
     <!-- Contact Slideover -->

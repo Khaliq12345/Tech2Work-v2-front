@@ -2,7 +2,7 @@
   "en": {
     "title": "Supabase Platform Engineering",
     "name": "Supabase",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/supabase.png",
     "heroHeadline": "Supabase Expertise",
     "heroCoverAlt": "Supabase cover",
     "descriptionV1": "Launch production-ready applications faster with Supabase's open-source backend-as-a-service.",
@@ -74,7 +74,7 @@
   "fr": {
     "title": "Ingénierie plateforme Supabase",
     "name": "Supabase",
-    "coverImage": "/logo.png",
+    "coverImage": "/technology/supabase.png",
     "heroHeadline": "Expertise Supabase",
     "heroCoverAlt": "Visuel Supabase",
     "descriptionV1": "Lancez des applications prêtes pour la production plus rapidement grâce au backend open source Supabase.",

@@ -2,125 +2,145 @@
   "en": {
     "title": "Playwright Testing Services",
     "name": "Playwright",
-    "coverImage": "/technology/playwright/cover.png",
-    "descriptionV1": "Automate end-to-end testing across browsers, mobile emulation, and APIs with Playwright.",
-    "descriptionV2": "We implement rock-solid Playwright suites that accelerate release confidence and reduce regressions.",
-    "additionalDescription": "Our QA engineers integrate Playwright into CI/CD, observability, and development workflows to ensure reliable automation.",
+    "coverImage": "/technology/playwright.png",
+    "heroHeadline": "Playwright Automation Expertise",
+    "heroCoverAlt": "Playwright testing illustration",
+    "descriptionV1": "Automate end-to-end journeys across browsers, mobile emulation, and APIs with Playwright.",
+    "descriptionV2": "We build resilient Playwright suites that accelerate releases, reduce regressions, and surface actionable insights.",
+    "additionalDescription": "Our QA engineers weave Playwright into CI/CD, observability, and developer workflows so every build ships with traceable quality gates.",
+    "additionalTitle": "Where Playwright Delivers the Most Impact",
+    "usesTitle": "What Makes Playwright Stand Out?",
+    "usesDescription": "Playwright enables high-confidence automation with these capabilities:",
     "features": [
       {
-        "title": "Cross-Browser Coverage",
-        "description": "Run tests in Chromium, Firefox, WebKit, and mobile profiles with unified tooling.",
+        "title": "Unified Browser Automation",
+        "description": "Exercise Chromium, Firefox, WebKit, and mobile profiles from one API with automatic context isolation.",
         "icon": "i-lucide-globe"
       },
       {
-        "title": "Robust Locators",
-        "description": "Use resilient selectors, tracing, and auto-waiting to minimize flaky tests.",
+        "title": "Auto-Waiting Locators",
+        "description": "Rely on smart wait logic, resilient selectors, and test generators to minimize flaky suites.",
         "icon": "i-lucide-target"
       },
       {
-        "title": "API & Visual Tests",
-        "description": "Extend automation beyond UI with API assertions and visual baseline comparisons.",
-        "icon": "i-lucide-eye"
+        "title": "Trace & Diagnostics",
+        "description": "Capture screenshots, network traces, and video for rapid debugging inside the Playwright Trace Viewer.",
+        "icon": "i-lucide-activity"
       },
       {
-        "title": "CI/CD Integration",
-        "description": "Plug Playwright into pipelines with parallelization, sharding, and actionable reporting.",
-        "icon": "i-lucide-git-merge"
+        "title": "CI-Ready Parallel Runs",
+        "description": "Shard suites, reuse browsers, and run headlessly to keep pipelines fast and cost-efficient.",
+        "icon": "i-lucide-rocket"
       }
     ],
     "process": [
       {
         "phase": "Phase 1",
-        "title": "Test Strategy",
-        "description": "Identify critical user journeys, environments, and coverage goals for automation.",
+        "title": "Testing Vision",
+        "description": "Prioritize user journeys, browsers, and SLAs aligned with product goals and risk appetite.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Framework Setup",
-        "description": "Configure Playwright project structure, fixtures, and reusable utilities.",
+        "description": "Establish Playwright configs, fixtures, and reusable utilities integrated with your tooling.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Suite Development",
-        "description": "Author maintainable tests, data builders, and helper functions aligned with coding standards.",
+        "description": "Author maintainable tests, data builders, and assertions guided by coding standards.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Stability & Reporting",
-        "description": "Harden suites with retries, tracing, and dashboards surfaced in CI.",
+        "description": "Harden suites with auto-waiting, retries, and trace analysis delivered to CI dashboards.",
         "icon": "i-lucide-pie-chart"
       },
       {
         "phase": "Phase 5",
-        "title": "Knowledge Transfer",
-        "description": "Train teams, document workflows, and evolve tests alongside product growth.",
+        "title": "Enablement & Evolution",
+        "description": "Coach teams, document workflows, and expand automation coverage alongside product growth.",
         "icon": "i-lucide-graduation-cap"
       }
-    ]
+    ],
+    "processTitle": "Playwright Delivery Process",
+    "processDescription": "A structured workflow that evolves your Playwright automation from discovery to long-term enablement.",
+    "ctaTitle": "Partner with our Playwright Team",
+    "ctaDescription": "Ready to harden releases with Playwright? Let's engineer your next testing initiative together.",
+    "ctaImageAlt": "Playwright illustration"
   },
   "fr": {
     "title": "Services de tests Playwright",
     "name": "Playwright",
-    "coverImage": "/technology/playwright/cover.png",
-    "descriptionV1": "Automatisez les tests end-to-end sur navigateurs, mobiles et APIs avec Playwright.",
-    "descriptionV2": "Nous mettons en place des suites Playwright fiables pour accélérer les releases et réduire les régressions.",
-    "additionalDescription": "Nos experts QA intègrent Playwright dans vos pipelines CI/CD, outils d'observabilité et workflows de développement.",
+    "coverImage": "/technology/playwright.png",
+    "heroHeadline": "Expertise d'automatisation Playwright",
+    "heroCoverAlt": "Illustration tests Playwright",
+    "descriptionV1": "Automatisez parcours end-to-end sur navigateurs, mobiles et APIs grâce à Playwright.",
+    "descriptionV2": "Nous construisons des suites Playwright robustes pour accélérer les mises en production et réduire les régressions.",
+    "additionalDescription": "Nos ingénieurs QA intègrent Playwright à vos pipelines CI/CD, outils d'observabilité et workflows développeurs pour garantir des releases traçables.",
+    "additionalTitle": "Là où Playwright apporte le plus de valeur",
+    "usesTitle": "Ce qui distingue Playwright",
+    "usesDescription": "Playwright libère une automatisation fiable grâce aux atouts suivants :",
     "features": [
       {
-        "title": "Couverture multi-navigateurs",
-        "description": "Exécuter les tests sur Chromium, Firefox, WebKit et profils mobiles avec un outil unifié.",
+        "title": "Automatisation multi-navigateurs",
+        "description": "Piloter Chromium, Firefox, WebKit et profils mobiles via une API unique avec isolation automatique.",
         "icon": "i-lucide-globe"
       },
       {
-        "title": "Locators robustes",
-        "description": "Utiliser des sélecteurs résilients, le tracing et l'auto-attente pour minimiser les tests instables.",
+        "title": "Locators et auto-attente",
+        "description": "S'appuyer sur les sélecteurs résilients et l'auto-wait de Playwright pour limiter les tests instables.",
         "icon": "i-lucide-target"
       },
       {
-        "title": "Tests API & visuels",
-        "description": "Étendre l'automatisation au-delà de l'UI avec assertions API et comparaisons visuelles.",
-        "icon": "i-lucide-eye"
+        "title": "Trace & diagnostics",
+        "description": "Capturer captures, réseau et vidéo pour déboguer rapidement via le Trace Viewer Playwright.",
+        "icon": "i-lucide-activity"
       },
       {
-        "title": "Intégration CI/CD",
-        "description": "Brancher Playwright aux pipelines avec parallélisation, sharding et reporting actionnable.",
-        "icon": "i-lucide-git-merge"
+        "title": "Exécutions parallèles prêtes pour la CI",
+        "description": "Fractionner les suites, réutiliser les navigateurs et exécuter en headless pour des pipelines rapides.",
+        "icon": "i-lucide-rocket"
       }
     ],
     "process": [
       {
         "phase": "Phase 1",
-        "title": "Stratégie de tests",
-        "description": "Identifier parcours critiques, environnements et objectifs de couverture.",
+        "title": "Vision de test",
+        "description": "Définir parcours critiques, navigateurs ciblés et SLAs alignés sur la stratégie produit.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Mise en place du framework",
-        "description": "Configurer la structure Playwright, les fixtures et utilitaires réutilisables.",
+        "description": "Configurer Playwright, les fixtures et les utilitaires réutilisables adaptés à votre stack.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
-        "title": "Développement de la suite",
-        "description": "Écrire des tests maintenables, builders de données et helpers alignés sur vos standards.",
+        "title": "Développement des suites",
+        "description": "Rédiger tests, builders de données et assertions conformes à vos standards de code.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Stabilité & reporting",
-        "description": "Renforcer les suites avec retries, tracing et tableaux de bord dans la CI.",
+        "description": "Renforcer les suites avec auto-wait, retries et analyses de traces remontées dans la CI.",
         "icon": "i-lucide-pie-chart"
       },
       {
         "phase": "Phase 5",
-        "title": "Transfert de savoir",
-        "description": "Former les équipes, documenter les workflows et faire évoluer les tests avec le produit.",
+        "title": "Autonomisation & évolution",
+        "description": "Former les équipes, documenter les workflows et étendre la couverture au rythme du produit.",
         "icon": "i-lucide-graduation-cap"
       }
-    ]
+    ],
+    "processTitle": "Processus Playwright",
+    "processDescription": "Un workflow structuré pour faire évoluer vos automatisations Playwright du cadrage à l'autonomie durable.",
+    "ctaTitle": "Collaborez avec notre équipe Playwright",
+    "ctaDescription": "Prêt à fiabiliser vos releases avec Playwright ? Construisons ensemble votre prochaine initiative de tests.",
+    "ctaImageAlt": "Illustration Playwright"
   }
 }
