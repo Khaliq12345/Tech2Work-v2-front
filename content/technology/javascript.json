@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "JavaScript Engineering Services",
+    "name": "JavaScript",
+    "coverImage": "/technology/javascript/cover.png",
+    "descriptionV1": "Deliver fast, interactive applications powered by modern JavaScript runtimes and tooling.",
+    "descriptionV2": "We build resilient frontends and scalable backends leveraging the JS ecosystem from browsers to edge platforms.",
+    "additionalDescription": "Our engineers architect JavaScript solutions that balance developer experience, performance, and long-term maintainability.",
+    "features": [
+      {
+        "title": "Full-Stack Flexibility",
+        "description": "Use the same language across client, server, and edge functions for cohesive product delivery.",
+        "icon": "i-lucide-layers"
+      },
+      {
+        "title": "Performance Focus",
+        "description": "Implement code-splitting, SSR, and progressive enhancement to optimize loading and runtime speed.",
+        "icon": "i-lucide-zap"
+      },
+      {
+        "title": "Robust Tooling",
+        "description": "Adopt TypeScript, ESLint, and modern bundlers to ensure reliability and developer productivity.",
+        "icon": "i-lucide-wrench"
+      },
+      {
+        "title": "Rich Integrations",
+        "description": "Connect with third-party APIs, analytics, and automation services through mature JavaScript SDKs.",
+        "icon": "i-lucide-plug"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Experience Strategy",
+        "description": "Align product goals with UX flows and JavaScript technology choices.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Architecture & Tooling",
+        "description": "Define component hierarchies, state management, and build pipelines tailored to the project scope.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Development Sprints",
+        "description": "Ship iterative features with automated testing, CI/CD, and code reviews.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Optimization & Hardening",
+        "description": "Measure KPIs, apply performance budgets, and tighten security before launch.",
+        "icon": "i-lucide-gauge"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Growth & Operations",
+        "description": "Monitor, experiment, and evolve the JavaScript stack as user needs expand.",
+        "icon": "i-lucide-trending-up"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Services d'ingénierie JavaScript",
+    "name": "JavaScript",
+    "coverImage": "/technology/javascript/cover.png",
+    "descriptionV1": "Livrez des applications rapides et interactives grâce aux runtimes et outils JavaScript modernes.",
+    "descriptionV2": "Nous construisons des frontends résilients et des backends scalables en exploitant l'écosystème JS, du navigateur à l'edge.",
+    "additionalDescription": "Nos ingénieurs conçoivent des solutions JavaScript qui équilibrent expérience développeur, performance et maintenabilité durable.",
+    "features": [
+      {
+        "title": "Flexibilité full-stack",
+        "description": "Utilisez le même langage côté client, serveur et edge pour une livraison produit cohérente.",
+        "icon": "i-lucide-layers"
+      },
+      {
+        "title": "Performance optimisée",
+        "description": "Mettez en œuvre le code-splitting, le SSR et l'amélioration progressive pour optimiser le chargement et l'exécution.",
+        "icon": "i-lucide-zap"
+      },
+      {
+        "title": "Outillage robuste",
+        "description": "Adoptez TypeScript, ESLint et les bundlers modernes pour garantir fiabilité et productivité.",
+        "icon": "i-lucide-wrench"
+      },
+      {
+        "title": "Intégrations riches",
+        "description": "Connectez-vous aux API tierces, à l'analytics et aux services d'automatisation via des SDK JavaScript matures.",
+        "icon": "i-lucide-plug"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Stratégie d'expérience",
+        "description": "Aligner les objectifs produit avec les parcours UX et les choix technologiques JavaScript.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Architecture & outillage",
+        "description": "Définir les hiérarchies de composants, la gestion d'état et les pipelines de build adaptés au projet.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Sprints de développement",
+        "description": "Livrer les fonctionnalités de manière itérative avec tests automatisés, CI/CD et revues de code.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Optimisation & durcissement",
+        "description": "Mesurer les KPI, appliquer des budgets de performance et renforcer la sécurité avant le lancement.",
+        "icon": "i-lucide-gauge"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Croissance & opérations",
+        "description": "Surveiller, expérimenter et faire évoluer la stack JavaScript avec l'évolution des besoins utilisateurs.",
+        "icon": "i-lucide-trending-up"
+      }
+    ]
+  }
+}

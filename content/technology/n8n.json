@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "n8n Automation Services",
+    "name": "n8n",
+    "coverImage": "/technology/n8n/cover.png",
+    "descriptionV1": "Automate business processes with n8n's open-source workflow engine and visual editor.",
+    "descriptionV2": "We design scalable n8n architectures that connect SaaS tools, databases, and custom services securely.",
+    "additionalDescription": "Our automation specialists build resilient workflows with observability, testing, and governance tailored to your teams.",
+    "features": [
+      {
+        "title": "Visual Workflows",
+        "description": "Model processes through an intuitive canvas with branch logic, loops, and error handling.",
+        "icon": "i-lucide-pen-tool"
+      },
+      {
+        "title": "Extensive Integrations",
+        "description": "Connect to hundreds of native nodes and REST/GraphQL APIs to unify your tooling.",
+        "icon": "i-lucide-plug"
+      },
+      {
+        "title": "Self-Hosted Control",
+        "description": "Deploy n8n on-premise or in the cloud with enterprise authentication and access policies.",
+        "icon": "i-lucide-lock"
+      },
+      {
+        "title": "Observability",
+        "description": "Implement logging, retries, and alerting to keep automations transparent and reliable.",
+        "icon": "i-lucide-activity"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Automation Discovery",
+        "description": "Map use cases, data sources, and success metrics for n8n adoption.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Workflow Design",
+        "description": "Define architecture, security, and governance standards for automation pipelines.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implementation",
+        "description": "Build nodes, connectors, and custom scripts to orchestrate processes end-to-end.",
+        "icon": "i-lucide-cog"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Testing & Monitoring",
+        "description": "Validate workflows, simulate failure paths, and configure alerts for operations.",
+        "icon": "i-lucide-clipboard-check"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Enablement & Scale",
+        "description": "Train teams, document automations, and iterate on improvements with analytics insights.",
+        "icon": "i-lucide-graduation-cap"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Services d'automatisation n8n",
+    "name": "n8n",
+    "coverImage": "/technology/n8n/cover.png",
+    "descriptionV1": "Automatisez vos processus métier grâce au moteur de workflows open source et à l'éditeur visuel de n8n.",
+    "descriptionV2": "Nous concevons des architectures n8n scalables connectant SaaS, bases de données et services personnalisés en toute sécurité.",
+    "additionalDescription": "Nos spécialistes construisent des workflows résilients avec observabilité, tests et gouvernance adaptés à vos équipes.",
+    "features": [
+      {
+        "title": "Workflows visuels",
+        "description": "Modélisez les processus via une interface intuitive avec branches, boucles et gestion des erreurs.",
+        "icon": "i-lucide-pen-tool"
+      },
+      {
+        "title": "Intégrations étendues",
+        "description": "Connectez-vous à des centaines de nœuds natifs et aux APIs REST/GraphQL pour unifier vos outils.",
+        "icon": "i-lucide-plug"
+      },
+      {
+        "title": "Contrôle self-hosted",
+        "description": "Déployez n8n sur site ou dans le cloud avec authentification et politiques d'accès d'entreprise.",
+        "icon": "i-lucide-lock"
+      },
+      {
+        "title": "Observabilité",
+        "description": "Mettre en place logs, retries et alertes pour garantir transparence et fiabilité des automatisations.",
+        "icon": "i-lucide-activity"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Découverte d'automatisation",
+        "description": "Cartographier cas d'usage, sources de données et indicateurs de succès pour n8n.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Conception des workflows",
+        "description": "Définir architecture, sécurité et standards de gouvernance des pipelines d'automatisation.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implémentation",
+        "description": "Construire nœuds, connecteurs et scripts sur mesure pour orchestrer les processus bout en bout.",
+        "icon": "i-lucide-cog"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Tests & monitoring",
+        "description": "Valider les workflows, simuler les scénarios d'échec et configurer les alertes opérationnelles.",
+        "icon": "i-lucide-clipboard-check"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Montée en puissance",
+        "description": "Former les équipes, documenter les automatisations et itérer grâce aux insights analytiques.",
+        "icon": "i-lucide-graduation-cap"
+      }
+    ]
+  }
+}

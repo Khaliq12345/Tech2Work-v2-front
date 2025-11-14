@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "Supabase Platform Engineering",
+    "name": "Supabase",
+    "coverImage": "/technology/supabase/cover.png",
+    "descriptionV1": "Launch production-ready applications faster with Supabase's open-source backend-as-a-service.",
+    "descriptionV2": "We architect Supabase projects combining authentication, storage, and realtime features with custom business logic.",
+    "additionalDescription": "Our experts extend Supabase with edge functions, monitoring, and automation to support growing product teams.",
+    "features": [
+      {
+        "title": "Instant Auth",
+        "description": "Implement secure login flows powered by Supabase Auth and Row Level Security policies.",
+        "icon": "i-lucide-shield-check"
+      },
+      {
+        "title": "Realtime APIs",
+        "description": "Stream updates to clients using Supabase Realtime channels and websocket listeners.",
+        "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Serverless Extensibility",
+        "description": "Deploy edge functions to run custom logic near your users with minimal latency.",
+        "icon": "i-lucide-cpu"
+      },
+      {
+        "title": "Integrated Storage",
+        "description": "Manage file uploads, transformations, and public access rules through Supabase Storage.",
+        "icon": "i-lucide-folder"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Use Case Discovery",
+        "description": "Define user journeys, data models, and Supabase services required for launch.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Environment Setup",
+        "description": "Configure projects, auth providers, policies, and CI workflows across environments.",
+        "icon": "i-lucide-settings"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Feature Delivery",
+        "description": "Implement database schemas, functions, and integrations with APIs and frontends.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Quality & Reliability",
+        "description": "Test security rules, validate migrations, and ensure observability for production readiness.",
+        "icon": "i-lucide-clipboard-check"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Scale & Expansion",
+        "description": "Introduce analytics, integrations, and automation to support product growth.",
+        "icon": "i-lucide-trending-up"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Ingénierie plateforme Supabase",
+    "name": "Supabase",
+    "coverImage": "/technology/supabase/cover.png",
+    "descriptionV1": "Lancez des applications prêtes pour la production plus rapidement grâce au backend open source Supabase.",
+    "descriptionV2": "Nous architecturons des projets Supabase combinant authentification, stockage et fonctionnalités temps réel avec logique métier sur mesure.",
+    "additionalDescription": "Nos experts étendent Supabase avec des edge functions, du monitoring et de l'automatisation pour soutenir vos équipes produit.",
+    "features": [
+      {
+        "title": "Authentification instantanée",
+        "description": "Mettre en place des flux de connexion sécurisés via Supabase Auth et les politiques RLS.",
+        "icon": "i-lucide-shield-check"
+      },
+      {
+        "title": "APIs temps réel",
+        "description": "Diffuser des mises à jour aux clients grâce aux canaux Supabase Realtime et aux websockets.",
+        "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Extensibilité serverless",
+        "description": "Déployer des edge functions pour exécuter une logique personnalisée au plus près des utilisateurs.",
+        "icon": "i-lucide-cpu"
+      },
+      {
+        "title": "Stockage intégré",
+        "description": "Gérer les uploads, transformations et règles d'accès public via Supabase Storage.",
+        "icon": "i-lucide-folder"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Découverte des cas d'usage",
+        "description": "Définir parcours utilisateur, modèles de données et services Supabase nécessaires au lancement.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Configuration des environnements",
+        "description": "Configurer projets, fournisseurs d'authentification, politiques et workflows CI.",
+        "icon": "i-lucide-settings"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Livraison fonctionnelle",
+        "description": "Implémenter schémas, fonctions et intégrations avec les APIs et frontends.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Qualité & fiabilité",
+        "description": "Tester les règles de sécurité, valider les migrations et assurer l'observabilité avant production.",
+        "icon": "i-lucide-clipboard-check"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Montée en charge",
+        "description": "Introduire analytics, intégrations et automatisations pour accompagner la croissance.",
+        "icon": "i-lucide-trending-up"
+      }
+    ]
+  }
+}

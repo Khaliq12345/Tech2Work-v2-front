@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "Rust Systems Engineering",
+    "name": "Rust",
+    "coverImage": "/technology/rust/cover.png",
+    "descriptionV1": "Deliver safe, high-performance software with Rust's powerful type system and zero-cost abstractions.",
+    "descriptionV2": "We craft Rust services, SDKs, and embedded tools that demand reliability, security, and speed.",
+    "additionalDescription": "Our engineers pair Rust with modern tooling to ship maintainable codebases backed by rigorous testing and observability.",
+    "features": [
+      {
+        "title": "Memory Safety",
+        "description": "Eliminate whole classes of bugs thanks to Rust's ownership model and borrow checker.",
+        "icon": "i-lucide-shield"
+      },
+      {
+        "title": "Performance at Scale",
+        "description": "Match or surpass C/C++ speeds while preserving developer productivity.",
+        "icon": "i-lucide-gauge"
+      },
+      {
+        "title": "Concurrency",
+        "description": "Build highly concurrent systems with fearless multithreading guaranteed at compile time.",
+        "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Ecosystem Integration",
+        "description": "Leverage Cargo, crates.io, and FFI bridges to integrate Rust into existing stacks.",
+        "icon": "i-lucide-plug"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Systems Discovery",
+        "description": "Assess performance targets, hardware constraints, and integration boundaries.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Architecture Blueprint",
+        "description": "Design modules, data flows, and safety guarantees aligned with Rust best practices.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implementation",
+        "description": "Develop Rust crates, enforce linting, and maintain exhaustive unit and property tests.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Performance Validation",
+        "description": "Benchmark, profile, and tune the build to meet latency and throughput goals.",
+        "icon": "i-lucide-thermometer"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Deployment & Support",
+        "description": "Package artifacts, integrate CI/CD, and provide runbooks for ongoing operations.",
+        "icon": "i-lucide-rocket"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Ingénierie systèmes en Rust",
+    "name": "Rust",
+    "coverImage": "/technology/rust/cover.png",
+    "descriptionV1": "Livrez des logiciels sûrs et ultra-performants grâce au système de types de Rust et à ses abstractions sans coût.",
+    "descriptionV2": "Nous concevons des services, SDK et outils embarqués Rust pour les besoins de fiabilité, sécurité et vitesse.",
+    "additionalDescription": "Nos équipes associent Rust à un outillage moderne pour livrer des bases de code maintenables, testées et observables.",
+    "features": [
+      {
+        "title": "Sécurité mémoire",
+        "description": "Éliminez des classes entières de bugs grâce au modèle de possession et au borrow checker de Rust.",
+        "icon": "i-lucide-shield"
+      },
+      {
+        "title": "Performance maximale",
+        "description": "Atteignez ou dépassez les vitesses du C/C++ tout en conservant la productivité.",
+        "icon": "i-lucide-gauge"
+      },
+      {
+        "title": "Concurrence",
+        "description": "Construisez des systèmes fortement concurrents avec une sécurité multithread garantie à la compilation.",
+        "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Intégration écosystème",
+        "description": "Exploitez Cargo, crates.io et les passerelles FFI pour intégrer Rust à vos stacks existantes.",
+        "icon": "i-lucide-plug"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Découverte système",
+        "description": "Évaluer objectifs de performance, contraintes matérielles et périmètres d'intégration.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Plan d'architecture",
+        "description": "Concevoir modules, flux de données et garanties de sécurité selon les bonnes pratiques Rust.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implémentation",
+        "description": "Développer les crates Rust, appliquer linting et maintenir des tests unitaires et de propriété.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Validation performance",
+        "description": "Benchmark, profiler et ajuster le build pour atteindre latence et débit fixés.",
+        "icon": "i-lucide-thermometer"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Déploiement & support",
+        "description": "Packager les artefacts, intégrer CI/CD et fournir runbooks pour l'exploitation continue.",
+        "icon": "i-lucide-rocket"
+      }
+    ]
+  }
+}

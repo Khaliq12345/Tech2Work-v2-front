@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "Make (Integromat) Automation Services",
+    "name": "Make",
+    "coverImage": "/technology/make/cover.png",
+    "descriptionV1": "Automate complex workflows with Make's visual builder and powerful scenario engine.",
+    "descriptionV2": "We orchestrate Make scenarios that synchronize data across SaaS platforms, APIs, and on-prem systems.",
+    "additionalDescription": "Our team implements governance, monitoring, and documentation to keep your Make automations reliable and auditable.",
+    "features": [
+      {
+        "title": "Visual Scenario Builder",
+        "description": "Design automation pipelines through a drag-and-drop interface with branching logic.",
+        "icon": "i-lucide-pen-tool"
+      },
+      {
+        "title": "Extensive Connectors",
+        "description": "Access hundreds of modules or integrate custom APIs to tailor every workflow.",
+        "icon": "i-lucide-plug"
+      },
+      {
+        "title": "Error Handling",
+        "description": "Implement retries, conditional paths, and notifications to make workflows resilient.",
+        "icon": "i-lucide-alert-triangle"
+      },
+      {
+        "title": "Scalable Operations",
+        "description": "Optimize performance and costs with scenario templates, scheduling, and analytics.",
+        "icon": "i-lucide-gauge"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Automation Audit",
+        "description": "Identify processes, data sync needs, and opportunities for Make adoption.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Scenario Architecture",
+        "description": "Design reusable modules, error strategies, and security controls.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implementation",
+        "description": "Build and test scenarios that connect systems and automate manual tasks.",
+        "icon": "i-lucide-cog"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Validation & Monitoring",
+        "description": "Simulate edge cases, configure alerts, and review metrics for reliability.",
+        "icon": "i-lucide-clipboard-check"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Training & Evolution",
+        "description": "Document patterns, coach stakeholders, and refine automations over time.",
+        "icon": "i-lucide-graduation-cap"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Services d'automatisation Make (Integromat)",
+    "name": "Make",
+    "coverImage": "/technology/make/cover.png",
+    "descriptionV1": "Automatisez des workflows complexes avec le constructeur visuel et le moteur de scénarios de Make.",
+    "descriptionV2": "Nous orchestrons des scénarios Make qui synchronisent les données entre SaaS, APIs et systèmes internes.",
+    "additionalDescription": "Notre équipe met en place gouvernance, monitoring et documentation pour des automatisations Make fiables et auditables.",
+    "features": [
+      {
+        "title": "Constructeur visuel",
+        "description": "Concevez vos pipelines d'automatisation via une interface glisser-déposer avec logiques conditionnelles.",
+        "icon": "i-lucide-pen-tool"
+      },
+      {
+        "title": "Connecteurs étendus",
+        "description": "Accédez à des centaines de modules ou intégrez des APIs sur mesure pour chaque workflow.",
+        "icon": "i-lucide-plug"
+      },
+      {
+        "title": "Gestion des erreurs",
+        "description": "Mettre en place retries, chemins conditionnels et notifications pour des workflows résilients.",
+        "icon": "i-lucide-alert-triangle"
+      },
+      {
+        "title": "Opérations scalables",
+        "description": "Optimisez performance et coûts avec templates, planification et analytics.",
+        "icon": "i-lucide-gauge"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Audit d'automatisation",
+        "description": "Identifier processus, besoins de synchronisation et opportunités pour Make.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Architecture des scénarios",
+        "description": "Concevoir modules réutilisables, stratégies d'erreurs et contrôles de sécurité.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Implémentation",
+        "description": "Construire et tester les scénarios qui connectent vos systèmes et automatisent les tâches.",
+        "icon": "i-lucide-cog"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Validation & monitoring",
+        "description": "Simuler les cas limites, configurer les alertes et analyser les métriques pour la fiabilité.",
+        "icon": "i-lucide-clipboard-check"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Formation & évolution",
+        "description": "Documenter les patterns, former les équipes et améliorer les automatisations dans le temps.",
+        "icon": "i-lucide-graduation-cap"
+      }
+    ]
+  }
+}

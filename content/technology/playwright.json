@@ -1,0 +1,126 @@
+{
+  "en": {
+    "title": "Playwright Testing Services",
+    "name": "Playwright",
+    "coverImage": "/technology/playwright/cover.png",
+    "descriptionV1": "Automate end-to-end testing across browsers, mobile emulation, and APIs with Playwright.",
+    "descriptionV2": "We implement rock-solid Playwright suites that accelerate release confidence and reduce regressions.",
+    "additionalDescription": "Our QA engineers integrate Playwright into CI/CD, observability, and development workflows to ensure reliable automation.",
+    "features": [
+      {
+        "title": "Cross-Browser Coverage",
+        "description": "Run tests in Chromium, Firefox, WebKit, and mobile profiles with unified tooling.",
+        "icon": "i-lucide-globe"
+      },
+      {
+        "title": "Robust Locators",
+        "description": "Use resilient selectors, tracing, and auto-waiting to minimize flaky tests.",
+        "icon": "i-lucide-target"
+      },
+      {
+        "title": "API & Visual Tests",
+        "description": "Extend automation beyond UI with API assertions and visual baseline comparisons.",
+        "icon": "i-lucide-eye"
+      },
+      {
+        "title": "CI/CD Integration",
+        "description": "Plug Playwright into pipelines with parallelization, sharding, and actionable reporting.",
+        "icon": "i-lucide-git-merge"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Test Strategy",
+        "description": "Identify critical user journeys, environments, and coverage goals for automation.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Framework Setup",
+        "description": "Configure Playwright project structure, fixtures, and reusable utilities.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Suite Development",
+        "description": "Author maintainable tests, data builders, and helper functions aligned with coding standards.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Stability & Reporting",
+        "description": "Harden suites with retries, tracing, and dashboards surfaced in CI.",
+        "icon": "i-lucide-pie-chart"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Knowledge Transfer",
+        "description": "Train teams, document workflows, and evolve tests alongside product growth.",
+        "icon": "i-lucide-graduation-cap"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Services de tests Playwright",
+    "name": "Playwright",
+    "coverImage": "/technology/playwright/cover.png",
+    "descriptionV1": "Automatisez les tests end-to-end sur navigateurs, mobiles et APIs avec Playwright.",
+    "descriptionV2": "Nous mettons en place des suites Playwright fiables pour accélérer les releases et réduire les régressions.",
+    "additionalDescription": "Nos experts QA intègrent Playwright dans vos pipelines CI/CD, outils d'observabilité et workflows de développement.",
+    "features": [
+      {
+        "title": "Couverture multi-navigateurs",
+        "description": "Exécuter les tests sur Chromium, Firefox, WebKit et profils mobiles avec un outil unifié.",
+        "icon": "i-lucide-globe"
+      },
+      {
+        "title": "Locators robustes",
+        "description": "Utiliser des sélecteurs résilients, le tracing et l'auto-attente pour minimiser les tests instables.",
+        "icon": "i-lucide-target"
+      },
+      {
+        "title": "Tests API & visuels",
+        "description": "Étendre l'automatisation au-delà de l'UI avec assertions API et comparaisons visuelles.",
+        "icon": "i-lucide-eye"
+      },
+      {
+        "title": "Intégration CI/CD",
+        "description": "Brancher Playwright aux pipelines avec parallélisation, sharding et reporting actionnable.",
+        "icon": "i-lucide-git-merge"
+      }
+    ],
+    "process": [
+      {
+        "phase": "Phase 1",
+        "title": "Stratégie de tests",
+        "description": "Identifier parcours critiques, environnements et objectifs de couverture.",
+        "icon": "i-lucide-compass"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Mise en place du framework",
+        "description": "Configurer la structure Playwright, les fixtures et utilitaires réutilisables.",
+        "icon": "i-lucide-pencil-ruler"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Développement de la suite",
+        "description": "Écrire des tests maintenables, builders de données et helpers alignés sur vos standards.",
+        "icon": "i-lucide-code"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Stabilité & reporting",
+        "description": "Renforcer les suites avec retries, tracing et tableaux de bord dans la CI.",
+        "icon": "i-lucide-pie-chart"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "Transfert de savoir",
+        "description": "Former les équipes, documenter les workflows et faire évoluer les tests avec le produit.",
+        "icon": "i-lucide-graduation-cap"
+      }
+    ]
+  }
+}
