@@ -1,0 +1,4 @@
+<template>
+    <IndustryHero />
+    <IndustryDescription />
+</template>
