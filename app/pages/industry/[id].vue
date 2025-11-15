@@ -3,4 +3,5 @@
     <IndustryDescription />
     <IndustryServices />
     <IndustryCta />
+    <IndustryBenefits />
 </template>
