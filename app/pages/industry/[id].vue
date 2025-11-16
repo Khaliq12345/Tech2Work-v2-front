@@ -6,4 +6,5 @@
     <IndustryBenefits />
     <IndustrySolutions />
     <IndustryStudies />
+    <IndustryReviews />
 </template>
