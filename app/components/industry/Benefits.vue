@@ -12,12 +12,10 @@
                     v-for="(card, index) in cards"
                     :key="index"
                     :class="[
-                        // 📱 mobile : w-72   |   💻 desktop : w-96
                         'w-72 md:w-96 rounded-2xl md:rounded-3xl overflow-hidden shadow-md',
                         card.style,
                     ]"
                     :ui="{
-                        // 📱 padding réduit | 💻 padding normal
                         body: 'p-4 md:p-8',
                         header: 'py-2 md:py-4',
                         footer: 'p-0',
