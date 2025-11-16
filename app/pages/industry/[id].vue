@@ -4,4 +4,5 @@
     <IndustryServices />
     <IndustryCta />
     <IndustryBenefits />
+    <IndustrySolutions />
 </template>
