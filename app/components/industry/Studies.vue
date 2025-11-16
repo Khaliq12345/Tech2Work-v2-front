@@ -1,0 +1,3 @@
+<template>
+    <Project :projects="[]" />
+</template>

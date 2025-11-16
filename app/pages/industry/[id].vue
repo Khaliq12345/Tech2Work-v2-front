@@ -5,4 +5,5 @@
     <IndustryCta />
     <IndustryBenefits />
     <IndustrySolutions />
+    <IndustryStudies />
 </template>
