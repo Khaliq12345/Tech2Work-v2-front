@@ -2,4 +2,5 @@
     <IndustryHero />
     <IndustryDescription />
     <IndustryServices />
+    <IndustryCta />
 </template>
