@@ -9,7 +9,7 @@
     >
         <!-- TITLE -->
         <template #title>
-            Our financial sector software development services
+            {{ title }}
         </template>
 
         <!-- GRID -->
@@ -50,42 +50,12 @@
 </template>
 
 <script setup lang="ts">
-const services = [
-    {
-        icon: "i-lucide-dollar-sign",
-        title: "Wealth management solutions",
-        description:
-            "Develop custom WealthTech solutions that elevate digital engagement, enhance financial advisory services and seamlessly integrate into your wealth management ecosystem.",
-    },
-    {
-        icon: "i-lucide-smartphone",
-        title: "Mobile banking solutions",
-        description:
-            "Build secure, intuitive mobile banking apps with digital wallets, mobile payments and peer-to-peer transfers.",
-    },
-    {
-        icon: "i-lucide-banknote",
-        title: "Digital banking platform integration",
-        description:
-            "Deliver customer-centric digital banking platforms that provide seamless, personalized and engaging experiences.",
-    },
-    {
-        icon: "i-lucide-cog",
-        title: "Customized development & consultancy",
-        description:
-            "Ensure compliance, security and performance with tailored solutions and expert consultancy.",
-    },
-    {
-        icon: "i-lucide-sun",
-        title: "Open banking",
-        description:
-            "Provide frictionless and secure experiences by safely integrating with third-party providers.",
-    },
-    {
-        icon: "i-lucide-cloud",
-        title: "Cloud services",
-        description:
-            "Optimize financial operations with secure, scalable and cost-effective cloud solutions.",
-    },
-];
+const props = defineProps<{
+    title: string;
+    services: {
+        icon: string;
+        title: string;
+        description: string;
+    }[];
+}>();
 </script>
