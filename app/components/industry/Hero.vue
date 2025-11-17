@@ -19,7 +19,9 @@
 
         <!-- SLOT LINKS -->
         <template #links>
-            <UButton @click="isOpen = true">Contact Us</UButton>
+            <UButton class="text-white" @click="isOpen = true"
+                >Contact Us</UButton
+            >
         </template>
     </UPageHero>
 
