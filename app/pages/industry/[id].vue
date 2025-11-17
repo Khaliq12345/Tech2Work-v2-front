@@ -1,7 +1,8 @@
 <template>
-  <IndustryHero />
-  <IndustryDescription />
-  <IndustryServices />
-  <IndustryCTA />
-  <IndustryBenefits />
+    <IndustryHero />
+    <IndustryDescription />
+    <IndustryServices />
+    <IndustryCta />
+    <IndustryBenefits />
+    <IndustrySolutions />
 </template>
