@@ -155,5 +155,77 @@ export default defineContentConfig({
         ),
       }),
     }),
+
+    industry: defineCollection({
+      type: "data",
+      source: "industry/**.json",
+      schema: z.object({
+        en: z.object({
+          heroTitle: z.string(),
+          heroDescription: z.string(),
+          heroImage: z.string(),
+          descriptionTitle: z.string(),
+          subDescription: z.string(),
+          serviceTitle: z.string(),
+          services: z.array(
+            z.object({
+              title: z.string(),
+              description: z.string(),
+              icon: z.string(),
+            }),
+          ),
+          ctaTitle: z.string(),
+          ctaDescription: z.string(),
+          benefitTitle: z.string(),
+          benefits: z.array(
+            z.object({
+              title: z.string(),
+              description: z.string(),
+            }),
+          ),
+          solutionTitle: z.string(),
+          solutions: z.array(
+            z.object({
+              title: z.string(),
+              description: z.string(),
+              icon: z.string(),
+            }),
+          ),
+        }),
+
+        fr: z.object({
+          heroTitle: z.string(),
+          heroDescription: z.string(),
+          heroImage: z.string(),
+          descriptionTitle: z.string(),
+          subDescription: z.string(),
+          serviceTitle: z.string(),
+          services: z.array(
+            z.object({
+              title: z.string(),
+              description: z.string(),
+              icon: z.string(),
+            }),
+          ),
+          ctaTitle: z.string(),
+          ctaDescription: z.string(),
+          benefitTitle: z.string(),
+          benefits: z.array(
+            z.object({
+              title: z.string(),
+              description: z.string(),
+            }),
+          ),
+          solutionTitle: z.string(),
+          solutions: z.array(
+            z.object({
+              title: z.string(),
+              description: z.string(),
+              icon: z.string(),
+            }),
+          ),
+        }),
+      }),
+    }),
   },
 });
