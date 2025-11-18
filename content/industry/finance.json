@@ -1,0 +1,123 @@
+{
+  "en": {
+    "heroTitle": "AI-Powered Financial Innovation",
+    "heroDescription": "Transform financial operations with intelligent automation, risk analytics, and customer-centric digital experiences.",
+    "heroImage": "/industry/finance.jpg",
+
+    "descriptionTitle": "Driving Intelligent Finance",
+    "subDescription": "We help financial institutions modernize services with secure, compliant and scalable AI and software solutions.",
+
+    "serviceTitle": "Core Services",
+    "services": [
+      {
+        "title": "Risk & Fraud Detection",
+        "description": "Machine learning models that identify anomalies, reduce fraud losses, and strengthen regulatory compliance.",
+        "icon": "i-lucide-shield"
+      },
+      {
+        "title": "Financial Process Automation",
+        "description": "Automating KYC, onboarding, document processing, and reporting to enhance operational efficiency.",
+        "icon": "i-lucide-cpu"
+      },
+      {
+        "title": "Personalized Banking Experiences",
+        "description": "Smart digital interfaces that tailor financial insights and product recommendations to each user.",
+        "icon": "i-lucide-users"
+      }
+    ],
+
+    "ctaTitle": "Accelerate Your Financial Transformation",
+    "ctaDescription": "Partner with our AI and engineering teams to deliver secure and modern financial solutions.",
+
+    "benefitTitle": "Key Benefits",
+    "benefits": [
+      {
+        "title": "Enhanced Compliance",
+        "description": "Ensure operational excellence with automated checks and transparent audit trails."
+      },
+      {
+        "title": "Operational Efficiency",
+        "description": "Reduce manual workload and accelerate decision-making with automated pipelines."
+      },
+      {
+        "title": "Improved Customer Loyalty",
+        "description": "Deliver hyper-personalized digital services customers actually value."
+      }
+    ],
+
+    "solutionTitle": "Our Financial Solutions",
+    "solutions": [
+      {
+        "title": "AI Risk Engine",
+        "description": "Predictive models that analyze patterns and provide real-time risk scoring.",
+        "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Digital Banking Suite",
+        "description": "A modular platform enabling seamless digital onboarding, payments, and customer support.",
+        "icon": "i-lucide-smartphone"
+      }
+    ]
+  },
+
+  "fr": {
+    "heroTitle": "Innovation Financière Pilotée par l’IA",
+    "heroDescription": "Transformez vos opérations financières grâce à l’automatisation intelligente, à l’analytique des risques et à des expériences client modernes.",
+    "heroImage": "/industry/finance.jpg",
+
+    "descriptionTitle": "Construire la Finance Intelligente",
+    "subDescription": "Nous accompagnons les institutions financières dans la modernisation de leurs services avec des solutions IA sécurisées et conformes.",
+
+    "serviceTitle": "Services Principaux",
+    "services": [
+      {
+        "title": "Détection de Fraude & Risques",
+        "description": "Des modèles d’apprentissage automatique pour détecter les anomalies et renforcer la conformité.",
+        "icon": "i-lucide-shield"
+      },
+      {
+        "title": "Automatisation des Processus Financiers",
+        "description": "Automatisation du KYC, de l’onboarding, du traitement de documents et des rapports réglementaires.",
+        "icon": "i-lucide-cpu"
+      },
+      {
+        "title": "Expériences Bancaires Personnalisées",
+        "description": "Des interfaces intelligentes qui adaptent services et recommandations à chaque utilisateur.",
+        "icon": "i-lucide-users"
+      }
+    ],
+
+    "ctaTitle": "Accélérez Votre Transformation Financière",
+    "ctaDescription": "Collaborez avec nos équipes IA et ingénierie pour créer des solutions financières modernes et sécurisées.",
+
+    "benefitTitle": "Avantages Clés",
+    "benefits": [
+      {
+        "title": "Conformité Renforcée",
+        "description": "Des contrôles automatisés et des audits transparents pour réduire les risques."
+      },
+      {
+        "title": "Efficacité Opérationnelle",
+        "description": "Réduction du travail manuel et accélération des prises de décision."
+      },
+      {
+        "title": "Fidélisation Client",
+        "description": "Offrez des services personnalisés et des expériences digitales fluides."
+      }
+    ],
+
+    "solutionTitle": "Nos Solutions Financières",
+    "solutions": [
+      {
+        "title": "Moteur de Risque IA",
+        "description": "Des modèles prédictifs pour analyser les comportements et évaluer les risques en temps réel.",
+        "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Plateforme de Banque Digitale",
+        "description": "Un système modulaire pour l’onboarding digital, les paiements et l’assistance client.",
+        "icon": "i-lucide-smartphone"
+      }
+    ]
+  }
+}

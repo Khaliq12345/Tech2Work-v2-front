@@ -1,0 +1,122 @@
+{
+  "en": {
+    "heroTitle": "Healthcare Innovation with AI",
+    "heroDescription": "Empowering healthcare providers with predictive analytics, telemedicine solutions, and patient-centric digital tools.",
+    "heroImage": "/industry/healthcare.jpg",
+
+    "descriptionTitle": "Transforming Healthcare",
+    "subDescription": "We help hospitals, clinics, and health tech companies harness data and AI to improve outcomes and drive efficiency.",
+
+    "serviceTitle": "Healthcare Services",
+    "services": [
+      {
+        "title": "Predictive Diagnostics",
+        "description": "AI models that analyze patient data to predict diseases before symptoms appear.",
+        "icon": "i-lucide-stethoscope"
+      },
+      {
+        "title": "Digital Telehealth Platforms",
+        "description": "Secure video consultations, remote monitoring, and virtual care powered by modern tech.",
+        "icon": "i-lucide-video"
+      },
+      {
+        "title": "Operational Efficiency",
+        "description": "Optimize scheduling, inventory, and resource planning with intelligent systems.",
+        "icon": "i-lucide-bar-chart-2"
+      }
+    ],
+
+    "ctaTitle": "Accelerate Healthcare Transformation",
+    "ctaDescription": "Let’s build data-driven, AI-powered solutions for better patient care and streamlined operations.",
+
+    "benefitTitle": "Primary Benefits",
+    "benefits": [
+      {
+        "title": "Better Patient Outcomes",
+        "description": "Use predictive insights to intervene early and personalize care."
+      },
+      {
+        "title": "Cost Savings",
+        "description": "Reduce waste and improve resource allocation across clinical operations."
+      },
+      {
+        "title": "Improved Access",
+        "description": "Reach more patients remotely with secure telehealth platforms."
+      }
+    ],
+
+    "solutionTitle": "Our Healthcare Solutions",
+    "solutions": [
+      {
+        "title": "AI Diagnostic Engine",
+        "description": "A predictive system that flags early warning signs and supports clinician decisions.",
+        "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Telehealth Suite",
+        "description": "A fully integrated telemedicine platform with video, remote monitoring, and patient management.",
+        "icon": "i-lucide-monitor"
+      }
+    ]
+  },
+  "fr": {
+    "heroTitle": "Innovation en Santé avec l’IA",
+    "heroDescription": "Donner aux prestataires de soins des outils analytiques, des plateformes de télémédecine et des solutions digitales centrées sur le patient.",
+    "heroImage": "/industry/healthcare.jpg",
+
+    "descriptionTitle": "Transformer le Secteur Médical",
+    "subDescription": "Nous aidons les hôpitaux, cliniques et entreprises de santé à exploiter les données et l’IA pour améliorer les résultats et l’efficacité.",
+
+    "serviceTitle": "Services Santé",
+    "services": [
+      {
+        "title": "Diagnostics Prédictifs",
+        "description": "Des modèles d’IA qui analysent les données patients pour anticiper des maladies avant les symptômes.",
+        "icon": "i-lucide-stethoscope"
+      },
+      {
+        "title": "Plateformes de Télésanté",
+        "description": "Consultations vidéo sécurisées, suivi à distance et prise en charge virtuelle avec technologie moderne.",
+        "icon": "i-lucide-video"
+      },
+      {
+        "title": "Efficacité Opérationnelle",
+        "description": "Optimisez les plannings, les stocks et la planification des ressources grâce à des systèmes intelligents.",
+        "icon": "i-lucide-bar-chart-2"
+      }
+    ],
+
+    "ctaTitle": "Accélérez la Transformation en Santé",
+    "ctaDescription": "Construisons des solutions pilotées par les données et l’IA pour améliorer les soins et optimiser les opérations.",
+
+    "benefitTitle": "Avantages Principaux",
+    "benefits": [
+      {
+        "title": "Meilleurs Résultats Patients",
+        "description": "Utilisez des insights prédictifs pour intervenir tôt et personnaliser les soins."
+      },
+      {
+        "title": "Économies de Coût",
+        "description": "Réduisez le gaspillage et optimisez les ressources cliniques."
+      },
+      {
+        "title": "Meilleur Accès",
+        "description": "Atteignez davantage de patients à distance avec des plateformes de télésanté sécurisées."
+      }
+    ],
+
+    "solutionTitle": "Nos Solutions Santé",
+    "solutions": [
+      {
+        "title": "Moteur Diagnostique IA",
+        "description": "Un système prédictif qui signale des alertes et aide les cliniciens dans leurs décisions.",
+        "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Suite Télésanté",
+        "description": "Une plateforme intégrée de télémédecine avec vidéo, suivi à distance et gestion des patients.",
+        "icon": "i-lucide-monitor"
+      }
+    ]
+  }
+}

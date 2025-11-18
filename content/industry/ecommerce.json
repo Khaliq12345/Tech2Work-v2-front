@@ -1,0 +1,122 @@
+{
+  "en": {
+    "heroTitle": "AI & Data for E-commerce Growth",
+    "heroDescription": "Boost your online retail business with predictive analytics, personalization, and intelligent inventory solutions.",
+    "heroImage": "/industry/ecommerce.jpg",
+
+    "descriptionTitle": "Revolutionizing Retail",
+    "subDescription": "We support e-commerce brands in optimizing customer journeys, increasing conversions, and scaling operations with smart technology.",
+
+    "serviceTitle": "E-commerce Services",
+    "services": [
+      {
+        "title": "Personalization & Recommendations",
+        "description": "AI-powered product recommendations and dynamic content that adapt to each shopper.",
+        "icon": "i-lucide-gift"
+      },
+      {
+        "title": "Demand Forecasting",
+        "description": "Predict sales trends and inventory needs to avoid stockouts and overstock.",
+        "icon": "i-lucide-bar-chart"
+      },
+      {
+        "title": "Chatbots & Virtual Assistants",
+        "description": "Automated customer support for FAQs, returns, and guided shopping experiences.",
+        "icon": "i-lucide-message-circle"
+      }
+    ],
+
+    "ctaTitle": "Scale Your E-commerce with Intelligence",
+    "ctaDescription": "Partner with us to build data-driven retail experiences that convert and retain customers.",
+
+    "benefitTitle": "E-commerce Benefits",
+    "benefits": [
+      {
+        "title": "Increased Conversion",
+        "description": "Deliver relevant products and offers that drive purchase."
+      },
+      {
+        "title": "Optimized Inventory",
+        "description": "Reduce waste and stockouts with predictive restocking."
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Provide constant assistance to shoppers via AI chat and automation."
+      }
+    ],
+
+    "solutionTitle": "Our E-commerce Solutions",
+    "solutions": [
+      {
+        "title": "Recommendation Engine",
+        "description": "Personalized product suggestion engine using collaborative filtering and behavioral data.",
+        "icon": "i-lucide-heart"
+      },
+      {
+        "title": "Demand Forecasting Tool",
+        "description": "A predictive analytics platform that helps optimize inventory and operations.",
+        "icon": "i-lucide-trending-up"
+      }
+    ]
+  },
+  "fr": {
+    "heroTitle": "IA & Données pour la Croissance E-commerce",
+    "heroDescription": "Boostez votre commerce en ligne grâce à l’analytique prédictive, la personnalisation et des solutions d’inventaire intelligentes.",
+    "heroImage": "/industry/ecommerce.jpg",
+
+    "descriptionTitle": "Révolutionner le Retail",
+    "subDescription": "Nous accompagnons les marques e-commerce pour optimiser le parcours client, augmenter les conversions et scaler leurs opérations avec la technologie.",
+
+    "serviceTitle": "Services E-commerce",
+    "services": [
+      {
+        "title": "Personnalisation & Recommandations",
+        "description": "Recommandations de produits IA et contenu dynamique adapté à chaque acheteur.",
+        "icon": "i-lucide-gift"
+      },
+      {
+        "title": "Prévision de la Demande",
+        "description": "Prédisez les tendances de vente et les besoins d’inventaire pour éviter les ruptures.",
+        "icon": "i-lucide-bar-chart"
+      },
+      {
+        "title": "Chatbots & Assistants Virtuels",
+        "description": "Support client automatisé pour FAQ, retours et expérience d’achat guidée.",
+        "icon": "i-lucide-message-circle"
+      }
+    ],
+
+    "ctaTitle": "Faites Grandir Votre E-commerce avec l’IA",
+    "ctaDescription": "Collaborez avec nous pour créer des expériences retail pilotées par les données qui convertissent et fidélisent.",
+
+    "benefitTitle": "Avantages E-commerce",
+    "benefits": [
+      {
+        "title": "Conversion Accrue",
+        "description": "Proposez des produits et des offres pertinentes qui incitent à l’achat."
+      },
+      {
+        "title": "Inventaire Optimisé",
+        "description": "Réduisez les pertes et les ruptures grâce à la prévision intelligente."
+      },
+      {
+        "title": "Support 24/7",
+        "description": "Offrez une assistance constante aux acheteurs avec des chatbots IA."
+      }
+    ],
+
+    "solutionTitle": "Nos Solutions E-commerce",
+    "solutions": [
+      {
+        "title": "Moteur de Recommandation",
+        "description": "Un moteur de suggestion de produits personnalisé basé sur les données comportementales.",
+        "icon": "i-lucide-heart"
+      },
+      {
+        "title": "Outil de Prévision de Demande",
+        "description": "Une plateforme d’analytique prédictive pour optimiser les stocks et les opérations.",
+        "icon": "i-lucide-trending-up"
+      }
+    ]
+  }
+}
