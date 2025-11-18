@@ -2,6 +2,7 @@
   <AboutHero />
   <AboutDescription />
   <!-- <AboutClients /> -->
+  <AboutValues />
   <AboutTeam />
   <Review />
 </template>
