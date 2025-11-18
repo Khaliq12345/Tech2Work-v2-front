@@ -98,6 +98,16 @@ const technologyChildren = computed(() =>
     })),
 );
 
+const industrySlugs = [
+    { slug: "construction", en: "Construction", fr: "Construction" },
+    { slug: "events", en: "Events", fr: "Événements" },
+    { slug: "healthcare", en: "Healthcare", fr: "Santé" },
+    { slug: "travel", en: "Travel", fr: "Voyage" },
+    { slug: "ecommerce", en: "E-commerce", fr: "E-commerce" },
+    { slug: "finance", en: "Finance", fr: "Finance" },
+    { slug: "insurance", en: "Insurance", fr: "Assurance" },
+];
+
 const navItems: NavigationMenuItem[] = computed(() => [
     { label: "Home", to: `/${locale.value}` },
     { label: "Services", to: `/${locale.value}/services/` },
@@ -108,6 +118,17 @@ const navItems: NavigationMenuItem[] = computed(() => [
         label: "Technology",
         icon: "i-lucide-cpu",
         children: technologyChildren.value,
+        ui: {
+            content: "bg-white dark:bg-gray-900 shadow-lg",
+        },
+    },
+    {
+        label: "Industry",
+        icon: "i-lucide-briefcase",
+        children: industrySlugs.map((item) => ({
+            label: locale.value === "fr" ? item.fr : item.en,
+            to: `/${locale.value}/industry/${item.slug}/`,
+        })),
         ui: {
             content: "bg-white dark:bg-gray-900 shadow-lg",
         },
