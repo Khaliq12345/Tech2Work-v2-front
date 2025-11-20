@@ -1,26 +1,19 @@
 <template>
-    <UPageGrid
-        class="gap-6"
-        :ui="{
-            base: 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5',
-        }"
-    >
-        <UCard
-            v-for="(image, index) in images"
-            :key="index"
-            class="overflow-hidden p-0 hover:scale-[1.02] transition-transform duration-300 border-none shadow-none"
-        >
-            <img
-                :src="image"
-                alt="Project image"
-                class="w-full h-full object-cover rounded-lg"
-            />
-        </UCard>
-    </UPageGrid>
+  <UCarousel
+    v-slot="{ item }"
+    loop
+    arrows
+    dots
+    :autoplay="{ delay: 2000 }"
+    :items="images"
+    :ui="{ item: 'basis-1/3' }"
+  >
+    <img :src="item" width="234" height="234" class="rounded-lg" />
+  </UCarousel>
 </template>
 
 <script setup lang="ts">
 defineProps<{
-    images: string[];
+  images: string[];
 }>();
 </script>

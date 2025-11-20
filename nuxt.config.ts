@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "nuxt-i18n-micro",
     "@pinia/nuxt",
     "@nuxt/content",
+    "@nuxtjs/mdc",
   ],
   i18n: {
     locales: [

@@ -8,10 +8,6 @@
         </h2>
       </template>
 
-      <template #description>
-        <div class="w-11 h-1 bg-primary"></div>
-      </template>
-
       <template #default>
         <p class="text-gray-700 leading-relaxed whitespace-pre-line">
           {{ description }}

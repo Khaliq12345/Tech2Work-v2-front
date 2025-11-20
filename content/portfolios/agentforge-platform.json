@@ -1,0 +1,88 @@
+{
+  "en": {
+    "title": "AgentForge - AI Agent Orchestration Platform",
+    "description": "A modern, enterprise-grade platform for creating, deploying, and monitoring autonomous AI agents at scale. AgentForge simplifies the entire AI agent lifecycle with an intuitive creation wizard, real-time monitoring dashboard, sophisticated task management, and seamless integration with leading AI models. \n\n**How It Works:**\n\n**1. Agent Creation & Configuration** - Users create agents through a step-by-step wizard that guides model selection (OpenAI, Anthropic, Hugging Face), capability definition, behavior configuration, and memory setup. The platform offers pre-built templates for common use cases like customer support and data analysis. Agent definitions are stored as versioned JSON schemas in PostgreSQL.\n\n**2. Agent Deployment & Orchestration** - Agents run in isolated Docker containers managed by Kubernetes for auto-scaling. The system handles multi-agent coordination through message queues, enabling complex workflows where specialized agents collaborate. Integration layer connects seamlessly to external APIs, databases, and services.\n\n**3. Task Management System** - Sophisticated task queuing using Celery and Redis allows for priority-based task assignment, dependency management, parallel processing, and cron-like scheduling. Tasks are persisted for reliable execution with full status tracking.\n\n**4. Real-Time Monitoring** - Comprehensive dashboard built with Chart.js and ECharts displays live metrics, activity streams, performance analytics, health checks, and cost tracking. WebSocket connections provide real-time updates without page refreshes.\n\n**5. AI Intelligence Layer** - Leverages LangChain for complex reasoning chains, vector databases (Pinecone/Weaviate) for semantic memory, and autonomous tool selection. Agents maintain context awareness and can learn from historical interactions.\n\n**6. Security & Compliance** - Enterprise-grade security with JWT authentication, role-based access control, API key management, audit logging, and data encryption. Supports OAuth2 and two-factor authentication.\n\n**Technical Stack:** Frontend (Nuxt.js 3, TypeScript, Tailwind CSS), Backend (FastAPI, PostgreSQL, Redis, Celery), AI/ML (LangChain, OpenAI, Anthropic, Vector DBs), Infrastructure (Docker, Kubernetes, Prometheus, Grafana).",
+    "category": "AI/ML Platform",
+    "date": "11/20/2025",
+    "tags": [
+      "AI Agents",
+      "Machine Learning",
+      "Automation",
+      "FastAPI",
+      "Nuxt.js",
+      "LangChain",
+      "Kubernetes",
+      "Docker"
+    ],
+    "client": "Enterprise AI Solutions",
+    "mobileImage": "portfolio/agentforge-platform/screen.png",
+    "link": "/en/portfolios/agentforge-platform",
+    "galleries": [
+      "/portfolio/agentforge-platform/screen.png",
+      "/portfolio/agentforge-platform/screen2.png",
+      "/portfolio/agentforge-platform/screen3.png",
+      "/portfolio/agentforge-platform/screen4.png",
+      "/portfolio/agentforge-platform/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/agentforge"
+      }
+    ]
+  },
+  "fr": {
+    "title": "AgentForge - Plateforme d'Orchestration d'Agents IA",
+    "description": "Une plateforme moderne de niveau entreprise pour créer, déployer et surveiller des agents IA autonomes à grande échelle. AgentForge simplifie l'ensemble du cycle de vie des agents IA avec un assistant de création intuitif, un tableau de bord de surveillance en temps réel, une gestion sophistiquée des tâches et une intégration transparente avec les principaux modèles d'IA.\n\n**Comment ça fonctionne:**\n\n**1. Création et Configuration d'Agents** - Les utilisateurs créent des agents via un assistant étape par étape qui guide la sélection de modèles (OpenAI, Anthropic, Hugging Face), la définition des capacités, la configuration du comportement et la configuration de la mémoire. La plateforme propose des modèles préconfigurés pour des cas d'usage courants comme le support client et l'analyse de données. Les définitions d'agents sont stockées sous forme de schémas JSON versionnés dans PostgreSQL.\n\n**2. Déploiement et Orchestration d'Agents** - Les agents s'exécutent dans des conteneurs Docker isolés gérés par Kubernetes pour l'auto-scaling. Le système gère la coordination multi-agents via des files de messages, permettant des workflows complexes où des agents spécialisés collaborent. La couche d'intégration se connecte de manière transparente aux API externes, bases de données et services.\n\n**3. Système de Gestion des Tâches** - File d'attente sophistiquée utilisant Celery et Redis permettant l'affectation de tâches basée sur la priorité, la gestion des dépendances, le traitement parallèle et la planification de type cron. Les tâches sont persistées pour une exécution fiable avec suivi complet du statut.\n\n**4. Surveillance en Temps Réel** - Tableau de bord complet construit avec Chart.js et ECharts affichant des métriques en direct, flux d'activité, analyses de performance, vérifications de santé et suivi des coûts. Les connexions WebSocket fournissent des mises à jour en temps réel sans rafraîchissement de page.\n\n**5. Couche d'Intelligence IA** - Exploite LangChain pour des chaînes de raisonnement complexes, des bases de données vectorielles (Pinecone/Weaviate) pour la mémoire sémantique et la sélection autonome d'outils. Les agents maintiennent la conscience du contexte et peuvent apprendre des interactions historiques.\n\n**6. Sécurité et Conformité** - Sécurité de niveau entreprise avec authentification JWT, contrôle d'accès basé sur les rôles, gestion des clés API, journalisation d'audit et chiffrement des données. Prend en charge OAuth2 et l'authentification à deux facteurs.\n\n**Stack Technique:** Frontend (Nuxt.js 3, TypeScript, Tailwind CSS), Backend (FastAPI, PostgreSQL, Redis, Celery), IA/ML (LangChain, OpenAI, Anthropic, BD Vectorielles), Infrastructure (Docker, Kubernetes, Prometheus, Grafana).",
+    "category": "Plateforme IA/ML",
+    "date": "11/20/2025",
+    "tags": [
+      "Agents IA",
+      "Apprentissage Automatique",
+      "Automatisation",
+      "FastAPI",
+      "Nuxt.js",
+      "LangChain",
+      "Kubernetes",
+      "Docker"
+    ],
+    "client": "Solutions IA d'Entreprise",
+    "mobileImage": "./portfolio/agentforge-platform/screen",
+    "link": "/fr/portfolios/agentforge-platform",
+    "galleries": [
+      "./portfolio/agentforge-platform/screen",
+      "./portfolio/agentforge-platform/screen2",
+      "./portfolio/agentforge-platform/screen3",
+      "./portfolio/agentforge-platform/screen4",
+      "./portfolio/agentforge-platform/screen5"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/agentforge"
+      }
+    ]
+  }
+}
