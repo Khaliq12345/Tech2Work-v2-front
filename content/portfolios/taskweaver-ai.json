@@ -1,0 +1,92 @@
+{
+  "en": {
+    "title": "TaskWeaver AI - Intelligent AI-Powered Project Management Platform",
+    "description": "An advanced project management platform that uses autonomous AI agents to automatically decompose complex projects into executable micro-tasks and orchestrate their completion through specialized sub-agents. TaskWeaver AI combines traditional project tracking with cutting-edge multi-agent AI orchestration, freeing teams to focus on strategy while AI handles planning, delegation, and execution at scale.\n\n**How It Works:**\n\n**1. Intelligent Project Onboarding** - A multi-step wizard guides users through project definition, requirements gathering, milestone planning, and resource allocation. Built-in AI suggests optimal structures and automatically generates a complete task breakdown based on project type, historical patterns, and success criteria.\n\n**2. Automatic Task Decomposition** - Upon project creation, the core AI engine instantly transforms high-level goals into granular, actionable micro-tasks with dependencies, priorities, time estimates, and acceptance criteria. The decomposition adapts dynamically as new information emerges.\n\n**3. Multi-Agent Orchestration** - Tasks are intelligently routed to specialized sub-agents (code generation, research, data analysis, writing, testing, design, etc.). Powered by LangGraph and LangChain, agents collaborate autonomously, request clarifications when needed, and escalate only critical decisions to humans.\n\n**4. Real-Time Execution & Monitoring** - A unified dashboard provides full visibility with Kanban, Gantt, calendar, and list views. Live WebSocket updates show agent activity, progress percentages, bottlenecks, and predictive completion forecasts. Teams and AI work synchronously in real time.\n\n**5. Performance Analytics & Insights** - Executive dashboards track velocity, budget, quality metrics, and agent efficiency. Predictive AI identifies risks early and recommends optimizations. Custom reports and scheduled deliveries keep stakeholders informed.\n\n**6. Enterprise Governance** - Role-based access control, audit trails, human approval workflows, agent performance monitoring, and full integration capabilities ensure secure, transparent, and controllable AI-driven project execution.\n\n**Technical Stack:** Frontend (Nuxt.js 3, Nuxt UI, Tailwind CSS, Pinia, TypeScript, Chart.js, D3.js, Vue-Gantt), Backend (FastAPI, PostgreSQL + TimescaleDB, Redis, Celery), AI/ML (LangChain, LangGraph, Semantic Kernel, OpenAI, Anthropic, Hugging Face, Pinecone/ChromaDB/Qdrant, LangSmith), Infrastructure (Docker, Kubernetes, Prometheus, Grafana, Sentry, Terraform, GitHub Actions).",
+    "category": "AI-Powered Project Management",
+    "date": "11/22/2025",
+    "tags": [
+      "AI Agents",
+      "Project Management",
+      "Task Automation",
+      "Multi-Agent Systems",
+      "LangChain",
+      "LangGraph",
+      "FastAPI",
+      "Nuxt.js",
+      "Kubernetes"
+    ],
+    "client": "Enterprise & Technology Teams",
+    "mobileImage": "portfolio/taskweaver-ai/screen2.png",
+    "link": "/en/portfolios/taskweaver-ai",
+    "galleries": [
+      "/portfolio/taskweaver-ai/screen2.png",
+      "/portfolio/taskweaver-ai/screen.png",
+      "/portfolio/taskweaver-ai/screen3.png",
+      "/portfolio/taskweaver-ai/screen4.png",
+      "/portfolio/taskweaver-ai/screen5.png",
+      "/portfolio/taskweaver-ai/screen6.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/taskweaver-ai"
+      }
+    ]
+  },
+  "fr": {
+    "title": "TaskWeaver AI - Plateforme de Gestion de Projets Intelligente avec Agents IA",
+    "description": "Une plateforme avancée de gestion de projets qui utilise des agents IA autonomes pour décomposer automatiquement les projets complexes en micro-tâches exécutables et orchestrer leur réalisation via des sub-agents spécialisés. TaskWeaver AI combine le suivi traditionnel de projets avec une orchestration multi-agent IA de pointe, libérant les équipes pour se concentrer sur la stratégie pendant que l’IA gère la planification, la délégation et l’exécution à grande échelle.\n\n**Comment ça fonctionne :**\n\n**1. Intégration Intelligente de Projets** - Un assistant multi-étapes guide l’utilisateur dans la définition du projet, la collecte des besoins, la planification des jalons et l’allocation des ressources. L’IA intégrée suggère des structures optimales et génère automatiquement une décomposition complète des tâches.\n\n**2. Décomposition Automatique des Tâches** - Dès la création du projet, le moteur IA transforme les objectifs de haut niveau en micro-tâches granulaires avec dépendances, priorités, estimations temporelles et critères d’acceptation. La décomposition s’adapte dynamiquement.\n\n**3. Orchestration Multi-Agent** - Les tâches sont routées intelligemment vers des sub-agents spécialisés (génération de code, recherche, analyse de données, rédaction, tests, design, etc.). Grâce à LangGraph et LangChain, les agents collaborent de manière autonome et escaladent uniquement les décisions critiques aux humains.\n\n**4. Exécution & Supervision en Temps Réel** - Un tableau de bord unifié offre une visibilité totale avec vues Kanban, Gantt, calendrier et liste. Les mises à jour en direct via WebSocket affichent l’activité des agents, l’avancement, les goulots d’étranglement et les prévisions de fin de projet.\n\n**5. Analyse de Performance & Insights** - Tableaux de bord exécutifs suivent la vélocité, le budget, les métriques qualité et l’efficacité des agents. L’IA prédictive identifie les risques tôt et recommande des optimisations.\n\n**6. Gouvernance d’Entreprise** - Contrôle d’accès basé sur les rôles, pistes d’audit, workflows d’approbation humaine, suivi des performances des agents et intégrations complètes garantissent une exécution sécurisée, transparente et maîtrisée.\n\n**Stack Technique :** Frontend (Nuxt.js 3, Nuxt UI, Tailwind CSS, Pinia, TypeScript, Chart.js, D3.js, Vue-Gantt), Backend (FastAPI, PostgreSQL + TimescaleDB, Redis, Celery), IA/ML (LangChain, LangGraph, Semantic Kernel, OpenAI, Anthropic, Hugging Face, Pinecone/ChromaDB/Qdrant, LangSmith), Infrastructure (Docker, Kubernetes, Prometheus, Grafana, Sentry, Terraform, GitHub Actions).",
+    "category": "Gestion de Projets avec IA",
+    "date": "22/11/2025",
+    "tags": [
+      "Agents IA",
+      "Gestion de Projets",
+      "Automatisation de Tâches",
+      "Systèmes Multi-Agents",
+      "LangChain",
+      "LangGraph",
+      "FastAPI",
+      "Nuxt.js",
+      "Kubernetes"
+    ],
+    "client": "Équipes Entreprise & Technologie",
+    "mobileImage": "portfolio/taskweaver-ai/screen.png",
+    "link": "/fr/portfolios/taskweaver-ai",
+    "galleries": [
+      "/portfolio/taskweaver-ai/screen.png",
+      "/portfolio/taskweaver-ai/screen2.png",
+      "/portfolio/taskweaver-ai/screen3.png",
+      "/portfolio/taskweaver-ai/screen4.png",
+      "/portfolio/taskweaver-ai/screen5.png",
+      "/portfolio/taskweaver-ai/screen6.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/taskweaver-ai"
+      }
+    ]
+  }
+}

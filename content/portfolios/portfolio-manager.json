@@ -1,0 +1,88 @@
+{
+  "en": {
+    "title": "Portfolio Manager - Modern Personal Finance & Wealth Intelligence Platform",
+    "description": "A beautifully crafted, real-time personal finance and investment intelligence platform that gives high-net-worth individuals, family offices, and active investors complete clarity and control over their entire financial life. Portfolio Manager aggregates data from banks, brokerages, crypto wallets, real estate, private equity, and alternative assets into a single, secure, and visually stunning interface powered by intelligent analytics and AI-driven insights.\n\n**How It Works:**\n\n**1. Unified Financial Overview** - Instantly see total net worth, liquid vs illiquid assets, liabilities, cash flow summary, and year-to-date performance in a clean, executive-grade dashboard with interactive charts and sparklines.\n\n**2. Investment Portfolio Deep Dive** - Granular performance tracking with time-weighted and money-weighted returns, asset allocation pie/radar charts, contribution analysis, dividend/interest income tracking, and benchmark comparisons (S&P 500, MSCI World, etc.).\n\n**3. Intelligent Budgeting & Expense Tracking** - Automatic transaction categorization enriched with AI, custom budget creation, real-time spending vs budget gauges, trend forecasting, and anomaly detection for unusual expenses.\n\n**4. Global Market Intelligence Hub** - Live feeds of major indices, forex pairs, commodities, bonds, and cryptocurrencies. Integrated news sentiment analysis, economic calendar, correlation matrices, and fear & greed indicators to contextualize personal portfolio movements.\n\n**5. Data Aggregation & Security** - Secure bank-grade encryption with read-only connections via Plaid, Yodlee, Salt Edge, and manual CSV/crypto wallet imports. All sensitive data is encrypted at rest and in transit with zero-knowledge architecture options.\n\n**6. AI-Powered Insights** - Personalized recommendations, tax-loss harvesting opportunities, rebalancing alerts, scenario modeling (retirement, major purchases), and natural language summaries of monthly financial health.\n\n**Technical Stack:** Frontend (SvelteKit, TypeScript, Tailwind CSS, Chart.js, Lightweight Charts, ApexCharts, Svelte Motion animations), Backend (Flask + Flask-SocketIO, Python async with gevent), Data Pipeline (Apache Airflow, Redis Streams), Database (PostgreSQL + TimescaleDB for time-series), Caching & Realtime (Redis Pub/Sub), AI Layer (LangChain, OpenAI/Anthropic for insights & categorization, Pinecone for document/search embeddings), Integrations (Plaid, Yodlee, crypto APIs, manual imports), Infrastructure (Docker, Kubernetes, Prometheus + Grafana, Sentry, Terraform).",
+    "category": "Personal Finance & Wealth Management",
+    "date": "11/22/2025",
+    "tags": [
+      "Personal Finance",
+      "Wealth Management",
+      "Investment Tracking",
+      "Budgeting",
+      "FinTech",
+      "SvelteKit",
+      "Flask",
+      "Real-time Analytics",
+      "Data Aggregation"
+    ],
+    "client": "High-Net-Worth Individuals & Family Offices",
+    "mobileImage": "/portfolio/portfolio-manager/screen.png",
+    "link": "/en/portfolios/portfolio-manager",
+    "galleries": [
+      "/portfolio/portfolio-manager/screen.png",
+      "/portfolio/portfolio-manager/screen2.png",
+      "/portfolio/portfolio-manager/screen3.png",
+      "/portfolio/portfolio-manager/screen4.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/portfolio-manager"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Portfolio Manager - Plateforme Moderne de Gestion de Patrimoine & Finance Personnelle",
+    "description": "Une plateforme élégante et temps réel de gestion de patrimoine et d’intelligence financière conçue pour les particuliers fortunÉS, family offices et investisseurs actifs. Portfolio Manager agrège en toute sécurité les données bancaires, boursières, crypto, immobilier et actifs alternatifs dans une interface unique, visuellement époustouflante et enrichie d’analyses intelligentes et d’insights pilotés par IA.\n\n**Fonctionnement :**\n\n**1. Vue Financière Unifiée** - Vision instantanée du patrimoine net, liquidités vs actifs illiquides, dettes, flux de trésorerie et performance annuelle via un tableau de bord exécutif clair et interactif.\n\n**2. Suivi Précis des Investissements** - Performance détaillée avec rendements pondérés, allocation d’actifs, contribution par classe, suivi des dividendes et comparaison avec les indices de référence.\n\n**3. Budget & DépENSES Intelligents** - Catégorisation automatique enrichie IA, création de budgets personnalisés, jauges temps réel, prévisions de tendances et détection d’anomalies.\n\n**4. Hub d’Intelligence Marché** - Flux en direct des indices, devises, matières premières et cryptos, analyse de sentiment des actualités, calendrier économique et indicateurs de corrélation.\n\n**5. Agrégation & Sécurité Maximale** - Connexions en lecture seule via Plaid/Yodlee/Salt Edge, chiffrement bancaire, architecture zero-knowledge disponible.\n\n**6. Insights IA Personnalisés** - Recommandations sur mesure, opportunités de tax-loss harvesting, alertes de rééquilibrage et résumés mensuels en langage naturel.\n\n**Stack Technique :** Frontend (SvelteKit, TypeScript, Tailwind CSS, Chart.js, ApexCharts), Backend (Flask + Flask-SocketIO, Python async/gevent), Pipeline (Apache Airflow, Redis Streams), Base de données (PostgreSQL + TimescaleDB), IA (LangChain, OpenAI/Anthropic, Pinecone), Intégrations (Plaid, Yodlee, APIs crypto), Infrastructure (Docker, Kubernetes, Prometheus, Grafana, Terraform).",
+    "category": "Finance Personnelle & Gestion de Patrimoine",
+    "date": "22/11/2025",
+    "tags": [
+      "Finance Personnelle",
+      "Gestion de Patrimoine",
+      "Suivi d’Investissements",
+      "Budget",
+      "FinTech",
+      "SvelteKit",
+      "Flask",
+      "Analyse Temps Réel",
+      "Agrégation de Données"
+    ],
+    "client": "Particuliers Fortunés & Family Offices",
+    "mobileImage": "/portfolio/portfolio-manager/screen.png",
+    "link": "/fr/portfolios/portfolio-manager",
+    "galleries": [
+      "/portfolio/portfolio-manager/screen.png",
+      "/portfolio/portfolio-manager/screen2.png",
+      "/portfolio/portfolio-manager/screen3.png",
+      "/portfolio/portfolio-manager/screen4.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/portfolio-manager"
+      }
+    ]
+  }
+}

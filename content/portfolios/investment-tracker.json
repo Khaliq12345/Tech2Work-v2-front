@@ -1,0 +1,83 @@
+{
+  "en": {
+    "title": "WealthSimple - Beautiful Investment Tracker",
+    "description": "A clean and modern investment tracking app that brings all your accounts together in one place. Track stocks, ETFs, crypto, retirement accounts, and real estate – see your total portfolio performance, asset allocation, and growth over time with beautiful charts and zero clutter.\n\n**Core Features:**\n- Manual or auto-sync (via broker APIs or CSV)\n- Real-time portfolio value and daily change\n- Asset allocation (stocks, bonds, crypto, cash, etc.)\n- Performance over time (with comparison to S&P 500)\n- Dividend & interest income calendar\n- Clean mobile and desktop experience\n- Privacy-first: no ads, no data selling\n\n**Technical Stack:** SvelteKit frontend, Flask backend, real-time prices via Polygon/Yahoo Finance, lightweight and fast.\n\nSimple, honest, and built for long-term investors.",
+    "category": "Investment Tracking",
+    "date": "11/22/2025",
+    "tags": [
+      "Investing",
+      "Portfolio Tracker",
+      "Stocks",
+      "Crypto",
+      "Minimal Design",
+      "SvelteKit",
+      "Flask"
+    ],
+    "client": "Long-term Investors",
+    "mobileImage": "/portfolio/investment-tracker/screen.png",
+    "link": "/en/portfolios/investment-tracker",
+    "galleries": [
+      "/portfolio/investment-tracker/screen.png",
+      "/portfolio/investment-tracker/screen2.png",
+      "/portfolio/investment-tracker/screen3.png",
+      "/portfolio/investment-tracker/screen4.png",
+      "/portfolio/investment-tracker/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/wealthsimple"
+      }
+    ]
+  },
+  "fr": {
+    "title": "WealthSimple - Suivi d’Investissements Élégant",
+    "description": "Une application simple et moderne pour suivre tous vos investissements au même endroit : actions, ETF, cryptos, immobilier. Visualisez votre performance, allocation et croissance avec des graphiques clairs et une interface sans superflu.\n\nSynchro manuelle ou automatique, comparaison avec indices, suivi des dividendes – le tout dans un design épuré et respectueux de votre vie privée.",
+    "category": "Suivi d’Investissements",
+    "date": "22/11/2025",
+    "tags": [
+      "Investissement",
+      "Suivi de Portefeuille",
+      "Actions",
+      "Crypto",
+      "Design Minimal"
+    ],
+    "client": "Investisseurs Long Terme",
+    "mobileImage": "/portfolio/investment-tracker/screen.png",
+    "link": "/fr/portfolios/investment-tracker",
+    "galleries": [
+      "/portfolio/investment-tracker/screen.png",
+      "/portfolio/investment-tracker/screen2.png",
+      "/portfolio/investment-tracker/screen3.png",
+      "/portfolio/investment-tracker/screen4.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/wealthsimple"
+      }
+    ]
+  }
+}

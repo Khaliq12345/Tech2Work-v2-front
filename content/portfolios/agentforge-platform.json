@@ -58,14 +58,14 @@
       "Docker"
     ],
     "client": "Solutions IA d'Entreprise",
-    "mobileImage": "./portfolio/agentforge-platform/screen",
+    "mobileImage": "portfolio/agentforge-platform/screen.png",
     "link": "/fr/portfolios/agentforge-platform",
     "galleries": [
-      "./portfolio/agentforge-platform/screen",
-      "./portfolio/agentforge-platform/screen2",
-      "./portfolio/agentforge-platform/screen3",
-      "./portfolio/agentforge-platform/screen4",
-      "./portfolio/agentforge-platform/screen5"
+      "/portfolio/agentforge-platform/screen.png",
+      "/portfolio/agentforge-platform/screen2.png",
+      "/portfolio/agentforge-platform/screen3.png",
+      "/portfolio/agentforge-platform/screen4.png",
+      "/portfolio/agentforge-platform/screen5.png"
     ],
     "follow": [
       {

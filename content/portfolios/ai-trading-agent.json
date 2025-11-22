@@ -1,0 +1,92 @@
+{
+  "en": {
+    "title": "OrcaTrade - Algorithmic Trading Orchestration Agent Platform",
+    "description": "A high-performance web platform that empowers quantitative traders and hedge funds to build, backtest, deploy, and autonomously orchestrate sophisticated algorithmic trading strategies using AI agents. OrcaTrade combines a sleek, real-time interface with a robust autonomous agent framework that continuously monitors markets, adapts strategies, and executes trades while strictly respecting user-defined risk boundaries.\n\n**How It Works:**\n\n**1. Real-Time Dashboard** - Instant overview of all active agents, live P&L, exposure, drawdown, risk alerts, and streaming market data feeds. Critical events trigger immediate visual and sound notifications.\n\n**2. Strategy Development Studio** - No-code/low-code builder + Python editor to design new strategies. Users define market analysis logic, signal generation, execution algorithms, and agent behavior using modular components and custom scripts.\n\n**3. Advanced Backtesting & Optimization** - GPU-accelerated historical simulation engine with walk-forward analysis, Monte Carlo simulations, slippage modeling, and hyperparameter optimization powered by Optuna and Ray Tune.\n\n**4. Live Deployment & Autonomous Orchestration** - One-click deployment turns strategies into autonomous AI agents running in isolated containers. Agents continuously re-evaluate market regime, self-optimize parameters within allowed bounds, and coordinate with other strategies to maintain portfolio constraints.\n\n**5. Enterprise-Grade Risk Management** - Global and per-strategy risk controls: max drawdown limits, volatility targeting, position sizing (Kelly, volatility parity), dynamic leverage, circuit breakers, and kill switches. Real-time VaR, CVaR, and stress testing.\n\n**6. Deep Market Intelligence** - Live order book heatmaps, volume profile analysis, cross-asset correlation matrices, microstructure analytics, and AI-generated insights to refine strategy logic.\n\n**Technical Stack:** Frontend (SvelteKit, TypeScript, Tailwind CSS, Chart.js, Lightweight Charts by TradingView, WebSocket streaming), Backend (Flask + Flask-SocketIO, Python 3.12, async support via gevent), AI/Agent Framework (LangChain, LangGraph, CrewAI patterns), Data & Execution (PostgreSQL + TimescaleDB, Redis Streams, Apache Kafka for market data, broker APIs: Alpaca, Interactive Brokers, Binance, Bybit), Infrastructure (Docker, Kubernetes, Helm, Prometheus + Grafana, Loki logging, Terraform).",
+    "category": "Algorithmic Trading Platform",
+    "date": "11/22/2025",
+    "tags": [
+      "Algorithmic Trading",
+      "AI Agents",
+      "Quantitative Finance",
+      "Backtesting",
+      "Risk Management",
+      "SvelteKit",
+      "Flask",
+      "LangGraph",
+      "Kubernetes"
+    ],
+    "client": "Hedge Funds & Professional Traders",
+    "mobileImage": "/portfolio/ai-trading-agent/screen.png",
+    "link": "/en/portfolios/ai-trading-agent",
+    "galleries": [
+      "/portfolio/ai-trading-agent/screen.png",
+      "/portfolio/ai-trading-agent/screen2.png",
+      "/portfolio/ai-trading-agent/screen3.png",
+      "/portfolio/ai-trading-agent/screen4.png",
+      "/portfolio/ai-trading-agent/screen5.png",
+      "/portfolio/ai-trading-agent/screen6.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/orcatrade"
+      }
+    ]
+  },
+  "fr": {
+    "title": "OrcaTrade - Plateforme d'Orchestration d'Agents de Trading Algorithmique",
+    "description": "Une plateforme web ultra-performante permettant aux traders quantitatifs et fonds spéculatifs de concevoir, backtester, déployer et orchestrer de manière autonome des stratégies de trading algorithmique sophistiquées grâce à des agents IA. OrcaTrade associe une interface temps réel fluide à un framework d’agents autonomes qui surveillent en continu les marchés, adaptent les stratégies et exécutent les ordres tout en respectant strictement les limites de risque définies.\n\n**Fonctionnement :**\n\n**1. Tableau de Bord Temps Réel** - Vue instantanée de tous les agents actifs, P&L en direct, exposition, drawdown, alertes risque et flux de données marché.\n\n**2. Studio de Développement de Stratégies** - Éditeur no-code/low-code + environnement Python pour créer des stratégies modulaires (analyse, signaux, exécution).\n\n**3. Backtesting & Optimisation Avancés** - Moteur de simulation historique accéléré GPU, analyses walk-forward, Monte Carlo, modélisation de slippage et optimisation via Optuna/Ray Tune.\n\n**4. Déploiement Live & Orchestration Autonome** - Déploiement en un clic transforme les stratégies en agents IA autonomes qui s’auto-optimisent et coordonnent le portefeuille en respectant les contraintes.\n\n**5. Gestion de Risque Institutionnelle** - Contrôles globaux et par stratégie : drawdown max, volatility targeting, dimensionnement de position, circuit breakers, VaR/CVaR en temps réel.\n\n**6. Intelligence Marché Approfondie** - Heatmaps de carnet d’ordres, profils de volume, corrélations cross-asset et insights générés par IA.\n\n**Stack Technique :** Frontend (SvelteKit, TypeScript, Tailwind CSS, Chart.js, Lightweight Charts), Backend (Flask + Flask-SocketIO, Python async/gevent), IA/Agents (LangChain, LangGraph), Données & Exécution (PostgreSQL + TimescaleDB, Redis Streams, Kafka, APIs brokers), Infrastructure (Docker, Kubernetes, Prometheus, Grafana, Terraform).",
+    "category": "Plateforme de Trading Algorithmique",
+    "date": "22/11/2025",
+    "tags": [
+      "Trading Algorithmique",
+      "Agents IA",
+      "Finance Quantitative",
+      "Backtesting",
+      "Gestion de Risque",
+      "SvelteKit",
+      "Flask",
+      "LangGraph",
+      "Kubernetes"
+    ],
+    "client": "Fonds Spéculatifs & Traders Professionnels",
+    "mobileImage": "/portfolio/ai-trading-agent/screen.png",
+    "link": "/fr/portfolios/ai-trading-agent",
+    "galleries": [
+      "/portfolio/ai-trading-agent/screen.png",
+      "/portfolio/ai-trading-agent/screen2.png",
+      "/portfolio/ai-trading-agent/screen3.png",
+      "/portfolio/ai-trading-agent/screen4.png",
+      "/portfolio/ai-trading-agent/screen5.png",
+      "/portfolio/ai-trading-agent/screen6.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/orcatrade"
+      }
+    ]
+  }
+}

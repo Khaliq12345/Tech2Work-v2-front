@@ -1,0 +1,85 @@
+{
+  "en": {
+    "title": "Mintlight - Clean Personal Finance Tracker",
+    "description": "A minimalist, beautiful, and lightning-fast personal finance app that helps everyday people take control of their money. Mintlight connects to your bank accounts, automatically categorizes transactions, tracks your net worth, and shows exactly where your money goes – all in a calm, distraction-free interface.\n\n**Core Features:**\n- One-click bank connection (Plaid)\n- Automatic transaction categorization with smart AI suggestions\n- Clean dashboard with net worth, monthly income/expenses, and savings rate\n- Simple budget planner with progress rings\n- Spending by category (pie charts + trend lines)\n- Upcoming bills and subscription tracker\n- Dark/light mode and mobile-first design\n- Export data anytime (CSV/PDF)\n\n**Technical Stack:** Frontend (SvelteKit, TypeScript, Tailwind CSS, Chart.js), Backend (Flask, Python), Database (PostgreSQL), Bank integration (Plaid), Real-time sync (WebSocket), Hosting (Docker).\n\nPerfect for anyone who wants clarity over their finances without complexity.",
+    "category": "Personal Finance",
+    "date": "11/22/2025",
+    "tags": [
+      "Personal Finance",
+      "Budgeting",
+      "Bank Sync",
+      "Minimal Design",
+      "SvelteKit",
+      "Flask",
+      "Plaid"
+    ],
+    "client": "Individuals & Young Professionals",
+    "mobileImage": "/portfolio/finance-tracker/screen.png",
+    "link": "/en/portfolios/finance-tracker",
+    "galleries": [
+      "/portfolio/finance-tracker/screen.png",
+      "/portfolio/finance-tracker/screen2.png",
+      "/portfolio/finance-tracker/screen3.png",
+      "/portfolio/finance-tracker/screen4.png",
+      "/portfolio/finance-tracker/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/mintlight"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Mintlight - Suivi Financier Personnel Élégant et Simple",
+    "description": "Une application de finances personnelles minimaliste, rapide et esthétique qui connecte vos comptes bancaires, catégorise automatiquement vos dépenses et vous montre clairement où passe вашего argent – dans une interface calme et sans distraction.\n\nFonctionnalités principales : synchronisation bancaire, catégorisation intelligente, suivi du patrimoine, budgets simples, graphiques clairs et design mobile-first.",
+    "category": "Finance Personnelle",
+    "date": "22/11/2025",
+    "tags": [
+      "Finance Personnelle",
+      "Budget",
+      "Synchronisation Bancaire",
+      "Design Minimal",
+      "SvelteKit",
+      "Flask"
+    ],
+    "client": "Particuliers & Jeunes Actifs",
+    "mobileImage": "/portfolio/finance-tracker/screen.png",
+    "link": "/fr/portfolios/finance-tracker",
+    "galleries": [
+      "/portfolio/finance-tracker/screen.png",
+      "/portfolio/finance-tracker/screen2.png",
+      "/portfolio/finance-tracker/screen3.png",
+      "/portfolio/finance-tracker/screen4.png",
+      "/portfolio/finance-tracker/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/mintlight"
+      }
+    ]
+  }
+}

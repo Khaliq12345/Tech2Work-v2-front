@@ -1,17 +1,20 @@
 <template>
-    <UCard
+    <UPageCard
+        orientation="horizontal"
         class="overflow-hidden text-center transition shadow-lg hover:-translate-y-1 duration-300"
     >
         <!-- Contenu -->
-        <template #header>
-            <h2 class="text-xl font-bold text-blue-400">
+        <template #title>
+            <h2 class="text-md md:text-lg font-bold text-blue-400">
                 {{ title }}
             </h2>
         </template>
 
-        <template #default>
+        <template #description>
             <div class="p-6 space-y-3">
-                <p class="text-secondary text-xl leading-relaxed">
+                <p
+                    class="text-md md:text-lg text-secondary leading-relaxed line-clamp-2"
+                >
                     {{ description }}
                 </p>
 
@@ -23,22 +26,14 @@
                     <UIcon name="i-lucide-arrow-right" class="ml-1 w-4 h-4" />
                 </ULink>
             </div>
-            <!-- Image -->
-            <div class="relative">
-                <!-- Image desktop -->
-                <img
-                    :src="image"
-                    alt="Project image"
-                    class="w-full h-100 object-cover hidden sm:block"
-                />
-                <!-- Image mobile -->
-                <img
-                    :src="imageMobile"
-                    alt="Project image mobile"
-                    class="w-full h-full object-cover sm:hidden"
-                /></div
-        ></template>
-    </UCard>
+        </template>
+
+        <img
+            :src="image"
+            alt="Project image"
+            class="w-full h-64 md:h-96 object-cover rounded-lg"
+        />
+    </UPageCard>
 </template>
 
 <script setup lang="ts">

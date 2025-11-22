@@ -1,7 +1,7 @@
 <template>
     <div v-if="project">
         <PortfolioDetailHero :projectTitle="project.title" />
-        <div class="w-full flex flex-col gap-12 p-10">
+        <div class="w-full flex flex-col gap-12 p-2">
             <!-- HERO -->
 
             <!-- SECTION GRID -->
