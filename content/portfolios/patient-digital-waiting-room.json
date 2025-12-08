@@ -1,0 +1,88 @@
+{
+  "en": {
+    "title": "VitaFlow – Smart Patient Flow & Digital Waiting Room Platform",
+    "description": "A modern, patient-centered SaaS platform that transforms the waiting room experience for outpatient clinics, dental offices, physiotherapy centers, and small-to-medium hospitals. VitaFlow intelligently manages patient flow, reduces perceived wait times, and enhances patient satisfaction—all without accessing medical records or sensitive health data. From check-in to callback, every touchpoint is designed to reduce anxiety, improve communication, and optimize clinic operations.\n\n**How It Works:**\n\n**1. Digital Check-In Kiosk** - Patients scan a QR code or use a tablet to check in upon arrival, confirming appointment details and updating contact preferences without front desk bottlenecks.\n\n**2. Real-Time Queue Management** - Staff dashboard shows live patient status (checked in, waiting, in consultation, completed) with drag-and-drop prioritization and delay notifications.\n\n**3. Smart Waiting Room Display** - Large screens show engaging content: health tips, clinic announcements, local weather, news feeds, and estimated wait times with patient initials (no full names for privacy).\n\n**4. Mobile Notifications & Virtual Queuing** - Patients receive SMS or app notifications when their turn approaches, allowing them to wait in their car, grab coffee, or run errands nearby.\n\n**5. Patient Engagement Content** - Customizable content streams including educational videos, wellness tips, clinic services showcase, and patient testimonials to reduce perceived wait time.\n\n**6. Staff Communication Hub** - Internal messaging between reception, nurses, and practitioners with patient flow alerts, room readiness status, and delay management tools.\n\n**7. Analytics & Insights Dashboard** - Track average wait times, peak hours, patient satisfaction scores, no-show rates, and operational bottlenecks with actionable recommendations.\n\n**8. Multi-Location Support** - Manage multiple clinic locations from a single admin panel with location-specific branding, content, and queue configurations.\n\n**Technical Stack:** Frontend (Nuxt 3, Vue 3, TypeScript, Tailwind CSS, Socket.io for real-time updates), Backend API (FastAPI, Python, Pydantic for validation), Real-Time Engine (Redis Pub/Sub, WebSocket), Database (PostgreSQL with TimescaleDB for analytics), Queue Processing (Celery with Redis broker), Notifications (Twilio SMS, Firebase Cloud Messaging), Content Management (Strapi CMS), Authentication (Auth0 with clinic SSO support), Deployment (Docker, Kubernetes on Azure AKS, Terraform for infrastructure), Monitoring (Grafana, Prometheus for uptime and performance tracking).",
+    "category": "Healthcare SaaS & Patient Experience",
+    "date": "12/08/2025",
+    "tags": [
+      "Healthcare",
+      "Patient Experience",
+      "Queue Management",
+      "Digital Signage",
+      "Clinic Operations",
+      "Nuxt",
+      "FastAPI",
+      "Real-Time"
+    ],
+    "client": "Outpatient Clinics & Healthcare Facilities",
+    "mobileImage": "/portfolio/patient-digital-waiting-room/screen1.png",
+    "link": "/en/portfolios/patient-digital-waiting-room",
+    "galleries": [
+      "/portfolio/patient-digital-waiting-room/screen1.png",
+      "/portfolio/patient-digital-waiting-room/screen2.png",
+      "/portfolio/patient-digital-waiting-room/screen3.png",
+      "/portfolio/patient-digital-waiting-room/screen4.png",
+      "/portfolio/patient-digital-waiting-room/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/vitaflow"
+      }
+    ]
+  },
+  "fr": {
+    "title": "VitaFlow – Plateforme Intelligente de Flux Patient & Salle d'Attente Numérique",
+    "description": "Une plateforme SaaS moderne et centrée sur le patient qui transforme l'expérience de la salle d'attente pour les cliniques externes, cabinets dentaires, centres de physiothérapie et hôpitaux de taille petite à moyenne. VitaFlow gère intelligemment le flux de patients, réduit les temps d'attente perçus et améliore la satisfaction—sans accéder aux dossiers médicaux ou données de santé sensibles. De l'enregistrement au rappel, chaque point de contact réduit l'anxiété et optimise les opérations.\n\n**Fonctionnalités clés :**\n\n**1. Kiosque d'Enregistrement Numérique** - Les patients scannent un code QR ou utilisent une tablette pour s'enregistrer à l'arrivée, sans goulots d'étranglement à la réception.\n\n**2. Gestion de File d'Attente en Temps Réel** - Tableau de bord du personnel montrant le statut des patients en direct avec priorisation par glisser-déposer et notifications de retard.\n\n**3. Affichage Intelligent Salle d'Attente** - Grands écrans diffusant du contenu engageant : conseils santé, annonces, météo locale, actualités et temps d'attente estimés.\n\n**4. Notifications Mobiles & File Virtuelle** - Les patients reçoivent des SMS ou notifications d'application quand leur tour approche, leur permettant d'attendre dans leur voiture ou à proximité.\n\n**5. Contenu d'Engagement Patient** - Flux de contenu personnalisable incluant vidéos éducatives, conseils bien-être, vitrine des services et témoignages patients.\n\n**6. Hub de Communication Personnel** - Messagerie interne entre réception, infirmières et praticiens avec alertes de flux patient et outils de gestion des retards.\n\n**7. Tableau de Bord Analytique** - Suivi des temps d'attente moyens, heures de pointe, scores de satisfaction patient, taux d'absence et goulots opérationnels.\n\n**8. Support Multi-Sites** - Gérez plusieurs emplacements de clinique depuis un seul panneau admin avec branding et configurations spécifiques par site.\n\n**Stack Technique :** Frontend (Nuxt 3, Vue 3, TypeScript, Tailwind CSS, Socket.io pour mises à jour temps réel), API Backend (FastAPI, Python, Pydantic), Moteur Temps Réel (Redis Pub/Sub, WebSocket), Base de Données (PostgreSQL avec TimescaleDB), Traitement File (Celery avec Redis), Notifications (Twilio SMS, Firebase Cloud Messaging), Gestion Contenu (Strapi CMS), Authentification (Auth0 avec SSO clinique), Déploiement (Docker, Kubernetes sur Azure AKS, Terraform), Monitoring (Grafana, Prometheus).",
+    "category": "SaaS Santé & Expérience Patient",
+    "date": "08/12/2025",
+    "tags": [
+      "Santé",
+      "Expérience Patient",
+      "Gestion File d'Attente",
+      "Affichage Numérique",
+      "Opérations Clinique",
+      "Nuxt",
+      "FastAPI",
+      "Temps Réel"
+    ],
+    "client": "Cliniques Externes & Établissements de Santé",
+    "mobileImage": "/portfolio/patient-digital-waiting-room/screen1.png",
+    "link": "/fr/portfolios/patient-digital-waiting-room",
+    "galleries": [
+      "/portfolio/patient-digital-waiting-room/screen1.png",
+      "/portfolio/patient-digital-waiting-room/screen2.png",
+      "/portfolio/patient-digital-waiting-room/screen3.png",
+      "/portfolio/patient-digital-waiting-room/screen4.png",
+      "/portfolio/patient-digital-waiting-room/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/vitaflow"
+      }
+    ]
+  }
+}

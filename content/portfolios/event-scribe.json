@@ -1,0 +1,88 @@
+{
+  "en": {
+    "title": "Eventscribe – Vintage AI Blog & Article Generator for Events",
+    "description": "A retro-inspired AI content generation platform designed specifically for event organizers and marketers. Eventscribe transforms event details into polished, SEO-optimized articles, blog posts, and recaps for conferences, festivals, weddings, corporate gatherings, and more. Simply input event details—theme, speakers, highlights, attendee feedback, photos—and let the AI craft engaging content in multiple languages with customizable tones and styles.\n\n**How It Works:**\n\n**1. Smart Event Input Form** - Fill in event details, upload photos, add speaker bios, highlight key moments, and select your target audience and content goals.\n\n**2. Multi-Language Content Generation** - Instantly generate articles in English, Spanish, French, German, Italian, Portuguese, and more with native-quality writing and cultural adaptation.\n\n**3. Tone & Style Customization** - Choose from formal, conversational, journalistic, enthusiastic, or professional tones. Adjust length from quick social snippets to long-form deep dives.\n\n**4. SEO Optimization Engine** - Auto-generates meta descriptions, keyword suggestions, alt text for images, internal linking recommendations, and schema markup for events.\n\n**5. Visual Content Integration** - Automatically embeds and optimizes photos, generates image captions, creates social media graphics, and suggests featured images.\n\n**6. Multi-Format Export** - One-click export to WordPress, Webflow, Medium, Ghost CMS, or download as Markdown, HTML, or rich text. Direct publishing via API integrations.\n\n**7. Social Media Snippet Generator** - Extracts key quotes, statistics, and moments into platform-optimized posts for Twitter, LinkedIn, Instagram, and Facebook.\n\n**8. Content Calendar & Scheduling** - Plan pre-event teasers, live coverage, and post-event recaps with built-in scheduling and version control.\n\n**Technical Stack:** Frontend (SvelteKit, TypeScript, Tailwind CSS, TipTap Editor), Backend API (Flask, Python, FastAPI for ML endpoints), AI/ML (OpenAI GPT-4, Claude, Llama 3 for multi-model generation, LangChain), Content Processing (Rust microservices for image optimization and SEO analysis), Database (PostgreSQL with full-text search, Redis for caching), Queue System (BullMQ for background job processing), Integrations (WordPress REST API, Webflow API, Cloudinary), Deployment (Docker Compose, Railway, Vercel for frontend).",
+    "category": "Content AI & Event Marketing Automation",
+    "date": "12/08/2025",
+    "tags": [
+      "Content Generation",
+      "Event Marketing",
+      "AI Writing",
+      "Multi-Language",
+      "SEO",
+      "SvelteKit",
+      "Flask",
+      "CMS Integration"
+    ],
+    "client": "Event Planners & Marketing Agencies",
+    "mobileImage": "/portfolio/event-scribe/screen1.png",
+    "link": "/en/portfolios/event-scribe",
+    "galleries": [
+      "/portfolio/event-scribe/screen1.png",
+      "/portfolio/event-scribe/screen2.png",
+      "/portfolio/event-scribe/screen3.png",
+      "/portfolio/event-scribe/screen4.png",
+      "/portfolio/event-scribe/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/eventscribe"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Eventscribe – Générateur d'Articles IA Vintage pour Événements",
+    "description": "Une plateforme de génération de contenu IA d'inspiration rétro, conçue spécifiquement pour les organisateurs d'événements et les marketeurs. Eventscribe transforme les détails d'événements en articles polis et optimisés SEO, billets de blog et récapitulatifs pour conférences, festivals, mariages, rassemblements d'entreprise et plus. Saisissez simplement les détails de l'événement—thème, intervenants, moments forts, photos—et laissez l'IA créer du contenu engageant en plusieurs langues avec des tons personnalisables.\n\n**Fonctionnalités clés :**\n\n**1. Formulaire de Saisie Intelligent** - Remplissez les détails, téléchargez des photos, ajoutez les bios des intervenants et sélectionnez vos objectifs de contenu.\n\n**2. Génération Multi-Langues** - Créez instantanément des articles en anglais, espagnol, français, allemand, italien, portugais avec une qualité native.\n\n**3. Personnalisation Ton & Style** - Choisissez parmi des tons formels, conversationnels, journalistiques, enthousiastes ou professionnels.\n\n**4. Moteur d'Optimisation SEO** - Génère automatiquement méta-descriptions, suggestions de mots-clés, textes alt pour images et balisage schema.\n\n**5. Intégration Contenu Visuel** - Intègre et optimise automatiquement les photos, génère des légendes et crée des graphiques pour réseaux sociaux.\n\n**6. Export Multi-Format** - Export en un clic vers WordPress, Webflow, Medium, Ghost CMS, ou téléchargement en Markdown, HTML.\n\n**7. Générateur de Snippets Sociaux** - Extrait citations clés, statistiques et moments en publications optimisées pour Twitter, LinkedIn, Instagram, Facebook.\n\n**8. Calendrier & Planification** - Planifiez les teasers pré-événement, couverture en direct et récapitulatifs avec contrôle de version.\n\n**Stack Technique :** Frontend (SvelteKit, TypeScript, Tailwind CSS, TipTap Editor), API Backend (Flask, Python, FastAPI pour ML), IA/ML (GPT-4, Claude, Llama 3, LangChain), Traitement (microservices Rust pour optimisation images et analyse SEO), Base de Données (PostgreSQL, Redis), File d'Attente (BullMQ), Intégrations (WordPress REST API, Webflow API, Cloudinary), Déploiement (Docker Compose, Railway, Vercel).",
+    "category": "IA de Contenu & Automatisation Marketing Événementiel",
+    "date": "08/12/2025",
+    "tags": [
+      "Génération Contenu",
+      "Marketing Événementiel",
+      "Rédaction IA",
+      "Multi-Langues",
+      "SEO",
+      "SvelteKit",
+      "Flask",
+      "Intégration CMS"
+    ],
+    "client": "Planificateurs d'Événements & Agences Marketing",
+    "mobileImage": "/portfolio/event-scribe/screen1.png",
+    "link": "/fr/portfolios/event-scribe",
+    "galleries": [
+      "/portfolio/event-scribe/screen1.png",
+      "/portfolio/event-scribe/screen2.png",
+      "/portfolio/event-scribe/screen3.png",
+      "/portfolio/event-scribe/screen4.png",
+      "/portfolio/event-scribe/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/eventscribe"
+      }
+    ]
+  }
+}

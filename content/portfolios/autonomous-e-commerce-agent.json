@@ -1,0 +1,84 @@
+{
+  "en": {
+    "title": "Autonomous E-commerce Operations Agent",
+    "description": "An intelligent AI agent platform that runs your entire online store on autopilot. ShopAI monitors inventory, adjusts pricing in real time, personalizes product recommendations, manages customer support, and optimizes ad spend — all using autonomous agents that learn from your store’s data and customer behavior.\n\n**How It Works:**\n\n**1. Real-Time Dashboard** - Live view of sales, inventory levels, customer sentiment, ad performance, and agent activity.\n\n**2. Dynamic Pricing Agent** - Automatically adjusts prices based on demand, competitor pricing, inventory, and time of day.\n\n**3. Personalized Recommendations** - AI agent analyzes browsing and purchase history to show the right product at the right time.\n\n**4. 24/7 Customer Support Agent** - Handles FAQs, order tracking, returns, and escalates only complex issues to humans.\n\n**5. Inventory & Reorder Agent** - Predicts stockouts, auto-reorders from suppliers, and prevents overstock.\n\n**6. Ad Optimization Agent** - Allocates budget across Google, Meta, and TikTok based on ROAS and customer lifetime value.\n\n**Technical Stack:** Frontend (SvelteKit, TypeScript, Tailwind CSS, Chart.js), Backend (Flask + Flask-SocketIO), AI Agents (LangChain, LangGraph), Data (PostgreSQL, Redis), Integrations (Shopify, WooCommerce, Stripe, Google Ads, Meta), Infrastructure (Docker, Kubernetes).",
+    "category": "E-commerce AI Automation",
+    "date": "11/22/2025",
+    "tags": [
+      "E-commerce",
+      "AI Agents",
+      "Dynamic Pricing",
+      "Customer Support",
+      "Inventory Management",
+      "SvelteKit",
+      "Flask",
+      "LangChain"
+    ],
+    "client": "Online Retail & D2C Brands",
+    "mobileImage": "/portfolio/autonomous-e-commerce-agent/screen.png",
+    "link": "/en/portfolios/autonomous-e-commerce-agent",
+    "galleries": [
+      "/portfolio/autonomous-e-commerce-agent/screen.png",
+      "/portfolio/autonomous-e-commerce-agent/screen2.png",
+      "/portfolio/autonomous-e-commerce-agent/screen4.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/shopai"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Agent IA Autonome pour E-commerce",
+    "description": "Une plateforme d’agents IA qui gère votre boutique en ligne de A à Z : tarification dynamique, recommandations personnalisées, support client 24/7, gestion de stock et optimisation publicitaire — le tout en apprenant en continu à partir de vos données.\n\n**Fonctionnalités clés :** tableau de bord temps réel, agent prix, agent support, agent stock, agent pub. Intégration Shopify, WooCommerce, Stripe.",
+    "category": "Automatisation E-commerce IA",
+    "date": "22/11/2025",
+    "tags": [
+      "E-commerce",
+      "Agents IA",
+      "Tarification Dynamique",
+      "Support Client",
+      "Gestion Stock",
+      "SvelteKit",
+      "Flask",
+      "LangChain"
+    ],
+    "client": "Marques D2C & Retail en Ligne",
+    "mobileImage": "/portfolio/autonomous-e-commerce-agent/screen.png",
+    "link": "/fr/portfolios/autonomous-e-commerce-agent",
+    "galleries": [
+      "/portfolio/autonomous-e-commerce-agent/screen.png",
+      "/portfolio/autonomous-e-commerce-agent/screen2.png",
+      "/portfolio/autonomous-e-commerce-agent/screen4.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/shopai"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "en": {
+    "title": "Autonomous AI Shopping Assistant & Cart Recovery Engine",
+    "description": "A fully autonomous AI shopping agent that lives inside e-commerce stores and turns visitors into buyers 24/7. ShopAgent One understands natural language, knows your entire catalog, remembers every customer’s preferences, answers questions instantly, makes personalized recommendations, handles objections, applies smart discounts, and recovers abandoned carts — all without human intervention.\n\n**How It Works:**\n\n**1. Always-On AI Concierge** - Replaces traditional chat widgets with a real agent that greets visitors by name, knows their past orders, and speaks naturally in 40+ languages.\n\n**2. Deep Product Intelligence** - Connected to your catalog, inventory, reviews, and sizing charts. Can answer complex questions like “Show me waterproof winter jackets under $150 that fit tall people and have good reviews for snowboarding.”\n\n**3. Personalized Upsell & Cross-Sell** - Uses browsing behavior + purchase history to suggest perfect add-ons and bundles in real time.\n\n**4. Smart Cart Recovery** - When a customer abandons cart, the agent re-engages with personalized incentives (free shipping, limited-time discount, alternative suggestions).\n\n**5. Zero-Touch Order Modification** - Customers can change size/color, add items, or cancel via chat — instantly reflected in Shopify/woocommerce.\n\n**6. Full Analytics Dashboard** - See conversations converted, revenue generated, recovery rate, AOV uplift, and agent performance.\n\n**Technical Stack:** Frontend (SvelteKit embedded widget), Backend (Flask + WebSocket), AI (LangGraph multi-agent system, memory per customer, tool calling for catalog/inventory), Integrations (Shopify, WooCommerce, BigCommerce, Magento), Real-time sync (Redis + WebSocket)",
+    "category": "E-commerce AI Agent",
+    "date": "11/23/2025",
+    "tags": [
+      "E-commerce",
+      "AI Shopping Assistant",
+      "Cart Recovery",
+      "Personalization",
+      "Autonomous Agent",
+      "SvelteKit",
+      "Flask",
+      "LangGraph"
+    ],
+    "client": "Shopify & WooCommerce Stores",
+    "mobileImage": "/portfolio/shopping-assistant/screen.png",
+    "link": "/en/portfolios/shopping-assistant",
+    "galleries": [
+      "/portfolio/shopping-assistant/screen.png",
+      "/portfolio/shopping-assistant/screen2.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/shopagent-one"
+      }
+    ]
+  },
+  "fr": {
+    "title": "ShopAgent One - Assistant d’Achat IA Autonome & Récupération de Paniers",
+    "description": "Un agent commercial IA totalement autonome qui vit dans votre boutique en ligne et convertit les visiteurs en clients 24h/24. Il connaît parfaitement votre catalogue, parle naturellement, se souvient de chaque client, répond instantanément, fait des recommandations ultra-personnalisées et récupère les paniers abandonnés sans intervention humaine.",
+    "category": "Agent IA E-commerce",
+    "date": "23/11/2025",
+    "tags": [
+      "E-commerce",
+      "Assistant IA",
+      "Récupération Panier",
+      "Personnalisation",
+      "Agent Autonome"
+    ],
+    "client": "Boutiques Shopify & WooCommerce",
+    "mobileImage": "/portfolio/shopping-assistant/screen.png",
+    "link": "/fr/portfolios/shopping-assistant",
+    "galleries": [
+      "/portfolio/shopping-assistant/screen.png",
+      "/portfolio/shopping-assistant/screen2.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/shopagent-one"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "en": {
+    "title": "WanderScript – AI Travel Itinerary & Blog Content Generator",
+    "description": "A beautifully crafted AI-powered content platform designed exclusively for travel agencies, boutique tour operators, destination marketing organizations (DMOs), and travel bloggers. WanderScript transforms basic trip parameters into comprehensive, publication-ready content that inspires wanderlust and drives bookings. Simply input destination, duration, traveler profile, and interests—and let the AI craft stunning itineraries, destination guides, blog posts, and social media content in 15+ languages.\n\n**How It Works:**\n\n**1. Intelligent Trip Planner** - Input destination, trip length, traveler type (family, couple, solo adventurer, luxury, budget, wellness seeker), interests (food, culture, adventure, history, nature), and preferred pace (relaxed, moderate, packed).\n\n**2. Dynamic Day-by-Day Itineraries** - AI generates detailed daily schedules with morning/afternoon/evening activities, restaurant recommendations, transportation tips, estimated costs, and booking links—all beautifully formatted.\n\n**3. SEO-Optimized Blog Content** - Automatically creates long-form destination guides, \"Top 10\" lists, travel tips articles, hidden gems posts, and seasonal travel guides with meta descriptions and keyword optimization.\n\n**4. Multi-Language Generation** - Instant content creation in English, French, Spanish, German, Italian, Portuguese, Japanese, Korean, Mandarin, Arabic, Russian, Dutch, and more—with cultural nuances and local insights.\n\n**5. Social Media Content Suite** - Generate Instagram captions, TikTok scripts, Pinterest descriptions, Facebook posts, and Twitter threads with trending hashtags and engagement hooks.\n\n**6. Visual Content Suggestions** - AI recommends photo spots, suggests image themes, generates alt text for accessibility, and creates mood boards for each destination.\n\n**7. Customizable Templates & Branding** - White-label itineraries with agency logo, custom color schemes, typography, and brand voice—export as PDF, web page, or email newsletter.\n\n**8. Content Calendar & Publishing** - Schedule blog posts, social content, and email campaigns with built-in content calendar, version history, and collaboration tools for team workflows.\n\n**9. Destination Database Integration** - Pre-loaded with thousands of attractions, restaurants, hotels, and local experiences with ratings, pricing, opening hours, and booking APIs.\n\n**10. Analytics & Performance Tracking** - Monitor content engagement, conversion rates, popular destinations, and SEO rankings to optimize your content strategy.\n\n**Technical Stack:** Frontend (SvelteKit, TypeScript, Tailwind CSS, Leaflet for interactive maps, Tiptap Editor), Backend API (Flask, Python, FastAPI for ML services), AI/ML (OpenAI GPT-4 Turbo, Claude Sonnet, Gemini Pro for diverse content styles, LangChain for multi-step generation), Content Processing (Rust microservices for PDF generation and image optimization), Database (PostgreSQL with PostGIS for geospatial queries, Elasticsearch for destination search), Cache Layer (Redis for API response caching), Queue System (RabbitMQ + Celery for background content generation), Integrations (Google Places API, Tripadvisor API, Booking.com affiliate, Unsplash for stock photos), Deployment (Docker Swarm, DigitalOcean Kubernetes, Cloudflare CDN), Monitoring (Sentry for error tracking, Mixpanel for user analytics).",
+    "category": "Travel Tech & AI Content Generation",
+    "date": "12/08/2025",
+    "tags": [
+      "Travel Tech",
+      "AI Content",
+      "Itinerary Planning",
+      "Multi-Language",
+      "SEO",
+      "SvelteKit",
+      "Flask",
+      "Travel Industry"
+    ],
+    "client": "Travel Agencies & Tour Operators",
+    "mobileImage": "/portfolio/wander-script/screen1.png",
+    "link": "/en/portfolios/wander-script",
+    "galleries": [
+      "/portfolio/wander-script/screen1.png",
+      "/portfolio/wander-script/screen2.png",
+      "/portfolio/wander-script/screen3.png",
+      "/portfolio/wander-script/screen4.png",
+      "/portfolio/wander-script/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/wanderscript"
+      }
+    ]
+  },
+  "fr": {
+    "title": "WanderScript – Générateur IA d'Itinéraires & Contenu Voyage",
+    "description": "Une plateforme de contenu IA magnifiquement conçue, exclusivement pour les agences de voyage, tour-opérateurs boutique, offices de tourisme (DMO) et blogueurs voyage. WanderScript transforme des paramètres de voyage simples en contenu complet et prêt à publier qui inspire l'envie de voyager et stimule les réservations. Saisissez simplement destination, durée, profil voyageur et intérêts—et laissez l'IA créer itinéraires époustouflants, guides de destination, articles de blog et contenu social en 15+ langues.\n\n**Fonctionnalités clés :**\n\n**1. Planificateur de Voyage Intelligent** - Saisissez destination, durée, type de voyageur (famille, couple, aventurier solo, luxe, budget, bien-être), intérêts (gastronomie, culture, aventure, histoire, nature) et rythme préféré.\n\n**2. Itinéraires Jour par Jour Dynamiques** - L'IA génère des programmes quotidiens détaillés avec activités matin/après-midi/soir, recommandations restaurants, conseils transport, coûts estimés et liens de réservation.\n\n**3. Contenu Blog Optimisé SEO** - Crée automatiquement des guides de destination long-format, listes \"Top 10\", articles conseils voyage, joyaux cachés et guides saisonniers.\n\n**4. Génération Multi-Langues** - Création instantanée de contenu en anglais, français, espagnol, allemand, italien, portugais, japonais, coréen, mandarin, arabe, russe, néerlandais—avec nuances culturelles.\n\n**5. Suite Contenu Réseaux Sociaux** - Génère légendes Instagram, scripts TikTok, descriptions Pinterest, posts Facebook et threads Twitter avec hashtags tendance.\n\n**6. Suggestions Contenu Visuel** - L'IA recommande spots photo, thèmes d'images, génère textes alt pour accessibilité et crée mood boards pour chaque destination.\n\n**7. Templates & Branding Personnalisables** - Itinéraires en marque blanche avec logo agence, schémas couleurs personnalisés, typographie et voix de marque—export PDF, page web ou newsletter.\n\n**8. Calendrier Contenu & Publication** - Planifiez articles blog, contenu social et campagnes email avec calendrier intégré, historique versions et outils collaboration équipe.\n\n**9. Intégration Base Destinations** - Préchargé avec milliers d'attractions, restaurants, hôtels et expériences locales avec notes, prix, horaires et APIs de réservation.\n\n**10. Analytics & Suivi Performance** - Surveillez engagement contenu, taux conversion, destinations populaires et classements SEO pour optimiser votre stratégie.\n\n**Stack Technique :** Frontend (SvelteKit, TypeScript, Tailwind CSS, Leaflet pour cartes interactives, Tiptap Editor), API Backend (Flask, Python, FastAPI pour services ML), IA/ML (GPT-4 Turbo, Claude Sonnet, Gemini Pro, LangChain), Traitement Contenu (microservices Rust pour génération PDF et optimisation images), Base de Données (PostgreSQL avec PostGIS, Elasticsearch), Cache (Redis), File d'Attente (RabbitMQ + Celery), Intégrations (Google Places API, Tripadvisor, Booking.com, Unsplash), Déploiement (Docker Swarm, DigitalOcean Kubernetes, Cloudflare CDN), Monitoring (Sentry, Mixpanel).",
+    "category": "Tech Voyage & Génération Contenu IA",
+    "date": "08/12/2025",
+    "tags": [
+      "Tech Voyage",
+      "Contenu IA",
+      "Planification Itinéraire",
+      "Multi-Langues",
+      "SEO",
+      "SvelteKit",
+      "Flask",
+      "Industrie Voyage"
+    ],
+    "client": "Agences Voyage & Tour-Opérateurs",
+    "mobileImage": "/portfolio/wander-script/screen1.png",
+    "link": "/fr/portfolios/wander-script",
+    "galleries": [
+      "/portfolio/wander-script/screen1.png",
+      "/portfolio/wander-script/screen2.png",
+      "/portfolio/wander-script/screen3.png",
+      "/portfolio/wander-script/screen4.png",
+      "/portfolio/wander-script/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/wanderscript"
+      }
+    ]
+  }
+}

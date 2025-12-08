@@ -1,0 +1,90 @@
+{
+  "en": {
+    "title": "ConstruRAG – Intelligent Document Analyzer for Construction",
+    "description": "An enterprise-grade AI-powered Retrieval-Augmented Generation (RAG) platform purpose-built for construction companies. ConstruRAG enables teams to upload thousands of project documents—PDF contracts, technical specifications, shop drawings, RFIs, change orders, daily reports, safety documents, BIM metadata, invoices, and more—and instantly query them using natural language. Get accurate, cited answers pulled directly from your document corpus with complete source references and context.\n\n**How It Works:**\n\n**1. Document Ingestion Pipeline** - Automated OCR, parsing, and chunking of construction documents with specialized handling for technical drawings, tables, and stamped plans.\n\n**2. Intelligent Vectorization** - Advanced embedding models fine-tuned on construction terminology, creating semantic search across your entire document library.\n\n**3. Natural Language Query Interface** - Ask questions like \"What's the concrete strength requirement for Building C foundation?\" or \"Show me all change orders related to electrical work in Q3\".\n\n**4. Source-Cited Responses** - Every answer includes direct citations with page numbers, document names, dates, and highlighted excerpts for verification.\n\n**5. Multi-Project Management** - Organize documents by project, phase, trade, or custom taxonomy with role-based access control.\n\n**6. Real-Time Collaboration** - Share findings with team members, annotate responses, and create knowledge bases from frequently asked questions.\n\n**7. Compliance & Audit Trail** - Track all queries, responses, and document access for regulatory compliance and project audits.\n\n**Technical Stack:** Frontend (Nuxt 3, Vue 3, TypeScript, Tailwind CSS, PDF.js), Backend API (FastAPI, Python, Pydantic), Document Processing (Rust microservices for high-performance OCR/parsing), Vector Database (Weaviate with hybrid search), Queue System (RabbitMQ + Celery for async processing), AI/ML (LangChain, OpenAI GPT-4, Sentence Transformers, LlamaIndex), Storage (MinIO for S3-compatible object storage, PostgreSQL), Authentication (Auth0 with SSO), Deployment (Docker, Kubernetes, Terraform, AWS ECS).",
+    "category": "Construction Tech & AI Document Intelligence",
+    "date": "12/08/2025",
+    "tags": [
+      "Construction Tech",
+      "RAG",
+      "Document AI",
+      "NLP",
+      "FastAPI",
+      "Nuxt",
+      "Rust",
+      "Vector Database",
+      "Enterprise"
+    ],
+    "client": "Construction Firms & General Contractors",
+    "mobileImage": "/portfolio/construct-rag/screen1.png",
+    "link": "/en/portfolios/construct-rag",
+    "galleries": [
+      "/portfolio/construct-rag/screen1.png",
+      "/portfolio/construct-rag/screen2.png",
+      "/portfolio/construct-rag/screen3.png",
+      "/portfolio/construct-rag/screen4.png",
+      "/portfolio/construct-rag/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/construrag"
+      }
+    ]
+  },
+  "fr": {
+    "title": "ConstruRAG – Analyseur Intelligent de Documents pour la Construction",
+    "description": "Une plateforme RAG (Retrieval-Augmented Generation) alimentée par l'IA, conçue spécifiquement pour les entreprises de construction. ConstruRAG permet aux équipes de télécharger des milliers de documents de projet—contrats PDF, spécifications techniques, plans d'atelier, RFI, ordres de modification, rapports quotidiens, documents de sécurité, métadonnées BIM, factures—et de les interroger instantanément en langage naturel. Obtenez des réponses précises et citées, extraites directement de vos documents avec références complètes.\n\n**Fonctionnalités clés :**\n\n**1. Pipeline d'Ingestion** - OCR automatisé, analyse et segmentation de documents de construction avec traitement spécialisé des plans techniques.\n\n**2. Vectorisation Intelligente** - Modèles d'embedding optimisés pour la terminologie de construction, permettant une recherche sémantique complète.\n\n**3. Interface de Requête Naturelle** - Posez des questions comme \"Quelle est la résistance du béton requise pour les fondations du Bâtiment C ?\".\n\n**4. Réponses Citées** - Chaque réponse inclut des citations directes avec numéros de page, noms de documents et extraits surlignés.\n\n**5. Gestion Multi-Projets** - Organisez les documents par projet, phase, corps de métier avec contrôle d'accès basé sur les rôles.\n\n**6. Collaboration Temps Réel** - Partagez les résultats, annotez les réponses et créez des bases de connaissances.\n\n**7. Conformité & Traçabilité** - Suivez toutes les requêtes et accès aux documents pour la conformité réglementaire.\n\n**Stack Technique :** Frontend (Nuxt 3, Vue 3, TypeScript, Tailwind CSS, PDF.js), API Backend (FastAPI, Python, Pydantic), Traitement Documents (microservices Rust pour OCR haute performance), Base Vectorielle (Weaviate), File d'Attente (RabbitMQ + Celery), IA/ML (LangChain, GPT-4, Sentence Transformers), Stockage (MinIO, PostgreSQL), Déploiement (Docker, Kubernetes, AWS ECS).",
+    "category": "Tech Construction & IA Documentaire",
+    "date": "08/12/2025",
+    "tags": [
+      "Tech Construction",
+      "RAG",
+      "IA Documentaire",
+      "NLP",
+      "FastAPI",
+      "Nuxt",
+      "Rust",
+      "Base Vectorielle",
+      "Enterprise"
+    ],
+    "client": "Entreprises de Construction & Entrepreneurs Généraux",
+    "mobileImage": "/portfolio/construct-rag/screen1.png",
+    "link": "/fr/portfolios/construct-rag",
+    "galleries": [
+      "/portfolio/construct-rag/screen1.png",
+      "/portfolio/construct-rag/screen2.png",
+      "/portfolio/construct-rag/screen3.png",
+      "/portfolio/construct-rag/screen4.png",
+      "/portfolio/construct-rag/screen5.png"
+    ],
+    "follow": [
+      {
+        "label": "Instagram",
+        "icon": "i-simple-icons-instagram",
+        "url": "https://instagram.com/tech2work"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "i-simple-icons-linkedin",
+        "url": "https://linkedin.com/company/tech2work"
+      },
+      {
+        "label": "GitHub",
+        "icon": "i-simple-icons-github",
+        "url": "https://github.com/tech2work/construrag"
+      }
+    ]
+  }
+}
