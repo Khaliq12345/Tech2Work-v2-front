@@ -26,6 +26,8 @@
       "/portfolio/ai-trading-agent/screen5.png",
       "/portfolio/ai-trading-agent/screen6.png"
     ],
+    "maxHeight": "145",
+    "minHeight": "100",
     "follow": [
       {
         "label": "Instagram",

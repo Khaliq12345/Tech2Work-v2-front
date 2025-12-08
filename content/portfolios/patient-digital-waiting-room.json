@@ -24,6 +24,8 @@
       "/portfolio/patient-digital-waiting-room/screen4.png",
       "/portfolio/patient-digital-waiting-room/screen5.png"
     ],
+    "maxHeight": "340",
+    "minHeight": "auto",
     "follow": [
       {
         "label": "Instagram",

@@ -23,6 +23,8 @@
       "/portfolio/investment-tracker/screen4.png",
       "/portfolio/investment-tracker/screen5.png"
     ],
+    "maxHeight": "340",
+    "minHeight": "auto",
     "follow": [
       {
         "label": "Instagram",

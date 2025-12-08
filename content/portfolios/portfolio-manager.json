@@ -24,6 +24,8 @@
       "/portfolio/portfolio-manager/screen3.png",
       "/portfolio/portfolio-manager/screen4.png"
     ],
+    "maxHeight": "340",
+    "minHeight": "auto",
     "follow": [
       {
         "label": "Instagram",

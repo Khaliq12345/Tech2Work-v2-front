@@ -24,6 +24,8 @@
       "/portfolio/agentforge-platform/screen4.png",
       "/portfolio/agentforge-platform/screen5.png"
     ],
+    "maxHeight": "900",
+    "minHeight": "400",
     "follow": [
       {
         "label": "Instagram",
