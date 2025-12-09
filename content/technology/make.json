@@ -5,70 +5,75 @@
     "coverImage": "/technology/make.png",
     "heroHeadline": "Make Automation Expertise",
     "heroCoverAlt": "Make cover",
-    "descriptionV1": "Automate complex workflows with Make's visual builder and powerful scenario engine.",
-    "descriptionV2": "We orchestrate Make scenarios that synchronize data across SaaS platforms, APIs, and on-prem systems.",
-    "additionalDescription": "Our team implements governance, monitoring, and documentation to keep your Make automations reliable and auditable.",
+    "descriptionV1": "Automate complex workflows and business processes efficiently using Make's visual builder and powerful scenario engine.",
+    "descriptionV2": "We design and implement Make scenarios that seamlessly synchronize data across SaaS platforms, APIs, databases, and on-prem systems, ensuring reliability and maintainability.",
+    "additionalDescription": "Our team establishes governance, monitoring, error handling strategies, and documentation to make your automations robust, auditable, and scalable.",
     "additionalTitle": "Where Make Delivers the Most Impact",
     "usesTitle": "What Makes Make Stand Out?",
-    "usesDescription": "Make accelerates automation with these capabilities:",
+    "usesDescription": "Make empowers teams to accelerate automation with these capabilities:",
     "features": [
       {
         "title": "Visual Scenario Builder",
-        "description": "Design automation pipelines through a drag-and-drop interface with branching logic.",
+        "description": "Drag-and-drop interface with branching logic, conditional flows, and reusable modules for rapid automation design.",
         "icon": "i-lucide-pen-tool"
       },
       {
         "title": "Extensive Connectors",
-        "description": "Access hundreds of modules or integrate custom APIs to tailor every workflow.",
+        "description": "Integrate hundreds of SaaS applications, APIs, and custom services to create end-to-end automated workflows.",
         "icon": "i-lucide-plug"
       },
       {
-        "title": "Error Handling",
-        "description": "Implement retries, conditional paths, and notifications to make workflows resilient.",
+        "title": "Error Handling & Resilience",
+        "description": "Automatic retries, notifications, and conditional paths ensure scenarios run smoothly even under failure conditions.",
         "icon": "i-lucide-alert-triangle"
       },
       {
         "title": "Scalable Operations",
-        "description": "Optimize performance and costs with scenario templates, scheduling, and analytics.",
+        "description": "Optimize automation performance and cost with scenario templates, scheduling, analytics, and version control.",
         "icon": "i-lucide-gauge"
+      },
+      {
+        "title": "Governance & Compliance",
+        "description": "Implement structured documentation, user permissions, and logging to meet organizational standards and audit requirements.",
+        "icon": "i-lucide-shield-check"
       }
     ],
     "process": [
       {
         "phase": "Phase 1",
         "title": "Automation Audit",
-        "description": "Identify processes, data sync needs, and opportunities for Make adoption.",
+        "description": "Analyze current processes, identify bottlenecks, and determine opportunities for Make adoption and automation efficiency.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Scenario Architecture",
-        "description": "Design reusable modules, error strategies, and security controls.",
+        "description": "Design reusable modules, data flows, error handling strategies, and security controls for sustainable automation.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Implementation",
-        "description": "Build and test scenarios that connect systems and automate manual tasks.",
+        "description": "Develop, test, and validate scenarios that connect systems, automate tasks, and reduce manual effort.",
         "icon": "i-lucide-cog"
       },
       {
         "phase": "Phase 4",
         "title": "Validation & Monitoring",
-        "description": "Simulate edge cases, configure alerts, and review metrics for reliability.",
+        "description": "Simulate edge cases, configure alerts, and monitor metrics to ensure reliable and resilient automation.",
         "icon": "i-lucide-clipboard-check"
       },
       {
         "phase": "Phase 5",
-        "title": "Training & Evolution",
-        "description": "Document patterns, coach stakeholders, and refine automations over time.",
+        "title": "Training & Continuous Improvement",
+        "description": "Document best practices, train stakeholders, and iteratively refine automations for ongoing optimization.",
         "icon": "i-lucide-graduation-cap"
       }
     ],
     "processTitle": "Make Automation Process",
-    "processDescription": "A structured workflow that evolves your Make scenarios from discovery to continuous improvement.",
+    "processDescription": "A structured and transparent workflow to evolve your Make scenarios from discovery to continuous improvement.",
     "ctaTitle": "Partner with our Make Team",
-    "ctaDescription": "Ready to orchestrate advanced Make scenarios? Let's build your automation roadmap together.",
+    "ctaDescription": "Ready to orchestrate advanced Make scenarios and streamline your operations? Let's build your automation roadmap together.",
     "ctaImageAlt": "Make illustration"
   },
   "fr": {
@@ -77,70 +82,75 @@
     "coverImage": "/technology/make.png",
     "heroHeadline": "Expertise Make",
     "heroCoverAlt": "Visuel Make",
-    "descriptionV1": "Automatisez des workflows complexes avec le constructeur visuel et le moteur de scénarios de Make.",
-    "descriptionV2": "Nous orchestrons des scénarios Make qui synchronisent les données entre SaaS, bases de données et services personnalisés en toute sécurité.",
-    "additionalDescription": "Notre équipe met en place gouvernance, monitoring et documentation pour des automatisations Make fiables et auditables.",
+    "descriptionV1": "Automatisez efficacement des workflows et processus métier complexes avec le constructeur visuel et le moteur de scénarios de Make.",
+    "descriptionV2": "Nous concevons et implémentons des scénarios Make qui synchronisent les données entre SaaS, APIs, bases de données et systèmes on-prem, en garantissant fiabilité et maintenabilité.",
+    "additionalDescription": "Notre équipe met en place gouvernance, monitoring, stratégies de gestion des erreurs et documentation pour rendre vos automatisations robustes, auditables et scalables.",
     "additionalTitle": "Là où Make apporte le plus de valeur",
     "usesTitle": "Ce qui distingue Make",
-    "usesDescription": "Make accélère vos automatisations grâce aux leviers suivants :",
+    "usesDescription": "Make permet aux équipes d'accélérer l'automatisation grâce aux atouts suivants :",
     "features": [
       {
         "title": "Constructeur visuel",
-        "description": "Concevez vos pipelines d'automatisation via une interface glisser-déposer avec logiques conditionnelles.",
+        "description": "Interface glisser-déposer avec logique conditionnelle, flux conditionnels et modules réutilisables pour concevoir rapidement des automatisations.",
         "icon": "i-lucide-pen-tool"
       },
       {
         "title": "Connecteurs étendus",
-        "description": "Accédez à des centaines de modules ou intégrez des APIs sur mesure pour chaque workflow.",
+        "description": "Intégrez des centaines d'applications SaaS, API et services personnalisés pour créer des workflows automatisés de bout en bout.",
         "icon": "i-lucide-plug"
       },
       {
-        "title": "Gestion des erreurs",
-        "description": "Mettre en place retries, chemins conditionnels et notifications pour des workflows résilients.",
+        "title": "Gestion des erreurs & résilience",
+        "description": "Retries automatiques, notifications et chemins conditionnels garantissent le bon fonctionnement des scénarios même en cas d'échec.",
         "icon": "i-lucide-alert-triangle"
       },
       {
         "title": "Opérations scalables",
-        "description": "Optimisez performance et coûts avec templates, planification et analytics.",
+        "description": "Optimisez la performance et les coûts des automatisations avec templates, planification, analytics et contrôle de versions.",
         "icon": "i-lucide-gauge"
+      },
+      {
+        "title": "Gouvernance & conformité",
+        "description": "Mettez en place documentation structurée, permissions utilisateurs et journalisation pour répondre aux standards organisationnels et exigences d’audit.",
+        "icon": "i-lucide-shield-check"
       }
     ],
     "process": [
       {
         "phase": "Phase 1",
         "title": "Audit d'automatisation",
-        "description": "Identifier processus, besoins de synchronisation et opportunités pour Make.",
+        "description": "Analyser les processus existants, identifier les goulots d'étranglement et déterminer les opportunités d'automatisation avec Make.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Architecture des scénarios",
-        "description": "Concevoir modules réutilisables, stratégies d'erreurs et contrôles de sécurité.",
+        "description": "Concevoir des modules réutilisables, flux de données, gestion des erreurs et contrôles de sécurité pour des automatisations durables.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Implémentation",
-        "description": "Construire et tester les scénarios qui connectent vos systèmes et automatisent les tâches.",
+        "description": "Développer, tester et valider des scénarios qui connectent les systèmes, automatisent les tâches et réduisent le travail manuel.",
         "icon": "i-lucide-cog"
       },
       {
         "phase": "Phase 4",
         "title": "Validation & monitoring",
-        "description": "Simuler les cas limites, configurer les alertes et analyser les métriques pour la fiabilité.",
+        "description": "Simuler les cas limites, configurer les alertes et surveiller les métriques pour garantir des automatisations fiables et résilientes.",
         "icon": "i-lucide-clipboard-check"
       },
       {
         "phase": "Phase 5",
-        "title": "Formation & évolution",
-        "description": "Documenter les patterns, former les équipes et améliorer les automatisations dans le temps.",
+        "title": "Formation & amélioration continue",
+        "description": "Documenter les bonnes pratiques, former les équipes et affiner les automatisations de manière itérative pour une optimisation continue.",
         "icon": "i-lucide-graduation-cap"
       }
     ],
     "processTitle": "Processus Make",
-    "processDescription": "Un workflow structuré pour faire évoluer vos scénarios Make du cadrage à l'amélioration continue.",
+    "processDescription": "Un workflow structuré et transparent pour faire évoluer vos scénarios Make du cadrage à l'amélioration continue.",
     "ctaTitle": "Collaborez avec notre équipe Make",
-    "ctaDescription": "Prêt à orchestrer des scénarios Make avancés ? Construisons ensemble votre feuille de route d'automatisation.",
+    "ctaDescription": "Prêt à orchestrer des scénarios Make avancés et simplifier vos opérations ? Construisons ensemble votre feuille de route d'automatisation.",
     "ctaImageAlt": "Illustration Make"
   }
 }

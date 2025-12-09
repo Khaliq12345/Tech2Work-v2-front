@@ -3,33 +3,33 @@
     "title": "Supabase Platform Engineering",
     "name": "Supabase",
     "coverImage": "/technology/supabase.png",
-    "heroHeadline": "Supabase Expertise",
+    "heroHeadline": "Supabase Engineering Expertise",
     "heroCoverAlt": "Supabase cover",
-    "descriptionV1": "Launch production-ready applications faster with Supabase's open-source backend-as-a-service.",
-    "descriptionV2": "We architect Supabase projects combining authentication, storage, and realtime features with custom business logic.",
-    "additionalDescription": "Our experts extend Supabase with edge functions, monitoring, and automation to support growing product teams.",
+    "descriptionV1": "Build and scale applications quickly with Supabase, the open-source alternative to Firebase that offers a complete backend infrastructure on top of PostgreSQL.",
+    "descriptionV2": "We architect robust solutions using Supabase’s authentication, realtime engine, storage, SQL migrations, and serverless functions—integrated with your existing stack and optimized for production.",
+    "additionalDescription": "Our engineers extend Supabase with advanced tooling, automated workflows, analytics, monitoring, custom SQL policies, and high-performance APIs. We help teams deliver fast, secure and scalable products powered by PostgreSQL and modern serverless architecture.",
     "additionalTitle": "Where Supabase Delivers the Most Impact",
     "usesTitle": "What Makes Supabase Stand Out?",
-    "usesDescription": "Supabase accelerates delivery thanks to these pillars:",
+    "usesDescription": "Supabase accelerates modern product development by combining speed, reliability, and developer-centric tooling:",
     "features": [
       {
         "title": "Instant Auth",
-        "description": "Implement secure login flows powered by Supabase Auth and Row Level Security policies.",
+        "description": "Implement secure, production-ready authentication with built-in OAuth providers, magic links, RLS rules, and complete user management.",
         "icon": "i-lucide-shield-check"
       },
       {
         "title": "Realtime APIs",
-        "description": "Stream updates to clients using Supabase Realtime channels and websocket listeners.",
+        "description": "Create collaborative and dynamic experiences using realtime listeners, presence tracking, and WebSocket streaming directly out of PostgreSQL.",
         "icon": "i-lucide-activity"
       },
       {
         "title": "Serverless Extensibility",
-        "description": "Deploy edge functions to run custom logic near your users with minimal latency.",
+        "description": "Deploy edge functions globally to run custom logic with ultra-low latency, CRON tasks, event handlers, and advanced business workflows.",
         "icon": "i-lucide-cpu"
       },
       {
         "title": "Integrated Storage",
-        "description": "Manage file uploads, transformations, and public access rules through Supabase Storage.",
+        "description": "Manage user files, media assets, transformations, and fine-grained permissions with Supabase managed object storage.",
         "icon": "i-lucide-folder"
       }
     ],
@@ -37,110 +37,110 @@
       {
         "phase": "Phase 1",
         "title": "Use Case Discovery",
-        "description": "Define user journeys, data models, and Supabase services required for launch.",
+        "description": "Analyze product requirements, data structures, user journeys, and define the Supabase services needed for a clean architecture.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Environment Setup",
-        "description": "Configure projects, auth providers, policies, and CI workflows across environments.",
+        "description": "Set up projects, auth providers, database schemas, CI pipelines, security policies, RLS rules, and branching environments.",
         "icon": "i-lucide-settings"
       },
       {
         "phase": "Phase 3",
         "title": "Feature Delivery",
-        "description": "Implement database schemas, functions, and integrations with APIs and frontends.",
+        "description": "Implement logic using SQL, triggers, edge functions, APIs, and frontend integrations optimized for performance and reliability.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Quality & Reliability",
-        "description": "Test security rules, validate migrations, and ensure observability for production readiness.",
+        "description": "Perform load testing, security audits, monitoring setup, migration checks, and full production validation.",
         "icon": "i-lucide-clipboard-check"
       },
       {
         "phase": "Phase 5",
         "title": "Scale & Expansion",
-        "description": "Introduce analytics, integrations, and automation to support product growth.",
+        "description": "Introduce analytics, automation, caching strategies, integrations, and optimizations to ensure long-term scalability.",
         "icon": "i-lucide-trending-up"
       }
     ],
     "processTitle": "Supabase Delivery Process",
-    "processDescription": "A structured workflow taking your Supabase product from discovery to scale.",
+    "processDescription": "A complete engineering workflow guiding your Supabase project from discovery to a scalable, production-grade platform.",
     "ctaTitle": "Partner with our Supabase Team",
-    "ctaDescription": "Ready to launch faster with Supabase? Let's build your next platform together.",
+    "ctaDescription": "Looking to build or migrate to Supabase? Let’s architect a fast, secure, and future-proof platform together.",
     "ctaImageAlt": "Supabase illustration"
   },
   "fr": {
-    "title": "Ingénierie plateforme Supabase",
+    "title": "Ingénierie de plateforme Supabase",
     "name": "Supabase",
     "coverImage": "/technology/supabase.png",
-    "heroHeadline": "Expertise Supabase",
+    "heroHeadline": "Expertise en ingénierie Supabase",
     "heroCoverAlt": "Visuel Supabase",
-    "descriptionV1": "Lancez des applications prêtes pour la production plus rapidement grâce au backend open source Supabase.",
-    "descriptionV2": "Nous architecturons des projets Supabase combinant authentification, stockage et fonctionnalités temps réel avec logique métier sur mesure.",
-    "additionalDescription": "Nos experts étendent Supabase avec des edge functions, du monitoring et de l'automatisation pour soutenir vos équipes produit.",
-    "additionalTitle": "Là où Supabase génère le plus de valeur",
+    "descriptionV1": "Construisez et faites évoluer vos applications rapidement avec Supabase, l’alternative open-source à Firebase offrant une infrastructure backend complète reposant sur PostgreSQL.",
+    "descriptionV2": "Nous concevons des architectures robustes exploitant l’authentification, le temps réel, le stockage, les migrations SQL et les edge functions de Supabase, parfaitement intégrées à votre stack et prêtes pour la production.",
+    "additionalDescription": "Nos ingénieurs enrichissent Supabase grâce à des outils avancés, de l’automatisation, des workflows CI/CD, des politiques SQL complexes, des analyses et du monitoring. Nous aidons les équipes à livrer des produits rapides, sûrs et scalables basés sur PostgreSQL.",
+    "additionalTitle": "Là où Supabase apporte le plus de valeur",
     "usesTitle": "Pourquoi Supabase se distingue",
-    "usesDescription": "Supabase accélère vos livraisons grâce aux leviers suivants :",
+    "usesDescription": "Supabase accélère le développement moderne grâce à une combinaison unique de rapidité, de fiabilité et d’outils pensés pour les développeurs :",
     "features": [
       {
         "title": "Authentification instantanée",
-        "description": "Mettre en place des flux de connexion sécurisés via Supabase Auth et les politiques RLS.",
+        "description": "Déployez une authentification sécurisée avec OAuth, magic links, gestion complète des utilisateurs et règles RLS adaptées à chaque cas d’usage.",
         "icon": "i-lucide-shield-check"
       },
       {
         "title": "APIs temps réel",
-        "description": "Diffuser des mises à jour aux clients grâce aux canaux Supabase Realtime et aux websockets.",
+        "description": "Concevez des expériences collaboratives grâce aux listeners temps réel, au tracking de présence et au streaming PostgreSQL via websockets.",
         "icon": "i-lucide-activity"
       },
       {
         "title": "Extensibilité serverless",
-        "description": "Déployer des edge functions pour exécuter une logique personnalisée au plus près des utilisateurs.",
+        "description": "Déployez des edge functions mondialement pour exécuter une logique personnalisée avec une latence minimale, des tâches CRON et des workflows complexes.",
         "icon": "i-lucide-cpu"
       },
       {
         "title": "Stockage intégré",
-        "description": "Gérer les uploads, transformations et règles d'accès public via Supabase Storage.",
+        "description": "Gérez les fichiers, médias, transformations et permissions granulaires via le stockage géré de Supabase.",
         "icon": "i-lucide-folder"
       }
     ],
     "process": [
       {
         "phase": "Phase 1",
-        "title": "Découverte des cas d'usage",
-        "description": "Définir parcours utilisateur, modèles de données et services Supabase nécessaires au lancement.",
+        "title": "Découverte & cadrage",
+        "description": "Analyse des besoins, modélisation des données, parcours utilisateurs et définition des services Supabase nécessaires à l’architecture.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Configuration des environnements",
-        "description": "Configurer projets, fournisseurs d'authentification, politiques et workflows CI.",
+        "description": "Mise en place des projets, fournisseurs OAuth, schémas, pipelines CI, règles RLS, politiques de sécurité et environnements de développement.",
         "icon": "i-lucide-settings"
       },
       {
         "phase": "Phase 3",
-        "title": "Livraison fonctionnelle",
-        "description": "Implémenter schémas, fonctions et intégrations avec les APIs et frontends.",
+        "title": "Développement fonctionnel",
+        "description": "Implémentation des schémas SQL, triggers, edge functions, APIs, intégrations frontend et logique métier optimisée.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Qualité & fiabilité",
-        "description": "Tester les règles de sécurité, valider les migrations et assurer l'observabilité avant production.",
+        "description": "Tests de charge, audits de sécurité, mise en place du monitoring, validation des migrations et préparation à la production.",
         "icon": "i-lucide-clipboard-check"
       },
       {
         "phase": "Phase 5",
-        "title": "Montée en charge",
-        "description": "Introduire analytics, intégrations et automatisations pour accompagner la croissance.",
+        "title": "Montée en charge & optimisation",
+        "description": "Ajout d’analytics, automatisations, stratégies de caching, intégrations et optimisations pour assurer une scalabilité durable.",
         "icon": "i-lucide-trending-up"
       }
     ],
-    "processTitle": "Processus Supabase",
-    "processDescription": "Un workflow structuré pour faire évoluer votre produit Supabase du cadrage à la montée en charge.",
+    "processTitle": "Processus de livraison Supabase",
+    "processDescription": "Un workflow complet guidant votre plateforme Supabase du cadrage initial à une architecture scalable et prête pour la production.",
     "ctaTitle": "Collaborez avec notre équipe Supabase",
-    "ctaDescription": "Prêt à lancer plus vite avec Supabase ? Construisons ensemble votre prochaine plateforme.",
+    "ctaDescription": "Vous souhaitez construire ou migrer vers Supabase ? Créons ensemble une plateforme rapide, sécurisée et évolutive.",
     "ctaImageAlt": "Illustration Supabase"
   }
 }

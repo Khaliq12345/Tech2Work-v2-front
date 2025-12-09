@@ -5,31 +5,31 @@
     "coverImage": "/technology/svelte.png",
     "heroHeadline": "Svelte Expertise",
     "heroCoverAlt": "Svelte cover",
-    "descriptionV1": "Deliver lightning-fast experiences with Svelte's compile-time magic and minimal runtime overhead.",
-    "descriptionV2": "We craft Svelte and SvelteKit projects that merge performance, accessibility, and delightful UX.",
-    "additionalDescription": "Our teams unite design systems, motion, and server-side rendering to build immersive Svelte applications at scale.",
+    "descriptionV1": "Build ultra-responsive digital experiences using Svelte, the modern UI framework that compiles your components into highly efficient native JavaScript.",
+    "descriptionV2": "We design Svelte and SvelteKit applications that deliver exceptional performance, seamless transitions, robust accessibility, and refined user interactions.",
+    "additionalDescription": "Our engineering teams combine modern design systems, SSR rendering pipelines, motion design, edge deployments, and scalable architectures to produce Svelte applications capable of supporting complex products and high-traffic environments.",
     "additionalTitle": "Where Svelte Delivers the Most Impact",
     "usesTitle": "What Makes Svelte Stand Out?",
-    "usesDescription": "Svelte empowers teams with these standout qualities:",
+    "usesDescription": "Svelte accelerates development and elevates user experience through these key strengths:",
     "features": [
       {
         "title": "Zero Runtime Bloat",
-        "description": "Ship pure JavaScript payloads compiled from Svelte components for optimal load times.",
+        "description": "Svelte eliminates the virtual DOM and compiles components into optimized JavaScript, resulting in fast load times and minimal client overhead.",
         "icon": "i-lucide-feather"
       },
       {
         "title": "Reactive Simplicity",
-        "description": "Use Svelte's declarative reactivity to manage complex UI states without heavy boilerplate.",
+        "description": "Its built-in reactivity model allows developers to manage state and UI updates with extremely clear, expressive, and low-boilerplate code.",
         "icon": "i-lucide-repeat"
       },
       {
         "title": "Full-Stack Ready",
-        "description": "Adopt SvelteKit for routing, data loading, and serverless deployment workflows.",
+        "description": "SvelteKit provides routing, data loading, server-side rendering (SSR), static site generation (SSG), and serverless deployment—all in a single framework.",
         "icon": "i-lucide-server"
       },
       {
         "title": "Animation Friendly",
-        "description": "Integrate micro-interactions, transitions, and motion primitives with minimal code.",
+        "description": "Svelte's built-in transitions, motion primitives, and animation utilities allow teams to create rich UI interactions without external libraries.",
         "icon": "i-lucide-sparkles"
       }
     ],
@@ -37,38 +37,38 @@
       {
         "phase": "Phase 1",
         "title": "Product Alignment",
-        "description": "Define goals, KPIs, and Svelte adoption strategy in collaboration with stakeholders.",
+        "description": "We define business goals, user needs, KPIs, and determine how Svelte or SvelteKit best fits the product roadmap.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Foundation Setup",
-        "description": "Configure SvelteKit, linting, testing, and shared component conventions.",
+        "description": "We configure SvelteKit, project structure, shared UI conventions, testing utilities, CI/CD workflows, and accessibility rules.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Feature Build",
-        "description": "Iterate on user stories, integrate APIs, and ensure accessible UI patterns.",
+        "description": "We develop core features, integrate backend APIs, build reusable components, and ensure design accuracy across devices.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Performance Tuning",
-        "description": "Measure Core Web Vitals, optimize hydration, and refine edge deployment settings.",
+        "description": "We optimize hydration, reduce bundle size, fine-tune SSR, enhance Core Web Vitals, and configure edge-based deployments.",
         "icon": "i-lucide-gauge"
       },
       {
         "phase": "Phase 5",
         "title": "Enablement & Growth",
-        "description": "Document architecture, transfer knowledge, and plan roadmap experiments.",
+        "description": "We provide documentation, architecture guides, developer training, and scaling strategies to ensure long-term product evolution.",
         "icon": "i-lucide-book-open"
       }
     ],
     "processTitle": "Svelte Delivery Process",
-    "processDescription": "A structured workflow that brings your Svelte applications from strategy to ongoing evolution.",
+    "processDescription": "A clear and efficient workflow supporting every stage of your Svelte application—from strategic planning to continuous improvement.",
     "ctaTitle": "Partner with our Svelte Team",
-    "ctaDescription": "Ready to create high-performance Svelte apps? Let's build your next experience together.",
+    "ctaDescription": "Looking to build fast, elegant, and modern Svelte applications? Our experts are ready to help you deliver exceptional user experiences.",
     "ctaImageAlt": "Svelte illustration"
   },
   "fr": {
@@ -77,31 +77,31 @@
     "coverImage": "/technology/svelte.png",
     "heroHeadline": "Expertise Svelte",
     "heroCoverAlt": "Visuel Svelte",
-    "descriptionV1": "Offrez des expériences ultra-rapides grâce à la compilation Svelte et à son runtime minimal.",
-    "descriptionV2": "Nous concevons des projets Svelte et SvelteKit qui allient performance, accessibilité et UX soignée.",
-    "additionalDescription": "Nos équipes combinent design system, animations et rendu côté serveur pour bâtir des applications Svelte immersives.",
-    "additionalTitle": "Là où Svelte a le plus d'impact",
+    "descriptionV1": "Créez des expériences numériques ultra-fluides grâce à Svelte, le framework moderne qui compile vos composants en JavaScript natif hautement optimisé.",
+    "descriptionV2": "Nous concevons des applications Svelte et SvelteKit alliant performance extrême, accessibilité renforcée, transitions naturelles et expérience utilisateur soignée.",
+    "additionalDescription": "Nos équipes associent design system, rendu côté serveur (SSR), animations avancées, déploiements edge et architectures évolutives pour concevoir des applications Svelte capables de supporter des produits complexes et des charges importantes.",
+    "additionalTitle": "Là où Svelte a le plus d’impact",
     "usesTitle": "Ce qui différencie Svelte",
-    "usesDescription": "Svelte se distingue grâce aux avantages suivants :",
+    "usesDescription": "Svelte se démarque grâce aux atouts techniques suivants :",
     "features": [
       {
         "title": "Runtime minimal",
-        "description": "Déployez des bundles JavaScript épurés compilés depuis des composants Svelte.",
+        "description": "Svelte supprime la virtual DOM et compile les composants en JavaScript optimisé, garantissant des chargements rapides et peu de surcharge côté client.",
         "icon": "i-lucide-feather"
       },
       {
         "title": "Réactivité simple",
-        "description": "Profitez de la réactivité déclarative de Svelte pour gérer des états complexes sans lourdeur.",
+        "description": "Son modèle de réactivité intégré permet de gérer les états et les mises à jour d'interface de manière claire, expressive et sans lourdeur.",
         "icon": "i-lucide-repeat"
       },
       {
         "title": "Prêt pour le full-stack",
-        "description": "Utilisez SvelteKit pour le routage, le chargement de données et les déploiements serverless.",
+        "description": "SvelteKit apporte routage, chargement de données, rendu SSR, génération statique et déploiements serverless au sein d’un même framework.",
         "icon": "i-lucide-server"
       },
       {
         "title": "Animations fluides",
-        "description": "Intégrez micro-interactions, transitions et primitives d'animation avec très peu de code.",
+        "description": "Transitions, micro-interactions et primitives d’animation sont intégrées nativement, sans dépendances externes.",
         "icon": "i-lucide-sparkles"
       }
     ],
@@ -109,38 +109,38 @@
       {
         "phase": "Phase 1",
         "title": "Alignement produit",
-        "description": "Définir objectifs, KPI et stratégie d'adoption Svelte avec les parties prenantes.",
+        "description": "Nous définissons les objectifs métier, les besoins utilisateurs, les KPI et la stratégie d’adoption de Svelte ou SvelteKit.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Mise en place du socle",
-        "description": "Configurer SvelteKit, linting, tests et conventions de composants partagés.",
+        "description": "Nous configurons SvelteKit, l’architecture du projet, les composants partagés, les outils de test, les workflows CI/CD et les règles d’accessibilité.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Construction des fonctionnalités",
-        "description": "Itérer sur les user stories, intégrer les API et garantir des interfaces accessibles.",
+        "description": "Nous développons les fonctionnalités clés, intégrons les API, créons des composants réutilisables et assurons la cohérence avec le design system.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Optimisation des performances",
-        "description": "Mesurer les Core Web Vitals, optimiser l'hydratation et affiner les déploiements edge.",
+        "description": "Optimisation de l’hydratation, réduction des bundles, amélioration du SSR, travail sur les Core Web Vitals et configurations edge.",
         "icon": "i-lucide-gauge"
       },
       {
         "phase": "Phase 5",
-        "title": "Montée en compétence",
-        "description": "Documenter l'architecture, transférer les connaissances et planifier les évolutions.",
+        "title": "Montée en compétence & croissance",
+        "description": "Documentation, transfert de connaissances, formation des équipes et définition des stratégies d’évolution à long terme.",
         "icon": "i-lucide-book-open"
       }
     ],
     "processTitle": "Processus Svelte",
-    "processDescription": "Un workflow structuré pour faire évoluer vos projets Svelte du cadrage aux itérations continues.",
+    "processDescription": "Un workflow clair et complet pour faire évoluer vos applications Svelte du cadrage initial aux itérations continues.",
     "ctaTitle": "Collaborez avec notre équipe Svelte",
-    "ctaDescription": "Prêt à créer des applications Svelte ultra-performantes ? Construisons ensemble votre prochain produit.",
+    "ctaDescription": "Envie de créer des applications Svelte modernes, rapides et élégantes ? Nos experts vous accompagnent dans chaque étape.",
     "ctaImageAlt": "Illustration Svelte"
   }
 }

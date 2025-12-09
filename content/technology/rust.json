@@ -5,31 +5,31 @@
     "coverImage": "/technology/rust.png",
     "heroHeadline": "Rust Expertise",
     "heroCoverAlt": "Rust cover",
-    "descriptionV1": "Deliver safe, high-performance software with Rust's powerful type system and zero-cost abstractions.",
-    "descriptionV2": "We craft Rust services, SDKs, and embedded tools that demand reliability, security, and speed.",
-    "additionalDescription": "Our engineers pair Rust with modern tooling to ship maintainable codebases backed by rigorous testing and observability.",
+    "descriptionV1": "Build cutting-edge, high-performance systems with Rust, a language designed for memory safety, predictable performance, and uncompromising reliability.",
+    "descriptionV2": "From low-latency backend services to embedded firmware, we engineer Rust solutions for organizations that require superior speed, resilience, and long-term maintainability.",
+    "additionalDescription": "Our Rust engineers combine modern tooling, strict quality standards, and deep systems expertise to deliver software that remains stable under extreme workloads. Through automated testing, extensive benchmarking, and mature DevOps practices, we ensure every Rust system behaves exactly as intended—now and at scale.",
     "additionalTitle": "Where Rust Delivers the Most Impact",
     "usesTitle": "What Makes Rust Stand Out?",
-    "usesDescription": "Rust empowers mission-critical systems with these strengths:",
+    "usesDescription": "Rust is the ideal choice for mission-critical systems that require safety, performance, and long-term stability. Its unique combination of a modern syntax, strict guarantees, and unmatched tooling enables teams to ship faster with fewer production risks.",
     "features": [
       {
         "title": "Memory Safety",
-        "description": "Eliminate whole classes of bugs thanks to Rust's ownership model and borrow checker.",
+        "description": "Avoid segmentation faults, data races, and unsafe memory access thanks to Rust’s ownership model and borrow checker, reinforcing stability from day one.",
         "icon": "i-lucide-shield"
       },
       {
         "title": "Performance at Scale",
-        "description": "Match or surpass C/C++ speeds while preserving developer productivity.",
+        "description": "Achieve performance comparable to C/C++ with zero-cost abstractions, predictable execution, and fine-grained control over system resources.",
         "icon": "i-lucide-gauge"
       },
       {
         "title": "Concurrency",
-        "description": "Build highly concurrent systems with fearless multithreading guaranteed at compile time.",
+        "description": "Develop concurrent and parallel systems with compile-time guarantees that eliminate data races and concurrency-related bugs.",
         "icon": "i-lucide-activity"
       },
       {
         "title": "Ecosystem Integration",
-        "description": "Leverage Cargo, crates.io, and FFI bridges to integrate Rust into existing stacks.",
+        "description": "Integrate Rust seamlessly with modern infrastructures using Cargo, crates.io, WebAssembly, and efficient FFI for interoperability with C, Python, Node.js, and more.",
         "icon": "i-lucide-plug"
       }
     ],
@@ -37,110 +37,110 @@
       {
         "phase": "Phase 1",
         "title": "Systems Discovery",
-        "description": "Assess performance targets, hardware constraints, and integration boundaries.",
+        "description": "Define performance goals, evaluate existing architecture, and identify where Rust can deliver the most measurable impact.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Architecture Blueprint",
-        "description": "Design modules, data flows, and safety guarantees aligned with Rust best practices.",
+        "description": "Design modules, data pipelines, concurrency strategies, and safety guarantees following Rust’s engineering best practices.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Implementation",
-        "description": "Develop Rust crates, enforce linting, and maintain exhaustive unit and property tests.",
+        "description": "Develop Rust crates, apply strict linting rules, enforce safety constraints, and ensure full test coverage through unit, integration, and property-based tests.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Performance Validation",
-        "description": "Benchmark, profile, and tune the build to meet latency and throughput goals.",
+        "description": "Benchmark system behavior, optimize critical paths, and validate performance targets including latency, throughput, and memory usage.",
         "icon": "i-lucide-thermometer"
       },
       {
         "phase": "Phase 5",
         "title": "Deployment & Support",
-        "description": "Package artifacts, integrate CI/CD, and provide runbooks for ongoing operations.",
+        "description": "Package binaries, configure CI/CD pipelines, monitor performance in production, and provide ongoing updates, tuning, and platform evolution.",
         "icon": "i-lucide-rocket"
       }
     ],
     "processTitle": "Rust Delivery Process",
-    "processDescription": "A structured workflow guiding your Rust initiatives from concept to long-term operations.",
+    "processDescription": "A comprehensive engineering workflow that transforms complex systems requirements into secure, high-performance Rust applications built for long-term operation.",
     "ctaTitle": "Partner with our Rust Team",
-    "ctaDescription": "Ready to deliver safe, high-performance Rust software? Let's build your next system together.",
+    "ctaDescription": "Looking to leverage Rust for speed, safety, or high-throughput workloads? Our team is ready to architect and deliver your next mission-critical system.",
     "ctaImageAlt": "Rust illustration"
   },
   "fr": {
-    "title": "Ingénierie systèmes en Rust",
+    "title": "Ingénierie Systèmes en Rust",
     "name": "Rust",
     "coverImage": "/technology/rust.png",
     "heroHeadline": "Expertise Rust",
     "heroCoverAlt": "Visuel Rust",
-    "descriptionV1": "Livrez des logiciels sûrs et ultra-performants grâce au système de types de Rust et à ses abstractions sans coût.",
-    "descriptionV2": "Nous concevons des services, SDK et outils embarqués Rust pour les besoins de fiabilité, sécurité et vitesse.",
-    "additionalDescription": "Nos équipes associent Rust à un outillage moderne pour livrer des bases de code maintenables, testées et observables.",
-    "additionalTitle": "Là où Rust apporte le plus d'impact",
-    "usesTitle": "Pourquoi Rust se distingue",
-    "usesDescription": "Rust répond aux exigences critiques grâce à ces forces :",
+    "descriptionV1": "Concevez des systèmes modernes, performants et sécurisés grâce à Rust, un langage pensé pour la sécurité mémoire, la précision d’exécution et une fiabilité à long terme.",
+    "descriptionV2": "Des services backend ultra-rapides aux firmwares embarqués, nous développons des solutions Rust destinées aux organisations qui exigent performance, robustesse et maintenabilité.",
+    "additionalDescription": "Nos ingénieurs Rust associent un outillage moderne, une rigueur technique élevée et une expertise profonde des systèmes pour livrer des logiciels stables, même sous charge extrême. Grâce aux tests automatisés, au benchmarking intensif et à des pratiques DevOps matures, nous garantissons un comportement fiable, prévisible et durable de chaque plateforme Rust.",
+    "additionalTitle": "Là où Rust apporte le plus d’impact",
+    "usesTitle": "Ce qui distingue Rust",
+    "usesDescription": "Rust est le choix idéal pour les systèmes critiques nécessitant sécurité, performance et stabilité. Ses garanties strictes, son écosystème moderne et son approche centrée sur la fiabilité permettent de réduire les risques tout en accélérant le développement.",
     "features": [
       {
         "title": "Sécurité mémoire",
-        "description": "Éliminez des classes entières de bugs grâce au modèle de possession et au borrow checker de Rust.",
+        "description": "Éliminez les crashs, fuites mémoire et data races grâce au modèle de possession et au borrow checker de Rust, garantissant une stabilité incomparable.",
         "icon": "i-lucide-shield"
       },
       {
         "title": "Performance maximale",
-        "description": "Atteignez ou dépassez les vitesses du C/C++ tout en conservant la productivité.",
+        "description": "Bénéficiez de performances comparables au C/C++ grâce aux abstractions sans coût, à une gestion précise des ressources et à une exécution prévisible.",
         "icon": "i-lucide-gauge"
       },
       {
-        "title": "Concurrence",
-        "description": "Construisez des systèmes fortement concurrents avec une sécurité multithread garantie à la compilation.",
+        "title": "Concurrence moderne",
+        "description": "Construisez des systèmes concurrents et parallèles avec des garanties de sécurité vérifiées à la compilation, éliminant les bugs liés au multithreading.",
         "icon": "i-lucide-activity"
       },
       {
         "title": "Intégration écosystème",
-        "description": "Exploitez Cargo, crates.io et les passerelles FFI pour intégrer Rust à vos stacks existantes.",
+        "description": "Intégrez Rust à vos stacks existantes via Cargo, crates.io, WebAssembly ou des ponts FFI vers C, Python, Node.js et bien d’autres.",
         "icon": "i-lucide-plug"
       }
     ],
     "process": [
       {
         "phase": "Phase 1",
-        "title": "Découverte système",
-        "description": "Évaluer objectifs de performance, contraintes matérielles et périmètres d'intégration.",
+        "title": "Découverte Système",
+        "description": "Définir les objectifs de performance, analyser l’architecture existante et identifier les zones où Rust peut maximiser l’impact.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
-        "title": "Plan d'architecture",
-        "description": "Concevoir modules, flux de données et garanties de sécurité selon les bonnes pratiques Rust.",
+        "title": "Plan d’Architecture",
+        "description": "Concevoir modules, flux de données, modèles de concurrence et garanties de sécurité en suivant les meilleures pratiques Rust.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Implémentation",
-        "description": "Développer les crates Rust, appliquer linting et maintenir des tests unitaires et de propriété.",
+        "description": "Développer les crates Rust, appliquer un linting strict, maintenir une couverture complète via tests unitaires, intégration et property-based testing.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
-        "title": "Validation performance",
-        "description": "Benchmark, profiler et ajuster le build pour atteindre latence et débit fixés.",
+        "title": "Validation des Performances",
+        "description": "Mesurer, profiler et optimiser le système pour atteindre les objectifs de latence, de débit et de consommation mémoire.",
         "icon": "i-lucide-thermometer"
       },
       {
         "phase": "Phase 5",
-        "title": "Déploiement & support",
-        "description": "Packager les artefacts, intégrer CI/CD et fournir runbooks pour l'exploitation continue.",
+        "title": "Déploiement & Support",
+        "description": "Préparer les artefacts, intégrer les pipelines CI/CD, surveiller la production et assurer mises à jour, correctifs et évolution continue.",
         "icon": "i-lucide-rocket"
       }
     ],
-    "processTitle": "Processus Rust",
-    "processDescription": "Un workflow structuré pour mener vos projets Rust du cadrage au support long terme.",
+    "processTitle": "Processus de Livraison Rust",
+    "processDescription": "Un workflow complet pour transformer vos exigences techniques en applications Rust fiables, performantes et prêtes pour l’exploitation à long terme.",
     "ctaTitle": "Collaborez avec notre équipe Rust",
-    "ctaDescription": "Prêt à livrer des logiciels Rust sûrs et performants ? Construisons ensemble votre prochain système.",
+    "ctaDescription": "Vous souhaitez exploiter Rust pour la performance, la sécurité ou les systèmes intensifs ? Notre équipe est prête à concevoir et livrer votre prochain système critique.",
     "ctaImageAlt": "Illustration Rust"
   }
 }
