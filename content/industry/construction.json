@@ -1,120 +1,121 @@
 {
   "en": {
-    "heroTitle": "Smart Construction with Data & AI",
-    "heroDescription": "Optimize every phase of construction with predictive analytics, resource automation, and safety intelligence.",
+    "heroTitle": "Smart Construction Powered by Data & AI",
+    "heroDescription": "Unlock intelligent project planning, real-time safety monitoring, and optimized resource management with next-generation AI tools designed for construction companies.",
     "heroImage": "/industry/construction.png",
 
-    "descriptionTitle": "Building Smarter",
-    "subDescription": "We empower construction companies to modernize workflows, reduce risk, and improve project delivery through digital transformation.",
+    "descriptionTitle": "Building Smarter, Faster, and Safer",
+    "subDescription": "The construction industry faces complex challenges—from unpredictable timelines to safety risks and resource waste. Our AI-driven solutions help companies modernize operations, reduce uncertainty, and deliver high-performance projects at scale. We combine advanced analytics, automation, and intelligent insights to transform every stage of construction.",
 
-    "serviceTitle": "Our Construction Services",
+    "serviceTitle": "Our Construction-Focused Services",
     "services": [
       {
         "title": "Predictive Project Planning",
-        "description": "Use AI-driven forecasts for timelines, costs, and resource allocation to deliver projects on budget and on time.",
+        "description": "Leverage advanced forecasting models to predict timelines, budgets, delays, risks, and workforce requirements long before they occur.",
         "icon": "i-lucide-calendar"
       },
       {
         "title": "Resource Optimization",
-        "description": "Automate equipment scheduling, inventory management, and labor deployment with intelligent systems.",
+        "description": "Optimize equipment usage, automate inventory tracking, and improve workforce planning through intelligent resource allocation.",
         "icon": "i-lucide-truck"
       },
       {
         "title": "Safety Monitoring & Analytics",
-        "description": "Real-time safety dashboards and predictive models to prevent accidents and reduce liability.",
+        "description": "Use real-time dashboards, computer vision alerts, and predictive safety models to prevent incidents and ensure full compliance.",
         "icon": "i-lucide-alert-circle"
       }
     ],
 
-    "ctaTitle": "Transform Your Construction Operations",
-    "ctaDescription": "Let’s modernize your construction processes with scalable AI, real-time intelligence, and better resource control.",
+    "ctaTitle": "Bring Intelligence to Your Construction Projects",
+    "ctaDescription": "Our solutions help you anticipate challenges, eliminate inefficiencies, and build safer, more predictable operations with the help of AI and data-driven automation.",
 
-    "benefitTitle": "Why Choose Our Approach",
+    "benefitTitle": "Key Benefits for Construction Teams",
     "benefits": [
       {
-        "title": "Reduced Delays",
-        "description": "Minimize overruns by forecasting and optimizing every resource."
+        "title": "Reduced Project Delays",
+        "description": "Detect bottlenecks and forecast risks early to avoid costly overruns and accelerate delivery."
       },
       {
-        "title": "Lower Costs",
-        "description": "Decrease waste and downtime through data-driven planning."
+        "title": "Lower Operational Costs",
+        "description": "Improve resource allocation, reduce waste, and eliminate unnecessary downtime with AI insights."
       },
       {
-        "title": "Safer Worksites",
-        "description": "Proactive safety alerts and risk analysis to protect your teams."
+        "title": "Enhanced Safety",
+        "description": "Leverage predictive alerts and automated monitoring systems to keep workers safe and compliant."
       }
     ],
 
-    "solutionTitle": "Our Solutions for Construction",
+    "solutionTitle": "Our Digital Solutions for Construction",
     "solutions": [
       {
-        "title": "AI Scheduler",
-        "description": "An intelligent planning engine that predicts project milestones and identifies bottlenecks.",
+        "title": "AI-Powered Scheduler",
+        "description": "A smart planning engine that predicts milestones, identifies risks, and dynamically adjusts timelines for optimal execution.",
         "icon": "i-lucide-cpu"
       },
       {
         "title": "Safety Intelligence Platform",
-        "description": "Data-driven safety dashboard powered by sensor data, risk models, and alert systems.",
+        "description": "A comprehensive safety dashboard combining IoT sensors, risk scoring algorithms, and automated alert systems to reduce accidents.",
         "icon": "i-lucide-shield-alert"
       }
     ]
   },
+
   "fr": {
-    "heroTitle": "Construction Intelligente grâce aux Données & à l’IA",
-    "heroDescription": "Optimisez chaque phase de vos projets avec l’analytique prédictive, l’automatisation des ressources et l’intelligence sécurité.",
+    "heroTitle": "Construction Intelligente grâce à la Data & à l’IA",
+    "heroDescription": "Déployez une planification prédictive, un suivi sécurité en temps réel et une optimisation intelligente des ressources grâce à des solutions IA dédiées au secteur de la construction.",
     "heroImage": "/industry/construction.jpg",
 
-    "descriptionTitle": "Bâtir Plus Malin",
-    "subDescription": "Nous aidons les entreprises de construction à moderniser leurs processus, réduire les risques et améliorer la livraison des projets par la transformation numérique.",
+    "descriptionTitle": "Construire Plus Vite, Plus Sûr et Plus Intelligemment",
+    "subDescription": "Le secteur de la construction doit faire face à des défis majeurs : retards imprévus, risques sécurité, mauvaise allocation des ressources ou budgets instables. Nos solutions basées sur les données et l’IA aident les entreprises à moderniser leurs opérations, à limiter l’incertitude et à améliorer la qualité de livraison. Nous apportons une intelligence avancée à chaque étape du cycle de construction.",
 
-    "serviceTitle": "Nos Services Construction",
+    "serviceTitle": "Nos Services Dédiés à la Construction",
     "services": [
       {
         "title": "Planification Prédictive",
-        "description": "Des prévisions pilotées par l’IA pour les délais, les coûts et l’allocation des ressources.",
+        "description": "Exploitez des modèles avancés pour anticiper les délais, les risques, les coûts, et les besoins en main-d’œuvre avant le début du chantier.",
         "icon": "i-lucide-calendar"
       },
       {
         "title": "Optimisation des Ressources",
-        "description": "Automatisation de la planification d’équipement, de l’inventaire et du déploiement de la main-d’œuvre.",
+        "description": "Optimisez l’utilisation des équipements, automatisez le suivi d’inventaire et améliorez la planification de la main-d’œuvre grâce à une allocation intelligente.",
         "icon": "i-lucide-truck"
       },
       {
         "title": "Analyse & Sécurité",
-        "description": "Des tableaux de bord en temps réel et des modèles prédictifs pour prévenir les accidents.",
+        "description": "Tableaux de bord en temps réel, alertes automatisées et modèles prédictifs pour prévenir les incidents et assurer la conformité sur les chantiers.",
         "icon": "i-lucide-alert-circle"
       }
     ],
 
-    "ctaTitle": "Transformez Vos Ops de Construction",
-    "ctaDescription": "Modernisons vos processus de construction avec une IA scalable, une intelligence en temps réel et un meilleur contrôle des ressources.",
+    "ctaTitle": "Transformez Vos Opérations de Construction",
+    "ctaDescription": "Anticipez les obstacles, éliminez les inefficacités et sécurisez vos chantiers grâce à nos solutions IA et nos outils d’automatisation intelligents.",
 
-    "benefitTitle": "Avantages de Notre Approche",
+    "benefitTitle": "Les Avantages pour les Entreprises de Construction",
     "benefits": [
       {
         "title": "Moins de Retards",
-        "description": "Minimisez les dépassements grâce à des prévisions et une optimisation précises."
+        "description": "Anticipez les goulots d’étranglement et prévoyez les risques pour éviter les dépassements de délais."
       },
       {
         "title": "Réduction des Coûts",
-        "description": "Diminuez le gaspillage et les temps morts via une planification pilotée par les données."
+        "description": "Améliorez l’allocation des ressources, réduisez le gaspillage et limitez les interruptions grâce à l’IA."
       },
       {
-        "title": "Chantiers Plus Sûrs",
-        "description": "Des alertes proactives et une analyse des risques pour protéger vos équipes."
+        "title": "Sécurité Renforcée",
+        "description": "Profitez d’alertes proactives et d’outils de surveillance automatisés pour protéger vos équipes."
       }
     ],
 
-    "solutionTitle": "Nos Solutions pour la Construction",
+    "solutionTitle": "Nos Solutions Digitales pour la Construction",
     "solutions": [
       {
         "title": "Planificateur IA",
-        "description": "Un moteur intelligent qui anticipe les étapes de projet et identifie les goulots d’étranglement.",
+        "description": "Un moteur intelligent capable d’anticiper les étapes clés, identifier les risques et ajuster automatiquement les plannings.",
         "icon": "i-lucide-cpu"
       },
       {
         "title": "Plateforme de Sécurité Intelligente",
-        "description": "Un tableau de bord sécurité basé sur les données, les capteurs et les modèles de risque.",
+        "description": "Un tableau de bord complet combinant capteurs IoT, modèles de risque et systèmes d’alerte pour réduire les accidents.",
         "icon": "i-lucide-shield-alert"
       }
     ]

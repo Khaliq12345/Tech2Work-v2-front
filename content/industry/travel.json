@@ -1,120 +1,121 @@
 {
   "en": {
-    "heroTitle": "Travel Innovation with AI & Data",
-    "heroDescription": "Create seamless, personalized travel experiences using AI-driven insights, predictive pricing, and automation.",
+    "heroTitle": "AI-Driven Travel & Hospitality Innovation",
+    "heroDescription": "Empower your travel business with AI insights, predictive analytics, automated operations, and personalized experiences to delight customers and maximize efficiency.",
     "heroImage": "/industry/travel.png",
 
-    "descriptionTitle": "Transforming Travel",
-    "subDescription": "We help travel companies and agencies embrace digital transformation to optimize operations and enhance customer journeys.",
+    "descriptionTitle": "Redefining Travel & Hospitality",
+    "subDescription": "The travel and hospitality sector faces increasing customer expectations, seasonal demand fluctuations, and operational complexity. We help companies leverage AI, data, and automation to optimize pricing, personalize experiences, streamline operations, and enhance customer loyalty.",
 
-    "serviceTitle": "Travel Services",
+    "serviceTitle": "Our Travel & Hospitality Services",
     "services": [
       {
-        "title": "Dynamic Pricing & Forecasting",
-        "description": "Advanced models that predict demand and set prices to maximize revenue while remaining competitive.",
+        "title": "Dynamic Pricing & Demand Forecasting",
+        "description": "AI-driven models predict demand, optimize rates, and adjust offers in real time to maximize revenue while remaining competitive.",
         "icon": "i-lucide-trending-up"
       },
       {
-        "title": "Personalized Itineraries",
-        "description": "Smart recommendation engines that design custom travel plans based on preferences and behavior.",
+        "title": "Personalized Itineraries & Recommendations",
+        "description": "Smart recommendation engines create customized travel plans and activity suggestions based on preferences, past behavior, and trends.",
         "icon": "i-lucide-map-pin"
       },
       {
-        "title": "Automated Customer Support",
-        "description": "Chatbots and virtual assistants that help travelers with bookings, cancellations, and support 24/7.",
+        "title": "Automated Customer Engagement",
+        "description": "Virtual assistants and AI chatbots provide 24/7 support for bookings, inquiries, cancellations, and travel guidance.",
         "icon": "i-lucide-messages"
       }
     ],
 
-    "ctaTitle": "Elevate Your Travel Business",
-    "ctaDescription": "Let’s build next-gen travel platforms that deliver unforgettable experiences and operational efficiency.",
+    "ctaTitle": "Elevate Your Travel Business with AI",
+    "ctaDescription": "Partner with us to develop next-generation travel platforms that deliver seamless journeys, operational efficiency, and exceptional guest experiences.",
 
-    "benefitTitle": "Key Travel Benefits",
+    "benefitTitle": "Key Benefits for Travel & Hospitality",
     "benefits": [
       {
-        "title": "Increased Revenue",
-        "description": "Optimize pricing and operations to drive profitability."
+        "title": "Maximized Revenue",
+        "description": "Optimize pricing, manage capacity efficiently, and increase profitability through predictive analytics."
       },
       {
-        "title": "Better Engagement",
-        "description": "Offer travelers tailored experiences that build loyalty."
+        "title": "Enhanced Customer Loyalty",
+        "description": "Offer travelers personalized experiences and recommendations that increase satisfaction and repeat bookings."
       },
       {
-        "title": "24/7 Availability",
-        "description": "Serve your customers anytime with smart automation and support tools."
+        "title": "Operational Excellence",
+        "description": "Automate bookings, customer support, and resource management to reduce costs and improve service quality."
       }
     ],
 
-    "solutionTitle": "Travel Solutions",
+    "solutionTitle": "Travel & Hospitality Solutions",
     "solutions": [
       {
-        "title": "AI Pricing Engine",
-        "description": "A predictive engine that continuously adjusts offers based on demand, seasonality, and user data.",
+        "title": "AI-Powered Pricing Engine",
+        "description": "Predictive engine continuously adjusts pricing and offers based on demand trends, seasonal factors, and user behavior.",
         "icon": "i-lucide-sparkles"
       },
       {
-        "title": "Smart Travel Planner",
-        "description": "A recommendation system that generates custom itineraries and suggestions in real time.",
+        "title": "Smart Travel Planner & Recommender",
+        "description": "Intelligent platform that generates personalized itineraries, suggests activities, and adapts recommendations in real time.",
         "icon": "i-lucide-compass"
       }
     ]
   },
+
   "fr": {
-    "heroTitle": "Innovation dans le Voyage avec l’IA & les Données",
-    "heroDescription": "Créez des expériences de voyage personnalisées et fluides grâce à l’IA, la tarification prédictive et l’automatisation.",
+    "heroTitle": "Innovation dans le Voyage & l’Hôtellerie avec l’IA",
+    "heroDescription": "Renforcez votre activité touristique avec des insights IA, l’analytique prédictive, l’automatisation des opérations et des expériences personnalisées pour satisfaire vos clients et optimiser l’efficacité.",
     "heroImage": "/industry/travel.jpg",
 
-    "descriptionTitle": "Réinventer le Voyage",
-    "subDescription": "Nous accompagnons les agences de voyage et les entreprises touristiques dans leur transformation digitale pour optimiser leurs opérations et enrichir le parcours client.",
+    "descriptionTitle": "Redéfinir le Voyage & l’Hôtellerie",
+    "subDescription": "Le secteur du voyage et de l’hôtellerie fait face à des attentes clients élevées, des fluctuations saisonnières et une complexité opérationnelle croissante. Nous aidons les entreprises à tirer parti de l’IA, des données et de l’automatisation pour optimiser la tarification, personnaliser les expériences, rationaliser les opérations et renforcer la fidélité client.",
 
-    "serviceTitle": "Services Voyage",
+    "serviceTitle": "Nos Services Voyage & Hôtellerie",
     "services": [
       {
-        "title": "Tarification Dynamique & Prévision",
-        "description": "Des modèles avancés qui prévoient la demande et ajustent les prix pour maximiser les revenus.",
+        "title": "Tarification Dynamique & Prévision de la Demande",
+        "description": "Des modèles pilotés par l’IA prévoient la demande, ajustent les tarifs et les offres en temps réel pour maximiser les revenus tout en restant compétitifs.",
         "icon": "i-lucide-trending-up"
       },
       {
-        "title": "Itinéraires Personnalisés",
-        "description": "Des moteurs de recommandation intelligents pour créer des plans de voyage sur mesure selon les envies des clients.",
+        "title": "Itinéraires Personnalisés & Recommandations",
+        "description": "Des moteurs de recommandation intelligents créent des plans de voyage sur mesure et proposent des activités en fonction des préférences, comportements passés et tendances.",
         "icon": "i-lucide-map-pin"
       },
       {
-        "title": "Support Client Automatisé",
-        "description": "Chatbots et assistants virtuels pour aider les voyageurs 24/7 sur les réservations, annulations et demandes.",
+        "title": "Engagement Client Automatisé",
+        "description": "Des assistants virtuels et chatbots IA offrent un support 24/7 pour les réservations, demandes, annulations et conseils de voyage.",
         "icon": "i-lucide-messages"
       }
     ],
 
-    "ctaTitle": "Boostez Votre Entreprise de Voyage",
-    "ctaDescription": "Construisons des plateformes de voyage de nouvelle génération qui offrent des expériences mémorables et efficaces.",
+    "ctaTitle": "Boostez Votre Activité Touristique avec l’IA",
+    "ctaDescription": "Collaborez avec nous pour développer des plateformes de voyage de nouvelle génération offrant des parcours fluides, une efficacité opérationnelle et des expériences clients exceptionnelles.",
 
-    "benefitTitle": "Avantages du Voyage",
+    "benefitTitle": "Avantages Clés Voyage & Hôtellerie",
     "benefits": [
       {
-        "title": "Augmentation des Revenus",
-        "description": "Optimisez la tarification et les opérations pour rentabiliser vos offres."
+        "title": "Revenus Maximisés",
+        "description": "Optimisez la tarification, gérez la capacité efficacement et augmentez la rentabilité grâce à l’analytique prédictive."
       },
       {
-        "title": "Meilleur Engagement",
-        "description": "Proposez des expériences personnalisées qui fidélisent vos clients."
+        "title": "Fidélisation Renforcée",
+        "description": "Proposez des expériences et recommandations personnalisées pour améliorer la satisfaction et encourager les réservations récurrentes."
       },
       {
-        "title": "Disponibilité Permanente",
-        "description": "Servez vos clients à tout moment grâce à l’automatisation intelligente."
+        "title": "Excellence Opérationnelle",
+        "description": "Automatisez les réservations, le support client et la gestion des ressources pour réduire les coûts et améliorer la qualité de service."
       }
     ],
 
-    "solutionTitle": "Nos Solutions Voyage",
+    "solutionTitle": "Nos Solutions Voyage & Hôtellerie",
     "solutions": [
       {
         "title": "Moteur IA de Tarification",
-        "description": "Un moteur prédictif qui ajuste en continu les offres selon la demande, la saisonnalité et le profil utilisateur.",
+        "description": "Moteur prédictif qui ajuste continuellement les prix et les offres en fonction de la demande, des saisons et des comportements des utilisateurs.",
         "icon": "i-lucide-sparkles"
       },
       {
-        "title": "Planificateur de Voyage Intelligent",
-        "description": "Système de recommandations qui génère des itinéraires personnalisés en temps réel.",
+        "title": "Planificateur & Recommandeur de Voyage Intelligent",
+        "description": "Plateforme intelligente générant des itinéraires personnalisés, proposant des activités et adaptant les recommandations en temps réel.",
         "icon": "i-lucide-compass"
       }
     ]
