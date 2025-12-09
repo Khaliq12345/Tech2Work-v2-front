@@ -31,7 +31,7 @@
         <img
             :src="image"
             alt="Project image"
-            class="w-full h-64 md:h-96 object-cover rounded-lg"
+            class="w-full h-64 md:h-96 object-contain rounded-lg"
         />
     </UPageCard>
 </template>

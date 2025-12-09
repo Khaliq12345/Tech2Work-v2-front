@@ -2,9 +2,6 @@
     <div v-if="project">
         <PortfolioDetailHero :projectTitle="project.title" />
         <div class="w-full flex flex-col gap-12 p-2">
-            <!-- HERO -->
-
-            <!-- SECTION GRID -->
             <PortfolioGrid
                 :title="project.title"
                 :description="project.description"
@@ -14,13 +11,20 @@
                 :client="project.client"
                 :follow="project.follow"
             />
+
             <!-- SECTION image -->
             <div class="min-h-[400px]">
-                <PortfolioCarousel :images="project.galleries" />
+                <PortfolioCarousel
+                    :images="project.galleries"
+                    :maxHeight="project.maxHeight ?? 500"
+                    :minHeight="project.minHeight ?? 300"
+                />
+
             </div>
         </div>
     </div>
 </template>
+
 
 <script setup lang="ts">
 // initialise the route, locale and portfolio id

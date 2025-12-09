@@ -21,6 +21,8 @@
       "/portfolio/shopping-assistant/screen.png",
       "/portfolio/shopping-assistant/screen2.png"
     ],
+    "maxHeight": "340",
+    "minHeight": "auto",
     "follow": [
       {
         "label": "Instagram",
@@ -58,6 +60,8 @@
       "/portfolio/shopping-assistant/screen.png",
       "/portfolio/shopping-assistant/screen2.png"
     ],
+    "maxHeight": "340",
+    "minHeight": "auto",
     "follow": [
       {
         "label": "Instagram",
