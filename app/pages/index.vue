@@ -9,7 +9,7 @@
 
     <!-- 6. Projects Section -->
     <div class="m-5">
-      <Project :projects="projects" />
+      <Project />
     </div>
     
     <Contact v-model:open="isContactOpen" />
