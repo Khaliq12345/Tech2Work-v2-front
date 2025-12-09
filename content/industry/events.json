@@ -1,120 +1,121 @@
 {
   "en": {
-    "heroTitle": "Next-Gen Event Technology",
-    "heroDescription": "Bring your events to life with data-driven experiences, predictive engagement, and seamless virtual or hybrid platforms.",
+    "heroTitle": "Next-Generation Event Technology",
+    "heroDescription": "Transform your events with intelligent engagement, predictive analytics, immersive experiences, and seamless support across virtual, hybrid, and in-person formats.",
     "heroImage": "/industry/events.png",
 
-    "descriptionTitle": "Event Innovation",
-    "subDescription": "We help event organizers and brands to modernize their event operations using smart analytics, personalization, and scalable platforms.",
+    "descriptionTitle": "Reinventing the Event Experience",
+    "subDescription": "Events today demand more than logistics—they require intelligence, personalization, and the ability to engage audiences across multiple touchpoints. We help organizers modernize their strategy through smart data, automated workflows, and technologies that elevate every stage of the event lifecycle, from planning to post-event insights.",
 
-    "serviceTitle": "Event Services",
+    "serviceTitle": "Our Event Services",
     "services": [
       {
-        "title": "Predictive Engagement",
-        "description": "Use AI to forecast attendee behavior and optimize event programming.",
+        "title": "Predictive Attendee Engagement",
+        "description": "Leverage machine learning to anticipate attendee interests, recommend sessions, and optimize schedules for maximum participation.",
         "icon": "i-lucide-users"
       },
       {
-        "title": "Hybrid Event Platforms",
-        "description": "Virtual and in-person event infrastructure with smooth transitions, streaming, and interactivity.",
+        "title": "Hybrid & Virtual Event Platforms",
+        "description": "Deploy flexible platforms that support live, virtual, and hybrid events with seamless streaming, networking, and interactive features.",
         "icon": "i-lucide-tv"
       },
       {
-        "title": "Event Analytics & Insights",
-        "description": "Real-time dashboards to monitor engagement, satisfaction, and ROI across event formats.",
+        "title": "Advanced Event Analytics",
+        "description": "Access real-time dashboards that track attendee behavior, session performance, satisfaction, and long-term event ROI.",
         "icon": "i-lucide-bar-chart-2"
       }
     ],
 
-    "ctaTitle": "Elevate Your Event Experience",
-    "ctaDescription": "Let's build data-powered, immersive event platforms that captivate audiences and streamline your operations.",
+    "ctaTitle": "Create Exceptional Audience Experiences",
+    "ctaDescription": "Partner with us to develop data-powered, immersive event ecosystems that captivate attendees, improve operations, and maximize engagement.",
 
-    "benefitTitle": "Event Benefits",
+    "benefitTitle": "Key Benefits",
     "benefits": [
       {
-        "title": "Higher Attendance",
-        "description": "Leverage predictive tools to boost registration and retention."
+        "title": "Increased Attendance",
+        "description": "Boost registrations and participant retention using predictive insights and targeted promotion."
       },
       {
-        "title": "Better Engagement",
-        "description": "Deliver personalized content and interactions for your audience."
+        "title": "Enhanced Engagement",
+        "description": "Offer personalized content, curated agendas, and dynamic interactions that keep audiences active and connected."
       },
       {
-        "title": "Actionable Insights",
-        "description": "Measure real-time metrics and post-event impact for smarter planning."
+        "title": "Insight-Driven Decisions",
+        "description": "Leverage real-time reporting and post-event analytics to continuously improve your event strategy."
       }
     ],
 
     "solutionTitle": "Our Event Solutions",
     "solutions": [
       {
-        "title": "AI Engagement Engine",
-        "description": "A smart engine that tailors content, recommendations, and networking to each attendee.",
+        "title": "AI-Powered Engagement Engine",
+        "description": "A smart personalization engine that adapts content, networking opportunities, and recommendations to each attendee’s profile and behavior.",
         "icon": "i-lucide-activity"
       },
       {
-        "title": "Hybrid Platform Suite",
-        "description": "A unified platform supporting virtual, live, and hybrid event experiences with ease.",
+        "title": "Unified Hybrid Event Suite",
+        "description": "A complete platform enabling seamless hosting of live, virtual, and hybrid events with intuitive management and audience-driven features.",
         "icon": "i-lucide-globe"
       }
     ]
   },
+
   "fr": {
-    "heroTitle": "Technologie Événementielle de Nouvelle Génération",
-    "heroDescription": "Donnez vie à vos événements grâce à des expériences pilotées par les données, un engagement prédictif et des plateformes virtuelles ou hybrides fluide.",
+    "heroTitle": "Technologie Événementielle Nouvelle Génération",
+    "heroDescription": "Transformez vos événements grâce à une intelligence d’engagement, une analytique prédictive, des expériences immersives et des solutions fluides pour le virtuel, l’hybride ou le présentiel.",
     "heroImage": "/industry/events.jpg",
 
-    "descriptionTitle": "Innovation Événementielle",
-    "subDescription": "Nous aidons les organisateurs et les marques à moderniser leurs opérations grâce à l’analytique intelligente, la personnalisation et des plateformes évolutives.",
+    "descriptionTitle": "Réinventer l’Expérience Événementielle",
+    "subDescription": "Les événements ne se limitent plus à l’organisation logistique : ils exigent intelligence, personnalisation et engagement multi-canal. Nous aidons les organisateurs à moderniser leurs stratégies grâce aux données, à l’automatisation et à des technologies qui valorisent chaque étape du cycle événementiel, de la planification au post-événement.",
 
-    "serviceTitle": "Services Événementiels",
+    "serviceTitle": "Nos Services Événementiels",
     "services": [
       {
-        "title": "Engagement Prédictif",
-        "description": "Utilisez l’IA pour anticiper le comportement des participants et optimiser la programmation.",
+        "title": "Engagement Prédictif des Participants",
+        "description": "Exploitez le machine learning pour anticiper les centres d’intérêt, recommander des sessions et optimiser la programmation pour maximiser la participation.",
         "icon": "i-lucide-users"
       },
       {
-        "title": "Plateformes Hybrides",
-        "description": "Infrastructure pour événements virtuels et physiques avec streaming, transitions et interactivité.",
+        "title": "Plateformes d’Événements Hybrides & Virtuels",
+        "description": "Déployez des plateformes flexibles permettant d'organiser des événements présentiels, virtuels ou hybrides avec streaming fluide, networking et fonctionnalités interactives.",
         "icon": "i-lucide-tv"
       },
       {
-        "title": "Analytique & Insights Événementiels",
-        "description": "Tableaux de bord en temps réel pour suivre l’engagement, la satisfaction et le ROI.",
+        "title": "Analytique Événementielle Avancée",
+        "description": "Accédez à des tableaux de bord en temps réel pour suivre le comportement des participants, la performance des sessions, la satisfaction et le ROI global.",
         "icon": "i-lucide-bar-chart-2"
       }
     ],
 
-    "ctaTitle": "Sublimez Vos Événements",
-    "ctaDescription": "Construisons des plateformes immersives et pilotées par les données qui captivent vos audiences et optimisent vos opérations.",
+    "ctaTitle": "Créez des Expériences d’Exception",
+    "ctaDescription": "Collaborons pour concevoir des écosystèmes événementiels immersifs, pilotés par les données, qui captivent vos publics et optimisent vos opérations.",
 
-    "benefitTitle": "Avantages Événementiels",
+    "benefitTitle": "Avantages Clés",
     "benefits": [
       {
-        "title": "Plus Forte Affluence",
-        "description": "Exploitez des outils prédictifs pour augmenter les inscriptions et la rétention."
+        "title": "Affluence Accrue",
+        "description": "Augmentez vos inscriptions et la rétention grâce aux insights prédictifs et à une communication ciblée."
       },
       {
-        "title": "Meilleur Engagement",
-        "description": "Proposez un contenu personnalisé et des interactions riches pour vos participants."
+        "title": "Engagement Renforcé",
+        "description": "Proposez des contenus personnalisés, des agendas adaptés et des interactions dynamiques pour maintenir vos participants actifs."
       },
       {
-        "title": "Insights Actionnables",
-        "description": "Mesurez les métriques en temps réel et l’impact post-événement pour mieux planifier."
+        "title": "Décisions Basées sur les Données",
+        "description": "Utilisez les rapports en temps réel et les analyses post-événement pour améliorer continuellement vos stratégies."
       }
     ],
 
     "solutionTitle": "Nos Solutions Événementielles",
     "solutions": [
       {
-        "title": "Moteur IA d’Engagement",
-        "description": "Un moteur intelligent qui personnalise contenu, recommandations et networking selon chaque participant.",
+        "title": "Moteur d’Engagement IA",
+        "description": "Un moteur intelligent qui personnalise le contenu, les opportunités de networking et les recommandations selon le profil et le comportement de chaque participant.",
         "icon": "i-lucide-activity"
       },
       {
-        "title": "Suite Plateforme Hybride",
-        "description": "Une plateforme unifiée pour vivre des événements virtuels, en présentiel ou hybrides sans friction.",
+        "title": "Suite Hybride Événementielle Unifiée",
+        "description": "Une plateforme complète permettant d’organiser facilement des événements virtuels, hybrides ou en présentiel, avec une gestion intuitive et des fonctionnalités centrées sur l’audience.",
         "icon": "i-lucide-globe"
       }
     ]

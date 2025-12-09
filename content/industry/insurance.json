@@ -1,107 +1,107 @@
 {
   "en": {
-    "heroTitle": "InsurTech Solutions for the Future",
-    "heroDescription": "Empower your insurance business with AI, predictive underwriting, and customer-centric digital experiences.",
+    "heroTitle": "Future-Ready InsurTech Solutions",
+    "heroDescription": "Transform your insurance business with AI-driven underwriting, predictive risk analytics, automated claims processing, and customer-centric digital experiences that increase efficiency, trust, and growth.",
     "heroImage": "/industry/insurance.png",
 
-    "descriptionTitle": "Reinventing Insurance",
-    "subDescription": "We help insurers modernize risk assessment, claims handling and customer relationships through data and automation.",
+    "descriptionTitle": "Intelligent Insurance for a Modern World",
+    "subDescription": "The insurance industry is rapidly evolving with rising customer expectations, tighter regulations, and complex operational challenges. We enable insurers to modernize risk evaluation, claims handling, and customer engagement through AI, automation, and data-driven strategies for smarter, faster, and more personalized services.",
 
-    "serviceTitle": "Insurance Services",
+    "serviceTitle": "Our Insurance Services",
     "services": [
       {
         "title": "Predictive Underwriting",
-        "description": "Leverage machine learning to assess risk more dynamically and accurately.",
+        "description": "Leverage advanced AI and machine learning to dynamically assess risk, optimize policy pricing, and make data-driven underwriting decisions with greater speed and accuracy.",
         "icon": "i-lucide-clipboard"
       },
       {
         "title": "Automated Claims Processing",
-        "description": "Streamline claims with AI-powered document recognition and fraud detection.",
+        "description": "Streamline claims operations using AI-powered document recognition, anomaly detection, and fraud prevention, reducing processing time, errors, and operational costs.",
         "icon": "i-lucide-file"
       },
       {
         "title": "Policy Personalization",
-        "description": "Offer tailored insurance products based on customer data, behavior, and risk profile.",
+        "description": "Deliver customized insurance products and recommendations tailored to individual customer profiles, behavior patterns, and risk exposure, improving satisfaction and retention.",
         "icon": "i-lucide-settings-2"
       }
     ],
 
-    "ctaTitle": "Accelerate Your InsurTech Transformation",
-    "ctaDescription": "Partner with our team to build scalable, intelligent insurance platforms that deliver growth and trust.",
+    "ctaTitle": "Accelerate Your InsurTech Journey",
+    "ctaDescription": "Collaborate with our experts to create intelligent, scalable, and fully digital insurance platforms that optimize operations, reduce risk, and enhance customer experiences.",
 
-    "benefitTitle": "Benefits",
+    "benefitTitle": "Key Benefits",
     "benefits": [
       {
-        "title": "Better Risk Pricing",
-        "description": "Use advanced analytics to price policies more accurately and competitively."
+        "title": "Optimized Risk Pricing",
+        "description": "Use predictive analytics to price policies accurately, manage exposure effectively, and remain competitive."
       },
       {
-        "title": "Faster Claims",
-        "description": "Reduce claim turnaround times and improve customer satisfaction."
+        "title": "Faster, Smarter Claims",
+        "description": "Reduce claim turnaround times and improve customer satisfaction with automation and AI-driven validation."
       },
       {
-        "title": "Improved Retention",
-        "description": "Deliver personalized experiences that keep your customers engaged and loyal."
+        "title": "Stronger Customer Loyalty",
+        "description": "Provide personalized experiences that increase engagement, trust, and long-term customer retention."
       }
     ],
 
     "solutionTitle": "Our Insurance Solutions",
     "solutions": [
       {
-        "title": "Underwriting AI Engine",
-        "description": "An intelligent risk-scoring system that dynamically evaluates underwriting decisions.",
+        "title": "AI Underwriting Engine",
+        "description": "An intelligent engine that evaluates underwriting decisions dynamically, predicts potential risks, and enhances portfolio management.",
         "icon": "i-lucide-activity"
       },
       {
         "title": "Smart Claims Hub",
-        "description": "A claims platform powered by document AI, anomaly detection and workflow automation.",
+        "description": "A fully integrated claims platform leveraging AI for document processing, anomaly detection, workflow automation, and fraud prevention.",
         "icon": "i-lucide-inbox"
       }
     ]
   },
   "fr": {
-    "heroTitle": "Solutions InsurTech pour l’Avenir",
-    "heroDescription": "Renforcez votre entreprise d’assurance avec l’IA, la souscription prédictive et des expériences client digitales centrées.",
+    "heroTitle": "Solutions InsurTech Prêtes pour l’Avenir",
+    "heroDescription": "Transformez votre entreprise d’assurance grâce à l’IA pour la souscription, l’analytique prédictive des risques, le traitement automatisé des sinistres et des expériences client digitales centrées, augmentant l’efficacité, la confiance et la croissance.",
     "heroImage": "/industry/insurance.jpg",
 
-    "descriptionTitle": "Réinventer l’Assurance",
-    "subDescription": "Nous aidons les assureurs à moderniser l’évaluation des risques, le traitement des sinistres et la relation client grâce aux données et à l’automatisation.",
+    "descriptionTitle": "Une Assurance Intelligente pour le Monde Moderne",
+    "subDescription": "Le secteur de l’assurance évolue rapidement avec des attentes clients croissantes, des exigences réglementaires strictes et des défis opérationnels complexes. Nous permettons aux assureurs de moderniser l’évaluation des risques, la gestion des sinistres et l’engagement client grâce à l’IA, l’automatisation et des stratégies basées sur les données, pour des services plus rapides, plus intelligents et personnalisés.",
 
-    "serviceTitle": "Services Assurance",
+    "serviceTitle": "Nos Services Assurance",
     "services": [
       {
         "title": "Souscription Prédictive",
-        "description": "Exploitez le machine learning pour évaluer les risques de façon plus dynamique et précise.",
+        "description": "Exploitez l’IA et le machine learning avancé pour évaluer les risques de manière dynamique, optimiser la tarification des polices et prendre des décisions de souscription plus rapides et précises.",
         "icon": "i-lucide-clipboard"
       },
       {
         "title": "Traitement Automatique des Sinistres",
-        "description": "Rationalisez les réclamations grâce à la reconnaissance de documents et la détection de fraude basée sur l’IA.",
+        "description": "Rationalisez la gestion des sinistres grâce à la reconnaissance intelligente des documents, la détection d’anomalies et la prévention de la fraude, réduisant les délais, les erreurs et les coûts opérationnels.",
         "icon": "i-lucide-file"
       },
       {
         "title": "Personnalisation des Polices",
-        "description": "Proposez des produits d’assurance sur mesure selon les données, le comportement et le profil de risque des clients.",
+        "description": "Proposez des produits d’assurance adaptés aux profils, comportements et risques individuels de vos clients pour améliorer la satisfaction et la fidélisation.",
         "icon": "i-lucide-settings-2"
       }
     ],
 
     "ctaTitle": "Accélérez Votre Transformation InsurTech",
-    "ctaDescription": "Collaborez avec notre équipe pour bâtir des plateformes d’assurance intelligentes, évolutives et performantes.",
+    "ctaDescription": "Collaborez avec nos experts pour créer des plateformes d’assurance intelligentes, évolutives et entièrement digitales, optimisant les opérations, réduisant les risques et améliorant l’expérience client.",
 
-    "benefitTitle": "Avantages",
+    "benefitTitle": "Avantages Clés",
     "benefits": [
       {
-        "title": "Tarification Optimisée",
-        "description": "Utilisez l’analytique avancée pour fixer des prix plus justes et compétitifs."
+        "title": "Tarification des Risques Optimisée",
+        "description": "Utilisez l’analytique prédictive pour fixer des tarifs précis, gérer l’exposition efficacement et rester compétitif."
       },
       {
-        "title": "Réclamations Rapides",
-        "description": "Réduisez les délais de traitement et améliorez la satisfaction client."
+        "title": "Sinistres Plus Rapides et Intelligents",
+        "description": "Réduisez les délais de traitement et améliorez la satisfaction client grâce à l’automatisation et à la validation pilotée par l’IA."
       },
       {
-        "title": "Fidélisation Améliorée",
-        "description": "Offrez des expériences personnalisées pour garder vos clients engagés."
+        "title": "Fidélisation Client Renforcée",
+        "description": "Offrez des expériences personnalisées qui renforcent l’engagement, la confiance et la fidélité à long terme."
       }
     ],
 
@@ -109,12 +109,12 @@
     "solutions": [
       {
         "title": "Moteur IA de Souscription",
-        "description": "Un système intelligent d’évaluation des risques qui prend des décisions en continu.",
+        "description": "Un moteur intelligent d’évaluation des risques qui analyse en continu les décisions de souscription, prédit les risques potentiels et optimise la gestion du portefeuille.",
         "icon": "i-lucide-activity"
       },
       {
         "title": "Hub Sinistres Intelligent",
-        "description": "Une plateforme de sinistres alimentée par l’IA sur les documents, la détection d’anomalies, et l’automatisation.",
+        "description": "Une plateforme intégrée de gestion des sinistres alimentée par l’IA pour le traitement des documents, la détection d’anomalies, l’automatisation des workflows et la prévention de la fraude.",
         "icon": "i-lucide-inbox"
       }
     ]
