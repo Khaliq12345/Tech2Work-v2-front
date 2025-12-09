@@ -41,7 +41,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/mintlight"
       }
-    ]
+    ],
+    "slug":"finance"
   },
   "fr": {
     "title": "Mintlight - Suivi Financier Personnel Élégant et Simple",
@@ -84,6 +85,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/mintlight"
       }
-    ]
+    ],
+    "slug":"finance"
   }
 }

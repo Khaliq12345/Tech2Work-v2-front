@@ -44,7 +44,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/orcatrade"
       }
-    ]
+    ],
+    "slug":"finance"
   },
   "fr": {
     "title": "OrcaTrade - Plateforme d'Orchestration d'Agents de Trading Algorithmique",
@@ -91,6 +92,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/orcatrade"
       }
-    ]
+    ],
+    "slug":"finance"
   }
 }
