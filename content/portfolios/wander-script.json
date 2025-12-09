@@ -24,7 +24,8 @@
       "/portfolio/wander-script/screen4.png",
       "/portfolio/wander-script/screen5.png"
     ],
-    "maxHeight": "500",
+    "maxHeight": "340",
+    "minHeight": "auto",
     "follow": [
       {
         "label": "Instagram",

@@ -71,6 +71,8 @@
       "/portfolio/construct-rag/screen4.png",
       "/portfolio/construct-rag/screen5.png"
     ],
+    "maxHeight": "340",
+    "minHeight": "auto",
     "follow": [
       {
         "label": "Instagram",

@@ -73,6 +73,8 @@
       "/portfolio/taskweaver-ai/screen5.png",
       "/portfolio/taskweaver-ai/screen6.png"
     ],
+    "maxHeight": "340",
+    "minHeight": "auto",
     "follow": [
       {
         "label": "Instagram",

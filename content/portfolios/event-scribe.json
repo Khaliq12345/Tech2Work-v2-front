@@ -69,6 +69,8 @@
       "/portfolio/event-scribe/screen4.png",
       "/portfolio/event-scribe/screen5.png"
     ],
+    "maxHeight": "340",
+    "minHeight": "auto",
     "follow": [
       {
         "label": "Instagram",
