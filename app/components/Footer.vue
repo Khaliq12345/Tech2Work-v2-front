@@ -3,7 +3,7 @@
         v-motion-slide-bottom
         :delay="200"
         :duration="1200"
-        class="bg-primary text-white"
+        class="bg-primary text-white mt-96 w-full"
     >
         <template #top>
             <div class="flex flex-col items-center text-center space-y-6">

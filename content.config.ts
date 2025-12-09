@@ -137,23 +137,45 @@ export default defineContentConfig({
       type: "data",
       source: "portfolios/**.json",
       schema: z.object({
-        title: z.string(),
-        description: z.string(),
-        category: z.string(),
-        date: z.string(),
-        tags: z.array(z.string()),
-        client: z.string(),
-        mobileImage: z.string(),
-        galleries: z.array(z.string()),
-        link: z.string(),
-        follow: z.array(
-          z.object({
-            label: z.string(),
-            icon: z.string(),
-            url: z.string(),
-          }),
-        ),
-        slug: z.string(),
+        en: z.object({
+          title: z.string(),
+          description: z.string(),
+          category: z.string(),
+          date: z.string(),
+          tags: z.array(z.string()),
+          client: z.string(),
+          mobileImage: z.string(),
+          galleries: z.array(z.string()),
+          link: z.string(),
+          follow: z.array(
+            z.object({
+              label: z.string(),
+              icon: z.string(),
+              url: z.string(),
+            }),
+          ),
+          slug: z.string(),
+        }),
+
+        fr: z.object({
+          title: z.string(),
+          description: z.string(),
+          category: z.string(),
+          date: z.string(),
+          tags: z.array(z.string()),
+          client: z.string(),
+          mobileImage: z.string(),
+          galleries: z.array(z.string()),
+          link: z.string(),
+          follow: z.array(
+            z.object({
+              label: z.string(),
+              icon: z.string(),
+              url: z.string(),
+            }),
+          ),
+          slug: z.string(),
+        }),
       }),
     }),
 

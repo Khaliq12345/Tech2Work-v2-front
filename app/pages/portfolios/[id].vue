@@ -13,18 +13,16 @@
             />
 
             <!-- SECTION image -->
-            <div class="min-h-[400px]">
+            <div>
                 <PortfolioCarousel
                     :images="project.galleries"
                     :maxHeight="project.maxHeight ?? 500"
                     :minHeight="project.minHeight ?? 300"
                 />
-
             </div>
         </div>
     </div>
 </template>
-
 
 <script setup lang="ts">
 // initialise the route, locale and portfolio id
@@ -43,9 +41,9 @@ const { data: project_raw } = await useAsyncData(portfolioId, () =>
 // Refresh the data when the locale changes
 const project = computed(() => {
     if (locale.value == "en") {
-        return project_raw.value?.meta.en;
+        return project_raw.value?.en;
     } else if (locale.value == "fr") {
-        return project_raw.value?.meta.fr;
+        return project_raw.value?.fr;
     }
 });
 </script>
