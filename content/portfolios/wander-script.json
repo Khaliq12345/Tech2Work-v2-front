@@ -42,7 +42,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/wanderscript"
       }
-    ]
+    ],
+    "slug":"travel"
   },
   "fr": {
     "title": "WanderScript – Générateur IA d'Itinéraires & Contenu Voyage",
@@ -87,6 +88,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/wanderscript"
       }
-    ]
+    ],
+    "slug":"travel"
   }
 }

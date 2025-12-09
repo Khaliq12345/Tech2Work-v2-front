@@ -44,7 +44,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/taskweaver-ai"
       }
-    ]
+    ],
+    "slug":"finance"
   },
   "fr": {
     "title": "TaskWeaver AI - Plateforme de Gestion de Projets Intelligente avec Agents IA",
@@ -91,6 +92,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/taskweaver-ai"
       }
-    ]
+    ],
+    "slug":"finance"
   }
 }

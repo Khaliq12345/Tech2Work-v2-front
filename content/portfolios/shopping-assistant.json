@@ -39,7 +39,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/shopagent-one"
       }
-    ]
+    ],
+    "slug":"e-commerce"
   },
   "fr": {
     "title": "ShopAgent One - Assistant d’Achat IA Autonome & Récupération de Paniers",
@@ -78,6 +79,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/shopagent-one"
       }
-    ]
+    ],
+    "slug":"e-commerce"
   }
 }

@@ -42,7 +42,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/eventscribe"
       }
-    ]
+    ],
+    "slug":"events"
   },
   "fr": {
     "title": "Eventscribe – Générateur d'Articles IA Vintage pour Événements",
@@ -87,6 +88,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/eventscribe"
       }
-    ]
+    ],
+    "slug":"events"
   }
 }

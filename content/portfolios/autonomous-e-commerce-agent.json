@@ -40,7 +40,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/shopai"
       }
-    ]
+    ],
+    "slug":"e-commerce"
   },
   "fr": {
     "title": "Agent IA Autonome pour E-commerce",
@@ -83,6 +84,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/shopai"
       }
-    ]
+    ],
+    "slug":"e-commerce"
   }
 }

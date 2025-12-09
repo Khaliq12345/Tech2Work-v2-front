@@ -153,6 +153,7 @@ export default defineContentConfig({
             url: z.string(),
           }),
         ),
+        slug: z.string(),
       }),
     }),
 

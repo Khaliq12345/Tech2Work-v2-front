@@ -43,7 +43,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/construrag"
       }
-    ]
+    ],
+    "slug":"construction"
   },
   "fr": {
     "title": "ConstruRAG – Analyseur Intelligent de Documents pour la Construction",
@@ -89,6 +90,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/construrag"
       }
-    ]
+    ],
+    "slug":"construction"
   }
 }

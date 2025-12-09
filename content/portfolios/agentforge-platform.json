@@ -42,7 +42,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/agentforge"
       }
-    ]
+    ],
+    "slug":"finance"
   },
   "fr": {
     "title": "AgentForge - Plateforme d'Orchestration d'Agents IA",
@@ -87,6 +88,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/agentforge"
       }
-    ]
+    ],
+    "slug":"finance"
   }
 }

@@ -42,7 +42,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/portfolio-manager"
       }
-    ]
+    ],
+    "slug":"finance"
   },
   "fr": {
     "title": "Portfolio Manager - Plateforme Moderne de Gestion de Patrimoine & Finance Personnelle",
@@ -87,6 +88,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/portfolio-manager"
       }
-    ]
+    ],
+    "slug":"finance"
   }
 }

@@ -41,7 +41,8 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/wealthsimple"
       }
-    ]
+    ],
+    "slug":"finance"
   },
   "fr": {
     "title": "WealthSimple - Suivi d’Investissements Élégant",
@@ -82,6 +83,7 @@
         "icon": "i-simple-icons-github",
         "url": "https://github.com/tech2work/wealthsimple"
       }
-    ]
+    ],
+    "slug":"finance"
   }
 }
