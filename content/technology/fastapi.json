@@ -5,142 +5,152 @@
     "coverImage": "/technology/fastapi.png",
     "heroHeadline": "FastAPI Expertise",
     "heroCoverAlt": "FastAPI cover",
-    "descriptionV1": "Build blazing-fast Python APIs with automatic documentation and async performance.",
-    "descriptionV2": "We design secure FastAPI services that scale from MVPs to enterprise-grade microservices.",
-    "additionalDescription": "Our specialists orchestrate FastAPI deployments with observability, CI/CD, and expert DevOps support.",
+    "descriptionV1": "Build blazing-fast Python APIs with automatic documentation, async performance, and modern development best practices.",
+    "descriptionV2": "We design secure and scalable FastAPI services that grow from MVPs to enterprise-grade microservices, optimized for performance and maintainability.",
+    "additionalDescription": "Our specialists orchestrate FastAPI deployments with observability, CI/CD pipelines, containerization, monitoring, and expert DevOps support for production-grade applications.",
     "additionalTitle": "Where FastAPI Delivers the Most Impact",
     "usesTitle": "What Makes FastAPI Stand Out?",
-    "usesDescription": "FastAPI excels thanks to the following capabilities:",
+    "usesDescription": "FastAPI stands out due to its combination of performance, developer productivity, and robust API design capabilities:",
     "features": [
       {
         "title": "High Performance",
-        "description": "Achieve near Node.js speed with modern async support powered by Starlette and Uvicorn.",
+        "description": "Achieve near Node.js speeds with asynchronous programming powered by Starlette and Uvicorn, making APIs responsive even under heavy load.",
         "icon": "i-lucide-zap"
       },
       {
         "title": "Type-Safe APIs",
-        "description": "Use Pydantic models to guarantee data integrity and self-documented endpoints.",
+        "description": "Leverage Pydantic models to ensure data validation, integrity, and self-documented endpoints for faster development and reduced bugs.",
         "icon": "i-lucide-shield-check"
       },
       {
         "title": "Cloud Native",
-        "description": "Deploy containerized FastAPI services with autoscaling on Kubernetes, ECS, or serverless.",
+        "description": "Easily deploy containerized FastAPI services with auto-scaling on platforms like Kubernetes, ECS, or serverless architectures.",
         "icon": "i-lucide-cloud"
       },
       {
         "title": "Observability Built-In",
-        "description": "Integrate OpenAPI, metrics, and distributed tracing for insight into production systems.",
+        "description": "Integrate OpenAPI, automatic API documentation, metrics, and distributed tracing for complete visibility into your production systems.",
         "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Rapid Development",
+        "description": "FastAPI allows developers to quickly prototype APIs with minimal boilerplate while maintaining high code quality and readability.",
+        "icon": "i-lucide-rocket"
       }
     ],
     "process": [
       {
         "phase": "Phase 1",
         "title": "API Vision",
-        "description": "Define domain models, auth requirements, and SLAs for the FastAPI service.",
+        "description": "Define domain models, authentication, authorization, SLAs, and technical goals for the FastAPI service.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Architecture & Security",
-        "description": "Plan routing, middleware, and security layers aligned with compliance needs.",
+        "description": "Design routing, middleware, security layers, and data integration, aligned with compliance and enterprise standards.",
         "icon": "i-lucide-lock"
       },
       {
         "phase": "Phase 3",
         "title": "Implementation",
-        "description": "Develop endpoints, integrate data stores, and cover business logic with tests.",
+        "description": "Develop endpoints, integrate databases and external services, implement business logic, and write automated tests.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Testing & Hardening",
-        "description": "Run load tests, fuzz inputs, and validate observability before release.",
+        "description": "Perform load tests, fuzzing, security validation, and observability checks to ensure reliability and robustness.",
         "icon": "i-lucide-gavel"
       },
       {
         "phase": "Phase 5",
-        "title": "Deployment & Ops",
-        "description": "Automate CI/CD, configure monitoring, and support rollout to production.",
+        "title": "Deployment & Operations",
+        "description": "Automate CI/CD, configure monitoring and alerts, optimize performance, and support production rollout and maintenance.",
         "icon": "i-lucide-rocket"
       }
     ],
     "processTitle": "FastAPI Delivery Process",
-    "processDescription": "A structured, transparent workflow that keeps your FastAPI projects moving smoothly from discovery to long-term support.",
+    "processDescription": "A structured and transparent workflow ensuring FastAPI projects progress efficiently from discovery to long-term support.",
     "ctaTitle": "Partner with our FastAPI Team",
-    "ctaDescription": "Ready to unlock the full potential of FastAPI? Let's build your next API project together.",
+    "ctaDescription": "Ready to unlock the full potential of FastAPI? Let’s build your next API project together, with performance and scalability at the core.",
     "ctaImageAlt": "FastAPI illustration"
   },
   "fr": {
-    "title": "Ingénierie backend FastAPI",
+    "title": "Ingénierie Backend FastAPI",
     "name": "FastAPI",
     "coverImage": "/technology/fastapi.png",
     "heroHeadline": "Expertise FastAPI",
     "heroCoverAlt": "Visuel FastAPI",
-    "descriptionV1": "Construisez des APIs Python ultra-rapides avec documentation automatique et performance asynchrone.",
-    "descriptionV2": "Nous concevons des services FastAPI sécurisés qui évoluent des MVP aux microservices d'entreprise.",
-    "additionalDescription": "Nos experts orchestrent les déploiements FastAPI avec observabilité, CI/CD et accompagnement DevOps.",
+    "descriptionV1": "Créez des APIs Python ultra-rapides avec documentation automatique, performance asynchrone et bonnes pratiques modernes.",
+    "descriptionV2": "Nous concevons des services FastAPI sécurisés et évolutifs, adaptés des MVP aux microservices d'entreprise, optimisés pour la performance et la maintenabilité.",
+    "additionalDescription": "Nos experts orchestrent les déploiements FastAPI avec observabilité, pipelines CI/CD, conteneurisation, supervision et accompagnement DevOps pour des applications prêtes pour la production.",
     "additionalTitle": "Là où FastAPI crée le plus de valeur",
     "usesTitle": "Pourquoi FastAPI se distingue",
-    "usesDescription": "FastAPI apporte ces avantages clés :",
+    "usesDescription": "FastAPI se démarque grâce à sa combinaison de performance, productivité des développeurs et conception robuste d'API :",
     "features": [
       {
         "title": "Haute performance",
-        "description": "Approchez la vitesse de Node.js grâce à l'async moderne avec Starlette et Uvicorn.",
+        "description": "Atteignez des vitesses proches de Node.js grâce à la programmation asynchrone avec Starlette et Uvicorn, pour des APIs réactives même sous forte charge.",
         "icon": "i-lucide-zap"
       },
       {
         "title": "APIs typées",
-        "description": "Utilisez les modèles Pydantic pour garantir l'intégrité des données et documenter automatiquement les endpoints.",
+        "description": "Utilisez les modèles Pydantic pour garantir la validation et l'intégrité des données, avec des endpoints auto-documentés pour un développement rapide et moins d'erreurs.",
         "icon": "i-lucide-shield-check"
       },
       {
         "title": "Cloud native",
-        "description": "Déployez des services FastAPI conteneurisés avec autoscaling sur Kubernetes, ECS ou serverless.",
+        "description": "Déployez facilement des services FastAPI conteneurisés avec autoscaling sur Kubernetes, ECS ou des architectures serverless.",
         "icon": "i-lucide-cloud"
       },
       {
         "title": "Observabilité intégrée",
-        "description": "Intégrez OpenAPI, métriques et traçage distribué pour analyser les systèmes en production.",
+        "description": "Intégrez OpenAPI, documentation automatique, métriques et traçage distribué pour une visibilité complète sur vos systèmes en production.",
         "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Développement rapide",
+        "description": "FastAPI permet de prototyper rapidement des APIs avec un minimum de code tout en maintenant une qualité et lisibilité élevées.",
+        "icon": "i-lucide-rocket"
       }
     ],
     "process": [
       {
         "phase": "Phase 1",
         "title": "Vision API",
-        "description": "Définir modèles métiers, exigences d'authentification et SLAs du service FastAPI.",
+        "description": "Définir les modèles métiers, l’authentification, l’autorisation, les SLAs et les objectifs techniques du service FastAPI.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Architecture & sécurité",
-        "description": "Planifier routage, middleware et couches de sécurité selon les besoins de conformité.",
+        "description": "Concevoir le routage, les middlewares, les couches de sécurité et l’intégration des données, en accord avec les standards et exigences de conformité.",
         "icon": "i-lucide-lock"
       },
       {
         "phase": "Phase 3",
         "title": "Implémentation",
-        "description": "Développer les endpoints, intégrer les sources de données et tester la logique métier.",
+        "description": "Développer les endpoints, intégrer les bases de données et services externes, implémenter la logique métier et écrire des tests automatisés.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Tests & durcissement",
-        "description": "Lancer des tests de charge, fuzzer les entrées et valider l'observabilité avant lancement.",
+        "description": "Réaliser tests de charge, fuzzing, validations de sécurité et vérification de l’observabilité pour garantir fiabilité et robustesse.",
         "icon": "i-lucide-gavel"
       },
       {
         "phase": "Phase 5",
-        "title": "Déploiement & ops",
-        "description": "Automatiser CI/CD, configurer la supervision et accompagner la mise en production.",
+        "title": "Déploiement & opérations",
+        "description": "Automatiser CI/CD, configurer la supervision et les alertes, optimiser la performance et assurer le déploiement et la maintenance en production.",
         "icon": "i-lucide-rocket"
       }
     ],
     "processTitle": "Processus FastAPI",
-    "processDescription": "Un workflow structuré et transparent pour faire avancer vos projets FastAPI, du cadrage au support continu.",
+    "processDescription": "Un workflow structuré et transparent garantissant l’avancement efficace de vos projets FastAPI, du cadrage au support continu.",
     "ctaTitle": "Collaborez avec notre équipe FastAPI",
-    "ctaDescription": "Prêt à exploiter tout le potentiel de FastAPI ? Construisons ensemble votre prochain projet.",
+    "ctaDescription": "Prêt à exploiter tout le potentiel de FastAPI ? Construisons ensemble votre prochain projet, avec performance et scalabilité au cœur.",
     "ctaImageAlt": "Illustration FastAPI"
   }
 }

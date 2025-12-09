@@ -5,70 +5,75 @@
     "coverImage": "/technology/mongodb.png",
     "heroHeadline": "MongoDB Expertise",
     "heroCoverAlt": "MongoDB cover",
-    "descriptionV1": "Build flexible applications on top of MongoDB's document-oriented architecture.",
-    "descriptionV2": "We design schemas, pipelines, and automation that keep MongoDB clusters performant and resilient.",
-    "additionalDescription": "Our engineers pair MongoDB Atlas expertise with DevOps practices to secure, monitor, and scale data-rich products.",
+    "descriptionV1": "Build flexible and scalable applications on top of MongoDB's document-oriented architecture.",
+    "descriptionV2": "We design schemas, aggregation pipelines, indexing strategies, and automation that keep MongoDB clusters performant, resilient, and maintainable.",
+    "additionalDescription": "Our engineers combine MongoDB Atlas expertise with DevOps practices to secure, monitor, and scale data-driven products efficiently.",
     "additionalTitle": "Where MongoDB Delivers the Most Impact",
     "usesTitle": "What Makes MongoDB Stand Out?",
-    "usesDescription": "MongoDB powers flexible data experiences through these strengths:",
+    "usesDescription": "MongoDB enables modern data platforms with these strengths:",
     "features": [
       {
         "title": "Document Flexibility",
-        "description": "Model dynamic data structures that evolve with your product without painful migrations.",
+        "description": "Model dynamic and evolving data structures without rigid schema constraints, allowing rapid feature iteration.",
         "icon": "i-lucide-layers"
       },
       {
         "title": "Scalability",
-        "description": "Implement sharding, replication, and multi-region deployments to handle growing workloads.",
+        "description": "Leverage sharding, replication, and multi-region clusters to handle growing workloads and global traffic.",
         "icon": "i-lucide-trending-up"
       },
       {
         "title": "Analytics & Search",
-        "description": "Leverage aggregation pipelines, Atlas Search, and Realm for deeper insights and personalization.",
+        "description": "Use aggregation pipelines, Atlas Search, and Realm to extract insights, enable personalization, and power real-time analytics.",
         "icon": "i-lucide-search"
       },
       {
         "title": "Operational Automation",
-        "description": "Automate backups, alerting, and guardrails to keep databases compliant and healthy.",
+        "description": "Automate backups, monitoring, alerts, and guardrails to ensure database health, compliance, and reliability.",
         "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Security & Compliance",
+        "description": "Implement access controls, encryption, auditing, and best practices to meet organizational and regulatory standards.",
+        "icon": "i-lucide-shield-check"
       }
     ],
     "process": [
       {
         "phase": "Phase 1",
         "title": "Discovery",
-        "description": "Assess data access patterns, security requirements, and growth forecasts.",
+        "description": "Analyze data access patterns, security requirements, performance expectations, and growth projections.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Schema & Architecture",
-        "description": "Design collections, indexes, and deployment topology tailored to workload profiles.",
+        "description": "Design collections, indexes, data models, and cluster topology tailored to workloads and application needs.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Implementation",
-        "description": "Provision clusters, build pipelines, and integrate with application services.",
+        "description": "Provision clusters, build aggregation pipelines, and integrate MongoDB with application services efficiently.",
         "icon": "i-lucide-database"
       },
       {
         "phase": "Phase 4",
         "title": "Optimization",
-        "description": "Profile queries, tune indexes, and validate resiliency strategies.",
+        "description": "Profile queries, tune indexes, and validate resiliency strategies for high performance under load.",
         "icon": "i-lucide-gauge"
       },
       {
         "phase": "Phase 5",
         "title": "Operations & Enablement",
-        "description": "Set up monitoring, disaster recovery, and knowledge transfer for your teams.",
+        "description": "Establish monitoring, disaster recovery, operational best practices, and knowledge transfer for long-term success.",
         "icon": "i-lucide-life-buoy"
       }
     ],
     "processTitle": "MongoDB Delivery Process",
-    "processDescription": "A structured workflow that evolves your MongoDB platform from discovery to operations.",
+    "processDescription": "A structured workflow to take your MongoDB platform from discovery through implementation, optimization, and ongoing operations.",
     "ctaTitle": "Partner with our MongoDB Team",
-    "ctaDescription": "Ready to scale with MongoDB? Let's build your next data-driven product together.",
+    "ctaDescription": "Ready to scale your data platform with MongoDB? Let's build your next data-driven product together.",
     "ctaImageAlt": "MongoDB illustration"
   },
   "fr": {
@@ -77,70 +82,75 @@
     "coverImage": "/technology/mongodb.png",
     "heroHeadline": "Expertise MongoDB",
     "heroCoverAlt": "Visuel MongoDB",
-    "descriptionV1": "Construisez des applications flexibles sur l'architecture orientée documents de MongoDB.",
-    "descriptionV2": "Nous concevons schémas, pipelines et automatisations pour des clusters MongoDB performants et résilients.",
-    "additionalDescription": "Nos ingénieurs combinent expertise MongoDB Atlas et pratiques DevOps pour sécuriser, superviser et faire évoluer vos produits data.",
+    "descriptionV1": "Construisez des applications flexibles et scalables sur l'architecture orientée documents de MongoDB.",
+    "descriptionV2": "Nous concevons schémas, pipelines d'agrégation, stratégies d'indexation et automatisations pour que vos clusters MongoDB restent performants, résilients et maintenables.",
+    "additionalDescription": "Nos ingénieurs combinent expertise MongoDB Atlas et pratiques DevOps pour sécuriser, superviser et faire évoluer vos produits data de manière efficace.",
     "additionalTitle": "Là où MongoDB apporte le plus d'impact",
     "usesTitle": "Pourquoi MongoDB fait la différence",
-    "usesDescription": "MongoDB alimente vos expériences data grâce aux avantages suivants :",
+    "usesDescription": "MongoDB alimente les plateformes data modernes grâce aux atouts suivants :",
     "features": [
       {
         "title": "Flexibilité documentaire",
-        "description": "Modélisez des structures de données dynamiques qui évoluent sans migrations complexes.",
+        "description": "Modélisez des structures de données dynamiques et évolutives sans contraintes de schéma rigides, permettant des itérations rapides.",
         "icon": "i-lucide-layers"
       },
       {
         "title": "Scalabilité",
-        "description": "Mettre en place sharding, réplication et déploiements multi-régions pour absorber la croissance.",
+        "description": "Exploitez sharding, réplication et clusters multi-régions pour gérer la croissance et le trafic global.",
         "icon": "i-lucide-trending-up"
       },
       {
         "title": "Analytics & recherche",
-        "description": "Exploitez pipelines d'agrégation, Atlas Search et Realm pour insights et personnalisation.",
+        "description": "Utilisez pipelines d'agrégation, Atlas Search et Realm pour extraire des insights, personnaliser l'expérience et activer des analyses en temps réel.",
         "icon": "i-lucide-search"
       },
       {
         "title": "Automatisation opérationnelle",
-        "description": "Automatiser sauvegardes, alertes et garde-fous pour maintenir conformité et santé de la base.",
+        "description": "Automatisez sauvegardes, monitoring, alertes et garde-fous pour garantir la santé, la conformité et la fiabilité des bases.",
         "icon": "i-lucide-activity"
+      },
+      {
+        "title": "Sécurité & conformité",
+        "description": "Mettez en place contrôle d'accès, chiffrement, audit et bonnes pratiques pour répondre aux standards organisationnels et réglementaires.",
+        "icon": "i-lucide-shield-check"
       }
     ],
     "process": [
       {
         "phase": "Phase 1",
         "title": "Découverte",
-        "description": "Évaluer patterns d'accès, exigences de sécurité et projections de croissance.",
+        "description": "Analyser les patterns d'accès, exigences de sécurité, performances attendues et projections de croissance.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Schéma & architecture",
-        "description": "Concevoir collections, index et topologie de déploiement adaptées aux charges.",
+        "description": "Concevoir collections, index, modèles de données et topologie de cluster adaptés aux charges et besoins applicatifs.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Implémentation",
-        "description": "Provisionner les clusters, créer les pipelines et intégrer avec les services applicatifs.",
+        "description": "Provisionner les clusters, créer les pipelines d'agrégation et intégrer MongoDB avec les services applicatifs efficacement.",
         "icon": "i-lucide-database"
       },
       {
         "phase": "Phase 4",
         "title": "Optimisation",
-        "description": "Profiler les requêtes, ajuster les index et valider les stratégies de résilience.",
+        "description": "Profiler les requêtes, ajuster les index et valider les stratégies de résilience pour une haute performance en charge.",
         "icon": "i-lucide-gauge"
       },
       {
         "phase": "Phase 5",
         "title": "Opérations & autonomie",
-        "description": "Mettre en place monitoring, reprise d'activité et transfert de connaissances à vos équipes.",
+        "description": "Mettre en place monitoring, reprise d'activité, bonnes pratiques opérationnelles et transfert de connaissances pour le succès long terme.",
         "icon": "i-lucide-life-buoy"
       }
     ],
     "processTitle": "Processus MongoDB",
-    "processDescription": "Un workflow structuré pour faire évoluer votre plateforme MongoDB du cadrage à l'exploitation continue.",
+    "processDescription": "Un workflow structuré pour faire évoluer votre plateforme MongoDB du cadrage à l'implémentation, l'optimisation et l'exploitation continue.",
     "ctaTitle": "Collaborez avec notre équipe MongoDB",
-    "ctaDescription": "Prêt à monter en échelle avec MongoDB ? Construisons ensemble votre prochain produit data.",
+    "ctaDescription": "Prêt à faire évoluer votre plateforme data avec MongoDB ? Construisons ensemble votre prochain produit data.",
     "ctaImageAlt": "Illustration MongoDB"
   }
 }

@@ -3,144 +3,161 @@
     "title": "PostgreSQL Data Engineering",
     "name": "PostgreSQL",
     "coverImage": "/technology/postgresql.png",
-    "heroHeadline": "PostgreSQL Expertise",
+    "heroHeadline": "Expert-Level PostgreSQL Engineering & Architecture",
     "heroCoverAlt": "PostgreSQL cover",
-    "descriptionV1": "Design resilient relational databases that power mission-critical applications with PostgreSQL.",
-    "descriptionV2": "We implement performant schemas, high-availability clusters, and analytics pipelines on top of Postgres.",
-    "additionalDescription": "Our teams combine SQL best practices, extension expertise, and observability to keep your data platform healthy.",
+    
+    "descriptionV1": "PostgreSQL is one of the most powerful and reliable open-source relational databases. We architect, optimize, and maintain PostgreSQL environments built for long-term stability, compliance, and high-performance workloads.",
+    "descriptionV2": "From schema design to advanced performance tuning and distributed architectures, our PostgreSQL experts help teams scale safely while maintaining data integrity and operational excellence.",
+    
+    "additionalDescription": "We combine deep SQL proficiency, mastery of PostgreSQL extensions, and modern observability practices to transform Postgres into a durable, analytics-ready data platform that your entire organization can depend on.",
+    
     "additionalTitle": "Where PostgreSQL Delivers the Most Impact",
+    
     "usesTitle": "What Makes PostgreSQL Stand Out?",
-    "usesDescription": "PostgreSQL drives durable data platforms with these capabilities:",
+    "usesDescription": "PostgreSQL is trusted globally for mission-critical applications thanks to these strengths:",
+
     "features": [
       {
-        "title": "Advanced SQL",
-        "description": "Leverage window functions, CTEs, and JSON capabilities to answer complex business questions.",
+        "title": "Advanced SQL Engine",
+        "description": "Unlock powerful analytics and real-time insights using window functions, CTEs, full-text search, JSONB queries, and transactional integrity.",
         "icon": "i-lucide-table"
       },
       {
-        "title": "Scalability",
-        "description": "Implement sharding, logical replication, and read replicas to support intensive workloads.",
+        "title": "Vertical & Horizontal Scalability",
+        "description": "Support fast-growing workloads through partitioning, read replicas, logical replication, sharding techniques, and connection pooling.",
         "icon": "i-lucide-trending-up"
       },
       {
-        "title": "Extension Power",
-        "description": "Adopt PostGIS, TimescaleDB, pgvector, and custom extensions tailored to your domain.",
+        "title": "Ecosystem of Extensions",
+        "description": "Enable geospatial analytics, time-series storage, vector search, and domain-specific optimizations with PostGIS, TimescaleDB, pgvector, and custom extensions.",
         "icon": "i-lucide-puzzle"
       },
       {
-        "title": "Operational Excellence",
-        "description": "Monitor performance, tune queries, and automate backups with proven playbooks.",
+        "title": "Operational Reliability",
+        "description": "Ensure 24/7 stability with health checks, slow query analysis, backup automation, disaster recovery policies, and robust security practices.",
         "icon": "i-lucide-activity"
       }
     ],
+
     "process": [
       {
         "phase": "Phase 1",
         "title": "Data Assessment",
-        "description": "Review current workloads, growth projections, and compliance constraints.",
+        "description": "We evaluate your existing data flows, application constraints, compliance needs, and growth expectations to design a tailored PostgreSQL plan.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Schema & Architecture",
-        "description": "Design normalized or hybrid schemas, indexing strategies, and deployment topology.",
+        "description": "We create scalable relational models, indexing strategies, partitioning setups, and cluster topologies aligned with performance and resilience goals.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Implementation",
-        "description": "Provision infrastructure, migrate data, and implement stored procedures and security roles.",
+        "description": "We deploy PostgreSQL instances, automate provisioning, migrate datasets, configure roles and permissions, and implement business logic.",
         "icon": "i-lucide-database"
       },
       {
         "phase": "Phase 4",
         "title": "Optimization",
-        "description": "Profile slow queries, fine-tune configuration, and validate resiliency scenarios.",
+        "description": "We troubleshoot bottlenecks, tune queries, adjust PostgreSQL parameters, and validate failover and recovery scenarios.",
         "icon": "i-lucide-gauge"
       },
       {
         "phase": "Phase 5",
         "title": "Operations & Enablement",
-        "description": "Establish monitoring, disaster recovery, and knowledge transfer for your data team.",
+        "description": "We set up monitoring, observability dashboards, backup routines, and provide training so your teams can operate PostgreSQL confidently.",
         "icon": "i-lucide-life-buoy"
       }
     ],
+
     "processTitle": "PostgreSQL Delivery Process",
-    "processDescription": "A disciplined workflow that evolves your PostgreSQL environment from assessment to operations.",
+    "processDescription": "A complete engineering lifecycle that transforms your PostgreSQL environment into a secure, high-performance, and future-ready data platform.",
+
     "ctaTitle": "Partner with our PostgreSQL Team",
-    "ctaDescription": "Ready to modernize your PostgreSQL platform? Let's architect your next data initiative together.",
+    "ctaDescription": "Looking to modernize, scale, or optimize PostgreSQL? Our experts can architect, implement, and maintain a world-class data environment.",
     "ctaImageAlt": "PostgreSQL illustration"
   },
+
   "fr": {
     "title": "Ingénierie de données PostgreSQL",
     "name": "PostgreSQL",
     "coverImage": "/technology/postgresql.png",
-    "heroHeadline": "Expertise PostgreSQL",
+    "heroHeadline": "Ingénierie & Architecture PostgreSQL de Haute Expertise",
     "heroCoverAlt": "Visuel PostgreSQL",
-    "descriptionV1": "Concevez des bases relationnelles résilientes pour des applications critiques grâce à PostgreSQL.",
-    "descriptionV2": "Nous mettons en place des schémas performants, des clusters haute disponibilité et des pipelines analytiques sur Postgres.",
-    "additionalDescription": "Nos équipes allient bonnes pratiques SQL, expertise des extensions et observabilité pour maintenir votre plateforme data.",
-    "additionalTitle": "Là où PostgreSQL apporte le plus d'impact",
+
+    "descriptionV1": "PostgreSQL est l’une des bases de données open-source les plus puissantes et les plus fiables. Nous concevons et maintenons des environnements PostgreSQL capables de supporter des charges critiques, des impératifs de conformité et des besoins de haute performance.",
+    "descriptionV2": "De la modélisation des schémas à l’optimisation avancée et aux architectures distribuées, nos experts aident les équipes à faire évoluer leurs plateformes en toute sécurité, sans compromis sur l’intégrité ou la stabilité des données.",
+
+    "additionalDescription": "Nous combinons expertise SQL, maîtrise des extensions PostgreSQL et outils d’observabilité modernes pour transformer Postgres en une plateforme data robuste, extensible et prête pour l’analyse à grande échelle.",
+
+    "additionalTitle": "Là où PostgreSQL apporte le plus de valeur",
+
     "usesTitle": "Pourquoi PostgreSQL se démarque",
-    "usesDescription": "PostgreSQL renforce vos plateformes data grâce aux atouts suivants :",
+    "usesDescription": "PostgreSQL est plébiscité pour des applications critiques grâce aux atouts suivants :",
+
     "features": [
       {
-        "title": "SQL avancé",
-        "description": "Exploitez fonctions fenêtre, CTE et JSON pour répondre aux questions métiers complexes.",
+        "title": "Moteur SQL avancé",
+        "description": "Exploitez la puissance des fonctions fenêtre, des CTEs, de la recherche full-text et des requêtes JSONB pour produire des analyses complexes et fiables.",
         "icon": "i-lucide-table"
       },
       {
-        "title": "Scalabilité",
-        "description": "Mettre en place sharding, réplication logique et replicas de lecture pour les charges intenses.",
+        "title": "Scalabilité verticale et horizontale",
+        "description": "Accompagnez la croissance de vos produits via le partitionnement, les replicas de lecture, la réplication logique, le sharding et le pooling de connexions.",
         "icon": "i-lucide-trending-up"
       },
       {
-        "title": "Extensions puissantes",
-        "description": "Adoptez PostGIS, TimescaleDB, pgvector et des extensions sur mesure adaptées à votre domaine.",
+        "title": "Écosystème d'extensions",
+        "description": "Activez la géolocalisation, les séries temporelles, la recherche vectorielle et des optimisations métiers avec PostGIS, TimescaleDB, pgvector ou vos propres extensions.",
         "icon": "i-lucide-puzzle"
       },
       {
-        "title": "Excellence opérationnelle",
-        "description": "Surveiller la performance, optimiser les requêtes et automatiser les sauvegardes avec des playbooks éprouvés.",
+        "title": "Fiabilité opérationnelle",
+        "description": "Garantissez une disponibilité continue grâce au monitoring, à l’analyse des requêtes lentes, aux sauvegardes automatisées et aux politiques de sécurité robustes.",
         "icon": "i-lucide-activity"
       }
     ],
+
     "process": [
       {
         "phase": "Phase 1",
         "title": "Évaluation des données",
-        "description": "Analyser charges actuelles, projections de croissance et contraintes de conformité.",
+        "description": "Nous analysons vos flux, contraintes applicatives, besoins réglementaires et projections de croissance pour définir une stratégie PostgreSQL sur mesure.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Schéma & architecture",
-        "description": "Concevoir schémas normalisés ou hybrides, stratégies d'indexation et topologie de déploiement.",
+        "description": "Nous concevons des modèles relationnels évolutifs, des stratégies d’indexation, des plans de partitionnement et des topologies robustes.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Implémentation",
-        "description": "Provisionner l'infrastructure, migrer les données et mettre en place procédures et rôles de sécurité.",
+        "description": "Nous déployons les instances, automatisons les environnements, migrons les données, configurons les permissions et implémentons la logique métier.",
         "icon": "i-lucide-database"
       },
       {
         "phase": "Phase 4",
         "title": "Optimisation",
-        "description": "Profiler les requêtes lentes, ajuster la configuration et valider les scénarios de résilience.",
+        "description": "Nous éliminons les goulots d’étranglement, optimisons les paramètres PostgreSQL, améliorons les requêtes et simulons les scénarios de reprise après incident.",
         "icon": "i-lucide-gauge"
       },
       {
         "phase": "Phase 5",
         "title": "Opérations & autonomie",
-        "description": "Mettre en place monitoring, reprise d'activité et transfert de connaissances à votre équipe data.",
+        "description": "Nous mettons en place dashboards, sauvegardes, outils de monitoring et formations pour que vos équipes exploitent PostgreSQL avec confiance.",
         "icon": "i-lucide-life-buoy"
       }
     ],
+
     "processTitle": "Processus PostgreSQL",
-    "processDescription": "Un workflow structuré pour faire évoluer votre environnement PostgreSQL du diagnostic à l'exploitation continue.",
+    "processDescription": "Un cycle complet d’ingénierie pour transformer votre environnement PostgreSQL en une plateforme sécurisée, performante et prête pour l’avenir.",
+
     "ctaTitle": "Collaborez avec notre équipe PostgreSQL",
-    "ctaDescription": "Prêt à moderniser votre plateforme PostgreSQL ? Construisons ensemble votre prochaine initiative data.",
+    "ctaDescription": "Vous souhaitez moderniser, optimiser ou étendre PostgreSQL ? Nos experts peuvent concevoir et opérer une plateforme data de classe mondiale.",
     "ctaImageAlt": "Illustration PostgreSQL"
   }
 }

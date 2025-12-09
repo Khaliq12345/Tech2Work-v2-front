@@ -5,31 +5,31 @@
     "coverImage": "/technology/python.png",
     "heroHeadline": "Python Expertise",
     "heroCoverAlt": "Python cover",
-    "descriptionV1": "Build robust, scalable solutions with Python's mature ecosystem and rapid development cycle.",
-    "descriptionV2": "From data-heavy backends to AI-driven products, our Python specialists deliver maintainable systems that grow with your business.",
-    "additionalDescription": "We assemble cross-functional squads to design, engineer, and operate Python platforms with best-in-class tooling and DevOps automation.",
+    "descriptionV1": "Unlock the full potential of Python to build powerful, scalable, and future-proof systems backed by one of the world’s most trusted and versatile programming languages.",
+    "descriptionV2": "From API-driven backends to large-scale data platforms, automation pipelines, AI products, and cloud-native infrastructures, our Python engineers deliver elegant, maintainable systems aligned with modern software standards.",
+    "additionalDescription": "We assemble dedicated cross-functional squads — including backend developers, data engineers, ML experts, QA analysts, and DevOps engineers — to design, build, and operate high-performance Python platforms supported by proven development practices.",
     "additionalTitle": "Where Python Delivers the Most Impact",
     "usesTitle": "What Makes Python Stand Out?",
-    "usesDescription": "Python delivers value across the stack thanks to the following strengths:",
+    "usesDescription": "Python continues to dominate modern engineering thanks to its simplicity, maturity, and unmatched ecosystem. Here’s why organizations rely on Python across industries:",
     "features": [
       {
         "title": "Rich Ecosystem",
-        "description": "Access thousands of production-ready libraries spanning web development, automation, AI, and data science.",
+        "description": "Access a massive collection of mature libraries for building APIs, automating workflows, processing data, integrating machine learning, and managing infrastructure at scale.",
         "icon": "i-lucide-package"
       },
       {
         "title": "Rapid Iteration",
-        "description": "Prototype quickly and deliver value fast thanks to Python's expressive syntax and batteries-included philosophy.",
+        "description": "Accelerate product delivery using Python’s expressive syntax and modular structure — allowing teams to prototype quickly, iterate efficiently, and ship features with confidence.",
         "icon": "i-lucide-rocket"
       },
       {
         "title": "Data Excellence",
-        "description": "Leverage Pandas, NumPy, and modern ML frameworks to transform raw data into actionable insight.",
+        "description": "Harness powerful tools like Pandas, NumPy, FastAPI, Pydantic, TensorFlow, PyTorch, and modern ML frameworks to transform raw datasets into meaningful insights or intelligent automation.",
         "icon": "i-lucide-database"
       },
       {
         "title": "Cloud Ready",
-        "description": "Ship containerized Python services optimized for AWS, Azure, GCP, and hybrid infrastructures.",
+        "description": "Deploy containerized Python applications optimized for AWS, Azure, GCP, Kubernetes, and hybrid infrastructure using robust CI/CD pipelines and DevOps best practices.",
         "icon": "i-lucide-cloud"
       }
     ],
@@ -37,38 +37,38 @@
       {
         "phase": "Phase 1",
         "title": "Discovery & Architecture",
-        "description": "Clarify business objectives, audit existing systems, and outline the target Python solution.",
+        "description": "We analyze your business needs, audit existing infrastructure, define the target architecture, and determine the ideal Python frameworks suited to your goals.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Solution Blueprint",
-        "description": "Design APIs, data models, and deployment strategy aligned with scalability and security requirements.",
+        "description": "We design your system’s API structure, data flow, security rules, scalability strategy, deployment approach, and integration layers to ensure long-term stability.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Implementation",
-        "description": "Iteratively build modules, integrate services, and maintain high test coverage across the stack.",
+        "description": "Our engineers iteratively develop Python modules, implement robust business logic, integrate data pipelines, create automated workflows, and maintain strict testing standards.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Quality & Launch",
-        "description": "Run automated QA, performance tuning, and reliability drills before releasing to production.",
+        "description": "We perform end-to-end QA, load testing, performance optimization, security validation, and deployment to deliver a production-ready application.",
         "icon": "i-lucide-clipboard-check"
       },
       {
         "phase": "Phase 5",
         "title": "Continuous Evolution",
-        "description": "Monitor operations, deliver enhancements, and guide long-term Python platform strategy.",
+        "description": "After launch, we monitor system performance, apply updates, enhance features, scale the infrastructure, and guide your long-term Python technology roadmap.",
         "icon": "i-lucide-refresh-cw"
       }
     ],
     "processTitle": "Python Delivery Process",
-    "processDescription": "A structured, transparent workflow that keeps your Python projects moving smoothly from discovery to long-term support.",
+    "processDescription": "A complete, transparent, and collaborative workflow designed to take your Python project from initial concept to ongoing operation with long-term support.",
     "ctaTitle": "Partner with our Python Team",
-    "ctaDescription": "Ready to unlock the full potential of Python development? Let's build your next Python project together.",
+    "ctaDescription": "Ready to build a secure, efficient, and scalable Python-powered system? Let’s collaborate and bring your project to life with expert engineering.",
     "ctaImageAlt": "Python illustration"
   },
   "fr": {
@@ -77,31 +77,31 @@
     "coverImage": "/technology/python.png",
     "heroHeadline": "Expertise Python",
     "heroCoverAlt": "Visuel Python",
-    "descriptionV1": "Créez des solutions robustes et évolutives grâce à l'écosystème mature de Python et à son cycle de développement rapide.",
-    "descriptionV2": "Des backends riches en données aux produits alimentés par l'IA, nos spécialistes Python livrent des systèmes maintenables qui évoluent avec votre entreprise.",
-    "additionalDescription": "Nous constituons des équipes pluridisciplinaires pour concevoir, créer et exploiter des plateformes Python avec un outillage DevOps de pointe.",
+    "descriptionV1": "Exploitez toute la puissance de Python pour créer des systèmes robustes, évolutifs et durables, soutenus par l’un des langages les plus fiables et polyvalents au monde.",
+    "descriptionV2": "Des APIs backend aux plateformes data à grande échelle, en passant par l’automatisation, les applications IA et les architectures cloud-native, nos ingénieurs Python conçoivent des solutions élégantes, fiables et faciles à maintenir.",
+    "additionalDescription": "Nous constituons des équipes complètes — développeurs backend, data engineers, experts IA, analystes QA et ingénieurs DevOps — afin de concevoir, construire et exploiter des plateformes Python performantes selon les meilleures pratiques du marché.",
     "additionalTitle": "Là où Python a le plus d'impact",
     "usesTitle": "Pourquoi Python fait la différence",
-    "usesDescription": "Python crée de la valeur sur toute la chaîne grâce aux atouts suivants :",
+    "usesDescription": "Python est devenu un standard de l’ingénierie moderne grâce à sa simplicité, sa maturité et la richesse de son écosystème. Voici pourquoi les entreprises l’adoptent massivement :",
     "features": [
       {
         "title": "Écosystème riche",
-        "description": "Accédez à des milliers de bibliothèques prêtes pour la production couvrant le web, l'automatisation, l'IA et la data science.",
+        "description": "Accédez à une vaste collection de bibliothèques matures pour créer des APIs, automatiser des processus, manipuler des données, intégrer du machine learning et gérer l’infrastructure à grande échelle.",
         "icon": "i-lucide-package"
       },
       {
         "title": "Itération rapide",
-        "description": "Prototypage accéléré et valeur livrée rapidement grâce à la syntaxe expressive de Python et son approche clé en main.",
+        "description": "Livrez vos produits plus vite grâce à la syntaxe expressive et à la modularité de Python, permettant un prototypage rapide, des cycles courts et une mise en production maîtrisée.",
         "icon": "i-lucide-rocket"
       },
       {
         "title": "Excellence data",
-        "description": "Exploitez Pandas, NumPy et les frameworks ML modernes pour transformer les données brutes en insights actionnables.",
+        "description": "Exploitez Pandas, NumPy, FastAPI, Pydantic, TensorFlow, PyTorch et les frameworks modernes pour transformer des données brutes en insights exploitables ou en automatisations intelligentes.",
         "icon": "i-lucide-database"
       },
       {
         "title": "Prêt pour le cloud",
-        "description": "Déployez des services Python conteneurisés optimisés pour AWS, Azure, GCP et les infrastructures hybrides.",
+        "description": "Déployez des applications Python conteneurisées optimisées pour AWS, Azure, GCP, Kubernetes et les environnements hybrides grâce à des pipelines CI/CD robustes.",
         "icon": "i-lucide-cloud"
       }
     ],
@@ -109,38 +109,38 @@
       {
         "phase": "Phase 1",
         "title": "Découverte & Architecture",
-        "description": "Clarifier les objectifs métiers, auditer les systèmes existants et définir la solution Python cible.",
+        "description": "Nous analysons vos besoins métiers, auditons l’existant, définissons l’architecture cible et choisissons les frameworks Python les mieux adaptés à votre projet.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Conception détaillée",
-        "description": "Dessiner les API, modèles de données et stratégie de déploiement alignés sur la scalabilité et la sécurité.",
+        "description": "Nous définissons la structure des APIs, les flux de données, les règles de sécurité, les stratégies de scalabilité, ainsi que l’approche de déploiement et les intégrations.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Implémentation",
-        "description": "Construire les modules de manière itérative, intégrer les services et maintenir une forte couverture de tests.",
+        "description": "Nos ingénieurs développent les modules Python, intègrent les pipelines data, automatisent les processus, appliquent la logique métier et maintiennent une couverture de tests rigoureuse.",
         "icon": "i-lucide-code"
       },
       {
         "phase": "Phase 4",
         "title": "Qualité & Lancement",
-        "description": "Lancer les tests automatisés, optimiser les performances et garantir la fiabilité avant la mise en production.",
+        "description": "Nous réalisons des tests complets, optimisons les performances, validons la sécurité et déployons une application prête pour la production.",
         "icon": "i-lucide-clipboard-check"
       },
       {
         "phase": "Phase 5",
         "title": "Évolution continue",
-        "description": "Surveiller l'exploitation, livrer des améliorations et piloter la stratégie long terme de la plateforme Python.",
+        "description": "Après le lancement, nous surveillons les performances, proposons des améliorations, ajoutons de nouvelles fonctionnalités et faisons évoluer votre plateforme Python à long terme.",
         "icon": "i-lucide-refresh-cw"
       }
     ],
     "processTitle": "Processus de livraison Python",
-    "processDescription": "Un workflow structuré et transparent pour faire avancer vos projets Python du cadrage au support long terme.",
+    "processDescription": "Un processus complet, structuré et transparent conçu pour accompagner votre projet Python du cadrage initial jusqu’à l’exploitation continue.",
     "ctaTitle": "Collaborez avec notre équipe Python",
-    "ctaDescription": "Prêt à exploiter tout le potentiel du développement Python ? Construisons ensemble votre prochain projet Python.",
+    "ctaDescription": "Vous souhaitez construire une solution Python performante, évolutive et sécurisée ? Travaillons ensemble pour concrétiser votre projet avec une ingénierie de haut niveau.",
     "ctaImageAlt": "Illustration Python"
   }
 }

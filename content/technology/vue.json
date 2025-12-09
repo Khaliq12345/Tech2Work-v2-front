@@ -5,31 +5,31 @@
     "coverImage": "/technology/vuejs.png",
     "heroHeadline": "Vue.js Expertise",
     "heroCoverAlt": "Vue.js cover",
-    "descriptionV1": "Craft delightful user interfaces with Vue's intuitive reactivity system and component-driven architecture.",
-    "descriptionV2": "We deliver blazing-fast Vue applications, from single-page dashboards to multi-tenant platforms with SSR and hydration.",
-    "additionalDescription": "Our teams combine Nuxt, Pinia, and modern tooling to streamline developer workflows and ensure consistent, maintainable codebases.",
+    "descriptionV1": "Build modern, elegant and highly interactive interfaces with Vue.js — the progressive framework known for its simplicity, flexibility and remarkable developer experience.",
+    "descriptionV2": "We design and deliver high-performance Vue applications, ranging from dynamic dashboards and business-critical platforms to full-featured ecosystems powered by SSR, SSG and hydration via Nuxt.",
+    "additionalDescription": "Our engineering approach blends Vue 3’s Composition API, Pinia state management, reusable design systems, robust architecture patterns, and a performance-first mindset. With Nuxt as a foundation, we ensure SEO-ready rendering, scalable routing, and seamless integration with APIs, microservices, and cloud environments.",
     "additionalTitle": "Where Vue.js Delivers the Most Impact",
     "usesTitle": "What Makes Vue.js Stand Out?",
-    "usesDescription": "Vue.js empowers teams with these advantages:",
+    "usesDescription": "Vue.js offers the power, structure and simplicity required to build exceptional user experiences:",
     "features": [
       {
         "title": "Progressive Adoption",
-        "description": "Introduce Vue incrementally or power entire frontends without rewriting legacy systems.",
+        "description": "Vue can be incrementally introduced into an existing codebase or used to build entire end-to-end applications — minimizing risk and accelerating value delivery.",
         "icon": "i-lucide-puzzle"
       },
       {
-        "title": "Composable State",
-        "description": "Leverage Composition API and Pinia to orchestrate complex state with predictable patterns.",
+        "title": "Composable State & Logic",
+        "description": "The Composition API combined with Pinia brings structure, clarity and maintainability to complex stateflows and UI logic without unnecessary overhead.",
         "icon": "i-lucide-circuit-board"
       },
       {
-        "title": "SSR & Edge Ready",
-        "description": "Ship SEO-friendly experiences using Nuxt, Vite, and Cloudflare Workers for instant rendering.",
+        "title": "SSR, SSG & Edge Rendering",
+        "description": "Using Nuxt and modern tooling, we deliver ultra-fast, SEO-optimized websites with streaming, server-side rendering and edge deployments for instant load times.",
         "icon": "i-lucide-server"
       },
       {
-        "title": "Design System Alignment",
-        "description": "Build reusable component libraries that sync with your brand and accessibility standards.",
+        "title": "Design System Excellence",
+        "description": "We craft scalable component libraries aligned with your design system, ensuring visual consistency, accessibility compliance and long-term maintainability.",
         "icon": "i-lucide-palette"
       }
     ],
@@ -37,71 +37,71 @@
       {
         "phase": "Phase 1",
         "title": "Experience Mapping",
-        "description": "Analyse user journeys and prioritise Vue features that unlock the highest impact.",
+        "description": "We analyse user journeys, product goals, and technical constraints to determine the ideal Vue architecture, components and state models.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
         "title": "Architecture Setup",
-        "description": "Configure Nuxt/Vite, routing, and design system scaffolding tailored to delivery cadence.",
+        "description": "We configure Nuxt/Vite, routing layers, state management, API integration patterns, automated tests, Storybook environments and CI pipelines.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Component Delivery",
-        "description": "Implement components, integrate APIs, and maintain visual consistency through Storybook reviews.",
+        "description": "We build modular components, connect real-world data sources, ensure accessibility (A11y), enforce UI consistency and apply design-system standards.",
         "icon": "i-lucide-layout"
       },
       {
         "phase": "Phase 4",
-        "title": "Optimization",
-        "description": "Profile rendering, implement caching, and tune bundle output for Core Web Vitals.",
+        "title": "Optimization & Scalability",
+        "description": "We optimize bundle size, rendering performance, caching strategies, hydration patterns and Core Web Vitals — ensuring long-term scalability.",
         "icon": "i-lucide-gauge"
       },
       {
         "phase": "Phase 5",
-        "title": "Lifecycle Support",
-        "description": "Provide documentation, training, and roadmap iterations to keep Vue experiences evolving.",
+        "title": "Lifecycle & Continuous Growth",
+        "description": "We provide documentation, developer training, audits, and roadmap planning to ensure your Vue product evolves sustainably over time.",
         "icon": "i-lucide-refresh-cw"
       }
     ],
     "processTitle": "Vue.js Delivery Process",
-    "processDescription": "A structured workflow that guides your Vue.js products from discovery to continuous improvement.",
+    "processDescription": "A structured and efficient workflow turning your Vue.js vision into a fast, scalable and long-lasting digital experience.",
     "ctaTitle": "Partner with our Vue.js Team",
-    "ctaDescription": "Ready to scale your Vue.js experience? Let's build your next interface together.",
+    "ctaDescription": "Ready to elevate your Vue.js application? Let’s craft an exceptional digital experience together.",
     "ctaImageAlt": "Vue.js illustration"
   },
   "fr": {
-    "title": "Développement produit avec Vue.js",
+    "title": "Développement Produit avec Vue.js",
     "name": "Vue.js",
     "coverImage": "/technology/vuejs.png",
     "heroHeadline": "Expertise Vue.js",
     "heroCoverAlt": "Visuel Vue.js",
-    "descriptionV1": "Créez des interfaces utilisateur remarquables grâce au système de réactivité intuitif de Vue et à son architecture basée sur les composants.",
-    "descriptionV2": "Nous livrons des applications Vue ultra-rapides, des tableaux de bord monopages aux plateformes multi-locataires avec SSR et hydratation.",
-    "additionalDescription": "Nos équipes combinent Nuxt, Pinia et un outillage moderne pour fluidifier les workflows et garantir des bases de code maintenables.",
+    "descriptionV1": "Concevez des interfaces modernes, élégantes et hautement interactives grâce à Vue.js — le framework progressif reconnu pour sa simplicité, sa flexibilité et son excellente expérience développeur.",
+    "descriptionV2": "Nous réalisons des applications Vue.js performantes, allant de tableaux de bord dynamiques à des plateformes métiers complexes, jusqu’à des écosystèmes complets propulsés par SSR, SSG et hydratation via Nuxt.",
+    "additionalDescription": "Notre approche d’ingénierie s’appuie sur la Composition API de Vue 3, la gestion d’état Pinia, des design systems réutilisables, des modèles architecturaux robustes et une stratégie orientée performance. Avec Nuxt comme socle, nous garantissons un rendu SEO-friendly, un routage évolutif et une intégration fluide avec vos API, microservices et environnements cloud.",
     "additionalTitle": "Là où Vue.js apporte le plus d'impact",
     "usesTitle": "Ce qui distingue Vue.js",
-    "usesDescription": "Vue.js offre ces avantages clés :",
+    "usesDescription": "Vue.js offre la puissance, la structure et la simplicité nécessaires pour créer des expériences utilisateurs exceptionnelles :",
     "features": [
       {
         "title": "Adoption progressive",
-        "description": "Intégrez Vue progressivement ou propulsez tout un frontend sans réécrire les systèmes existants.",
+        "description": "Vue peut être introduit progressivement dans une base existante ou servir de fondation pour une application complète — limitant les risques tout en accélérant la valeur livrée.",
         "icon": "i-lucide-puzzle"
       },
       {
-        "title": "État composable",
-        "description": "Exploitez la Composition API et Pinia pour orchestrer un état complexe avec des schémas prévisibles.",
+        "title": "Logique et état composables",
+        "description": "La Composition API combinée à Pinia apporte clarté, structure et maintenabilité à des logiques complexes sans surcharge inutile.",
         "icon": "i-lucide-circuit-board"
       },
       {
-        "title": "Prêt pour le SSR",
-        "description": "Livrez des expériences optimisées SEO avec Nuxt, Vite et des déploiements edge pour un rendu instantané.",
+        "title": "SSR, SSG et Edge Rendering",
+        "description": "Grâce à Nuxt et aux outils modernes, nous livrons des sites ultra-rapides optimisés SEO, avec rendu serveur et déploiements edge pour un chargement instantané.",
         "icon": "i-lucide-server"
       },
       {
-        "title": "Design system aligné",
-        "description": "Construisez des bibliothèques de composants réutilisables conformes à votre marque et aux normes d'accessibilité.",
+        "title": "Design System maîtrisé",
+        "description": "Nous créons des bibliothèques de composants pérennes alignées sur votre design system, garantissant cohérence visuelle, accessibilité et longévité du produit.",
         "icon": "i-lucide-palette"
       }
     ],
@@ -109,38 +109,38 @@
       {
         "phase": "Phase 1",
         "title": "Cartographie de l'expérience",
-        "description": "Analyser les parcours utilisateurs et prioriser les fonctionnalités Vue à plus fort impact.",
+        "description": "Analyse des parcours utilisateurs, des objectifs métiers et des contraintes techniques afin de définir l’architecture Vue la plus adaptée.",
         "icon": "i-lucide-compass"
       },
       {
         "phase": "Phase 2",
-        "title": "Mise en place d'architecture",
-        "description": "Configurer Nuxt/Vite, le routage et le socle design system adapté au rythme de livraison.",
+        "title": "Mise en place de l'architecture",
+        "description": "Configuration de Nuxt/Vite, du routage, de la gestion d’état, des patterns API, des tests automatisés, de Storybook et de l’intégration continue.",
         "icon": "i-lucide-pencil-ruler"
       },
       {
         "phase": "Phase 3",
         "title": "Livraison des composants",
-        "description": "Implémenter les composants, intégrer les API et assurer la cohérence visuelle via des revues Storybook.",
+        "description": "Développement des composants, connexion aux API, respect des normes d’accessibilité, harmonisation visuelle et validation via Storybook.",
         "icon": "i-lucide-layout"
       },
       {
         "phase": "Phase 4",
-        "title": "Optimisation",
-        "description": "Profiler le rendu, mettre en place du caching et ajuster les bundles pour les Core Web Vitals.",
+        "title": "Optimisation et Scalabilité",
+        "description": "Optimisation des bundles, du rendu, du caching et des performances Core Web Vitals pour garantir une expérience durable et scalable.",
         "icon": "i-lucide-gauge"
       },
       {
         "phase": "Phase 5",
-        "title": "Support continu",
-        "description": "Fournir documentation, formation et itérations roadmap pour faire évoluer les expériences Vue.",
+        "title": "Support et évolution continue",
+        "description": "Documentation, formation, audits techniques et planification pour assurer l’évolution pérenne de votre produit Vue.js.",
         "icon": "i-lucide-refresh-cw"
       }
     ],
     "processTitle": "Processus Vue.js",
-    "processDescription": "Un workflow structuré pour faire évoluer vos projets Vue.js du cadrage aux itérations continues.",
+    "processDescription": "Un workflow structuré qui transforme votre vision Vue.js en une expérience numérique rapide, scalable et durable.",
     "ctaTitle": "Collaborez avec notre équipe Vue.js",
-    "ctaDescription": "Prêt à faire grandir vos expériences Vue.js ? Construisons ensemble votre prochaine interface.",
+    "ctaDescription": "Vous souhaitez faire évoluer votre application Vue.js ? Construisons ensemble une expérience d’exception.",
     "ctaImageAlt": "Illustration Vue.js"
-  }
+  } 
 }
