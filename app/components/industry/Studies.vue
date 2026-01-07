@@ -1,3 +1,3 @@
 <template>
-    <Project :projects="[]" />
+  <Project slug="construction" :limit="5" :random="true" />
 </template>

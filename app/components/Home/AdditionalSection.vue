@@ -1,6 +1,7 @@
 <template>
     <UPageCTA
-        variant="soft"
+        class="mb-10"
+        variant="naked"
         :title="$t('addtitional_title')"
         orientation="horizontal"
         reverse
@@ -8,6 +9,7 @@
             wrapper: 'p-0 text-center lg:text-left',
             title: 'text-1xl lg:text-3xl font-bold text-primary',
             links: 'justify-center lg:justify-start',
+            container: 'shadow-xl',
         }"
     >
         <ImageComponent src="/logo.png" class="max-w-sm" />

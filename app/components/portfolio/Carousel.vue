@@ -1,30 +1,31 @@
 <template>
+  <div class="w-full bg-slate-50 py-12">
     <UCarousel
-        v-slot="{ item }"
-        loop
-        arrows
-        dots
-        :autoplay="{ delay: 2000 }"
-        :items="images"
-        :ui="{ item: 'basis-1/1 lg:basis-1/3' }"
+      v-slot="{ item }"
+      loop
+      dots
+      :autoplay="{ delay: 5000 }"
+      :items="images"
+      :ui="{
+        item: 'basis-full lg:basis-1/3 px-4',
+        container: 'align-top',
+      }"
     >
-        <div class="w-full flex items-center justify-center p-2 md:p-4 lg:p-6">
-            <img
-                :src="item"
-                class="rounded-lg shadow-md object-contain w-auto"
-                :style="{
-                    maxHeight: maxHeight + 'px',
-                    minHeight: minHeight + 'px'
-                }"
-            />
-        </div>
+      <div
+        class="relative w-full aspect-16/10 overflow-hidden rounded-xl bg-white shadow-xl border border-slate-100"
+      >
+        <img
+          :src="item"
+          class="w-full h-full object-cover object-top"
+          alt="Project Screenshot"
+        />
+      </div>
     </UCarousel>
+  </div>
 </template>
 
 <script setup lang="ts">
 defineProps<{
-    images: string[];
-    maxHeight: number;
-    minHeight: number;
+  images: string[];
 }>();
 </script>

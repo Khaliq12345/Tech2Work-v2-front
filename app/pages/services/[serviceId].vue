@@ -22,15 +22,13 @@
     <Technology />
 
     <!-- 6. Projects Section -->
-    <div class="m-5">
-      <Project :projects="serviceData.projects" />
+    <div class="mb-10">
+      <Project slug="finance" :limit="5" :random="true" />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-
-
 // Récupération du paramètre de route
 const route = useRoute();
 const serviceId = route.params.serviceId as string;

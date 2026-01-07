@@ -1,39 +1,39 @@
 <template>
-    <div v-if="industryData">
-        <IndustryHero
-            logo="/test1.png"
-            :title="industryData.heroTitle"
-            :description="industryData.heroDescription"
-            :image="industryData.heroImage"
-        />
+  <div v-if="industryData">
+    <IndustryHero
+      logo="/test1.png"
+      :title="industryData.heroTitle"
+      :description="industryData.heroDescription"
+      :image="industryData.heroImage"
+    />
 
-        <IndustryDescription
-            :title="industryData.descriptionTitle"
-            :description="industryData.subDescription"
-        />
+    <IndustryDescription
+      :title="industryData.descriptionTitle"
+      :description="industryData.subDescription"
+    />
 
-        <IndustryServices
-            :title="industryData.serviceTitle"
-            :services="industryData.services"
-        />
+    <IndustryServices
+      :title="industryData.serviceTitle"
+      :services="industryData.services"
+    />
 
-        <IndustryCta
-            :title="industryData.ctaTitle"
-            :description="industryData.ctaDescription"
-        />
+    <IndustryCTA
+      :title="industryData.ctaTitle"
+      :description="industryData.ctaDescription"
+    />
 
-        <IndustryBenefits
-            :title="industryData.benefitTitle"
-            :items="industryData.benefits"
-        />
+    <IndustryBenefits
+      :title="industryData.benefitTitle"
+      :items="industryData.benefits"
+    />
 
-        <IndustrySolutions
-            :title="industryData.solutionTitle"
-            :solutions="industryData.solutions"
-        />
-    </div>
-    <IndustryStudies />
-    <IndustryReviews />
+    <IndustrySolutions
+      :title="industryData.solutionTitle"
+      :solutions="industryData.solutions"
+    />
+  </div>
+  <IndustryStudies />
+  <IndustryReviews />
 </template>
 
 <script setup lang="ts">
@@ -44,15 +44,15 @@ const { $getLocale } = useI18n();
 const locale = computed(() => $getLocale());
 
 const { data: industryRaw } = await useAsyncData(industryId, () =>
-    queryCollection("industry")
-        .where("stem", "=", `industry/${industryId}`)
-        .first()
-        .then((entry) => entry ?? null),
+  queryCollection("industry")
+    .where("stem", "=", `industry/${industryId}`)
+    .first()
+    .then((entry) => entry ?? null),
 );
 
 const industryData = computed(() => {
-    if (!industryRaw.value) return null;
-    if (locale.value === "fr") return industryRaw.value.fr;
-    return industryRaw.value.en;
+  if (!industryRaw.value) return null;
+  if (locale.value === "fr") return industryRaw.value.fr;
+  return industryRaw.value.en;
 });
 </script>

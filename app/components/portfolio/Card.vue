@@ -1,47 +1,78 @@
 <template>
-    <UPageCard
-        orientation="horizontal"
-        class="overflow-hidden text-center transition shadow-lg hover:-translate-y-1 duration-300"
+  <div
+    class="group relative flex flex-col gap-12 lg:gap-20 items-center py-16 min-h-[500px]"
+    :class="[reverse ? 'lg:flex-row-reverse' : 'lg:flex-row']"
+  >
+    <span
+      class="absolute top-0 left-0 text-[12rem] font-black text-slate-50 select-none z-[-1] leading-none opacity-50"
+      :class="[reverse ? 'lg:left-auto lg:right-0' : '']"
     >
-        <!-- Contenu -->
-        <template #title>
-            <h2 class="text-md md:text-lg font-bold text-blue-400">
-                {{ title }}
-            </h2>
-        </template>
+      {{ index < 10 ? `0${index}` : index }}
+    </span>
 
-        <template #description>
-            <div class="p-6 space-y-3">
-                <p
-                    class="text-md md:text-lg text-secondary leading-relaxed line-clamp-2"
-                >
-                    {{ description }}
-                </p>
-
-                <ULink
-                    :to="link"
-                    class="inline-flex items-center text-primary font-bold mt-2 hover:underline"
-                >
-                    READ MORE
-                    <UIcon name="i-lucide-arrow-right" class="ml-1 w-4 h-4" />
-                </ULink>
-            </div>
-        </template>
-
-        <img
+    <div class="w-full lg:w-1/2">
+      <NuxtLink
+        :to="link"
+        class="block relative overflow-hidden rounded-2xl shadow-2xl transition-all duration-500 hover:shadow-primary-500/20"
+      >
+        <div class="aspect-16/10 bg-slate-100">
+          <img
             :src="image"
-            alt="Project image"
-            class="w-full h-64 md:h-96 object-contain rounded-lg"
-        />
-    </UPageCard>
+            :alt="title"
+            class="w-full h-full object-cover object-top transform transition-transform duration-1000 ease-out group-hover:scale-105"
+          />
+        </div>
+      </NuxtLink>
+    </div>
+
+    <div class="w-full lg:w-1/2 space-y-6 text-left max-w-xl">
+      <div class="space-y-4">
+        <div class="flex items-center gap-3">
+          <span class="h-2px w-12 bg-primary-500"></span>
+          <span
+            class="text-xs font-bold tracking-[0.3em] text-primary-500 uppercase"
+            >Case Study</span
+          >
+        </div>
+
+        <h3
+          class="text-2xl lg:text-3xl font-black text-slate-900 tracking-tight leading-tight"
+        >
+          {{ title }}
+        </h3>
+      </div>
+
+      <p
+        class="text-lg text-slate-600 font-light leading-relaxed line-clamp-4 md:line-clamp-6"
+      >
+        {{ description }}
+      </p>
+
+      <div class="pt-6">
+        <NuxtLink :to="link" class="inline-flex items-center gap-4 group/link">
+          <div
+            class="flex items-center justify-center w-12 h-12 rounded-full border-2 border-slate-900 group-hover/link:bg-slate-900 group-hover/link:text-white transition-all duration-300"
+          >
+            <UIcon name="i-lucide-arrow-up-right" class="w-6 h-6" />
+          </div>
+          <span
+            class="text-sm font-black tracking-widest text-slate-900 uppercase"
+          >
+            View Project
+          </span>
+        </NuxtLink>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
-defineProps({
-    title: { type: String, required: true },
-    description: { type: String, required: true },
-    link: { type: String, required: true },
-    image: { type: String, required: true },
-    imageMobile: { type: String, required: false },
-});
+defineProps<{
+  title: string;
+  description: string;
+  link: string;
+  image: string;
+  reverse?: boolean;
+  index: number;
+}>();
 </script>

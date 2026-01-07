@@ -12,13 +12,19 @@
 
             <div class="grid grid-cols-10 gap-6">
                 <img
-                    :src="images?.[0]?.startsWith('/') ? images[0] : '/' + images?.[0]"
-                    :alt="String($t('project_image_1'))"
+                    :src="
+                        images?.[0]?.startsWith('/')
+                            ? images[0]
+                            : '/' + images?.[0]
+                    "
                     class="col-span-10 md:col-span-7 w-full h-full object-cover rounded-lg"
                 />
                 <img
-                    :src="images?.[1]?.startsWith('/') ? images[1] : '/' + images?.[1]"
-                    :alt="String($t('project_image_2'))"
+                    :src="
+                        images?.[1]?.startsWith('/')
+                            ? images[1]
+                            : '/' + images?.[1]
+                    "
                     class="hidden md:block md:col-span-3 w-full h-full object-cover rounded-lg"
                 />
             </div>

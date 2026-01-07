@@ -1,6 +1,6 @@
 <template>
     <PortfolioHero />
-    <PortfolioCards :projects="portfolioProjects" />
+    <PortfolioCards :projects="portfolioProjects" class="mb-10" />
 </template>
 
 <script setup lang="ts">

@@ -3,7 +3,6 @@
   <AboutDescription />
   <!-- <AboutClients /> -->
   <AboutValues />
-  <AboutTeam />
   <Review />
 </template>
 

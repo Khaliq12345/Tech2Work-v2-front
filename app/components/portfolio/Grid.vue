@@ -1,90 +1,77 @@
 <template>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <!-- Colonne gauche : Description -->
-        <UPageCard spotlight spotlight-color="primary">
-            <template #header>
-                <h2 class="text-1xl md:text-3xl text-primary font-bold mb-2">
-                    {{ title }}
-                </h2>
-            </template>
+  <div
+    class="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 lg:grid-cols-12 gap-16"
+  >
+    <div class="lg:col-span-8 space-y-8">
+      <div class="inline-flex items-center gap-3">
+        <span class="h-2px w-12 bg-primary-500"></span>
+        <span
+          class="text-xs font-bold tracking-[0.3em] text-primary-500 uppercase"
+          >Project Overview</span
+        >
+      </div>
 
-            <template #description>
-                <MDC :value="description" />
-            </template>
-        </UPageCard>
-
-        <!-- Colonne droite : Informations -->
-        <UPageCard spotlight spotlight-color="primary">
-            <template #header>
-                <h3 class="text-2xl font-bold text-primary">Info</h3>
-            </template>
-
-            <template #description>
-                <UPageList divide>
-                    <UPageCard
-                        variant="ghost"
-                        v-for="item in [
-                            { name: 'Category', value: category },
-                            { name: 'Date', value: date },
-                            { name: 'Client', value: client },
-                        ]"
-                    >
-                        <template #body>
-                            <p class="font-semibold text-gray-600">
-                                {{ item.name }}
-                            </p>
-                            <p class="text-gray-800 mt-1">{{ item.value }}</p>
-                        </template>
-                    </UPageCard>
-
-                    <UPageCard variant="ghost">
-                        <template #body>
-                            <p class="font-semibold text-gray-600">Tags</p>
-                            <div class="flex flex-wrap gap-2 mt-1">
-                                <UBadge
-                                    v-for="tag in tags"
-                                    :key="tag"
-                                    color="primary"
-                                    variant="soft"
-                                >
-                                    {{ tag }}
-                                </UBadge>
-                            </div>
-                        </template>
-                    </UPageCard>
-
-                    <UPageCard variant="ghost" v-if="follow?.length">
-                        <template #body>
-                            <p class="font-semibold text-gray-600">Follow</p>
-                            <div class="flex flex-wrap gap-2 mt-1">
-                                <UButton
-                                    v-for="(link, idx) in follow"
-                                    :key="idx"
-                                    :icon="link.icon"
-                                    color="neutral"
-                                    variant="ghost"
-                                    :to="link.url"
-                                    target="_blank"
-                                    :aria-label="link.label"
-                                    size="sm"
-                                />
-                            </div>
-                        </template>
-                    </UPageCard>
-                </UPageList>
-            </template>
-        </UPageCard>
+      <div
+        class="prose prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-headings:font-black prose-headings:tracking-tight prose-p:text-slate-600 prose-p:leading-relaxed prose-p:font-light"
+      >
+        <MDC :value="description" />
+      </div>
     </div>
+
+    <div class="lg:col-span-4 lg:border-l lg:border-slate-100 lg:pl-12">
+      <div class="sticky top-24 space-y-10">
+        <h3 class="text-xs font-bold tracking-[0.3em] text-slate-400 uppercase">
+          Project Details
+        </h3>
+
+        <div class="grid grid-cols-2 lg:grid-cols-1 gap-y-8">
+          <div v-for="item in metaItems" :key="item.label">
+            <p
+              class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1"
+            >
+              {{ item.label }}
+            </p>
+            <p class="text-lg font-bold text-slate-900">{{ item.value }}</p>
+          </div>
+
+          <div>
+            <p
+              class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2"
+            >
+              Tech Stack
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <UBadge
+                v-for="tag in tags"
+                :key="tag"
+                variant="soft"
+                color="neutral"
+                class="rounded-full px-3 py-1 font-bold text-[10px] uppercase"
+              >
+                {{ tag }}
+              </UBadge>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
-defineProps<{
-    title: string;
-    description: string;
-    category: string;
-    date: string;
-    tags: string[];
-    client: string;
-    follow: { label: string; icon: string; url: string }[];
+const props = defineProps<{
+  title: string;
+  description: string;
+  category: string;
+  date: string;
+  tags: string[];
+  client: string;
+  follow: { label: string; icon: string; url: string }[];
 }>();
+
+const metaItems = computed(() => [
+  { label: "Client", value: props.client },
+  { label: "Industry", value: props.category },
+  { label: "Date", value: props.date },
+]);
 </script>

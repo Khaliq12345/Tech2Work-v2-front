@@ -113,7 +113,6 @@ const navItems: NavigationMenuItem[] = computed(() => [
     { label: "Services", to: `/${locale.value}/services/` },
     { label: "Portfolio", to: `/${locale.value}/portfolios/` },
     { label: "About", to: `/${locale.value}/about` },
-    { label: "Contact Us", to: `/${locale.value}/contact/` },
     {
         label: "Technology",
         icon: "i-lucide-cpu",

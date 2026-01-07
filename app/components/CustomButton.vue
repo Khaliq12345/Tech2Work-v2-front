@@ -5,7 +5,7 @@
     :size="size"
     :icon="icon"
     :aria-label="title"
-    class="text-white rounded-full text-center lg:p-5 lg:text-lg"
+    class="text-white rounded-full text-center p-3 lg:p-5 text-md lg:text-lg"
     :to="to"
     @click="handleClick"
   >
@@ -37,7 +37,7 @@ const props = defineProps({
   },
   to: {
     type: String,
-    default: "#",
+    default: undefined,
   },
   onClick: {
     type: Function,
@@ -45,12 +45,12 @@ const props = defineProps({
   },
 });
 
-const emit = defineEmits(['click']);
+const emit = defineEmits(["click"]);
 
 const handleClick = (event: Event) => {
   if (props.onClick) {
     props.onClick(event);
   }
-  emit('click', event);
+  emit("click", event);
 };
 </script>
