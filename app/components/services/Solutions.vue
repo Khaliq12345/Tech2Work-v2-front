@@ -65,12 +65,14 @@
           class="w-full object-cover"
           style="aspect-ratio: 4/5"
         />
-        <div class="relative mt-auto w-full py-4 px-0">
-          <UButton :label="$t('button1')" size="xl" block class="text-white" />
+        <div class="relative mt-auto w-full py-4 flex justify-center">
+          <CustomButton :title="$t('button1')" @click="isContactOpen = true" />
         </div>
       </div>
     </div>
   </UPageSection>
+
+  <Contact v-model:open="isContactOpen" />
 </template>
 
 <script setup lang="ts">
@@ -84,6 +86,7 @@ const props = defineProps<{
   }>;
 }>();
 
+const isContactOpen = ref(false);
 const openIndex = ref<number | null>(null);
 
 const handleToggle = (index: number, isOpen: boolean) => {

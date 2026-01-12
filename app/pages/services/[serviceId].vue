@@ -22,9 +22,9 @@
     <Technology />
 
     <!-- 6. Projects Section -->
-    <div class="mb-10">
+    <!-- <div class="mb-10">
       <Project slug="finance" :limit="5" :random="true" />
-    </div>
+    </div> -->
   </div>
 </template>
 

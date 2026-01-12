@@ -9,7 +9,7 @@
         <div class="space-y-4 text-gray-900">
           <p>{{ description }}</p>
         </div>
-        <CustomButton :title="$t('button1')" />
+        <CustomButton :title="$t('button1')" @click="isContactOpen = true" />
       </div>
       <div
         class="space-y-4"
@@ -27,6 +27,8 @@
       </div>
     </div>
   </UPageSection>
+
+  <Contact v-model:open="isContactOpen" />
 </template>
 
 <script setup lang="ts">
@@ -44,4 +46,5 @@ const splitSkills = computed(() => {
     secondHalf: props.skills.slice(mid),
   };
 });
+const isContactOpen = ref(false);
 </script>

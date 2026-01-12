@@ -2,15 +2,6 @@
   <UPageHero
     :headline="tag"
     :title="title"
-    :links="[
-      {
-        label: $t('button1'),
-        color: 'primary',
-        size: 'lg',
-        class:
-          'bg-blue-600 hover:bg-blue-700 text-white border-blue-600 hover:border-blue-700',
-      },
-    ]"
     :ui="{
       headline:
         'inline-block bg-white text-gray-800 px-3 py-1 rounded text-sm font-medium mb-4 border border-gray-300',
@@ -21,7 +12,11 @@
     }"
     orientation="horizontal"
   >
+    <template #links>
+      <CustomButton :title="$t('button1')" @click="isContactOpen = true" />
+    </template>
   </UPageHero>
+  <Contact v-model:open="isContactOpen" />
 </template>
 
 <script setup lang="ts">
@@ -31,4 +26,6 @@ defineProps<{
   title: string;
   tag: string;
 }>();
+
+const isContactOpen = ref(false);
 </script>
