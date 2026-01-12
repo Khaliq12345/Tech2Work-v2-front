@@ -1,12 +1,32 @@
 {
-  "hero_line1": "YOUR FASTEST PORTAIL",
+  "hero_line1": "YOUR FASTEST PORTAL",
   "hero_line2": "TO",
-  "hero_highlight": "SUCCESS",
-  "description_title": "We are the agency you can depend on",
-  "description_intro": "The Portal is a global powerhouse in marketing consultancy and software development. Operating from hubs in New York, Dubai, Munich, and Cairo, we bridge the gap between creative vision and technical excellence.",
-  "description_body": "We empower brands to build remarkable digital assets and provide the strategic platforms needed to amplify their stories. From large-scale e-commerce ecosystems to high-impact digital campaigns, we partner with industry leaders across fashion, finance, luxury, and technology to drive measurable growth.",
-  "description_motto": "We are your fastest portal to SUCCESS!",
-  "team_title": "Tech2work Team",
-  "team_headline": "PROFESSIONALS",
-  "team_description": "A brunch of professionals weirdos who make great stuff."
+  "hero_highlight": "GROWTH",
+  "description_title": "Big agency expertise. Startup agility.",
+  "description_intro": "Tech2Work bridges the gap between what you envision and what's possible. We're a fresh digital agency combining technical excellence with strategic thinking—minus the red tape and inflated budgets of traditional firms.",
+  "description_body": "From responsive web applications to data-driven marketing campaigns, we craft digital solutions that drive real business outcomes. We specialize in helping ambitious companies punch above their weight online. Whether you need a sleek website, a custom web app, or a comprehensive digital strategy, we deliver quality work at startup speed.",
+  "description_motto": "Less talk, more action. Let's make your digital presence impossible to ignore.",
+  "team_title": "Tech2Work Team",
+  "team_headline": "CREATIVE PROBLEM SOLVERS",
+  "team_description": "A handpicked team of tech enthusiasts and creative minds who live for that 'aha!' moment when everything clicks.",
+  "values_headline": "Our values",
+  "values_description": "Choosing the right partners and competencies can make or break a project. Our core beliefs speak for themselves.",
+  "values": [
+    {
+      "title": "Software shouldn't be frustrating",
+      "description": "Through clear communication, rigorous testing, and proactive monitoring, we deliver stable, intuitive software that just works."
+    },
+    {
+      "title": "Results over promises",
+      "description": "Our work speaks for itself. We create measurable value from day one, not months down the road."
+    },
+    {
+      "title": "We're an extension of your team",
+      "description": "We don't just take orders—we collaborate closely, understand your big picture, and stay pragmatic about execution."
+    },
+    {
+      "title": "Agility is built-in",
+      "description": "Priorities shift. Markets change. Tell us what matters most right now, and we'll adapt our approach to deliver it."
+    }
+  ]
 }

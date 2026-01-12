@@ -1,7 +1,6 @@
 <template>
   <AboutHero />
   <AboutDescription />
-  <!-- <AboutClients /> -->
   <AboutValues />
   <Review />
 </template>

@@ -32,7 +32,9 @@
       :solutions="industryData.solutions"
     />
   </div>
-  <IndustryStudies />
+  <ClientOnly>
+    <Project slug="construction" :limit="5" :random="true" />
+  </ClientOnly>
   <IndustryReviews />
 </template>
 
