@@ -29,7 +29,7 @@
           <UInput
             v-model="contactState.name"
             :placeholder="contactTexts.namePlaceholder"
-            class="w-full"
+            class="w-full text-black dark:text-white bg-red"
           />
         </UFormField>
 
@@ -40,6 +40,7 @@
         >
           <UInput
             v-model="contactState.email"
+            :ui="{ input: 'w-full text-black dark:text-white bg-red' }"
             type="email"
             :placeholder="contactTexts.emailPlaceholder"
             class="w-full"
@@ -80,6 +81,7 @@ import type {
   ContactLocaleKey,
 } from "~/types/contact";
 
+const toast = useToast();
 const isOpen = defineModel<boolean>({ default: false });
 
 const { $getLocale } = useI18n();
@@ -128,10 +130,8 @@ const contactTexts = computed(() => {
 });
 
 async function onContactSubmit(event: FormSubmitEvent<ContactFormState>) {
-  console.log(event.data);
   isOpen.value = false;
-
-  await $fetch("/api/contact", {
+  const response = await $fetch("/api/contact", {
     method: "POST",
     body: {
       email: event.data.email,
@@ -139,5 +139,18 @@ async function onContactSubmit(event: FormSubmitEvent<ContactFormState>) {
       message: event.data.message,
     },
   });
+  if (response.success) {
+    toast.add({
+      title: "Success",
+      description: "Your message has been sent.",
+      color: "success",
+    });
+  } else {
+    toast.add({
+      title: "Error",
+      description: response.error,
+      color: "error",
+    });
+  }
 }
 </script>
