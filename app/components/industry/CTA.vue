@@ -1,24 +1,35 @@
 <template>
-  <div
-    class="relative bg-cover bg-center py-16 px-6 sm:py-20 sm:px-12"
-    :style="{
-      backgroundImage: `url('https://www.azumuta.com/wp-content/uploads/2024/05/petrochemical-industry-with-twilight-sky-2-1536x1024-1.jpeg')`,
-    }"
-  >
+  <div class="relative overflow-hidden">
+    <!-- Background with overlay for better text readability -->
+    <div
+      class="absolute inset-0 bg-center bg-contain"
+      :style="{
+        backgroundImage: `url('/industry/cover.png')`,
+      }"
+    >
+      <!-- Dark overlay gradient for text contrast -->
+      <div
+        class="absolute inset-0 bg-linear-to-b from-black/60 via-black/50 to-black/70"
+      ></div>
+    </div>
+
     <UPageCTA
       :title="title"
       :description="description"
       orientation="vertical"
-      variant="soft"
+      variant="naked"
+      class="relative z-1"
       :ui="{
-        root: 'text-center',
-        title: 'text-2xl md:text-3xl font-bold',
-        description: 'text-md text-white md:text-xl mt-4 max-w-3xl mx-auto',
-        links: 'mt-8',
+        container: 'px-6 py-16 sm:px-12 sm:py-20 lg:py-24',
+        title:
+          'text-2xl sm:text-4xl lg:text-5xl font-bold text-white !text-center leading-tight',
+        description:
+          'text-base sm:text-lg lg:text-xl text-white/90 !text-center max-w-2xl mx-auto leading-relaxed',
+        links: 'mt-8 sm:mt-10 !justify-center',
       }"
     >
       <template #links>
-        <CustomButton title="Contact Us" @click="openContact"></CustomButton>
+        <CustomButton :title="$t('button1')" size="lg" @click="openContact" />
       </template>
     </UPageCTA>
 
@@ -27,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+const { $t } = useI18n();
 
 const props = defineProps<{
   title: string;

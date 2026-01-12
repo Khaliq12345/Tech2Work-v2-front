@@ -16,7 +16,10 @@
     </template>
     <!-- SLOT LINKS -->
     <template #links>
-      <CustomButton title="Contact Us" @click="isOpen = true"></CustomButton>
+      <CustomButton
+        :title="$t('button1')"
+        @click="isOpen = true"
+      ></CustomButton>
     </template>
   </UPageHero>
   <!-- MODAL CONTACT -->
@@ -24,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from "vue";
+const { $t } = useI18n();
 
 const props = defineProps<{
   logo: string;
@@ -44,6 +47,7 @@ const heroStyle = computed(() => ({
   backgroundImage: `url(${props.image})`,
   backgroundSize: "800px 800px",
   backgroundPosition: "center",
+  "background-repeat": "repeat",
 }));
 
 const isOpen = ref(false);
