@@ -58,6 +58,7 @@
         {{ contactTexts }}
       </UButton>
 
+      <!-- languague -->
       <div class="flex items-center gap-2">
         <UDropdownMenu
           :items="localeItems"
@@ -71,6 +72,7 @@
             variant="ghost"
             size="xs"
             trailing-icon="i-lucide-chevron-down"
+            class="text-black"
           >
             <template #leading>
               <span class="text-base">{{ getFlag(locale) }}</span>
@@ -80,7 +82,7 @@
 
           <template #item="{ item }">
             <span class="text-base">{{ item.icon }}</span>
-            <span class="uppercase">{{ item.label }}</span>
+            <span class="uppercase text-black">{{ item.label }}</span>
             <UIcon
               v-if="item.active"
               name="i-lucide-check"
@@ -93,6 +95,7 @@
   </UHeader>
   <Contact v-model:open="isContactOpen" />
 </template>
+
 <script setup lang="ts">
 import type { NavigationMenuItem } from "@nuxt/ui";
 
