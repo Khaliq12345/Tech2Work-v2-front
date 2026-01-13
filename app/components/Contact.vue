@@ -1,6 +1,8 @@
 <template>
   <USlideover
-    description="Contact us NOW"
+    :description="
+      locale.startsWith('fr') ? 'Contactez Nous Maintenant' : 'Contact Us Now'
+    "
     v-model:open="isOpen"
     side="right"
     :title="contactTexts.title"
@@ -64,6 +66,7 @@
           color="primary"
           variant="solid"
           class="text-white"
+          :loading="loading"
         >
           {{ contactTexts.submit }}
         </UButton>
@@ -83,6 +86,7 @@ import type {
 
 const toast = useToast();
 const isOpen = defineModel<boolean>({ default: false });
+const loading = ref(false);
 
 const { $getLocale } = useI18n();
 const locale = computed(() => $getLocale());
@@ -130,27 +134,41 @@ const contactTexts = computed(() => {
 });
 
 async function onContactSubmit(event: FormSubmitEvent<ContactFormState>) {
-  isOpen.value = false;
-  const response = await $fetch("/api/contact", {
-    method: "POST",
-    body: {
-      email: event.data.email,
-      name: event.data.name,
-      message: event.data.message,
-    },
-  });
-  if (response.success) {
-    toast.add({
-      title: "Success",
-      description: "Your message has been sent.",
-      color: "success",
+  try {
+    loading.value = true;
+    isOpen.value = false;
+
+    const response = await $fetch("/api/contact", {
+      method: "POST",
+      body: {
+        email: event.data.email,
+        name: event.data.name,
+        message: event.data.message,
+      },
     });
-  } else {
+
+    if (response.success) {
+      toast.add({
+        title: "Success",
+        description: "Your message has been sent.",
+        color: "success",
+      });
+    } else {
+      toast.add({
+        title: "Error",
+        description: response.error,
+        color: "error",
+      });
+    }
+  } catch (error) {
     toast.add({
       title: "Error",
-      description: response.error,
+      description: "Unable to send message. Please try again.",
       color: "error",
     });
+    console.error("Contact form error:", error);
+  } finally {
+    loading.value = false;
   }
 }
 </script>

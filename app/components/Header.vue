@@ -59,20 +59,35 @@
       </UButton>
 
       <div class="flex items-center gap-2">
-        <UButton
-          v-for="locale_temp in $getLocales()"
-          :key="locale_temp.code"
-          :variant="locale === locale_temp.code ? 'solid' : 'ghost'"
-          :color="locale === locale_temp.code ? 'primary' : 'gray'"
-          size="sm"
-          @click="$switchLocale(locale_temp.code)"
-          class="uppercase font-medium"
+        <UDropdownMenu
+          :items="localeItems"
+          :content="{ align: 'end' }"
+          :ui="{
+            content: 'min-w-32',
+          }"
         >
-          <template #leading>
-            <span class="text-base">{{ getFlag(locale_temp.code) }}</span>
+          <UButton
+            color="gray"
+            variant="ghost"
+            size="xs"
+            trailing-icon="i-lucide-chevron-down"
+          >
+            <template #leading>
+              <span class="text-base">{{ getFlag(locale) }}</span>
+            </template>
+            {{ locale.toUpperCase() }}
+          </UButton>
+
+          <template #item="{ item }">
+            <span class="text-base">{{ item.icon }}</span>
+            <span class="uppercase">{{ item.label }}</span>
+            <UIcon
+              v-if="item.active"
+              name="i-lucide-check"
+              class="ms-auto text-primary-500"
+            />
           </template>
-          {{ locale_temp.code }}
-        </UButton>
+        </UDropdownMenu>
       </div>
     </template>
   </UHeader>
@@ -157,8 +172,6 @@ const navItems: NavigationMenuItem[] = computed(() => [
       content: "bg-white dark:bg-gray-900 shadow-lg",
     },
   },
-  { label: "Portfolio", to: `/${locale.value}/portfolios/` },
-  { label: "About", to: `/${locale.value}/about` },
   {
     label: "Technology",
     icon: "i-lucide-cpu",
@@ -178,6 +191,8 @@ const navItems: NavigationMenuItem[] = computed(() => [
       content: "bg-white dark:bg-gray-900 shadow-lg",
     },
   },
+  { label: "Portfolio", to: `/${locale.value}/portfolios/` },
+  { label: "About", to: `/${locale.value}/about` },
 ]);
 
 const isContactOpen = ref(false);
@@ -202,4 +217,13 @@ const getFlag = (code: string) => {
   };
   return flags[code] || "🌐";
 };
+
+const localeItems = computed(() => [
+  $getLocales().map((locale_temp) => ({
+    label: locale_temp.code,
+    icon: getFlag(locale_temp.code),
+    active: locale === locale_temp.code,
+    onSelect: () => $switchLocale(locale_temp.code),
+  })),
+]);
 </script>

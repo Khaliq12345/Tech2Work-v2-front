@@ -1,3 +1,5 @@
+import process from "process";
+
 export default defineNuxtConfig({
   runtimeConfig: {
     smtpServer: process.env.SMTP_SERVER,

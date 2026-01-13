@@ -106,9 +106,10 @@ export default defineEventHandler(async (event) => {
 
   try {
     // Envoie l’e-mail
+    const toEmail = "contact@tech2work.tech";
     const info = await transporter.sendMail({
       from: config.smtpUser, // adresse d’envoi
-      to: email,
+      to: toEmail,
       subject: "New contact from client",
       text: message,
       html: generateEmailHtml(name, email, message),
