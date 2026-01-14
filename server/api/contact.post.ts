@@ -91,6 +91,7 @@ export default defineEventHandler(async (event) => {
   // Lis les données envoyées depuis le frontend
   const body = await readBody(event);
   const config = useRuntimeConfig();
+  console.log(config);
   const { email, name, message } = body;
 
   // Crée le transporteur SMTP (configuration depuis .env)
