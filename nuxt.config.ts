@@ -1,6 +1,12 @@
 import process from "process";
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: "Tech2Work",
+      link: [{ rel: "icon", type: "image/png", href: "/logo.png" }],
+    },
+  },
   runtimeConfig: {
     smtpServer: process.env.SMTP_SERVER,
     smtpPort: process.env.SMTP_PORT,
