@@ -8,7 +8,7 @@
     :title="contactTexts.title"
     close-icon="i-lucide-arrow-left"
     :ui="{
-      content: 'w-full p-4 ',
+      content: 'w-full p-4 bg-white',
       title: 'text-black dark:text-black',
     }"
     :close="{
@@ -31,7 +31,11 @@
           <UInput
             v-model="contactState.name"
             :placeholder="contactTexts.namePlaceholder"
-            class="w-full text-black dark:text-white bg-red"
+            class="w-full"
+            :ui="{
+              base: 'text-black dark:text-black bg-white',
+              placeholder: 'placeholder-gray-400',
+            }"
           />
         </UFormField>
 
@@ -42,10 +46,13 @@
         >
           <UInput
             v-model="contactState.email"
-            :ui="{ input: 'w-full text-black dark:text-white bg-red' }"
             type="email"
             :placeholder="contactTexts.emailPlaceholder"
             class="w-full"
+            :ui="{
+              base: 'text-black dark:text-black bg-white',
+              placeholder: 'placeholder-gray-400',
+            }"
           />
         </UFormField>
 
@@ -58,6 +65,10 @@
             v-model="contactState.message"
             :placeholder="contactTexts.messagePlaceholder"
             class="w-full"
+            :ui="{
+              base: 'text-black dark:text-black bg-white',
+              placeholder: 'placeholder-gray-400',
+            }"
           />
         </UFormField>
 
@@ -74,7 +85,6 @@
     </template>
   </USlideover>
 </template>
-
 <script setup lang="ts">
 import type { FormSubmitEvent } from "@nuxt/ui";
 import * as v from "valibot";
