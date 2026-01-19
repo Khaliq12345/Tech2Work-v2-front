@@ -12,7 +12,7 @@
       </div>
 
       <div
-        class="prose prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-headings:font-black prose-headings:tracking-tight prose-p:text-slate-600 prose-p:leading-relaxed prose-p:font-light"
+        class="prose prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-headings:font-black prose-headings:tracking-tight text-gray-900 prose-p:leading-relaxed prose-p:font-light"
       >
         <MDC :value="description" />
       </div>
