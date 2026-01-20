@@ -1,0 +1,234 @@
+{
+  "en": {
+    "title": "Privacy Policy",
+    "effectiveDate": "January 19, 2026",
+    "lastUpdated": "January 19, 2026",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "This Privacy Policy describes how TECH2WORK ('we,' 'our,' or 'us') collects, uses, discloses, and protects information when you use our website, services, and interact with our software development agency. We are committed to protecting your privacy and handling your data transparently and securely."
+      },
+      {
+        "title": "Information We Collect",
+        "intro": "We collect information in several ways:",
+        "items": [
+          "Information you provide directly (name, email, phone, company)",
+          "Information collected automatically (IP, browser, device info)",
+          "Project-related information and business requirements",
+          "Payment information and billing details",
+          "Communication records and feedback"
+        ]
+      },
+      {
+        "title": "How We Use Your Information",
+        "intro": "We use collected information to:",
+        "items": [
+          "Provide and improve our software development services",
+          "Communicate with you about projects and services",
+          "Process payments and fulfill contracts",
+          "Develop, test, and deliver software solutions",
+          "Provide technical support and maintenance",
+          "Analyze and improve our website and services"
+        ]
+      },
+      {
+        "title": "Legal Basis for Processing",
+        "sections": [
+          {
+            "title": "Contract Performance",
+            "content": "When necessary to fulfill our service agreements"
+          },
+          {
+            "title": "Legitimate Interests",
+            "content": "In operating and improving our business"
+          },
+          {
+            "title": "Legal Compliance",
+            "content": "With applicable laws and regulations"
+          },
+          {
+            "title": "Consent",
+            "content": "Where you have given explicit permission"
+          }
+        ]
+      },
+      {
+        "title": "Information Sharing",
+        "intro": "We do not sell your personal information. We may share with:",
+        "items": [
+          "Service providers and contractors",
+          "Cloud hosting providers",
+          "Payment processors and analytics providers",
+          "Professional advisors (lawyers, accountants)",
+          "With your explicit consent"
+        ]
+      },
+      {
+        "title": "Data Security",
+        "intro": "We implement security measures including:",
+        "items": [
+          "Encryption of data in transit and at rest",
+          "Secure access controls and authentication",
+          "Regular security assessments",
+          "Employee training on data protection",
+          "Secure development practices"
+        ]
+      },
+      {
+        "title": "Data Retention",
+        "content": "We retain your personal information for as long as necessary to fulfill the purposes outlined in this policy, comply with legal obligations (typically 7 years for financial records), resolve disputes, and enforce our agreements."
+      },
+      {
+        "title": "Your Rights",
+        "intro": "You have the right to:",
+        "items": [
+          "Access your personal information",
+          "Correct inaccurate data",
+          "Request deletion of your information",
+          "Object to processing activities",
+          "Receive data in portable format",
+          "Withdraw consent",
+          "Opt-out of marketing communications"
+        ]
+      },
+      {
+        "title": "Third-Party Links",
+        "content": "Our website and services may contain links to third-party websites. We are not responsible for their privacy practices and encourage you to review their privacy policies."
+      },
+      {
+        "title": "International Transfers",
+        "content": "Your information may be transferred to and processed in countries where we operate. We ensure appropriate safeguards are in place for such transfers in accordance with applicable data protection laws."
+      },
+      {
+        "title": "Children's Privacy",
+        "content": "Our services are not directed to individuals under 16. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately."
+      },
+      {
+        "title": "Changes to Policy",
+        "content": "We may update this Privacy Policy periodically. We will notify you of material changes by posting the updated policy and updating the 'Last Updated' date. Your continued use after changes constitutes acceptance."
+      }
+    ],
+    "contactTitle": "Contact Information",
+    "contactIntro": "If you have questions about this Privacy Policy, please contact us at:",
+    "companyName": "TECH2WORK SARL",
+    "email": "contact@tech2work.tech",
+    "address": "Cotonou, Benin",
+    "phone": "+2290162369889"
+  },
+  "fr": {
+    "title": "Politique de Confidentialité",
+    "effectiveDate": "19 janvier 2026",
+    "lastUpdated": "19 janvier 2026",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Cette Politique de Confidentialité décrit comment TECH2WORK ('nous,' 'notre,' ou 'us') collecte, utilise, divulgue et protège les informations lorsque vous utilisez notre site web, nos services et interagissez avec notre agence de développement logiciel. Nous nous engageons à protéger votre vie privée et à traiter vos données de manière transparente et sécurisée."
+      },
+      {
+        "title": "Informations que Nous Collectons",
+        "intro": "Nous collectons des informations de plusieurs façons :",
+        "items": [
+          "Informations que vous fournissez directement (nom, email, téléphone, entreprise)",
+          "Informations collectées automatiquement (IP, navigateur, info appareil)",
+          "Informations liées au projet et exigences commerciales",
+          "Informations de paiement et détails de facturation",
+          "Enregistrements de communication et commentaires"
+        ]
+      },
+      {
+        "title": "Comment Nous Utilisons Vos Informations",
+        "intro": "Nous utilisons les informations collectées pour :",
+        "items": [
+          "Fournir et améliorer nos services de développement logiciel",
+          "Communiquer avec vous sur les projets et services",
+          "Traiter les paiements et remplir les contrats",
+          "Développer, tester et livrer des solutions logicielles",
+          "Fournir un support technique et maintenance",
+          "Analyser et améliorer notre site web et services"
+        ]
+      },
+      {
+        "title": "Base Légale pour le Traitement",
+        "sections": [
+          {
+            "title": "Exécution de Contrat",
+            "content": "Lorsque nécessaire pour remplir nos accords de service"
+          },
+          {
+            "title": "Intérêts Légitimes",
+            "content": "Dans l'exploitation et l'amélioration de notre entreprise"
+          },
+          {
+            "title": "Conformité Légale",
+            "content": "Avec les lois et réglementations applicables"
+          },
+          {
+            "title": "Consentement",
+            "content": "Lorsque vous avez donné une permission explicite"
+          }
+        ]
+      },
+      {
+        "title": "Partage d'Informations",
+        "intro": "Nous ne vendons pas vos informations personnelles. Nous pouvons partager avec :",
+        "items": [
+          "Fournisseurs de services et contractants",
+          "Fournisseurs d'hébergement cloud",
+          "Processeurs de paiement et fournisseurs d'analyse",
+          "Conseillers professionnels (avocats, comptables)",
+          "Avec votre consentement explicite"
+        ]
+      },
+      {
+        "title": "Sécurité des Données",
+        "intro": "Nous mettons en œuvre des mesures de sécurité incluant :",
+        "items": [
+          "Chiffrement des données en transit et au repos",
+          "Contrôles d'accès sécurisés et authentification",
+          "Évaluations de sécurité régulières",
+          "Formation des employés sur la protection des données",
+          "Pratiques de développement sécurisé"
+        ]
+      },
+      {
+        "title": "Conservation des Données",
+        "content": "Nous conservons vos informations personnelles aussi longtemps que nécessaire pour remplir les objectifs décrits dans cette politique, respecter les obligations légales (généralement 7 ans pour les dossiers financiers), résoudre les litiges et faire respecter nos accords."
+      },
+      {
+        "title": "Vos Droits",
+        "intro": "Vous avez le droit de :",
+        "items": [
+          "Accéder à vos informations personnelles",
+          "Corriger les données inexactes",
+          "Demander la suppression de vos informations",
+          "Vous opposer aux activités de traitement",
+          "Recevoir les données dans un format portable",
+          "Retirer votre consentement",
+          "Vous désabonner des communications marketing"
+        ]
+      },
+      {
+        "title": "Liens Tiers",
+        "content": "Notre site web et services peuvent contenir des liens vers des sites web tiers. Nous ne sommes pas responsables de leurs pratiques de confidentialité et vous encourageons à consulter leurs politiques de confidentialité."
+      },
+      {
+        "title": "Transferts Internationaux",
+        "content": "Vos informations peuvent être transférées et traitées dans des pays où nous opérons. Nous nous assurons que des garanties appropriées sont en place pour de tels transferts conformément aux lois applicables de protection des données."
+      },
+      {
+        "title": "Confidentialité des Enfants",
+        "content": "Nos services ne s'adressent pas aux personnes de moins de 16 ans. Nous ne collectons pas sciemment d'informations personnelles d'enfants. Si vous pensez que nous avons collecté des informations d'un enfant, veuillez nous contacter immédiatement."
+      },
+      {
+        "title": "Modifications de la Politique",
+        "content": "Nous pouvons mettre à jour cette Politique de Confidentialité périodiquement. Nous vous informerons des changements importants en publiant la politique mise à jour et en actualisant la date de 'Dernière Mise à Jour'. Votre utilisation continue après les changements constitue une acceptation."
+      }
+    ],
+    "contactTitle": "Informations de Contact",
+    "contactIntro": "Si vous avez des questions sur cette Politique de Confidentialité, veuillez nous contacter à :",
+    "companyName": "TECH2WORK SARL",
+    "email": "contact@tech2work.tech",
+    "address": "Cotonou, Bénin",
+    "phone": "+2290162369889"
+  }
+}

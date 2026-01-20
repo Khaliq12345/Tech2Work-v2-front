@@ -1,1 +1,129 @@
-{}
+{
+  "title": "Terms of Service",
+  "effectiveDate": "January 19, 2026",
+  "lastUpdated": "January 19, 2026",
+  "sections": [
+    {
+      "title": "Agreement to Terms",
+      "content": "These Terms of Service ('Terms') govern your use of TECH2WORK's website and software development services. By accessing our website or engaging our services, you agree to be bound by these Terms."
+    },
+    {
+      "title": "Services Description",
+      "intro": "We provide custom software development services including:",
+      "items": [
+        "Web application development",
+        "Mobile application development",
+        "Software consulting and architecture",
+        "Maintenance and support services",
+        "Cloud infrastructure and API development"
+      ]
+    },
+    {
+      "title": "Client Responsibilities",
+      "intro": "Clients agree to:",
+      "items": [
+        "Provide timely and accurate information",
+        "Designate authorized representatives",
+        "Provide timely feedback and approvals",
+        "Ensure rights to provided materials",
+        "Pay all fees according to terms",
+        "Comply with applicable laws"
+      ]
+    },
+    {
+      "title": "Intellectual Property Rights",
+      "sections": [
+        {
+          "title": "Client Materials",
+          "content": "You retain all rights. We receive a limited license for service delivery."
+        },
+        {
+          "title": "Work Product",
+          "content": "Upon payment, we transfer ownership of final deliverables. We retain pre-existing IP and tools."
+        },
+        {
+          "title": "Portfolio Rights",
+          "content": "We may display projects unless confidentiality is requested in writing."
+        }
+      ]
+    },
+    {
+      "title": "Payment Terms",
+      "intro": "Payment terms typically include:",
+      "items": [
+        "Deposit before work begins",
+        "Milestone payments during project",
+        "Final payment upon completion"
+      ],
+      "content": "Late payments may incur interest and service suspension. All fees are non-refundable unless specified."
+    },
+    {
+      "title": "Project Timeline",
+      "content": "Timelines are estimates. Actual completion may vary based on complexity, feedback cycles, and technical challenges. Scope changes require change orders with adjusted timelines and costs."
+    },
+    {
+      "title": "Warranties and Disclaimers",
+      "content": "We warrant professional, workmanlike service. We disclaim all other warranties, including merchantability and fitness for purpose. Software is not warranted error-free."
+    },
+    {
+      "title": "Limitation of Liability",
+      "content": "Our liability is limited to fees paid in the 12 months preceding the claim. We are not liable for indirect, incidental, special, consequential, or punitive damages."
+    },
+    {
+      "title": "Confidentiality",
+      "content": "Both parties maintain confidentiality of proprietary information. This obligation survives termination."
+    },
+    {
+      "title": "Termination",
+      "intro": "Either party may terminate with written notice. Upon termination:",
+      "items": [
+        "Pay for services performed",
+        "Deliver work product upon payment",
+        "Return/destroy confidential information",
+        "IP, confidentiality, and liability provisions survive"
+      ]
+    },
+    {
+      "title": "Indemnification",
+      "content": "You indemnify us against claims arising from your use of deliverables, breach of Terms, violation of laws, or materials that infringe third-party IP rights."
+    },
+    {
+      "title": "Dispute Resolution",
+      "content": "Disputes first addressed through negotiation. If unresolved in 30 days, mediation in Cotonou, Benin."
+    },
+    {
+      "title": "Governing Law",
+      "content": "These Terms are governed by the laws of the Republic of Benin, without regard to conflict of law principles."
+    },
+    {
+      "title": "Force Majeure",
+      "content": "Neither party is liable for delays from circumstances beyond reasonable control, including natural disasters, war, terrorism, government actions, labor disputes, or service interruptions."
+    },
+    {
+      "title": "Independent Contractor",
+      "content": "We are an independent contractor. Neither party has authority to bind the other or create obligations on behalf of the other."
+    },
+    {
+      "title": "Entire Agreement",
+      "content": "These Terms and project agreements constitute the entire agreement. Modifications require written agreement from both parties."
+    },
+    {
+      "title": "Severability",
+      "content": "If any provision is unenforceable, it will be limited or eliminated to the minimum extent necessary, and remaining provisions stay in effect."
+    },
+    {
+      "title": "Waiver",
+      "content": "Failure to enforce any right or provision does not constitute a waiver of that right or provision."
+    },
+    {
+      "title": "Assignment",
+      "content": "You may not assign these Terms without our prior written consent. We may assign them in connection with a merger, acquisition, or asset sale with notice to you."
+    }
+  ],
+  "contactTitle": "Contact Information",
+  "contactIntro": "For questions about these Terms of Service, please contact us at:",
+  "companyName": "TECH2WORK SARL",
+  "email": "contact@tech2work.tech",
+  "address": "Cotonou, Benin",
+  "phone": "+2290162369889"
+}
