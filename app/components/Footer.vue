@@ -42,7 +42,7 @@
                 {{ locale == "en" ? "Contact Us" : "Nous Contacter" }}
               </button>
               <ULink
-                to="#privacy"
+                to="/privacy"
                 class="text-sm hover:underline opacity-90 hover:opacity-100 transition-opacity"
               >
                 {{
@@ -52,7 +52,7 @@
                 }}
               </ULink>
               <ULink
-                to="#terms"
+                to="/terms"
                 class="text-sm hover:underline opacity-90 hover:opacity-100 transition-opacity"
               >
                 {{

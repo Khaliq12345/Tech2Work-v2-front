@@ -1,0 +1,116 @@
+{
+  "title": "Privacy Policy",
+  "effectiveDate": "January 19, 2026",
+  "lastUpdated": "January 19, 2026",
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": "This Privacy Policy describes how TECH2WORK ('we,' 'our,' or 'us') collects, uses, discloses, and protects information when you use our website, services, and interact with our software development agency. We are committed to protecting your privacy and handling your data transparently and securely."
+    },
+    {
+      "title": "Information We Collect",
+      "intro": "We collect information in several ways:",
+      "items": [
+        "Information you provide directly (name, email, phone, company)",
+        "Information collected automatically (IP, browser, device info)",
+        "Project-related information and business requirements",
+        "Payment information and billing details",
+        "Communication records and feedback"
+      ]
+    },
+    {
+      "title": "How We Use Your Information",
+      "intro": "We use collected information to:",
+      "items": [
+        "Provide and improve our software development services",
+        "Communicate with you about projects and services",
+        "Process payments and fulfill contracts",
+        "Develop, test, and deliver software solutions",
+        "Provide technical support and maintenance",
+        "Analyze and improve our website and services"
+      ]
+    },
+    {
+      "title": "Legal Basis for Processing",
+      "sections": [
+        {
+          "title": "Contract Performance",
+          "content": "When necessary to fulfill our service agreements"
+        },
+        {
+          "title": "Legitimate Interests",
+          "content": "In operating and improving our business"
+        },
+        {
+          "title": "Legal Compliance",
+          "content": "With applicable laws and regulations"
+        },
+        {
+          "title": "Consent",
+          "content": "Where you have given explicit permission"
+        }
+      ]
+    },
+    {
+      "title": "Information Sharing",
+      "intro": "We do not sell your personal information. We may share with:",
+      "items": [
+        "Service providers and contractors",
+        "Cloud hosting providers",
+        "Payment processors and analytics providers",
+        "Professional advisors (lawyers, accountants)",
+        "With your explicit consent"
+      ]
+    },
+    {
+      "title": "Data Security",
+      "intro": "We implement security measures including:",
+      "items": [
+        "Encryption of data in transit and at rest",
+        "Secure access controls and authentication",
+        "Regular security assessments",
+        "Employee training on data protection",
+        "Secure development practices"
+      ]
+    },
+    {
+      "title": "Data Retention",
+      "content": "We retain your personal information for as long as necessary to fulfill the purposes outlined in this policy, comply with legal obligations (typically 7 years for financial records), resolve disputes, and enforce our agreements."
+    },
+    {
+      "title": "Your Rights",
+      "intro": "You have the right to:",
+      "items": [
+        "Access your personal information",
+        "Correct inaccurate data",
+        "Request deletion of your information",
+        "Object to processing activities",
+        "Receive data in portable format",
+        "Withdraw consent",
+        "Opt-out of marketing communications"
+      ]
+    },
+    {
+      "title": "Third-Party Links",
+      "content": "Our website and services may contain links to third-party websites. We are not responsible for their privacy practices and encourage you to review their privacy policies."
+    },
+    {
+      "title": "International Transfers",
+      "content": "Your information may be transferred to and processed in countries where we operate. We ensure appropriate safeguards are in place for such transfers in accordance with applicable data protection laws."
+    },
+    {
+      "title": "Children's Privacy",
+      "content": "Our services are not directed to individuals under 16. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately."
+    },
+    {
+      "title": "Changes to Policy",
+      "content": "We may update this Privacy Policy periodically. We will notify you of material changes by posting the updated policy and updating the 'Last Updated' date. Your continued use after changes constitutes acceptance."
+    }
+  ],
+  "contactTitle": "Contact Information",
+  "contactIntro": "If you have questions about this Privacy Policy, please contact us at:",
+  "companyName": "TECH2WORK SARL",
+  "email": "contact@tech2work.tech",
+  "address": "Cotonou, Benin",
+  "phone": "+2290162369889"
+}

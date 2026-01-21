@@ -1,0 +1,260 @@
+{
+  "en": {
+    "title": "Terms of Service",
+    "effectiveDate": "January 19, 2026",
+    "lastUpdated": "January 19, 2026",
+    "sections": [
+      {
+        "title": "Agreement to Terms",
+        "content": "These Terms of Service ('Terms') govern your use of TECH2WORK's website and software development services. By accessing our website or engaging our services, you agree to be bound by these Terms."
+      },
+      {
+        "title": "Services Description",
+        "intro": "We provide custom software development services including:",
+        "items": [
+          "Web application development",
+          "Mobile application development",
+          "Software consulting and architecture",
+          "Maintenance and support services",
+          "Cloud infrastructure and API development"
+        ]
+      },
+      {
+        "title": "Client Responsibilities",
+        "intro": "Clients agree to:",
+        "items": [
+          "Provide timely and accurate information",
+          "Designate authorized representatives",
+          "Provide timely feedback and approvals",
+          "Ensure rights to provided materials",
+          "Pay all fees according to terms",
+          "Comply with applicable laws"
+        ]
+      },
+      {
+        "title": "Intellectual Property Rights",
+        "sections": [
+          {
+            "title": "Client Materials",
+            "content": "You retain all rights. We receive a limited license for service delivery."
+          },
+          {
+            "title": "Work Product",
+            "content": "Upon payment, we transfer ownership of final deliverables. We retain pre-existing IP and tools."
+          },
+          {
+            "title": "Portfolio Rights",
+            "content": "We may display projects unless confidentiality is requested in writing."
+          }
+        ]
+      },
+      {
+        "title": "Payment Terms",
+        "intro": "Payment terms typically include:",
+        "items": [
+          "Deposit before work begins",
+          "Milestone payments during project",
+          "Final payment upon completion"
+        ],
+        "content": "Late payments may incur interest and service suspension. All fees are non-refundable unless specified."
+      },
+      {
+        "title": "Project Timeline",
+        "content": "Timelines are estimates. Actual completion may vary based on complexity, feedback cycles, and technical challenges. Scope changes require change orders with adjusted timelines and costs."
+      },
+      {
+        "title": "Warranties and Disclaimers",
+        "content": "We warrant professional, workmanlike service. We disclaim all other warranties, including merchantability and fitness for purpose. Software is not warranted error-free."
+      },
+      {
+        "title": "Limitation of Liability",
+        "content": "Our liability is limited to fees paid in the 12 months preceding the claim. We are not liable for indirect, incidental, special, consequential, or punitive damages."
+      },
+      {
+        "title": "Confidentiality",
+        "content": "Both parties maintain confidentiality of proprietary information. This obligation survives termination."
+      },
+      {
+        "title": "Termination",
+        "intro": "Either party may terminate with written notice. Upon termination:",
+        "items": [
+          "Pay for services performed",
+          "Deliver work product upon payment",
+          "Return/destroy confidential information",
+          "IP, confidentiality, and liability provisions survive"
+        ]
+      },
+      {
+        "title": "Indemnification",
+        "content": "You indemnify us against claims arising from your use of deliverables, breach of Terms, violation of laws, or materials that infringe third-party IP rights."
+      },
+      {
+        "title": "Dispute Resolution",
+        "content": "Disputes first addressed through negotiation. If unresolved in 30 days, mediation in Cotonou, Benin."
+      },
+      {
+        "title": "Governing Law",
+        "content": "These Terms are governed by the laws of the Republic of Benin, without regard to conflict of law principles."
+      },
+      {
+        "title": "Force Majeure",
+        "content": "Neither party is liable for delays from circumstances beyond reasonable control, including natural disasters, war, terrorism, government actions, labor disputes, or service interruptions."
+      },
+      {
+        "title": "Independent Contractor",
+        "content": "We are an independent contractor. Neither party has authority to bind the other or create obligations on behalf of the other."
+      },
+      {
+        "title": "Entire Agreement",
+        "content": "These Terms and project agreements constitute the entire agreement. Modifications require written agreement from both parties."
+      },
+      {
+        "title": "Severability",
+        "content": "If any provision is unenforceable, it will be limited or eliminated to the minimum extent necessary, and remaining provisions stay in effect."
+      },
+      {
+        "title": "Waiver",
+        "content": "Failure to enforce any right or provision does not constitute a waiver of that right or provision."
+      },
+      {
+        "title": "Assignment",
+        "content": "You may not assign these Terms without our prior written consent. We may assign them in connection with a merger, acquisition, or asset sale with notice to you."
+      }
+    ],
+    "contactTitle": "Contact Information",
+    "contactIntro": "For questions about these Terms of Service, please contact us at:",
+    "companyName": "TECH2WORK SARL",
+    "email": "contact@tech2work.tech",
+    "address": "Cotonou, Benin",
+    "phone": "+2290162369889"
+  },
+  "fr": {
+    "title": "Conditions d'Utilisation",
+    "effectiveDate": "19 janvier 2026",
+    "lastUpdated": "19 janvier 2026",
+    "sections": [
+      {
+        "title": "Acceptation des Conditions",
+        "content": "Ces Conditions d'Utilisation ('Conditions') régissent votre utilisation du site web de TECH2WORK et de nos services de développement logiciel. En accédant à notre site web ou en utilisant nos services, vous acceptez d'être lié par ces Conditions."
+      },
+      {
+        "title": "Description des Services",
+        "intro": "Nous fournissons des services de développement logiciel personnalisés incluant :",
+        "items": [
+          "Développement d'applications web",
+          "Développement d'applications mobiles",
+          "Conseil et architecture logicielle",
+          "Services de maintenance et support",
+          "Infrastructure cloud et développement d'API"
+        ]
+      },
+      {
+        "title": "Responsabilités du Client",
+        "intro": "Les clients s'engagent à :",
+        "items": [
+          "Fournir des informations précises et en temps voulu",
+          "Désigner des représentants autorisés",
+          "Fournir des commentaires et approbations en temps voulu",
+          "Garantir les droits sur les matériaux fournis",
+          "Payer tous les frais selon les conditions",
+          "Respecter les lois applicables"
+        ]
+      },
+      {
+        "title": "Droits de Propriété Intellectuelle",
+        "sections": [
+          {
+            "title": "Matériaux du Client",
+            "content": "Vous conservez tous les droits. Nous recevons une licence limitée pour la prestation de services."
+          },
+          {
+            "title": "Produit de Travail",
+            "content": "Après paiement, nous transférons la propriété des livrables finaux. Nous conservons la propriété intellectuelle préexistante et les outils."
+          },
+          {
+            "title": "Droits de Portfolio",
+            "content": "Nous pouvons afficher les projets sauf si la confidentialité est demandée par écrit."
+          }
+        ]
+      },
+      {
+        "title": "Conditions de Paiement",
+        "intro": "Les conditions de paiement incluent généralement :",
+        "items": [
+          "Acompte avant le début des travaux",
+          "Paiements d'étapes pendant le projet",
+          "Paiement final à l'achèvement"
+        ],
+        "content": "Les retards de paiement peuvent entraîner des intérêts et la suspension du service. Tous les frais sont non remboursables sauf indication contraire."
+      },
+      {
+        "title": "Calendrier de Projet",
+        "content": "Les délais sont des estimations. L'achèvement réel peut varier selon la complexité, les cycles de retour et les défis techniques. Les changements de portée nécessitent des ordres de modification avec des délais et coûts ajustés."
+      },
+      {
+        "title": "Garanties et Décharges",
+        "content": "Nous garantissons un service professionnel et de qualité. Nous déclinons toutes autres garanties, y compris la qualité marchande et l'adéquation à un usage particulier. Le logiciel n'est pas garanti sans erreur."
+      },
+      {
+        "title": "Limitation de Responsabilité",
+        "content": "Notre responsabilité est limitée aux frais payés dans les 12 mois précédant la réclamation. Nous ne sommes pas responsables des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs."
+      },
+      {
+        "title": "Confidentialité",
+        "content": "Les deux parties maintiennent la confidentialité des informations propriétaires. Cette obligation survit à la résiliation."
+      },
+      {
+        "title": "Résiliation",
+        "intro": "Chaque partie peut résilier avec un préavis écrit. Lors de la résiliation :",
+        "items": [
+          "Payer pour les services rendus",
+          "Livrer le produit de travail après paiement",
+          "Retourner/détruire les informations confidentielles",
+          "Les dispositions de PI, confidentialité et responsabilité survivent"
+        ]
+      },
+      {
+        "title": "Indemnisation",
+        "content": "Vous nous indemnisez contre les réclamations découlant de votre utilisation des livrables, violation des Conditions, violation des lois, ou matériaux qui enfreignent les droits de PI de tiers."
+      },
+      {
+        "title": "Résolution des Litiges",
+        "content": "Les litiges sont d'abord traités par négociation. Si non résolus en 30 jours, médiation à Cotonou, Bénin."
+      },
+      {
+        "title": "Droit Applicable",
+        "content": "Ces Conditions sont régies par les lois de la République du Bénin, sans égard aux principes de conflit de lois."
+      },
+      {
+        "title": "Force Majeure",
+        "content": "Aucune partie n'est responsable des retards dus à des circonstances hors de son contrôle raisonnable, incluant catastrophes naturelles, guerre, terrorisme, actions gouvernementales, conflits du travail, ou interruptions de service."
+      },
+      {
+        "title": "Entrepreneur Indépendant",
+        "content": "Nous sommes un entrepreneur indépendant. Aucune partie n'a l'autorité de lier l'autre ou de créer des obligations au nom de l'autre."
+      },
+      {
+        "title": "Accord Complet",
+        "content": "Ces Conditions et les accords de projet constituent l'accord complet. Les modifications nécessitent un accord écrit des deux parties."
+      },
+      {
+        "title": "Divisibilité",
+        "content": "Si une disposition est inapplicable, elle sera limitée ou éliminée dans la mesure minimale nécessaire, et les dispositions restantes restent en vigueur."
+      },
+      {
+        "title": "Renonciation",
+        "content": "L'échec à faire respecter un droit ou une disposition ne constitue pas une renonciation à ce droit ou cette disposition."
+      },
+      {
+        "title": "Cession",
+        "content": "Vous ne pouvez pas céder ces Conditions sans notre consentement écrit préalable. Nous pouvons les céder en relation avec une fusion, acquisition, ou vente d'actifs avec préavis."
+      }
+    ],
+    "contactTitle": "Informations de Contact",
+    "contactIntro": "Pour des questions sur ces Conditions d'Utilisation, veuillez nous contacter à :",
+    "companyName": "TECH2WORK SARL",
+    "email": "contact@tech2work.tech",
+    "address": "Cotonou, Bénin",
+    "phone": "+2290162369889"
+  }
+}
