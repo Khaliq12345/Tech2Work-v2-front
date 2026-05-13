@@ -68,7 +68,7 @@
           }"
         >
           <UButton
-            color="gray"
+            color="primary"
             variant="ghost"
             size="xs"
             trailing-icon="i-lucide-chevron-down"

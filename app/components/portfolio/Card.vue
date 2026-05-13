@@ -1,6 +1,6 @@
 <template>
   <div
-    class="group relative flex flex-col gap-12 lg:gap-20 items-center py-16 min-h-[500px]"
+    class="group relative flex flex-col gap-12 lg:gap-20 items-center py-7 min-h-[500px]"
     :class="[reverse ? 'lg:flex-row-reverse' : 'lg:flex-row']"
   >
     <span
@@ -31,7 +31,7 @@
           <span class="h-2px w-12 bg-primary-500"></span>
           <span
             class="text-xs font-bold tracking-[0.3em] text-primary-500 uppercase"
-            >Case Study</span
+            >{{ caseStudyText }}</span
           >
         </div>
 
@@ -48,7 +48,7 @@
         {{ description }}
       </p>
 
-      <div class="pt-6">
+      <div class="pt-2">
         <NuxtLink :to="link" class="inline-flex items-center gap-4 group/link">
           <div
             class="flex items-center justify-center w-12 h-12 rounded-full border-2 border-slate-900 group-hover/link:bg-slate-900 group-hover/link:text-white transition-all duration-300"
@@ -58,7 +58,7 @@
           <span
             class="text-sm font-black tracking-widest text-slate-900 uppercase"
           >
-            View Project
+            {{ viewText }}
           </span>
         </NuxtLink>
       </div>
@@ -75,4 +75,23 @@ defineProps<{
   reverse?: boolean;
   index: number;
 }>();
+
+const { $getLocale } = useI18n();
+
+const locale = computed(() => $getLocale());
+const viewText = computed(() => {
+  if (locale.value == "en") {
+    return "View Project";
+  } else if (locale.value == "fr") {
+    return "Voir Projet";
+  }
+});
+
+const caseStudyText = computed(() => {
+  if (locale.value == "en") {
+    return "Case study";
+  } else if (locale.value == "fr") {
+    return "Étude de cas";
+  }
+});
 </script>

@@ -11,7 +11,7 @@
               {{
                 locale == "en"
                   ? "Engineering the Future, One Line of Code at a Time."
-                  : "Concevoir l'avenir, une ligne de code à la fois."
+                  : "Bâtir L'avenir, ligne par ligne."
               }}
             </p>
             <p class="text-xs opacity-90 max-w-md">

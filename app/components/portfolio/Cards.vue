@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl mx-auto space-y-24 py-12 lg:py-20 px-4 md:px-8">
+  <div class="max-w-7xl mx-auto space-y-3 lg:py-20 px-4 md:px-8">
     <PortfolioCard
       v-for="(item, index) in projects"
       :key="index"
