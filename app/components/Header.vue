@@ -176,7 +176,7 @@ const navItems: NavigationMenuItem[] = computed(() => [
     },
   },
   {
-    label: "Technology",
+    label: `${locale.value === "fr" ? "Technologie" : "Technology"}`,
     icon: "i-lucide-cpu",
     children: technologyChildren.value,
     ui: {
@@ -184,7 +184,7 @@ const navItems: NavigationMenuItem[] = computed(() => [
     },
   },
   {
-    label: "Industry",
+    label: `${locale.value === "fr" ? "Industrie" : "Industry"}`,
     icon: "i-lucide-briefcase",
     children: industrySlugs.map((item) => ({
       label: locale.value === "fr" ? item.fr : item.en,
@@ -194,8 +194,14 @@ const navItems: NavigationMenuItem[] = computed(() => [
       content: "bg-white dark:bg-gray-900 shadow-lg",
     },
   },
-  { label: "Portfolio", to: `/${locale.value}/portfolios/` },
-  { label: "About", to: `/${locale.value}/about` },
+  {
+    label: `${locale.value === "fr" ? "Portefeuille" : "Portfolio"}`,
+    to: `/${locale.value}/portfolios/`,
+  },
+  {
+    label: `${locale.value === "fr" ? "À propos" : "About"}`,
+    to: `/${locale.value}/about`,
+  },
 ]);
 
 const isContactOpen = ref(false);
